@@ -60,13 +60,6 @@ mykdrApp.config(function($routeProvider) {
 
 });
 
-//include FB dependency
-// var mykdrFb = angular.module('mykdrApp', ['ezfb']);
-//
-// mykdrFb.config(function (ezfbProvider) {
-//         ezfbProvider.setLocale('en_US');
-//     });
-
 
 
 // inject rootScope variables
@@ -86,6 +79,19 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     document.body.scrollTop = 0;
 
+    var mms = window.matchMedia("(max-width:1080px)");
+    if(mms.matches) {
+        $rootScope.english = "ENGLISH";
+        $rootScope.malayalam = "മലയാളം";
+    }
+    var mmb = window.matchMedia("(min-width:1080px)");
+    if(mmb.matches) {
+        $rootScope.english = "EN";
+        $rootScope.malayalam = "മ";
+    }
+
+
+
     $scope.closed = function() {
         var z= document.getElementById("mymenuglyph");
         z.style.display="inline-block";
@@ -93,14 +99,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         x.style.display="none";
         var y= document.getElementById("closenav");
         y.style.display="none";
-
-        var a= document.getElementById("langmenu");
-        a.style.display="inline-block";
-
-        var b= document.getElementById("english");
-        b.style.display="none";
-        var c= document.getElementById("malayalam");
-        c.style.display="none";
     };
 
     $scope.opened = function() {
@@ -112,16 +110,19 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         y.style.display="none";
     };
 
-    $scope.langselect = function() {
-        var z= document.getElementById("langmenu");
-        z.style.display="none";
-        var x= document.getElementById("english");
-        x.style.display="inline-block";
-        var y= document.getElementById("malayalam");
-        y.style.display="inline-block";
-    };
 
     $scope.eng = function() {
+
+        var x= document.getElementById("english");
+        var y= document.getElementById("malayalam");
+
+        x.style.backgroundColor = "#34495E";
+        x.style.color = "#FF6347";
+
+        y.style.color = "#5b3930";
+        y.style.background = "none";
+
+
 
         var mm = window.matchMedia("(max-width:1080px)");
         if(mm.matches) {
@@ -134,19 +135,24 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         $rootScope.langChange = true;
         $rootScope.myLang = "ENGLISH";
 
-        var z= document.getElementById("langmenu");
-        z.style.display="inline-block";
-        var x= document.getElementById("english");
-        x.style.display="none";
-        var y= document.getElementById("malayalam");
-        y.style.display="none";
+
 
     };
 
     $scope.mal = function() {
 
-        var mm = window.matchMedia("(max-width:1080px)");
-        if(mm.matches) {
+        var y= document.getElementById("english");
+        var x= document.getElementById("malayalam");
+
+        x.style.backgroundColor = "#34495E";
+        x.style.color = "#FF6347";
+
+        y.style.color = "#5b3930";
+        y.style.background = "none";
+
+
+        var mml = window.matchMedia("(max-width:1080px)");
+        if(mml.matches) {
             $scope.closed();
         }
 
@@ -156,12 +162,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         $rootScope.langChange = true;
         $rootScope.myLang = " മലയാളം";
 
-        var z= document.getElementById("langmenu");
-        z.style.display="inline-block";
-        var x= document.getElementById("english");
-        x.style.display="none";
-        var y= document.getElementById("malayalam");
-        y.style.display="none";
 
     };
 
@@ -182,12 +182,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     };
 
-    // window.setTimeout(function() {
-    //     $(".alert").fadeTo(500, 0).slideUp(500, function(){
-    //         $(this).remove();
-    //     });
-    // }, 8000);
-    // APP ID: 325818147876948
 
 
 });
@@ -196,6 +190,11 @@ mykdrApp.controller('homeController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
     // alert($scope.message);
+
+});
+
+mykdrApp.controller('localityController', function($rootScope, $scope) {
+    $scope.message = 'Look! I am an about page.';
 
     $scope.kdrMapUrl = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCjyFs7nzkwdQ9YhT1AeALSYEeGEBbFpuQ";
 
@@ -209,11 +208,6 @@ mykdrApp.controller('homeController', function($rootScope, $scope) {
 
     $scope.myMap();
 
-});
-
-mykdrApp.controller('localityController', function($rootScope, $scope) {
-    $scope.message = 'Look! I am an about page.';
-
 
 });
 
@@ -224,12 +218,6 @@ mykdrApp.controller('aboutController', function($rootScope, $scope) {
 });
 
 mykdrApp.controller('servicesController', function($rootScope, $scope) {
-    $scope.message = 'Look! I am an about page.';
-
-
-});
-
-mykdrApp.controller('feedbackController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
 
@@ -291,8 +279,42 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
 
     };
 
-
-
 });
+
+mykdrApp.controller('feedbackController', function($rootScope, $scope) {
+    $scope.message = 'Look! I am an about page.';
+
+    // alert("hi");
+
+    $scope.fbComments = 'http://developers.facebook.com/docs/plugins/comments/';
+});
+
+mykdrApp.directive('fbCommentBox', function() {
+    function createHTML(href, numposts, colorscheme, width) {
+        return '<div class="fb-comments" ' +
+            'data-href="' + href + '" ' +
+            'data-numposts="' + numposts + '" ' +
+            'data-colorsheme="' + colorscheme + '" ' +
+            'data-width="' + width + '">' +
+            '</div>';
+    }
+
+    return {
+        restrict: 'A',
+        scope: {},
+        link: function postLink(scope, elem, attrs) {
+            attrs.$observe('pageHref', function(newValue) {
+                var href = newValue;
+                var numposts = attrs.numposts || 5;
+                var colorscheme = attrs.colorscheme || 'light';
+                var width = attrs.width || '100%';
+                elem.html(createHTML(href, numposts, colorscheme, width));
+                FB.XFBML.parse(elem[0]);
+            });
+        }
+    };
+});
+
+
 
 
