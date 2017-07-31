@@ -16,17 +16,16 @@
 
             <ul id="mykdr_menu">
                 <li id="language">
-                    <a ng-click="langselect()" id="langmenu">&nbsp;<i class="fa fa-language"></i> LANGUAGE &nbsp; </a>
-                    <a ng-click="eng()" id="english">&nbsp;<i class="fa fa-buysellads"></i> ENGLISH&nbsp;</a>
-                    <a ng-click="mal()" id="malayalam">&nbsp;<label>മ</label> മലയാളം&nbsp;</a>
+                    <a ng-click="eng()" id="english">{{english}}</a>
+                    <a ng-click="mal()" id="malayalam">{{malayalam}}</a>
                 </li>
-                <li ng-click="menuload()" id="home"><a href="#home"><i class="fa fa-home"></i> HOME</a></li>
+                <li ng-click="menuload()" id="home"><a href="#home"><i class="glyphicon glyphicon-home"></i> HOME</a></li>
                 <li ng-click="menuload()" id="locality"><a href="#locality"><i class="fa fa-map"></i> LOCALITY</a></li>
                 <li ng-click="menuload()" id="culture"><a href="#culture"><i class="fa fa-bell"></i> CULTURE</a></li>
-                <li ng-click="menuload()" id="services"><a href="#services"><i class="fa fa-rupee"></i> SERVICES</a></li>
+                <li ng-click="menuload()" id="services"><a href="#services"><i class="fa fa-handshake-o"></i> SERVICES</a></li>
                 <li ng-click="menuload()" id="trending"><a href="#trending"><i class="fa fa-hashtag"></i> TRENDING</a></li>
                 <li ng-click="menuload()" id="events"><a href="#events"><i class="fa fa-calendar"></i> EVENTS</a></li>
-                <li ng-click="menuload()" id="feedback"><a href="#feedback"><i class="fa fa-comments"></i> FEEDBACK</a></li>
+                <li ng-click="menuload()" id="feedback"><a href="#feedback"><i class="fa fa-quote-left"></i> FEEDBACK</a></li>
                 <li ng-click="menuload()" id="about"><a href="#about"><i class="fa fa-universal-access"></i> ABOUT US</a></li>
                 <li id="mobshare">
                     <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
@@ -35,14 +34,11 @@
                     <a id="mobwhatsapp" href="whatsapp://send?text=http://www.mykoduvayur.in"><i class="fa fa-whatsapp"></i></a>
                 </li>
             </ul>
-
         </div>
-
         <div id="alertlang" class="alert alert-success" role="alert">
             <a href="" class="close" aria-label="close" ng-click="alertClose()">×</a>
             Selected Language: <strong>{{myLang}}</strong>
         </div>
-
     </nav>
 
     <div class="col-md-12" id="non-nav" ng-controller="homeController">
@@ -75,22 +71,14 @@
                     <p></p>
                     <p>This website intends to be a Library about Koduvayur for people from outside, a trustable and informative friend for those who live here, and an everlasting book of memories for those who miss this place.</p>
                     <p>Read on to find out more…</p>
-
                 </div>
 
-                <div class="col-md-12" id="koduvayur">
-                    <h1>KODUVAYUR<i class="fa fa-map-marker"></i></h1>
-                    <!--<p><br /></p>-->
-                    <div id="kdrmap"></div>
-                    <!--<p><br /></p>-->
-                    <p>The domain of Koduvayur stretches to Mannathukavu in the North-West, Nochur in the North-East, Ethanur in the West, Karippode in the East, Kakkayur in the South-West and Annakode in the South.</p>
-                    <p>Koduvayur is the Geographical Intersection between a number of places like Palakkad, Nemmara, Alathur, Chittur, Pollachi, Kollengode etc. The Vehicle Traffic that frequently occurs here is a stand out feature. The road is busy 24/7 as it connects a number of places. KSRTC operates long route buses to Thrissur, Trivandrum, Kochi and Coimbatore through here.</p>
-                    <p>Being the prime Business Center for the south-west region of Palakkad district, most of the population depends upon Koduvayur for their day-to-day needs like vegetables & other groceries, cloth and meat products. This place acts as a hub for merchandise coming from Coimbatore and Pollachi in Tamil Nadu. Koduvayur Market is one of the prominent places and business range from small scale shops to wholesale godowns, active 24/7.</p>
-                    <p>The speaking tongues are mainly Malayalam and Tamil, although the slang varies for each locality and community of people. Population has a majority of Hindus belonging to a number of sub-castes. Muslim community is concentrated on some parts of Koduvayur and there are a number of Christian families spread around even though it is a minority here.  Koduvayur is known for its cultural diversity. From Eid, Easter and Onam to a number of Regional Festivals spread around, there is something to celebrate each time of the year.</p>
-                </div>
-
-                <div class="col-md-12" id="adslot2_mob">
-                    <div></div>
+                <div class="col-md-12" id="aboutwebsite">
+                    <h1>ABOUT THIS WEBSITE<i class="fa fa-info-circle"></i></h1>
+                    <li>This website is a collection of information regarding anything and everything that is related to Koduvayur.</li>
+                    <li>All the different institutions, Govt. offices, schools, hospitals, historic and religious places, festivals, commerce, events, associations etc. find their place on our website, presented in a clean ordered way.</li>
+                    <li>An extensive collection of information and contact details of every establishment and service in and around Koduvayur will help the public to meet their needs in an easier and faster way.</li>
+                    <li>Regular news updates, alerts and a collection of good articles, photographs and videos that relate to our context are included..</li>
                 </div>
 
                 <div class="col-md-12" id="behindlogo">
@@ -100,6 +88,19 @@
                     <p>But that’s not why we kept it as Our Logo. In the culturally, geographically and ethnically diverse place of Koduvayur, it is the one thing in common that unites everyone in Koduvayur irrespective of age, gender, religion, caste, location and economic or social status.</p>
                     <p>‘<b>Althara</b>’, as we call it, is present in every prime location of the village, and it serves as the main host for almost every event that takes place in here. From small gatherings, to public meetings, business, processions, promotions, games, perfomance and festivals… these ‘Altharas’ have seen them all, from time to time. The term is a part and parcel of everyone in and around this place on their daily conversations. Koduvayur is decorated with numerous banyan trees in general. But it’s the old ones at the prime spots that are considered of great significance.</p>
                     <p>Be it Angadi Althara, the Capital Centre of Koduvayur, which is the Gateway to the Koduvayur Market, or the Gramapeedika/ High School Athara, which is at the Junction entrance to the Keralapuram Agraharam, or the Sivan Kovil Althara which is at the Heart of the village and the centre spot of Koduvayur Radholsavam, or be it Ethanur, Kakkayur or other locations, ‘Althara’ is the one term that unites the whole of Koduvayur and that’s why we chose an Althara to represent MyKoduvayur.</p>
+                </div>
+
+                <div class="col-md-12" id="adslot2_mob">
+                    <div></div>
+                </div>
+
+                <div class="col-md-12" id="funds">
+                    <h1>FUNDS<i class="fa fa-inr"></i></h1>
+                    <li>As is the case with any other website, this website needs funding for its <b>functioning and regular activity.</b></li>
+                    <li>This website <b>DOES NOT feature any Online Ads or Cookies</b> as a source of income, as it will spoil the User Experience.</li>
+                    <li>Instead, we provide <b>Prescribed Ad Slots for fixed Time Period</b> for Interested Businesses who wish to promote themselves with this website.</li>
+                    <li>The Ad Slot consists of a <b>fixed area</b> on each page and a <b>Dedicated Page</b> for each Sponsor.</li>
+                    <li>We also accept and appreciate funds from Well Wishers for the functioning of this Website.</li>
                 </div>
 
                 <div class="col-md-12" id="guide">
