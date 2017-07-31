@@ -35,8 +35,8 @@ body {
     z-index: 10000;
     width : 100%;
     background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom: 1px solid #5B3930;
 
 }
@@ -74,30 +74,27 @@ body {
     text-decoration: wavy !important;
 }
 
-
+#language {
+    padding: 0 !important;
+}
 #english {
-    display: none;
-    color: #E6E6FA !important;
+    cursor: pointer;
+    display: inline-block !important;
+    font-weight: bold;
+    background-color: #34495E;
+    color: #FF6347;
+    margin-right: 0 !important;
 }
 #malayalam {
-    display: none;
-    color: #E6E6FA !important;
+    cursor: pointer;
+    display: inline-block !important;
     font-weight: bold;
+    background: none;
+    color: #5b3930;
+    margin-left: 0 !important;
 }
-#english:hover,#malayalam:hover,#english:hover>i, #malayalam:hover>label{
+#english:hover,#malayalam:hover{
     color: #FF6347 !important;
-}
-
-#english>i{
-    color: #FF6347;
-    display: inline-block;
-    font-size: larger;
-}
-#malayalam>label {
-    font-weight: bolder;
-    color: #FF6347;
-    display: inline-block;
-    font-size: larger;
 }
 
 .pagebanner{
@@ -111,7 +108,7 @@ body {
 }
 
 
-#mykdr_menu>li:hover>a {
+#home:hover>a, #locality:hover>a, #culture:hover>a, #services:hover>a, #trending:hover>a, #events:hover>a, #feedback:hover>a, #about:hover>a {
     color: #228B22;
 }
 #mykdr_menu>li>a:hover {
@@ -123,19 +120,6 @@ body {
 
 }
 
-#language{
-    background-color: #34495E !important;
-}
-
-#langmenu {
-    color: #E6E6FA !important;
-}
-#langmenu:hover,#langmenu>i {
-    color: #00BFFF !important;
-}
-#language:hover>#langmenu {
-    color: #00BFFF !important;
-}
 
 #alertlang {
     display: block;
@@ -152,13 +136,14 @@ body {
     text-decoration: wavy;
 }
 
-#mykdr_menu>li>a{
+#home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
     color: #5b3930;
     cursor: pointer;
 }
 
 #alertlang {
     display: none;
+    z-index: 9999;
 }
 
 
@@ -177,7 +162,12 @@ body {
 
     #language{
         width: 100% !important;
+        border-bottom: 1px #34495E solid;
+        overflow: hidden;
+        margin: auto;
+        /*background-color: #34495E;*/
     }
+
 
 
     @media (orientation: portrait) {
@@ -221,10 +211,10 @@ body {
 
         .mylogo{
             display: inline-block;
-            height: 6.5vh;
-            width: 6.9vh;
+            width: 6vh;
+            height: 6vh;
             position: relative;
-            margin: 0 -2px 2.5vh 0;
+            margin: 0 -2px 3vh 0;
             padding: 0 0 0 0;
         }
 
@@ -269,37 +259,44 @@ body {
             top: 8vh;
         }
 
-        #mykdr_menu>li{
-
-            display: block;
+        #mykdr_menu>li {
+            text-align: center;
             position: relative;
-            width: 100%;
+        }
+        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a {
+            position: relative;
             height: 9vh;
             line-height: 9vh;
             font-size: 3.5vh;
-            color: #fafafa;
+            /*color: #fafafa;*/
             text-align: center;
             padding-left: 5%;
             padding-right: 5%;
             margin: 0;
+        }
 
+        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+            display: block;
+            width: 100%;
             /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
         }
 
         #english, #malayalam{
-            width: 48%;
-            margin: auto;
+            width: 49.4%;
+            margin: auto !important;
             font-size: 3.2vh;
+            padding: 0 1.5vh 0 1.5vh;
+            /*display: inline-block !important;*/
         }
 
         #alertlang{
-            top: 8vh;
-            width: 100vw;
+            margin-top: 8vh;
+            width: 100%;
             height: 8vh;
-            line-height: 100%;
-            font-size: 5vw;
+            line-height: 4vh;
+            font-size: 2.8vh;
+            color: forestgreen !important;
         }
-
         .pagebanner
         {
             width: 100%;
@@ -348,10 +345,10 @@ body {
         .mylogo{
 
             display: inline-block;
-            height: 9.4vh;
-            width: 10vh;
+            width: 9vh;
+            height: 9vh;
             position: relative;
-            margin: 0 0 2.5vh 0;
+            margin: 0 0 3vh 0;
             margin-right: -2px;
         }
 
@@ -396,38 +393,41 @@ body {
             top: 12vh;
         }
 
-        #mykdr_menu>li{
-
+        #mykdr_menu>li {
+            text-align: center;
             display: inline-block;
-            position: relative;
+            margin: 0 auto;
+        }
+        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+            display: inline-block;
+            width: 49.5vw;
+            height: 14vh;
+            line-height: 14vh;
+            padding: 0;
+            font-size: 5vh;
+            /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
+        }
+        #language {
+            width: 100%;
+            overflow: hidden;
+        }
+        #language>a {
+            display: inline-block;
             width: 49.5%;
             height: 14vh;
             line-height: 14vh;
-            color: #fafafa;
-            text-align: center;
             margin: 0 auto;
             padding: 0;
-
-            /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
-        }
-        #mykdr_menu>li>a{
-            font-size: 5vh;
-        }
-        #mykdr_menu>li>i{
             font-size: 5vh;
         }
 
-        #english, #malayalam{
-            width: 49%;
-            margin: auto;
-        }
 
         #alertlang{
-            top: 12vh;
-            width: 100vw;
+            margin-top: 12vh;
+            width: 100%;
             height: 12vh;
-            line-height: 100%;
-            font-size: 3vw;
+            line-height: 6vh;
+            font-size: 5vh;
         }
 
         .pagebanner
@@ -476,6 +476,7 @@ body {
 
 
         margin-right: -4px;
+        width: 5.5vh;
         height: 5.5vh;
         margin-bottom: 1.5vh;
     }
@@ -510,8 +511,12 @@ body {
 
     #language{
         margin-bottom: 1vh;
-        border-radius: 6px;
+        border-radius: 4px;
         cursor: pointer;
+        border: 1px #34495E solid;
+    }
+    #english, #malayalam {
+        padding: 0 1.5vh 0 1.5vh;
     }
 
 

@@ -39,7 +39,7 @@
             padding: 0;
             font-size: 2.5vh;
             font-family: "Segoe UI";
-            border-left: solid #8b0000 1vw;
+            /*border-left: solid #8b0000 1vw;*/
             margin-bottom: 4vh;
         }
         #intro>p, #behindlogo>p, #koduvayur>p, #maincontent>div>p {
@@ -52,10 +52,10 @@
             padding-left: 3vh;
         }
         #intro>h1,#behindlogo>h1,#guide>h1, #koduvayur>h1, #maincontent>div>h1 {
-            margin-left: 1vh;
+            /*margin-left: 1vh;*/
             color: #2F4F4F;
             border-bottom: #FF6347 2px solid;
-            font-size: 180% !important;
+            font-size: 190% !important;
             margin-bottom: 2.5vh;
         }
         #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
@@ -350,6 +350,13 @@
         .servicesupersub>div {
             text-overflow: ellipsis;
         }
+
+        .fb-comments {
+            display: block;
+            width: 94%;
+            margin: 3% 3% 3% 3%;
+            padding: 0;
+        }
     }
 
     @media (orientation: landscape) {
@@ -389,7 +396,7 @@
             padding: 0;
             font-size: 4.2vh;
             font-family: "Segoe UI";
-            border-left: solid #8b0000 1vh;
+            /*border-left: solid #8b0000 1vh;*/
             margin-bottom: 7vh;
         }
         #intro>p, #behindlogo>p, #koduvayur>p, #maincontent>div>p {
@@ -402,7 +409,7 @@
             padding-left: 3vh;
         }
         #intro>h1,#behindlogo>h1,#guide>h1,#koduvayur>h1, #maincontent>div>h1 {
-            margin-left: 2vh;
+            /*margin-left: 2vh;*/
             color: #2F4F4F;
             border-bottom: #FF6347 2px solid;
             font-size: 8vh !important;
@@ -711,6 +718,13 @@
             background-color: #5d8243;
         }
 
+        .fb-comments {
+            display: block;
+            width: 94%;
+            margin: 3% 3% 3% 3%;
+            padding: 0;
+        }
+
     }
 }
 
@@ -722,8 +736,8 @@
         margin: 0;
         width: 100%;
         background: #ECE9E6;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
 
@@ -749,23 +763,23 @@
         padding: 0;
         font-size: 2.3vh;
         font-family: "Segoe UI";
-        border-left: solid #8b0000 0.3vw;
+        /*border-left: solid #8b0000 0.3vw;*/
 
     }
     #intro>p, #behindlogo>p, #koduvayur>p, #maincontent>div>p {
         text-indent: 3vw;
-        padding-left: 1vh;
+        /*padding-left: 1vh;*/
         text-align: justify;
     }
     #intro>li {
         padding-left: 2vh;
     }
     #intro>h1,#behindlogo>h1,#guide>h1, #koduvayur>h1, #maincontent>div>h1 {
-        margin-left: 2vh;
+        /*margin-left: 2vh;*/
         color: #2F4F4F;
         border-bottom: #FF6347 2px solid;
         margin-bottom: 3vh;
-        font-size: 4.3vh !important;
+        font-size: 4.8vh !important;
     }
     #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
         float: right;
@@ -778,8 +792,8 @@
     }
     #behindlogo>h1>img {
         float: right;
-        width: 4.5vh;
-        height: 4.7vh;
+        width: 5.2vh;
+        height: 5.2vh;
         display: inline-block;
     }
     #guide {
@@ -793,7 +807,7 @@
         padding-bottom: 2vh;
     }
     #maincontent>div {
-        margin-bottom: 6vh;
+        margin-bottom: 4vh;
     }
     #footer {
         display: block;
@@ -1070,6 +1084,12 @@
         background-color: #5d8243;
     }
 
+    .fb-comments {
+        display: block;
+        width: 94%;
+        margin: 3% 3% 3% 3%;
+        padding: 0;
+    }
 
 
 }
