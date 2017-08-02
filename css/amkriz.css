@@ -34,9 +34,9 @@ body {
     position: fixed;
     z-index: 10000;
     width : 100%;
-    background: #ECE9E6;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fffafa;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #ffffff, #fffafa);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #ffffff, #fffafa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom: 1px solid #5B3930;
 
 }
@@ -214,7 +214,7 @@ body {
             width: 6vh;
             height: 6vh;
             position: relative;
-            margin: 0 -2px 3vh 0;
+            margin: 0 -2px 2vh 0;
             padding: 0 0 0 0;
         }
 
@@ -348,7 +348,7 @@ body {
             width: 9vh;
             height: 9vh;
             position: relative;
-            margin: 0 0 3vh 0;
+            margin: 0 0 2vh 0;
             margin-right: -2px;
         }
 
@@ -448,12 +448,12 @@ body {
 
     #mykdr_nav{
 
-        height: 8vh;
+        height: 7vh;
 
     }
 
     #non-nav{
-        margin-top: 8vh;
+        margin-top: 7vh;
         padding: 0;
         display: block;
     }
@@ -463,9 +463,9 @@ body {
 
 
         color: #1c1c1c;
-        height:6.5vh;
-        line-height: 6.5vh;
-        padding: 1vh 0 0 0;
+        height:6vh;
+        line-height: 6vh;
+        padding: 0.7vh 0 0.3vh 0;
         cursor: pointer;
         margin: auto;
         display: inline-block;
@@ -478,7 +478,8 @@ body {
         margin-right: -4px;
         width: 5.5vh;
         height: 5.5vh;
-        margin-bottom: 1.5vh;
+        line-height: 6vh;
+        margin-bottom: 1vh;
     }
 
     .mylogocap{
@@ -489,12 +490,12 @@ body {
 
     #mykdr_menu{
 
-        line-height: 6.5vh;
-        height: 6.5vh;
+        line-height: 6vh;
+        height: 6vh;
         display: inline-block;
         margin: auto;
         float: right;
-        margin-top: 1vh;
+        margin-top: 0.7vh;
     }
 
     #mykdr_menu>li{
@@ -502,7 +503,7 @@ body {
         font-size: 1.1vw;
         display: inline-block;
         margin-left: 0.7vw ;
-        line-height: 4.8vh ;
+        line-height: 5vh ;
         padding: 2px 2px 2px 2px;
 
     }
@@ -510,10 +511,12 @@ body {
     /*#home,#locality,#culture,#services,#trending,#events,#feedback,#about {  }*/
 
     #language{
-        margin-bottom: 1vh;
+        margin-top: 1vh;
+        margin-bottom: 1.5vh;
         border-radius: 4px;
         cursor: pointer;
         border: 1px #34495E solid;
+        line-height: 4vh !important;
     }
     #english, #malayalam {
         padding: 0 1.5vh 0 1.5vh;
@@ -528,7 +531,7 @@ body {
 
     .bannerpc{
         width: 100%;
-        height: 92vh;
+        height: 93vh;
 
     }
 
@@ -543,7 +546,7 @@ body {
     }
 
     #alertlang{
-        top: 8vh;
+        top: 7vh;
         width: 25vw;
         height: 10vh;
         line-height: 7vh;
