@@ -64,7 +64,7 @@ body {
     color: #4b3930 !important;
     cursor: pointer;
     font-weight: bold;
-    font-family: 'Segoe UI Semibold';
+    font-family: "Segoe UI Semibold";
     text-decoration: wavy !important;
 }
 .mylogocap:hover{
@@ -102,7 +102,7 @@ body {
 }
 
 #mykdr_menu>li{
-    font-family: "Segoe UI Semibold";
+    font-family: "Segoe UI Semibold" ;
     font-weight: bolder;
     text-transform: uppercase;
 }
@@ -205,16 +205,16 @@ body {
             display: block;
             float: left;
             position: relative;
-            padding: 0;
+            /*padding: 1.7vh 0 1.2vh 0;*/
             margin: 0;
         }
 
         .mylogo{
             display: inline-block;
-            width: 6vh;
-            height: 6vh;
+            width: 6.3vh;
+            height: 6.3vh;
             position: relative;
-            margin: 0 -2px 2vh 0;
+            margin: 0 -2px 2.5vh 0;
             padding: 0 0 0 0;
         }
 
@@ -222,7 +222,8 @@ body {
 
             display: inline-block;
             /*font-family: "Arial Rounded MT Bold" !important;*/
-            font-size: 5.2vh;
+            font-size: 5.1vh;
+            line-height: 8vh;
             cursor: pointer;
             padding: 0 0 0 0;
         }
@@ -230,20 +231,22 @@ body {
         #mymenuglyph{
 
             display: inline-block;
-            font-size: 5vh;
+            font-size: 5.1vh;
+            line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 0.5vh 0 0 0;
+            padding: 0.3vh 0 0 0;
         }
 
         #closenav{
             display: none;
-            font-size: 5vh;
+            font-size: 5.1vh;
+            line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 0.8vh 0 1vh 0;
+            padding: 0.3vh 0 0 0;
         }
 
         #mykdr_menu{
@@ -340,6 +343,7 @@ body {
             display: block;
             float: left;
             position: relative;
+            padding: 2.2vh 0 2.3vh 0 ;
         }
 
         .mylogo{
@@ -348,22 +352,25 @@ body {
             width: 9vh;
             height: 9vh;
             position: relative;
-            margin: 0 0 2vh 0;
+            margin: 0 0 3.2vh 0;
             margin-right: -2px;
+            padding: 0;
         }
 
         .mylogocap{
 
             display: inline-block;
-            font-size: 7vh;
+            font-size: 7.5vh;
             cursor: pointer;
+            line-height: 7.5vh;
             padding: 0 0 0 0;
         }
 
         #mymenuglyph{
 
             display: inline-block;
-            font-size: 7vh;
+            font-size: 7.5vh;
+            line-height: 7.5vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
@@ -373,7 +380,8 @@ body {
         #closenav{
 
             display: none;
-            font-size: 7vh;
+            font-size: 7.5vh;
+            line-height: 7.5vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
@@ -465,9 +473,9 @@ body {
         color: #1c1c1c;
         height:6vh;
         line-height: 6vh;
-        padding: 0.7vh 0 0.3vh 0;
+        padding: 0;
         cursor: pointer;
-        margin: auto;
+        margin: 1vh 0 0 0;
         display: inline-block;
 
     }
@@ -475,16 +483,17 @@ body {
     .mylogo{
 
 
-        margin-right: -4px;
+        margin-right: -0.5vw;
         width: 5.5vh;
         height: 5.5vh;
-        line-height: 6vh;
-        margin-bottom: 1vh;
+        /*line-height: 5.5vh;*/
+        margin-bottom: 2.5vh;
     }
 
     .mylogocap{
 
-        font-size: 1.8vw;
+        font-size: 4vh;
+        /*line-height: 5vh;*/
     }
 
 

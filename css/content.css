@@ -34,7 +34,7 @@
         }
         #adslot1_mob > div, #adslot2_mob > div {
             height: 8vh;
-            background-color: #ce8483;
+            background-color: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -330,7 +330,7 @@
         }
 
         .panelname:hover, .panelname:active {
-            background-color: lightgray ;
+            background-color: #BDC8C6 ;
         }
 
         /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
@@ -420,7 +420,7 @@
         }
         #adslot1_mob>div, #adslot2_mob>div {
             height: 16vh;
-            background-color: #ce8483;
+            background-color: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -725,7 +725,7 @@
         }
 
         .panelname:hover, .panelname:active {
-            background-color: lightgray ;
+            background-color: #BDC8C6 ;
         }
 
         /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
@@ -809,7 +809,7 @@
     }
     #adslot1_pc>div, #adslot2_pc>div {
         height: 75vh;
-        background-color: #ce8483;
+        background-color: none;
     }
 
     #adslot1_mob, #adslot2_mob {
@@ -1129,7 +1129,7 @@
     }
 
     .panelname:hover, .panelname:active {
-        background-color: lightgray ;
+        background-color: #BDC8C6 ;
     }
 
     /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
