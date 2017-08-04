@@ -60,6 +60,19 @@ mykdrApp.config(function($routeProvider) {
 
 });
 
+// mykdrApp.constant('SOCIAL_PLUGINS', [
+//     'like', 'share-button', 'send', 'post', 'video',
+//     'comments', 'page', 'follow', 'send-to-messenger', 'messengermessageus',
+//     'login-button', 'comment-embed', 'save'
+// ]);
+//
+// mykdrApp.config(function (ezfbProvider, $routeProvider, SOCIAL_PLUGINS) {
+//     ezfbProvider.setInitParams({
+//         appID: '1933337463597558',
+//         version: 'v2.6'
+//     });
+// });
+
 
 
 // inject rootScope variables
@@ -281,73 +294,39 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
 
 });
 
-mykdrApp.controller('feedbackController', function($rootScope, $scope) {
+mykdrApp.controller('feedbackController', function($rootScope, $scope, SOCIAL_PLUGINS, $location) {
     $scope.message = 'Look! I am an about page.';
 
     // alert("hi");
 
-    $scope.fbComments = 'http://developers.facebook.com/docs/plugins/comments/';
-});
-
-mykdrApp.directive('fbCommentBox', function() {
-
-    // $scope.fbComments = $scope.fbComments = 'http://developers.facebook.com/docs/plugins/comments/';
-
-});
-
-
-// mykdrApp.directive('fbCommentBox', function() {
-//     function createHTML(href, numposts, colorscheme, width) {
-//         return '<div class="fb-comments" ' +
-//             'data-href="' + href + '" ' +
-//             'data-numposts="' + numposts + '" ' +
-//             'data-colorsheme="' + colorscheme + '" ' +
-//             'data-width="' + width + '">' +
-//             '</div>';
-//     }
-//
-//     return {
-//         restrict: 'A',
-//         scope: {},
-//         link: function postLink(scope, elem, attrs) {
-//             attrs.$observe('pageHref', function(newValue) {
-//                 var href = newValue;
-//                 var numposts = attrs.numposts || 20;
-//                 var colorscheme = attrs.colorscheme || 'light';
-//                 var width = attrs.width || '100%';
-//                 elem.html(createHTML(href, numposts, colorscheme, width));
-//                 FB.XFBML.parse(elem[0]);
-//             });
-//         }
-//     };
-// });
-
-
-
-    // function createHTML(href, numposts, colorscheme, width) {
-    //     return '<div class="fb-comments" ' +
-    //         'data-href="' + href + '" ' +
-    //         'data-numposts="' + numposts + '" ' +
-    //         'data-colorsheme="' + colorscheme + '" ' +
-    //         'data-width="' + width + '">' +
-    //         '</div>';
-    // }
+    // $scope.SOCIAL_PLUGINS = SOCIAL_PLUGINS;
     //
-    // return {
-    //     restrict: 'A',
-    //     scope: {},
-    //     link: function postLink(scope, elem, attrs) {
-    //         attrs.$observe('pageHref', function(newValue) {
-    //             var href = newValue;
-    //             var numposts = attrs.numposts || 5;
-    //             var colorscheme = attrs.colorscheme || 'light';
-    //             var width = attrs.width || '100%';
-    //             elem.html(createHTML(href, numposts, colorscheme, width));
-    //             FB.XFBML.parse(elem[0]);
-    //         });
-    //     }
+    // $scope.pluginOn = true;
+    // $scope.rendering = false;
+    //
+    // $scope.goto = function (dirTag) {
+    //     $location.path('/' + dirTag);
     // };
     //
+    // $scope.isActive = function (dirTag) {
+    //     return ($location.path() === '/' + dirTag);
+    // };
+    //
+    // $scope.rendered = function () {
+    //     $scope.rendering = false;
+    // };
+    //
+    // $scope.$watch('pluginOn', function (newVal, oldVal) {
+    //     if (newVal !== oldVal) {
+    //         $scope.rendering = true;
+    //     }
+    // });
+    //
+    // $scope.$on('$routeChangeSuccess', function () {
+    //     $scope.rendering = true;
+    // });
+});
+
 
 
 
