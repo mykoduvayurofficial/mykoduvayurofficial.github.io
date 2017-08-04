@@ -18,6 +18,10 @@ body {
     user-select:none;
 }
 
+#fb-root {
+    display:none;
+}
+
 #mypage{
 
     margin:0 0 0 0;
