@@ -19,7 +19,7 @@ body {
 }
 
 #fb-root {
-    display:none;
+    display: none !important;
 }
 
 #mypage{
