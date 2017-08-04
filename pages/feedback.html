@@ -73,45 +73,80 @@
                     <h1>HAVE YOUR SAY<i class="fa fa-quote-right"></i></h1>
 
 
-                    <div id="fb-root"></div>
-                    <script type="text/javascript">
-                        (function(d, s, id) {
-                            var js, fjs = d.getElementsByTagName(s)[0];
-                            if (d.getElementById(id))
-                                return;
-                            js = d.createElement(s);
-                            js.id = id;
-                            js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4";
-                            fjs.parentNode.insertBefore(js, fjs);
-                        }(document, 'script', 'facebook-jssdk'));
-                    </script>
 
-                    <div ng-if="fbComments">
-                        <div class="fb-comments" fb-comment-box data-href="{{fbComments}}" data-numposts="20" data-colorscheme="light" data-width="100%"></div>
-                    </div>
+                    <div class="fb-like" data-href="http://www.mykoduvayur.in/#/feedback" data-width="50px" data-layout="box_count" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
 
-                    <!--<div id="fb-root"></div>-->
-                    <!--<script>-->
-                        <!--(function(d, s, id) {-->
-                            <!--var js, fjs = d.getElementsByTagName(s)[0];-->
-                            <!--if (d.getElementById(id))-->
-                                <!--return;-->
-                            <!--js = d.createElement(s);-->
-                            <!--js.id = id;-->
-                            <!--js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=1933337463597558";-->
-                            <!--fjs.parentNode.insertBefore(js, fjs);-->
-                        <!--}(document, 'script', 'facebook-jssdk'));-->
+
+
+
+
+
+
+
+                    <!--<ul class="nav nav-tabs">-->
+                        <!--<li ng-repeat="dir in SOCIAL_PLUGINS" ng-class="{active: isActive(dir)}">-->
+                            <!--<a href="" ng-click="goto(dir)">{{ dir }}</a>-->
+                        <!--</li>-->
+                    <!--</ul>-->
+
+
+                    <!--<a ng-show="pluginOn" class="fb-like" href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true">like</a>-->
+
+                    <!--<script type="text/ng-template" id="share-button.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-share-button" data-href="http://developers.facebook.com/docs/plugins/" data-type="button_count"></div>-->
                     <!--</script>-->
 
-                    <!--<div ng-if="fbComments">-->
-                        <!--<div class="fb-comments col-md-12" fb-comment-box data-href="http://www.mykoduvayur.in/#/feedback" data-numposts="20" data-colorscheme="light" data-width="100%"></div>-->
-                    <!--</div>-->
+                    <!--<script type="text/ng-template" id="send.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-send" data-href="http://developers.facebook.com/docs/plugins/" data-colorscheme="light"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="post.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-post" data-href="https://www.facebook.com/20531316728/posts/10154009990506729/" data-width="500"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="video.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-video" data-href="https://www.facebook.com/facebook/videos/10153231379946729/" data-width="500" data-allowfullscreen="true">-->
+                            <!--<div class="fb-xfbml-parse-ignore">-->
+                                <!--<blockquote cite="/facebook/videos/10153415714906729/"><a href="/facebook/videos/10153415714906729/"></a><p>There are some friendships you have to earn.</p>Posted by <a href="https://www.facebook.com/facebook">Facebook</a> on 2015年2月9日</blockquote>-->
+                            <!--</div>-->
+                        <!--</div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="comments.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-comments" data-href="http://example.com/comments" data-numposts="5" data-colorscheme="light"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="page.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-page" data-href="http://www.facebook.com/FacebookDevelopers" data-width="380" data-hide-cover="false" data-show-facepile="true" data-show-posts="true"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="follow.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-follow" data-href="http://www.facebook.com/zuck" data-colorscheme="light" data-layout="standard" data-show-faces="true"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="send-to-messenger.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-send-to-messenger" messenger_app_id="386469651480295" page_id="19292868552" color="white" size="xlarge"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="messengermessageus.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-messengermessageus" messenger_app_id="386469651480295" page_id="19292868552" color="white" size="xlarge"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="login-button.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-login-button" data-max-rows="1" data-size="large" data-button-type="login_with" data-show-faces="false" data-auto-logout-link="true" data-use-continue-as="true"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="comment-embed.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-comment-embed" data-href="https://www.facebook.com/zuck/posts/10102577175875681?comment_id=1193531464007751&amp;reply_comment_id=654912701278942" data-width="560" data-include-parent="false"></div>-->
+                    <!--</script>-->
+
+                    <!--<script type="text/ng-template" id="save.html">-->
+                        <!--<div ng-if="pluginOn" onrender="rendered()" class="fb-save" data-uri="https://www.instagram.com/facebook/" data-size="large"></div>-->
+                    <!--</script>-->
+
+
 
                 </div>
-
-
-
-
             </div>
 
             <div class="col-md-2" id="adslot2_pc">
