@@ -62,16 +62,6 @@ mykdrApp.config(function($routeProvider) {
 
 
 
-// inject rootScope variables
-mykdrApp.run(function($rootScope) {
-
-    $rootScope.langChange = false;
-    $rootScope.myLang = "ENGLISH";
-
-});
-
-
-
 // create the controller and inject Angular's $scope
 mykdrApp.controller('mainController', function($rootScope, $scope) {
     // create a message to display in our view
@@ -79,8 +69,12 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     document.body.scrollTop = 0;
 
+// inject rootScope variables
     $rootScope.english = "EN";
     $rootScope.malayalam = "മ";
+    $rootScope.fbloader = true;
+    $rootScope.langChange = false;
+    $rootScope.myLang = "ENGLISH";
 
 
 
@@ -278,15 +272,8 @@ mykdrApp.controller('feedbackController', function($rootScope, $scope) {
 
     // alert("hi");
 
-    $scope.myfb = function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1933337463597558";
-        fjs.parentNode.insertBefore(js, fjs);
-    };
-    
-    $scope.myfb(document, 'script', 'facebook-jssdk');
+    FB.XFBML.parse();
+
 
 });
 
