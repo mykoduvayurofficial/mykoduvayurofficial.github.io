@@ -60,19 +60,6 @@ mykdrApp.config(function($routeProvider) {
 
 });
 
-// mykdrApp.constant('SOCIAL_PLUGINS', [
-//     'like', 'share-button', 'send', 'post', 'video',
-//     'comments', 'page', 'follow', 'send-to-messenger', 'messengermessageus',
-//     'login-button', 'comment-embed', 'save'
-// ]);
-//
-// mykdrApp.config(function (ezfbProvider, $routeProvider, SOCIAL_PLUGINS) {
-//     ezfbProvider.setInitParams({
-//         appID: '1933337463597558',
-//         version: 'v2.6'
-//     });
-// });
-
 
 
 // inject rootScope variables
@@ -92,15 +79,8 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     document.body.scrollTop = 0;
 
-    if(screen.width <= 1080) {
-        $rootScope.english = "ENGLISH";
-        $rootScope.malayalam = "മലയാളം";
-    }
-
-    if(screen.width > 1080) {
-        $rootScope.english = "EN";
-        $rootScope.malayalam = "മ";
-    }
+    $rootScope.english = "EN";
+    $rootScope.malayalam = "മ";
 
 
 
@@ -293,37 +273,12 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
 
 });
 
-mykdrApp.controller('feedbackController', function($rootScope, $scope, SOCIAL_PLUGINS, $location) {
+mykdrApp.controller('feedbackController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
     // alert("hi");
 
-    // $scope.SOCIAL_PLUGINS = SOCIAL_PLUGINS;
-    //
-    // $scope.pluginOn = true;
-    // $scope.rendering = false;
-    //
-    // $scope.goto = function (dirTag) {
-    //     $location.path('/' + dirTag);
-    // };
-    //
-    // $scope.isActive = function (dirTag) {
-    //     return ($location.path() === '/' + dirTag);
-    // };
-    //
-    // $scope.rendered = function () {
-    //     $scope.rendering = false;
-    // };
-    //
-    // $scope.$watch('pluginOn', function (newVal, oldVal) {
-    //     if (newVal !== oldVal) {
-    //         $scope.rendering = true;
-    //     }
-    // });
-    //
-    // $scope.$on('$routeChangeSuccess', function () {
-    //     $scope.rendering = true;
-    // });
+
 });
 
 
