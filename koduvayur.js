@@ -92,13 +92,12 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     document.body.scrollTop = 0;
 
-    var mms = window.matchMedia("(max-width:1080px)");
-    if(mms.matches) {
+    if(screen.width <= 1080) {
         $rootScope.english = "ENGLISH";
         $rootScope.malayalam = "മലയാളം";
     }
-    var mmb = window.matchMedia("(min-width:1080px)");
-    if(mmb.matches) {
+
+    if(screen.width > 1080) {
         $rootScope.english = "EN";
         $rootScope.malayalam = "മ";
     }
