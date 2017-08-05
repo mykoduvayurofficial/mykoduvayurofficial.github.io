@@ -64,19 +64,19 @@ body {
 
 }
 
-.mylogocap{
-    color: #1c1c1c !important;
-    cursor: pointer;
-    font-weight: bold;
-    font-family: "Segoe UI Semibold";
-    text-decoration: wavy !important;
-}
-.mylogocap:hover{
-    text-decoration: wavy !important;
-}
-.mylogocap:active{
-    text-decoration: wavy !important;
-}
+/*.mylogocap{*/
+    /*color: #1c1c1c !important;*/
+    /*cursor: pointer;*/
+    /*font-weight: bold;*/
+    /*font-family: "Segoe UI Semibold";*/
+    /*text-decoration: wavy !important;*/
+/*}*/
+/*.mylogocap:hover{*/
+    /*text-decoration: wavy !important;*/
+/*}*/
+/*.mylogocap:active{*/
+    /*text-decoration: wavy !important;*/
+/*}*/
 
 #language {
     padding: 0 !important;
@@ -200,8 +200,6 @@ body {
 
         #mykdr_logo {
 
-
-            color: #1c1c1c;
             height: 8vh;
             width: 100%;
             line-height: 8vh;
@@ -209,48 +207,48 @@ body {
             display: block;
             float: left;
             position: relative;
-            padding: 0.6vh 0 0 0;
+            padding: 0 0 0 0;
             margin: 0;
         }
 
         .mylogo{
             display: inline-block;
-            width: 6.3vh;
-            height: 6.3vh;
+            width: auto;
+            height: 6.2vh;
             position: relative;
-            margin: 0 -2px 2.5vh 0;
+            margin: 1vh 0 0.8vh 0;
             padding: 0 0 0 0;
         }
 
-        .mylogocap{
+        /*.mylogocap{*/
 
-            display: inline-block;
-            /*font-family: "Arial Rounded MT Bold" !important;*/
-            font-size: 5.1vh;
-            line-height: 8vh;
-            cursor: pointer;
-            padding: 0 0 0 0;
-        }
+            /*display: inline-block;*/
+            /*!*font-family: "Arial Rounded MT Bold" !important;*!*/
+            /*font-size: 5.1vh;*/
+            /*line-height: 8vh;*/
+            /*cursor: pointer;*/
+            /*padding: 0 0 0 0;*/
+        /*}*/
 
         #mymenuglyph{
 
             display: inline-block;
-            font-size: 5.1vh;
+            font-size: 5.5vh;
             line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 0 0 0 0;
+            padding: 0.5vh 0 0 0;
         }
 
         #closenav{
             display: none;
-            font-size: 5.1vh;
+            font-size: 5.5vh;
             line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 0 0 0 0;
+            padding: 1vh 0 0 0;
         }
 
         #mykdr_menu{
@@ -339,7 +337,7 @@ body {
         #mykdr_logo {
 
 
-            color: #1c1c1c;
+            /*color: #1c1c1c;*/
             height: 12vh;
             width: 100%;
             line-height: 12vh;
@@ -347,49 +345,48 @@ body {
             display: block;
             float: left;
             position: relative;
-            padding: 2.2vh 0 2.3vh 0 ;
+            padding: 0 0 0 0 ;
         }
 
         .mylogo{
 
             display: inline-block;
-            width: 9vh;
-            height: 9vh;
+            width: auto;
+            height: 10.5vh;
             position: relative;
-            margin: 0 0 3.2vh 0;
-            margin-right: -2px;
+            margin: 1vh 0 0.5vh 0;
             padding: 0;
         }
 
-        .mylogocap{
+        /*.mylogocap{*/
 
-            display: inline-block;
-            font-size: 7.5vh;
-            cursor: pointer;
-            line-height: 7.5vh;
-            padding: 0 0 0 0;
-        }
+            /*display: inline-block;*/
+            /*font-size: 7.5vh;*/
+            /*cursor: pointer;*/
+            /*line-height: 7.5vh;*/
+            /*padding: 0 0 0 0;*/
+        /*}*/
 
         #mymenuglyph{
 
             display: inline-block;
-            font-size: 7.5vh;
-            line-height: 7.5vh;
+            font-size: 8.5vh;
+            line-height: 12vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding-top: 0.3vh;
+            padding-top: 0.5vh;
         }
 
         #closenav{
 
             display: none;
-            font-size: 7.5vh;
-            line-height: 7.5vh;
+            font-size: 8.5vh;
+            line-height: 12vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding-top: 0.4vh;
+            padding-top: 1.5vh;
         }
 
 
@@ -475,30 +472,28 @@ body {
 
 
         color: #1c1c1c;
-        height:6vh;
-        line-height: 6vh;
+        height: 7vh;
+        line-height: 7vh;
         padding: 0;
         cursor: pointer;
-        margin: 1vh 0 0 0;
+        margin: 0 0 0 0;
         display: inline-block;
 
     }
 
     .mylogo{
 
-
-        margin-right: -0.5vw;
-        width: 5.5vh;
-        height: 5.5vh;
+        width: auto;
+        height: 6vh;
         /*line-height: 5.5vh;*/
-        margin-bottom: 2.5vh;
+        margin: 0.5vh 0 0.5vh 0;
     }
 
-    .mylogocap{
+    /*.mylogocap{*/
 
-        font-size: 4vh;
-        /*line-height: 5vh;*/
-    }
+        /*font-size: 4vh;*/
+        /*!*line-height: 5vh;*!*/
+    /*}*/
 
 
     #mykdr_menu{
