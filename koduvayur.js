@@ -76,6 +76,14 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
     $rootScope.langChange = false;
     $rootScope.myLang = "ENGLISH";
 
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
+
 
 
     $scope.closed = function() {
@@ -175,6 +183,14 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 mykdrApp.controller('homeController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
+
     // alert($scope.message);
 
 });
@@ -183,6 +199,14 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
     $scope.kdrMapUrl = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCjyFs7nzkwdQ9YhT1AeALSYEeGEBbFpuQ";
+
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
 
     $scope.myMap = function() {
         var mapProp= {
@@ -200,11 +224,27 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
 mykdrApp.controller('aboutController', function($rootScope, $scope) {
     $scope.message = 'Contact us! JK. This is just a demo.';
 
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
+
 
 });
 
 mykdrApp.controller('servicesController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
+
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
 
 
 });
@@ -212,11 +252,26 @@ mykdrApp.controller('servicesController', function($rootScope, $scope) {
 mykdrApp.controller('cultureController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
+
 });
 
 mykdrApp.controller('eventsController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
 
 });
 
@@ -228,6 +283,14 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
     $scope.showArticles = false;
     $scope.showPictures = false;
     $scope.showVideos = false;
+
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
 
     $scope.news = function() {
 
@@ -272,8 +335,13 @@ mykdrApp.controller('feedbackController', function($rootScope, $scope) {
 
     // alert("hi");
 
-    FB.XFBML.parse();
-
+    if (typeof(FB) != 'undefined' && FB != null ) {
+        FB.XFBML.parse();
+        // run the app
+    } else {
+        // alert the user
+        alert("Facebbook Server not loaded! Press OK to Try Again..")
+    }
 
 });
 

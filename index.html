@@ -52,7 +52,7 @@
     <meta name="description" content="Everything about Koduvayur, Palakkad. Keralapuram Agraharam, Althara, Ethanur, Kakkayur, Angadi, Pittupeedika, Kottamala,  Village, Radholsavam, Theru, Car Festival, Ganeshotsavam, Sooranporu, Kanyarkali, Dhanupath, GHSS, High School, Marian College, Gramam, Althara, Market, Chariots, Uriyadi, Navarathri, Market, Traffic, Nochur....">
     <meta name="keywords" content="koduvayur, althara, radholsavam, gramam, ethanur, kakkayur, mochur, mannathukavu, mykoduvayur, pittupeedika, angadi, market">
 
-    <title>MyKoduvayur</title>
+    <title>MyKoduvayur - Everything About Koduvayur</title>
 
     <link rel="icon" href="images/mykdrico.ico">
 
@@ -75,9 +75,7 @@
     <script src="js/angular-route.min.js"></script>
     <script src="koduvayur.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery.min.js"></script>
-    <script src="js/npm.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjyFs7nzkwdQ9YhT1AeALSYEeGEBbFpuQ&callback=myMap"></script>
 
     <!--CUSTOM STYLESCRIPTS-->
@@ -98,19 +96,20 @@
 
 <div id="main">
 
-    <!--//Facebook SDK-->
-    <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1933337463597558";
-        fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));</script>
-
     <div ng-view></div>
+
 </div>
 
 <!-- Scripts -->
+
+<!-- Facebook SDK-->
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.10&appId=1933337463597558";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 
 <!--BOOTSTRAP CORE JAVASCRIPT-->
