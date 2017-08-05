@@ -34,7 +34,7 @@
         }
         #adslot1_mob > div, #adslot2_mob > div {
             height: 8vh;
-            background-color: none;
+            background: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -378,8 +378,8 @@
 
         .fb-comments {
             display: block;
-            width: 94%;
-            margin: 3% 3% 3% 3%;
+            width: 100%;
+            margin : 3% 0 3% 0 !important;
             padding: 0;
         }
 
@@ -420,7 +420,7 @@
         }
         #adslot1_mob>div, #adslot2_mob>div {
             height: 16vh;
-            background-color: none;
+            background: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -773,8 +773,8 @@
 
         .fb-comments {
             display: block;
-            width: 94%;
-            margin: 3% 3% 3% 3%;
+            width: 100%;
+            margin: 3% 0 3% 0;
             padding: 0;
         }
 
@@ -809,7 +809,7 @@
     }
     #adslot1_pc>div, #adslot2_pc>div {
         height: 75vh;
-        background-color: none;
+        background: none;
     }
 
     #adslot1_mob, #adslot2_mob {
@@ -1174,8 +1174,8 @@
 
     .fb-comments {
         display: block;
-        width: 94%;
-        margin: 3% 3% 3% 3%;
+        width: 100%;
+        margin: 3% 0 3% 0;
         padding: 0;
     }
 
