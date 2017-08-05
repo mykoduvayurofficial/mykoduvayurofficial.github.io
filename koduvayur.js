@@ -76,15 +76,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
     $rootScope.langChange = false;
     $rootScope.myLang = "ENGLISH";
 
-    if (typeof(FB) != 'undefined' && FB != null ) {
-        FB.XFBML.parse();
-        // run the app
-    } else {
-        // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
-    }
-
-
 
     $scope.closed = function() {
         var z= document.getElementById("mymenuglyph");
