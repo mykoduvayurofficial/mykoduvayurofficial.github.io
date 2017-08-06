@@ -180,6 +180,7 @@ body {
             top: 0;
             height: 8vh;
             margin: 0;
+            padding: 0;
 
         }
 
@@ -208,15 +209,16 @@ body {
             float: left;
             position: relative;
             padding: 0 0 0 0;
-            margin: 0;
+            margin: 0 ;
+            overflow: hidden;
         }
 
         .mylogo{
             display: inline-block;
             width: auto;
-            height: 6.2vh;
+            height: 6.4vh;
             position: relative;
-            margin: 1vh 0 0.8vh 0;
+            margin: 0 0 0 0;
             padding: 0 0 0 0;
         }
 
@@ -233,22 +235,22 @@ body {
         #mymenuglyph{
 
             display: inline-block;
-            font-size: 5.5vh;
+            font-size: 5.3vh;
             line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 0.5vh 0 0 0;
+            padding: 0.7vh 0 0 0;
         }
 
         #closenav{
             display: none;
-            font-size: 5.5vh;
+            font-size: 5.3vh;
             line-height: 8vh;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding: 1vh 0 0 0;
+            padding: 1.4vh 0 0 0;
         }
 
         #mykdr_menu{
@@ -317,7 +319,7 @@ body {
 
             top: 0;
             height: 12vh;
-            margin-top: 0;
+            margin: 0;
 
         }
 
@@ -346,6 +348,8 @@ body {
             float: left;
             position: relative;
             padding: 0 0 0 0 ;
+            margin: 0;
+            overflow: hidden;
         }
 
         .mylogo{
@@ -354,7 +358,7 @@ body {
             width: auto;
             height: 10.5vh;
             position: relative;
-            margin: 1vh 0 0.5vh 0;
+            margin: 0 0 1vh 0;
             padding: 0;
         }
 
@@ -375,7 +379,7 @@ body {
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding-top: 0.5vh;
+            padding-top: 0.6vh;
         }
 
         #closenav{
@@ -386,7 +390,7 @@ body {
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            padding-top: 1.5vh;
+            padding-top: 1.4vh;
         }
 
 
@@ -478,6 +482,7 @@ body {
         cursor: pointer;
         margin: 0 0 0 0;
         display: inline-block;
+        overflow: hidden;
 
     }
 
@@ -486,7 +491,7 @@ body {
         width: auto;
         height: 6vh;
         /*line-height: 5.5vh;*/
-        margin: 0.5vh 0 0.5vh 0;
+        margin: 0 0 0.3vh 0;
     }
 
     /*.mylogocap{*/
