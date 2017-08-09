@@ -38,11 +38,10 @@ body {
     position: fixed;
     z-index: 10000;
     width : 100%;
-    background: #fffafa;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #ffffff, #fffafa);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #ffffff, #fffafa); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #E0E0C8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #fcfcfc, #E0E0C8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #fcfcfc, #E0E0C8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     border-bottom: 1px solid #5B3930;
-
 }
 
 #bannerdiv{
