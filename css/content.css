@@ -8,9 +8,7 @@
             padding: 0;
             margin: 0;
             width: 100%;
-            background: #F5F5DC;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #fcfcfc, #F5F5DC);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #fcfcfc, #F5F5DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #fcfcfc;  /* fallback for old browsers */
         }
 
         #maincontent {
@@ -34,7 +32,7 @@
         }
         #adslot1_mob > div, #adslot2_mob > div {
             height: 8vh;
-            background: #E6E6FA;
+            background: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -426,9 +424,7 @@
             padding: 0;
             margin: 0;
             width: 100%;
-            background: #F5F5DC;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #fcfcfc, #F5F5DC);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #fcfcfc, #F5F5DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #fcfcfc;
         }
 
         #maincontent {
@@ -452,7 +448,7 @@
         }
         #adslot1_mob>div, #adslot2_mob>div {
             height: 16vh;
-            background: #E6E6FA;
+            background: none;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -844,9 +840,7 @@
         padding: 0;
         margin: 0;
         width: 100%;
-        background: #F0F0D8;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #fcfcfc, #F0F0D8);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #fcfcfc, #F0F0D8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #fcfcfc; 
     }
 
     #maincontent {
@@ -860,7 +854,7 @@
     }
     #adslot1_pc>div, #adslot2_pc>div {
         height: 75vh;
-        background: #EFEFFF;
+        background: none;
     }
 
     #adslot1_mob, #adslot2_mob {
