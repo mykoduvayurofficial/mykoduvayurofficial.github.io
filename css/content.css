@@ -1,6 +1,44 @@
 
 
 
+#institutions>div {
+    background: rgba(200,200,200, 0.9);
+}
+
+#festivals>div, #festive>div {
+    background: RGBA(255, 215, 0, 0.65);
+}
+
+#general>div {
+    background: RGBA(245, 245, 220, 1);
+}
+
+#artsnsports>div {
+    background: RGBA(50, 205, 50, 0.7);
+}
+
+#ours>div {
+    background: RGBA(95, 158, 160, 0.8);
+}
+#servicebroad {
+    background: RGBA(189, 183 , 107, 0.3);
+}
+.servicesub {
+    border-color: rgba(120,120,120, 1);
+    background: rgba(20,20,20, 0.25);
+}
+.panelname:hover, .panelname:active {
+    background-color: #707070 ;
+    color: #fafafa;
+}
+.servicesupersub:hover, .servicesupersub:active {
+    background-color: darkgreen;
+    color: #fafafa;
+}
+
+
+
+
 @media (max-width: 1080px) {
 
     @media (orientation: portrait) {
@@ -166,12 +204,6 @@
             margin: auto;
         }
 
-        #institutions>div {
-            background: #bbbbbb;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #ffffff, #bbbbbb);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #ffffff, #bbbbbb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
-
         .panelcol {
             overflow: hidden;
             padding: 0;
@@ -214,41 +246,6 @@
         #temples, #mosques, #churches {
             border-bottom: 1px solid #D3D3D3;
             margin-bottom: 3%;
-        }
-
-        #festivals>div {
-            background: #50F8BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #general>div {
-            background: #dbdadb;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #ffffff, #dbdadb);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #ffffff, #dbdadb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #festive>div {
-            background: #50F8BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #artsnsports>div {
-            background: #56ab2f;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #ours>div {
-            background: #CAC531;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
         }
 
         #desc {
@@ -312,10 +309,6 @@
             overflow: hidden;
             padding: 0;
             margin: auto;
-
-            background: #EDE574;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
 
         .servicecol {
@@ -327,10 +320,6 @@
             cursor: pointer;
         }
 
-        .panelname:hover, .panelname:active {
-            background-color: #BDC8C6 ;
-        }
-
         /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
 
         /*}*/
@@ -339,12 +328,6 @@
             padding: 1% 1% 1% 1%;
             border-radius: 1vh;
             margin-bottom: 2%;
-            border-color: #91DFAE;
-
-            background: #A1FFCE;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
         }
 
         .servicesupersub {
@@ -366,9 +349,6 @@
         .servicesupersub>i {
             text-align: left;
             margin-right: 3%;
-        }
-        .servicesupersub:hover, .servicesupersub:active {
-            background-color: #5d8243;
         }
         .servicesupersub>div {
             text-overflow: ellipsis;
@@ -586,12 +566,6 @@
             margin: 0 auto;
         }
 
-        #institutions>div {
-            background: #bbbbbb;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #ffffff, #bbbbbb);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #ffffff, #bbbbbb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-        }
-
         .panelcol {
             overflow: hidden;
             padding: 0;
@@ -634,41 +608,6 @@
         #temples, #mosques, #churches {
             border-bottom: 1px solid #D3D3D3;
             margin-bottom: 3%;
-        }
-
-        #festivals>div {
-            background: #50F8BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #general>div {
-            background: #dbdadb;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #ffffff, #dbdadb);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #ffffff, #dbdadb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #festive>div {
-            background: #50F8BF;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #artsnsports>div {
-            background: #56ab2f;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-        }
-
-        #ours>div {
-            background: #CAC531;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
         }
 
         #desc {
@@ -735,10 +674,6 @@
             overflow: hidden;
             padding: 0;
             margin: auto;
-
-            background: #EDE574;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
         }
 
         .servicecol {
@@ -753,7 +688,8 @@
         }
 
         .panelname:hover, .panelname:active {
-            background-color: #BDC8C6 ;
+            background-color: #707070 ;
+            color: #fafafa;
         }
 
         /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
@@ -763,13 +699,7 @@
         .servicesub {
             padding: 1% 1% 1% 1%;
             border-radius: 2vh;
-            border-color: #91DFAE;
             margin-bottom: 3%;
-
-            background: #A1FFCE;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
         }
 
         .servicesupersub {
@@ -794,9 +724,6 @@
         }
         .servicesupersub>div {
             text-overflow: ellipsis;
-        }
-        .servicesupersub:hover, .servicesupersub:active {
-            background-color: #5d8243;
         }
 
         .fb-comments {
@@ -840,7 +767,7 @@
         padding: 0;
         margin: 0;
         width: 100%;
-        background: #fcfcfc; 
+        background: #fcfcfc;
     }
 
     #maincontent {
@@ -1007,12 +934,6 @@
         margin: 2% auto;
     }
 
-    #institutions>div {
-        background: #bbbbbb;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #ffffff, #bbbbbb);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #ffffff, #bbbbbb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    }
-
     .panelcol {
         overflow: hidden;
         padding: 0;
@@ -1054,41 +975,6 @@
     #temples, #mosques, #churches {
         border-bottom: 1px solid #D3D3D3;
         margin-bottom: 3%;
-    }
-
-    #festivals>div {
-        background: #50F8BF;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    #general>div {
-        background: #dbdadb;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #ffffff, #dbdadb);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #ffffff, #dbdadb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    #festive>div {
-        background: #50F8BF;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #FFA255, #50F8BF);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #FFA255, #50F8BF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    #artsnsports>div {
-        background: #56ab2f;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #a8e063, #56ab2f);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #a8e063, #56ab2f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    }
-
-    #ours>div {
-        background: #CAC531;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #F3F9A7, #CAC531);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #F3F9A7, #CAC531); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
     }
 
     #desc {
@@ -1158,10 +1044,6 @@
         overflow: hidden;
         padding: 0;
         margin: auto;
-
-        background: #EDE574;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #E1F5C4, #EDE574);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #E1F5C4, #EDE574); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .servicecol {
@@ -1173,10 +1055,6 @@
         cursor: pointer;
     }
 
-    .panelname:hover, .panelname:active {
-        background-color: #BDC8C6 ;
-    }
-
     /*#education, #health, #transport, #household, #foodnstay, #shopping, #govtservices, #eventservice, #servicenrepair {*/
 
     /*}*/
@@ -1184,11 +1062,6 @@
     .servicesub {
         padding: 1% 1% 1% 1%;
         border-radius: 2vh;
-        border-color: #91DFAE;
-
-        background: #A1FFCE;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to bottom, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to bottom, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     }
 
     .servicesupersub {
@@ -1212,9 +1085,6 @@
     }
     .servicesupersub>div {
         text-overflow: ellipsis;
-    }
-    .servicesupersub:hover, .servicesupersub:active {
-        background-color: #5d8243;
     }
 
     .fb-comments {
