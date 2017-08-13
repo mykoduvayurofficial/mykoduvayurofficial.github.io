@@ -12,53 +12,77 @@ mykdrApp.config(function($routeProvider) {
 
     // route for the theme page
         .when('/', {
+            title : "MyKoduvayur -  Everything About Koduvayur",
+            description : "",
             templateUrl : 'pages/theme.html',
             controller  : 'mainController'
         })
 
         // route for the home page
         .when('/home', {
+            title :"Home - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/home.html',
             controller  : 'homeController'
         })
 
         // route for the landscape page
         .when('/locality', {
+            title :"Locality - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/locality.html',
             controller  : 'localityController'
         })
         // route for the culture page
         .when('/culture', {
+            title :"Culture - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/culture.html',
             controller  : 'cultureController'
         })
         // route for the trending page
         .when('/events', {
+            title :"Events - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/events.html',
             controller  : 'eventsController'
         })
         // route for the services page
         .when('/services', {
+            title :"Services - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/services.html',
             controller  : 'servicesController'
         })
         // route for the feedback page
         .when('/feedback', {
+            title :"Feedback - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/feedback.html',
             controller  : 'feedbackController'
         })
         // route for the about page
         .when('/about', {
+            title :"About Us - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/about.html',
             controller  : 'aboutController'
         })
         // route for the trending page
         .when('/trending', {
+            title :"Trending - MyKoduvayur",
+            description : "",
             templateUrl : 'pages/trending.html',
             controller  : 'trendingController'
         })
 
 });
+
+mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
+    $rootScope.$on('$routeChangeSuccess', function() {
+        document.title = $route.current.title;
+    });
+}]);
 
 
 
