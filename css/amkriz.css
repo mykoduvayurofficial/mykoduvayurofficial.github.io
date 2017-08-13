@@ -154,170 +154,168 @@ body {
 }
 
 
-@media (max-width: 1080px){
+@media (orientation: portrait) {
 
-    #mykdr_menu>li:hover {
+    #mykdr_nav{
+        top: 0;
+        height: 8vh;
+        margin: 0;
+        padding: 0;
 
-        background-color: rgba(08,08,08,0.1);
     }
 
-    #language{
-        width: 100% !important;
-        border-bottom: 1px #34495E solid;
+
+    #theme-non-nav{
+        margin: 0;
+        padding: 0;
+        display: block;
+    }
+
+    #non-nav{
+        margin-top: 8vh;
+        padding: 0;
+        display: block;
+    }
+
+
+
+    .bannermob {
+
+        width: 100vw;
+        height: 100vh;
+
+    }
+
+    #mykdr_logo {
+
+        height: 8vh;
+        width: 100%;
+        line-height: 8vh;
+        cursor: pointer;
+        display: block;
+        float: left;
+        position: relative;
+        padding: 0 0 0 0;
+        margin: 0 ;
         overflow: hidden;
-        margin: auto;
-        /*background-color: #34495E;*/
     }
 
+    .mylogo{
+        display: inline-block;
+        width: 76vw;
+        height: auto;
+        position: relative;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0;
+    }
+
+    /*.mylogocap{*/
+
+    /*display: inline-block;*/
+    /*!*font-family: "Arial Rounded MT Bold" !important;*!*/
+    /*font-size: 5.1vh;*/
+    /*line-height: 8vh;*/
+    /*cursor: pointer;*/
+    /*padding: 0 0 0 0;*/
+    /*}*/
+
+    #mymenuglyph{
+
+        display: inline-block;
+        font-size: 9vw;
+        line-height: 8vh;
+        color: #1c1c1c;
+        cursor: pointer;
+        float: right;
+        padding: 0.6vh 0 0 0;
+    }
+
+    #closenav{
+        display: none;
+        font-size: 9vw;
+        line-height: 8vh;
+        color: #1c1c1c;
+        cursor: pointer;
+        float: right;
+        padding: 1.1vh 0 0 0;
+    }
+
+    #mykdr_menu{
+
+        display: none;
+        position: fixed;
+        width: 100%;
+        height: 92vh;
+        background-color: rgba(220,220,220, 0.9);
+        margin: 0;
+        padding: 0;
+        left: 0;
+        top: 8vh;
+    }
+
+    #mykdr_menu>li {
+        text-align: center;
+        position: relative;
+    }
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a {
+        position: relative;
+        height: 9vh;
+        line-height: 9vh;
+        font-size: 3.5vh;
+        /*color: #fafafa;*/
+        text-align: center;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+        display: block;
+        width: 100%;
+        /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
+    }
+
+    #english, #malayalam{
+        width: 49.4%;
+        margin: auto !important;
+        font-size: 3.2vh;
+        padding: 0 1.5vh 0 1.5vh;
+        /*display: inline-block !important;*/
+    }
+
+    #alertlang{
+        top: 8vh;
+        width: 100%;
+        height: 9vh;
+        line-height: 6vh;
+        font-size: 2.5vh;
+    }
+    .pagebanner
+    {
+        width: 100%;
+        height: auto;
+    }
+
+}
 
 
-    @media (orientation: portrait) {
+@media (orientation: landscape){
 
-        #mykdr_nav{
-            top: 0;
-            height: 8vh;
-            margin: 0;
-            padding: 0;
+    @media (max-width: 1091px) {
 
+        #mykdr_menu>li:hover {
+
+            background-color: rgba(08,08,08,0.1);
         }
 
-
-        #theme-non-nav{
-            margin: 0;
-            padding: 0;
-            display: block;
-        }
-
-        #non-nav{
-            margin-top: 8vh;
-            padding: 0;
-            display: block;
-        }
-
-
-
-        .bannermob {
-
-            width: 100%;
-            height: 100vh;
-
-        }
-
-        #mykdr_logo {
-
-            height: 8vh;
-            width: 100%;
-            line-height: 8vh;
-            cursor: pointer;
-            display: block;
-            float: left;
-            position: relative;
-            padding: 0 0 0 0;
-            margin: 0 ;
+        #language{
+            width: 100% !important;
+            border-bottom: 1px #34495E solid;
             overflow: hidden;
+            margin: auto;
+            /*background-color: #34495E;*/
         }
 
-        .mylogo{
-            display: inline-block;
-            width: auto;
-            height: 6.4vh;
-            position: relative;
-            margin: 0 0 0 0;
-            padding: 0 0 0 0;
-        }
-
-        /*.mylogocap{*/
-
-            /*display: inline-block;*/
-            /*!*font-family: "Arial Rounded MT Bold" !important;*!*/
-            /*font-size: 5.1vh;*/
-            /*line-height: 8vh;*/
-            /*cursor: pointer;*/
-            /*padding: 0 0 0 0;*/
-        /*}*/
-
-        #mymenuglyph{
-
-            display: inline-block;
-            font-size: 5.3vh;
-            line-height: 8vh;
-            color: #1c1c1c;
-            cursor: pointer;
-            float: right;
-            padding: 0.7vh 0 0 0;
-        }
-
-        #closenav{
-            display: none;
-            font-size: 5.3vh;
-            line-height: 8vh;
-            color: #1c1c1c;
-            cursor: pointer;
-            float: right;
-            padding: 1.2vh 0 0 0;
-        }
-
-        #mykdr_menu{
-
-            display: none;
-            position: fixed;
-            width: 100%;
-            height: 92vh;
-            background-color: rgba(220,220,220, 0.9);
-            margin: 0;
-            padding: 0;
-            left: 0;
-            top: 8vh;
-        }
-
-        #mykdr_menu>li {
-            text-align: center;
-            position: relative;
-        }
-        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a {
-            position: relative;
-            height: 9vh;
-            line-height: 9vh;
-            font-size: 3.5vh;
-            /*color: #fafafa;*/
-            text-align: center;
-            padding-left: 5%;
-            padding-right: 5%;
-            margin: 0;
-        }
-
-        #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
-            display: block;
-            width: 100%;
-            /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
-        }
-
-        #english, #malayalam{
-            width: 49.4%;
-            margin: auto !important;
-            font-size: 3.2vh;
-            padding: 0 1.5vh 0 1.5vh;
-            /*display: inline-block !important;*/
-        }
-
-        #alertlang{
-            margin-top: 8vh;
-            width: 100%;
-            height: 8vh;
-            line-height: 4vh;
-            font-size: 2.8vh;
-            color: forestgreen !important;
-        }
-        .pagebanner
-        {
-            width: 100%;
-            height: auto;
-        }
-
-    }
-
-
-    @media (orientation: landscape) {
 
         #mykdr_nav{
 
@@ -342,8 +340,8 @@ body {
 
         .bannerpc {
 
-            width: 100%;
-            height: 100vh;
+            width: 100vw;
+            height: 100vh !important;
 
         }
 
@@ -447,11 +445,12 @@ body {
 
 
         #alertlang{
-            margin-top: 12vh;
-            width: 100%;
+            top: 75vh;
+            width: 50%;
             height: 12vh;
-            line-height: 6vh;
-            font-size: 5vh;
+            /*line-height: 6vh;*/
+            font-size: 4vh;
+            right: 0;
         }
 
         .pagebanner
@@ -463,129 +462,129 @@ body {
 
     }
 
-}
 
 
+    @media (min-width: 1091px) {
+
+        #mykdr_nav{
+
+            height: 7vh;
+
+        }
+
+        #non-nav{
+            margin-top: 7vh;
+            padding: 0;
+            display: block;
+        }
+
+        #theme-non-nav{
+            margin: 0;
+            padding: 0;
+            display: block;
+        }
+
+        #mykdr_logo {
 
 
-@media (min-width: 1080px) {
+            color: #1c1c1c;
+            height: 7vh;
+            line-height: 7vh;
+            padding: 0;
+            cursor: pointer;
+            margin: 0 0 0 0;
+            display: inline-block;
+            overflow: hidden;
+        }
 
-    #mykdr_nav{
+        .mylogo{
 
-        height: 7vh;
+            width: auto;
+            height: 5.5vh;
+            /*line-height: 5.5vh;*/
+            margin: 0 0 0.2vh 0;
+        }
 
-    }
-
-    #non-nav{
-        margin-top: 7vh;
-        padding: 0;
-        display: block;
-    }
-
-    #theme-non-nav{
-        margin: 0;
-        padding: 0;
-        display: block;
-    }
-
-    #mykdr_logo {
-
-
-        color: #1c1c1c;
-        height: 7vh;
-        line-height: 7vh;
-        padding: 0;
-        cursor: pointer;
-        margin: 0 0 0 0;
-        display: inline-block;
-        overflow: hidden;
-    }
-
-    .mylogo{
-
-        width: auto;
-        height: 5.5vh;
-        /*line-height: 5.5vh;*/
-        margin: 0 0 0.2vh 0;
-    }
-
-    /*.mylogocap{*/
+        /*.mylogocap{*/
 
         /*font-size: 4vh;*/
         /*!*line-height: 5vh;*!*/
-    /*}*/
+        /*}*/
 
 
-    #mykdr_menu{
+        #mykdr_menu{
 
-        line-height: 6vh;
-        height: 6vh;
-        display: inline-block;
-        margin: auto;
-        float: right;
-        margin-top: 0.7vh;
-    }
+            line-height: 6vh;
+            height: 6vh;
+            display: inline-block;
+            margin: auto;
+            float: right;
+            margin-top: 0.7vh;
+        }
 
-    #mykdr_menu>li{
+        #mykdr_menu>li{
 
-        font-size: 1.1vw;
-        display: inline-block;
-        margin-left: 1.7vw ;
-        line-height: 5vh ;
-        padding: 2px 2px 2px 2px;
+            font-size: 1.1vw;
+            display: inline-block;
+            margin-left: 1.7vw ;
+            line-height: 5vh ;
+            padding: 2px 2px 2px 2px;
 
-    }
+        }
 
-    /*#home,#locality,#culture,#services,#trending,#events,#feedback,#about {  }*/
+        /*#home,#locality,#culture,#services,#trending,#events,#feedback,#about {  }*/
 
-    #language{
-        margin-top: 1vh;
-        margin-bottom: 1.5vh;
-        border-radius: 4px;
-        cursor: pointer;
-        border: 1px #34495E solid;
-        line-height: 4vh !important;
-    }
-    #english, #malayalam {
-        padding: 0 1.5vh 0 1.5vh;
-    }
-
-
-    #bannerdiv{
-
-        height:92vh;
-
-    }
-
-    .bannerpc{
-        width: 100%;
-        height: 100vh;
-
-    }
-
-    #mymenuglyph{
-
-        display: none;
-    }
-
-    #closenav {
-
-        display: none!important;
-    }
-
-    #alertlang{
-        top: 7vh;
-        width: 25vw;
-        height: 10vh;
-        line-height: 7vh;
-        font-size: large;
-        right: 0;
-    }
+        #language{
+            margin-top: 1vh;
+            margin-bottom: 1.5vh;
+            border-radius: 4px;
+            cursor: pointer;
+            border: 1px #34495E solid;
+            line-height: 4vh !important;
+        }
+        #english, #malayalam {
+            padding: 0 1.5vh 0 1.5vh;
+        }
 
 
-    .pagebanner
-    {
-        width: 100%;
-        height: auto;
+        #bannerdiv{
+
+            height:92vh;
+
+        }
+
+        .bannerpc{
+            width: 100vw;
+            height: 100vh !important;
+            /*overflow: hidden;*/
+
+        }
+
+        #mymenuglyph{
+
+            display: none;
+        }
+
+        #closenav {
+
+            display: none!important;
+        }
+
+        #alertlang{
+            top: 85vh;
+            width: 25vw;
+            height: 10vh;
+            line-height: 6vh;
+            font-size: large;
+            right: 0;
+        }
+
+
+        .pagebanner
+        {
+            width: 100%;
+            height: auto;
+        }
+
     }
 }
