@@ -80,6 +80,19 @@ body {
     text-align: center;
 }
 
+.teamimg {
+    display: block;
+    margin: auto !important;
+    width: 50%;
+    height: 50%;
+}
+
+#team {
+    padding: 1vh 0.5vw 1vh 0.5vw;
+    display: block;
+    text-align: justify;
+}
+
 #hitimage {
     margin: auto;
     display: block;
