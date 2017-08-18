@@ -7,25 +7,24 @@
         <div class="col-md-12">
 
             <div id="mykdr_logo">
-                <a href="#"><img class="mylogo" src="images/mylogo.png" alt="www.mykoduvayur.in" /></img></a>
-
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></img></a>
                 <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-bars"></i></label>
                 <label ng-click="closed()" id="closenav"><i class="glyphicon glyphicon-remove"></i></label>
             </div>
 
             <ul id="mykdr_menu">
                 <li id="language">
-                    <a ng-click="eng()" id="english">{{english}}</a>
-                    <a ng-click="mal()" id="malayalam">{{malayalam}}</a>
+                    <a ng-click="changetoeng()" id="english">{{dataSelected.mainData.menu.english}}</a>
+                    <a ng-click="changetomal()" id="malayalam">{{dataSelected.mainData.menu.malayalam}}</a>
                 </li>
-                <li ng-click="menuload()" id="home"><a href="#home"> HOME</a></li>
-                <li ng-click="menuload()" id="locality"><a href="#locality"> LOCALITY</a></li>
-                <li ng-click="menuload()" id="culture"><a href="#culture"> CULTURE</a></li>
-                <li ng-click="menuload()" id="services"><a href="#services"> SERVICES</a></li>
-                <li ng-click="menuload()" id="trending"><a href="#trending"> TRENDING</a></li>
-                <li ng-click="menuload()" id="events"><a href="#events"> EVENTS</a></li>
-                <li ng-click="menuload()" id="feedback"><a href="#feedback"> FEEDBACK</a></li>
-                <li ng-click="menuload()" id="about"><a href="#about"> ABOUT US</a></li>
+                <li ng-click="menuload()" id="home"><a href="#home">{{dataSelected.mainData.menu.home}}</a></li>
+                <li ng-click="menuload()" id="locality"><a href="#locality">{{dataSelected.mainData.menu.locality}}</a></li>
+                <li ng-click="menuload()" id="culture"><a href="#culture">{{dataSelected.mainData.menu.culture}}</a></li>
+                <li ng-click="menuload()" id="services"><a href="#services">{{dataSelected.mainData.menu.services}}</a></li>
+                <li ng-click="menuload()" id="trending"><a href="#trending">{{dataSelected.mainData.menu.trending}}</a></li>
+                <li ng-click="menuload()" id="events"><a href="#events">{{dataSelected.mainData.menu.events}}</a></li>
+                <li ng-click="menuload()" id="feedback"><a href="#feedback">{{dataSelected.mainData.menu.feedback}}</a></li>
+                <li ng-click="menuload()" id="about"><a href="#about">{{dataSelected.mainData.menu.about}}</a></li>
                 <li id="mobshare">
                     <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
                     <a id="mobplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
@@ -34,7 +33,7 @@
                 </li>
             </ul>
         </div>
-        <div id="alertlang" class="alert alert-success" role="alert">
+        <div id="alertlang" class="alert label-info" role="alert">
             <a href="" class="close" aria-label="close" ng-click="alertClose()">×</a>
             Selected Language: <strong>{{myLang}}</strong>
         </div>
@@ -55,8 +54,8 @@
 
                 <div class="col-md-12" id="firstline">
                     <div id="lastupdated">
-                        <p>Last Updated : </p>
-                        <p>05 August 2017</p>
+                        <p>{{dataSelected.mainData.pagetop.updated}}</p>
+                        <p>{{dataSelected.mainData.general.lastupdated}}</p>
                     </div>
                     <div class="fb-like fb-like1" data-href="http://www.mykoduvayur.in/" data-width="300" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                     <div class="fb-like fb-like2" data-href="http://www.mykoduvayur.in/" data-width="280" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
@@ -73,32 +72,32 @@
 
                 <div class="col-md-12" id="intro">
 
-                    <h1>INTRODUCTION<i class="fa fa-pencil-square-o"></i></h1>
+                    <h1> {{dataSelected.home.intro.title}}<i class="fa fa-pencil-square-o"></i></h1>
                     <!--<p><br /></p>-->
-                    <p>Koduvayur is a town located in the Southern part of Palakkad district in Kerala. It’s a Village Panchayat that comes under the Chittur Taluk. It is a place known for its Diversity. Be it the population, slang, festivals, business, culture or the livelihood, there are various kinds of it all in this place.</p>
-                    <p><b>MyKoduvayur</b> is a Web Project initiated by <a href="#about"><b>Team BehindBrains</b></a> based on Koduvayur. This is an Information Website which primarily focuses on :</p>
-                    <li>Delivering any and every kind of regularly updated Information related to Koduvayur.</li>
-                    <li>Providing Technical Assistance and Promotion to institutions, events and schemes for Public Welfare, happening in and around Koduvayur.</li>
+                    <p>{{dataSelected.home.intro.para1}}</p>
+                    <p><b>{{dataSelected.home.intro.para2_1}}</b>{{dataSelected.home.intro.para2_2}}<a href="#about"><b>{{dataSelected.home.intro.para2_3}}</b></a>{{dataSelected.home.intro.para2_4}}</p>
+                    <li>{{dataSelected.home.intro.list1}}</li>
+                    <li>{{dataSelected.home.intro.list2}}</li>
                     <p></p>
-                    <p>This website intends to be a Library about Koduvayur for people from outside, a trustable and informative friend for those who live here, and an everlasting book of memories for those who miss this place.</p>
-                    <p>Read on to find out more…</p>
+                    <p>{{dataSelected.home.intro.para3}}</p>
+                    <p>{{dataSelected.home.intro.para4}}</p>
                 </div>
 
                 <div class="col-md-12" id="aboutwebsite">
-                    <h1>ABOUT THIS WEBSITE<i class="fa fa-info-circle"></i></h1>
-                    <li>This website is a collection of information regarding anything and everything that is related to Koduvayur.</li>
-                    <li>All the different institutions, Govt. offices, schools, hospitals, historic and religious places, festivals, commerce, events, associations etc. find their place on our website, presented in a clean ordered way.</li>
-                    <li>An extensive collection of information and contact details of every establishment and service in and around Koduvayur will help the public to meet their needs in an easier and faster way.</li>
-                    <li>Regular news updates, alerts and a collection of good articles, photographs and videos that relate to our context are included..</li>
+                    <h1> {{dataSelected.home.aboutthis.title}}<i class="fa fa-info-circle"></i></h1>
+                    <li>{{dataSelected.home.aboutthis.list1}}</li>
+                    <li>{{dataSelected.home.aboutthis.list2}}</li>
+                    <li>{{dataSelected.home.aboutthis.list3}}</li>
+                    <li>{{dataSelected.home.aboutthis.list4}}</li>
                 </div>
 
                 <div class="col-md-12" id="behindlogo">
-                    <h1>BEHIND THE LOGO<img src="./images/mykdrpng.png"></h1>
+                    <h1> {{dataSelected.home.behindlogo.title}}<img src="./images/mykdrpng.png"></h1>
                     <!--<p><br /></p>-->
-                    <p>The logo of <b>MyKoduvayur</b> is a <b>Banyan tree</b>. Its the National Tree of India. Its from the Moraceae family and its Scientific name is Ficus Benghalensis. Its considered as a Sacred tree all over India and it also has several medicinal properties.</p>
-                    <p>But that’s not why we kept it as Our Logo. In the culturally, geographically and ethnically diverse place of Koduvayur, it is the one thing in common that unites everyone in Koduvayur irrespective of age, gender, religion, caste, location and economic or social status.</p>
-                    <p>‘<b>Althara</b>’, as we call it, is present in every prime location of the village, and it serves as the main host for almost every event that takes place in here. From small gatherings, to public meetings, business, processions, promotions, games, perfomance and festivals… these ‘Altharas’ have seen them all, from time to time. The term is a part and parcel of everyone in and around this place on their daily conversations. Koduvayur is decorated with numerous banyan trees in general. But it’s the old ones at the prime spots that are considered of great significance.</p>
-                    <p>Be it Angadi Althara, the Capital Centre of Koduvayur, which is the Gateway to the Koduvayur Market, or the Gramapeedika/ High School Athara, which is at the Junction entrance to the Keralapuram Agraharam, or the Sivan Kovil Althara which is at the Heart of the village and the centre spot of Koduvayur Radholsavam, or be it Ethanur, Kakkayur or other locations, ‘Althara’ is the one term that unites the whole of Koduvayur and that’s why we chose an Althara to represent MyKoduvayur.</p>
+                    <p>{{dataSelected.home.behindlogo.para1_1}}<b>{{dataSelected.home.behindlogo.para1_2}}</b>{{dataSelected.home.behindlogo.para1_3}}<b>{{dataSelected.home.behindlogo.para1_4}}</b>{{dataSelected.home.behindlogo.para1_5}}</p>
+                    <p>{{dataSelected.home.behindlogo.para2}}</p>
+                    <p>{{dataSelected.home.behindlogo.para3_1}}<b>{{dataSelected.home.behindlogo.para3_2}}</b>{{dataSelected.home.behindlogo.para3_3}}</p>
+                    <p>{{dataSelected.home.behindlogo.para4}}                    </p>
                 </div>
 
                 <div class="col-md-12" id="adslot2_mob">
@@ -107,18 +106,18 @@
                 </div>
 
                 <div class="col-md-12" id="funds">
-                    <h1>FUNDS<i class="fa fa-inr"></i></h1>
-                    <li>As is the case with any other website, this website needs funding for its <b>functioning and regular activity.</b></li>
-                    <li>This website <b>DOES NOT feature any Online Ads or Cookies</b> as a source of income, as it will spoil the User Experience.</li>
-                    <li>Instead, we provide <b>Prescribed Ad Slots for fixed Time Period</b> for Interested Businesses who wish to promote themselves with this website.</li>
-                    <li>The Ad Slot consists of a <b>fixed area</b> on each page and a <b>Dedicated Page</b> for each Sponsor.</li>
-                    <li>We also accept and appreciate funds from Well Wishers for the functioning of this Website.</li>
+                    <h1> {{dataSelected.home.funds.title}}<i class="fa fa-inr"></i></h1>
+                    <li>{{dataSelected.home.funds.para1_1}}<b>{{dataSelected.home.funds.para1_2}}</b>{{dataSelected.home.funds.para1_3}}</li>
+                    <li>{{dataSelected.home.funds.para2_1}}<b>{{dataSelected.home.funds.para2_2}}</b>{{dataSelected.home.funds.para2_3}}</li>
+                    <li>{{dataSelected.home.funds.para3_1}}<b>{{dataSelected.home.funds.para3_2}}</b>{{dataSelected.home.funds.para3_3}}</li>
+                    <li>{{dataSelected.home.funds.para4_1}}<b>{{dataSelected.home.funds.para4_2}}</b>{{dataSelected.home.funds.para4_3}}<b>{{dataSelected.home.funds.para4_4}}</b>{{dataSelected.home.funds.para4_5}}</li>
+                    <li>{{dataSelected.home.funds.para5}}</li>
                 </div>
 
                 <div class="col-md-12" id="guide">
-                    <h1>WEBSITE GUIDE <i class="fa fa-sitemap"></i></h1>
+                    <h1> {{dataSelected.home.guide.title}}<i class="fa fa-sitemap"></i></h1>
                     <!--<p><br /></p>-->
-                    <img src="./images/kdrguide.jpg"></img>
+                    <img src="{{dataSelected.home.guide.image}}"></img>
                 </div>
 
             </div>
@@ -134,14 +133,14 @@
 
     <div class="col-md-12" id="footer" ng-controller="mainController">
 
-        <p id="copyright">Team BehindBrains © 2017. All Rights Reserved.</p>
+        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
 
         <!--<p id="follow">Follow Us On:-->
         <!--<a href="https://www.facebook.com/MyKoduvayur-675861215918423/" ><i class="fa fa-facebook-official"></i></a>-->
         <!--</p>-->
 
         <p id="pcshare">
-            <label>Share:</label>
+            <label>{{dataSelected.mainData.footer.share}}</label>
             <a id="pcfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
             <a id="pcplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
             <a id="pctweet" href="https://twitter.com/share?url=http://www.mykoduvayur.in"><i  class="fa fa-twitter"></i></a>

@@ -6,25 +6,24 @@
         <div class="col-md-12">
 
             <div id="mykdr_logo">
-                <a href="#"><img class="mylogo" src="images/mylogo.png" alt="www.mykoduvayur.in" /></img></a>
-
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></img></a>
                 <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-bars"></i></label>
                 <label ng-click="closed()" id="closenav"><i class="glyphicon glyphicon-remove"></i></label>
             </div>
 
             <ul id="mykdr_menu">
                 <li id="language">
-                    <a ng-click="eng()" id="english">{{english}}</a>
-                    <a ng-click="mal()" id="malayalam">{{malayalam}}</a>
+                    <a ng-click="changetoeng()" id="english">{{dataSelected.mainData.menu.english}}</a>
+                    <a ng-click="changetomal()" id="malayalam">{{dataSelected.mainData.menu.malayalam}}</a>
                 </li>
-                <li ng-click="menuload()" id="home"><a href="#home"> HOME</a></li>
-                <li ng-click="menuload()" id="locality"><a href="#locality"> LOCALITY</a></li>
-                <li ng-click="menuload()" id="culture"><a href="#culture"> CULTURE</a></li>
-                <li ng-click="menuload()" id="services"><a href="#services"> SERVICES</a></li>
-                <li ng-click="menuload()" id="trending"><a href="#trending"> TRENDING</a></li>
-                <li ng-click="menuload()" id="events"><a href="#events"> EVENTS</a></li>
-                <li ng-click="menuload()" id="feedback"><a href="#feedback"> FEEDBACK</a></li>
-                <li ng-click="menuload()" id="about"><a href="#about"> ABOUT US</a></li>
+                <li ng-click="menuload()" id="home"><a href="#home">{{dataSelected.mainData.menu.home}}</a></li>
+                <li ng-click="menuload()" id="locality"><a href="#locality">{{dataSelected.mainData.menu.locality}}</a></li>
+                <li ng-click="menuload()" id="culture"><a href="#culture">{{dataSelected.mainData.menu.culture}}</a></li>
+                <li ng-click="menuload()" id="services"><a href="#services">{{dataSelected.mainData.menu.services}}</a></li>
+                <li ng-click="menuload()" id="trending"><a href="#trending">{{dataSelected.mainData.menu.trending}}</a></li>
+                <li ng-click="menuload()" id="events"><a href="#events">{{dataSelected.mainData.menu.events}}</a></li>
+                <li ng-click="menuload()" id="feedback"><a href="#feedback">{{dataSelected.mainData.menu.feedback}}</a></li>
+                <li ng-click="menuload()" id="about"><a href="#about">{{dataSelected.mainData.menu.about}}</a></li>
                 <li id="mobshare">
                     <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
                     <a id="mobplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
@@ -33,7 +32,7 @@
                 </li>
             </ul>
         </div>
-        <div id="alertlang" class="alert alert-success" role="alert">
+        <div id="alertlang" class="alert label-info" role="alert">
             <a href="" class="close" aria-label="close" ng-click="alertClose()">×</a>
             Selected Language: <strong>{{myLang}}</strong>
         </div>
@@ -54,8 +53,8 @@
 
                 <div class="col-md-12" id="firstline">
                     <div id="lastupdated">
-                        <p>Last Updated : </p>
-                        <p>05 August 2017</p>
+                        <p>{{dataSelected.mainData.pagetop.updated}}</p>
+                        <p>{{dataSelected.mainData.general.lastupdated}}</p>
                     </div>
                     <div class="fb-like fb-like1" data-href="http://www.mykoduvayur.in/" data-width="300" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                     <div class="fb-like fb-like2" data-href="http://www.mykoduvayur.in/" data-width="280" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
@@ -68,21 +67,21 @@
                 </div>
 
                 <div class="col-md-12" id="intro">
-                    <h1>INTRODUCTION<i class="fa fa-pencil-square-o"></i></h1>
-                    <p>The lifestyle and traditions of people varies for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur.</p>
+                    <h1> {{dataSelected.culture.intro.title}}<i class="fa fa-pencil-square-o"></i></h1>
+                    <p>{{dataSelected.culture.intro.para1}}</p>
                 </div>
 
                 <div class="col-md-12" id="religious">
-                    <h1>RELIGIOUS PLACES<i class="glyphicon glyphicon-bell"></i></i></h1>
+                    <h1> {{dataSelected.culture.worship.title}}<i class="glyphicon glyphicon-bell"></i></i></h1>
 
                     <div class="col-md-3 panelcol panel panel-default">
                         <div class="panel-body panelcontent">
                             <img src="./images/thumbs/02.jpg" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#temples" class="panel-footer panelname">TEMPLES</div>
+                        <div data-toggle="collapse" data-target="#temples" class="panel-footer panelname">{{dataSelected.culture.worship.temples.title}}</div>
                     </div>
                     <div id="temples" class="col-md-12 collapse">
-                        <div class="label-warning categoryhead">TEMPLES IN KODUVAYUR</div>
+                        <div class="label-warning categoryhead">{{dataSelected.culture.worship.temples.subtitle}}</div>
                         <div class="col-md-3 panelcol panel panel-default">
                             <div class="panel-body panelcontent">
                                 <img src="./images/thumbs/01.jpg" class="panelimg" alt="test"></img>
@@ -158,10 +157,10 @@
                         <div class="panel-body panelcontent">
                             <img src="./images/thumbs/04.jpg" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#mosques" class="panel-footer panelname">MOSQUES</div>
+                        <div data-toggle="collapse" data-target="#mosques" class="panel-footer panelname">{{dataSelected.culture.worship.mosques.title}}</div>
                     </div>
                     <div id="mosques" class="col-md-12 collapse">
-                        <div class="label-success categoryhead">MOSQUES IN KODUVAYUR</div>
+                        <div class="label-success categoryhead">{{dataSelected.culture.worship.mosques.subtitle}}</div>
                         <div class="col-md-3 panelcol panel panel-default">
                             <div class="panel-body panelcontent">
                                 <img src="./images/thumbs/01.jpg" class="panelimg" alt="test"></img>
@@ -202,10 +201,10 @@
                         <div class="panel-body panelcontent">
                             <img src="./images/thumbs/07.jpg" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#churches" class="panel-footer panelname">CHURCHES</div>
+                        <div data-toggle="collapse" data-target="#churches" class="panel-footer panelname">{{dataSelected.culture.worship.church.title}}</div>
                     </div>
                     <div id="churches" class="col-md-12 collapse">
-                        <div class="label-info categoryhead">CHURCHES IN KODUVAYUR</div>
+                        <div class="label-info categoryhead">{{dataSelected.culture.worship.church.subtitle}}</div>
                         <div class="col-md-3 panelcol panel panel-default">
                             <div class="panel-body panelcontent">
                                 <img src="./images/thumbs/01.jpg" class="panelimg" alt="test"></img>
@@ -228,11 +227,11 @@
                 </div>
 
                 <div class="col-md-12" id="calendar">
-                    <h1>FESTIVE CALENDAR<i class="fa fa-calendar"></i></h1>
+                    <h1> {{dataSelected.culture.festive.title}}<i class="fa fa-calendar"></i></h1>
                 </div>
 
                 <div class="col-md-12" id="festivals">
-                    <h1>FESTIVALS<i class="fa fa-snowflake-o"></i></h1>
+                    <h1> {{dataSelected.culture.festivals.title}}<i class="fa fa-snowflake-o"></i></h1>
                     <div class=" panel panel-default panelout">
                         <div class="panel-body">
 
@@ -321,14 +320,14 @@
 
     <div class="col-md-12" id="footer" ng-controller="mainController">
 
-        <p id="copyright">Team BehindBrains © 2017. All Rights Reserved.</p>
+        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
 
         <!--<p id="follow">Follow Us On:-->
-            <!--<a href="https://www.facebook.com/MyKoduvayur-675861215918423/" ><i class="fa fa-facebook-official"></i></a>-->
+        <!--<a href="https://www.facebook.com/MyKoduvayur-675861215918423/" ><i class="fa fa-facebook-official"></i></a>-->
         <!--</p>-->
 
         <p id="pcshare">
-            <label>Share:</label>
+            <label>{{dataSelected.mainData.footer.share}}</label>
             <a id="pcfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
             <a id="pcplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
             <a id="pctweet" href="https://twitter.com/share?url=http://www.mykoduvayur.in"><i  class="fa fa-twitter"></i></a>

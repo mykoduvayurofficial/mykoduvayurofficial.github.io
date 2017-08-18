@@ -6,25 +6,24 @@
         <div class="col-md-12">
 
             <div id="mykdr_logo">
-                <a href="#"><img class="mylogo" src="images/mylogo.png" alt="www.mykoduvayur.in" /></img></a>
-
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></img></a>
                 <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-bars"></i></label>
                 <label ng-click="closed()" id="closenav"><i class="glyphicon glyphicon-remove"></i></label>
             </div>
 
             <ul id="mykdr_menu">
                 <li id="language">
-                    <a ng-click="eng()" id="english">{{english}}</a>
-                    <a ng-click="mal()" id="malayalam">{{malayalam}}</a>
+                    <a ng-click="changetoeng()" id="english">{{dataSelected.mainData.menu.english}}</a>
+                    <a ng-click="changetomal()" id="malayalam">{{dataSelected.mainData.menu.malayalam}}</a>
                 </li>
-                <li ng-click="menuload()" id="home"><a href="#home"> HOME</a></li>
-                <li ng-click="menuload()" id="locality"><a href="#locality"> LOCALITY</a></li>
-                <li ng-click="menuload()" id="culture"><a href="#culture"> CULTURE</a></li>
-                <li ng-click="menuload()" id="services"><a href="#services"> SERVICES</a></li>
-                <li ng-click="menuload()" id="trending"><a href="#trending"> TRENDING</a></li>
-                <li ng-click="menuload()" id="events"><a href="#events"> EVENTS</a></li>
-                <li ng-click="menuload()" id="feedback"><a href="#feedback"> FEEDBACK</a></li>
-                <li ng-click="menuload()" id="about"><a href="#about"> ABOUT US</a></li>
+                <li ng-click="menuload()" id="home"><a href="#home">{{dataSelected.mainData.menu.home}}</a></li>
+                <li ng-click="menuload()" id="locality"><a href="#locality">{{dataSelected.mainData.menu.locality}}</a></li>
+                <li ng-click="menuload()" id="culture"><a href="#culture">{{dataSelected.mainData.menu.culture}}</a></li>
+                <li ng-click="menuload()" id="services"><a href="#services">{{dataSelected.mainData.menu.services}}</a></li>
+                <li ng-click="menuload()" id="trending"><a href="#trending">{{dataSelected.mainData.menu.trending}}</a></li>
+                <li ng-click="menuload()" id="events"><a href="#events">{{dataSelected.mainData.menu.events}}</a></li>
+                <li ng-click="menuload()" id="feedback"><a href="#feedback">{{dataSelected.mainData.menu.feedback}}</a></li>
+                <li ng-click="menuload()" id="about"><a href="#about">{{dataSelected.mainData.menu.about}}</a></li>
                 <li id="mobshare">
                     <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
                     <a id="mobplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
@@ -33,63 +32,65 @@
                 </li>
             </ul>
         </div>
-        <div id="alertlang" class="alert alert-success" role="alert">
+        <div id="alertlang" class="alert label-info" role="alert">
             <a href="" class="close" aria-label="close" ng-click="alertClose()">×</a>
             Selected Language: <strong>{{myLang}}</strong>
         </div>
     </nav>
 
     <div class="col-md-12" id="theme-non-nav">
+        <img class="pc bannerpc" src={{dataSelected.mainData.theme.landscape.pic1}} alt={{dataSelected.mainData.theme.landscape.pic1alt}}>
+        <img class="mob bannermob" src={{dataSelected.mainData.theme.portrait.pic1}} alt={{dataSelected.mainData.theme.portrait.pic1alt}}>
 
-        <div id="myCarouselPortrait" class="mob carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarouselPortrait" data-slide-to="0" class="active"></li>
-                <!--<li data-target="#myCarouselPortrait" data-slide-to="1"></li>-->
-                <!--<li data-target="#myCarouselPortrait" data-slide-to="2"></li>-->
-            </ol>
+        <!--<div id="myCarouselPortrait" class="mob carousel slide" data-ride="carousel">-->
+            <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+            <!--<ol class="carousel-indicators">-->
+                <!--<li data-target="#myCarouselPortrait" data-slide-to="0" class="active"></li>-->
+                <!--&lt;!&ndash;<li data-target="#myCarouselPortrait" data-slide-to="1"></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li data-target="#myCarouselPortrait" data-slide-to="2"></li>&ndash;&gt;-->
+            <!--</ol>-->
 
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="bannermob" src="./images/theme/mountmob.jpg" alt="0">
-                </div>
-
-                <!--<div class="item">-->
-                    <!--<img class="bannermob" src="./images/theme/transmob.jpg" alt="1">-->
+            <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+            <!--<div class="carousel-inner">-->
+                <!--<div class="item active">-->
+                    <!--<img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic1}} alt={{dataSelected.mainData.theme.portrait.pic1alt}}>-->
                 <!--</div>-->
-<!---->
-                <!--<div class="item">-->
-                    <!--<img class="bannermob" src="./images/theme/albummob.jpg" alt="2">-->
+
+                <!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic2}} alt={{dataSelected.mainData.theme.portrait.pic2alt}}>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img class="bannermob" src={{dataSelected.mainData.theme.portrait.pic3}} alt={{dataSelected.mainData.theme.portrait.pic3alt}}>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--</div>-->
+
+        <!--</div>-->
+
+        <!--<div id="myCarouselLandscape" class="pc carousel slide" data-ride="carousel">-->
+            <!--&lt;!&ndash; Indicators &ndash;&gt;-->
+            <!--<ol class="carousel-indicators">-->
+                <!--<li data-target="#myCarouselLandscape" data-slide-to="0" class="active"></li>-->
+                <!--&lt;!&ndash;<li data-target="#myCarouselLandscape" data-slide-to="1"></li>&ndash;&gt;-->
+                <!--&lt;!&ndash;<li data-target="#myCarouselLandscape" data-slide-to="2"></li>&ndash;&gt;-->
+            <!--</ol>-->
+
+            <!--&lt;!&ndash; Wrapper for slides &ndash;&gt;-->
+            <!--<div class="carousel-inner">-->
+                <!--<div class="item active">-->
+                    <!--<img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic1}} alt={{dataSelected.mainData.theme.landscape.pic1alt}}>-->
                 <!--</div>-->
-            </div>
 
-        </div>
+                <!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic2}} alt={{dataSelected.mainData.theme.landscape.pic2alt}}>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+<!--&lt;!&ndash;&ndash;&gt;-->
+                <!--&lt;!&ndash;<div class="item">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img class="bannerpc" src={{dataSelected.mainData.theme.landscape.pic3}} alt={{dataSelected.mainData.theme.landscape.pic3alt}}>&ndash;&gt;-->
+                <!--&lt;!&ndash;</div>&ndash;&gt;-->
+            <!--</div>-->
 
-        <div id="myCarouselLandscape" class="pc carousel slide" data-ride="carousel">
-            <!-- Indicators -->
-            <ol class="carousel-indicators">
-                <li data-target="#myCarouselLandscape" data-slide-to="0" class="active"></li>
-                <!--<li data-target="#myCarouselLandscape" data-slide-to="1"></li>-->
-                <!--<li data-target="#myCarouselLandscape" data-slide-to="2"></li>-->
-            </ol>
-
-            <!-- Wrapper for slides -->
-            <div class="carousel-inner">
-                <div class="item active">
-                    <img class="bannerpc" src="./images/theme/mountpc.jpg" alt="0">
-                </div>
-
-                <!--<div class="item">-->
-                    <!--<img class="bannerpc" src="./images/theme/transpc.jpg" alt="1">-->
-                <!--</div>-->
-<!---->
-                <!--<div class="item">-->
-                    <!--<img class="bannerpc" src="./images/theme/albumpc.jpg" alt="2">-->
-                <!--</div>-->
-            </div>
-
-        </div>
+        <!--</div>-->
 
     </div>
 
