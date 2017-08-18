@@ -75,6 +75,16 @@ body {
     /*text-decoration: wavy !important;*/
 /*}*/
 
+#hitweb>label {
+    width: 100%;
+    text-align: center;
+}
+
+#hitimage {
+    margin: auto;
+    display: block;
+}
+
 #language {
     padding: 0 !important;
 }
@@ -82,16 +92,16 @@ body {
     cursor: pointer;
     display: inline-block !important;
     font-weight: bold;
-    background-color: #34495E;
-    color: #FF6347;
+    /*background-color: #34495E;*/
+    /*color: #FF6347;*/
     margin-right: 0 !important;
 }
 #malayalam {
     cursor: pointer;
     display: inline-block !important;
     font-weight: bold;
-    background: none;
-    color: #5b3930;
+    /*background: none;*/
+    /*color: #5b3930;*/
     margin-left: 0 !important;
 }
 #english:hover,#malayalam:hover{
@@ -110,7 +120,7 @@ body {
 
 
 #home:hover>a, #locality:hover>a, #culture:hover>a, #services:hover>a, #trending:hover>a, #events:hover>a, #feedback:hover>a, #about:hover>a {
-    color: #228B22;
+    color: #1c1c1c;
 }
 #mykdr_menu>li>a:hover {
     text-decoration: wavy !important;
@@ -133,7 +143,7 @@ body {
 }
 
 #feedback:hover>a, #feedback:hover>a>i {
-    color: #C71585 !important;
+    color: #4B0082 !important;
     text-decoration: wavy;
 }
 
@@ -181,8 +191,10 @@ body {
 
     .bannermob {
 
-        width: 100vw;
-        height: 100vh;
+        width: 100%;
+        /*height: auto;*/
+        /*bottom: 0;*/
+        /*overflow: hidden;*/
 
     }
 
@@ -275,6 +287,9 @@ body {
         /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
     }
 
+    #language {
+        border-bottom: 1px #34495E solid;
+    }
     #english, #malayalam{
         width: 49.4%;
         margin: auto !important;
@@ -340,8 +355,8 @@ body {
 
         .bannerpc {
 
-            width: 100vw;
-            height: 100vh !important;
+            width: 100%;
+            /*height: 100vh !important;*/
 
         }
 
@@ -524,9 +539,9 @@ body {
 
         #mykdr_menu>li{
 
-            font-size: 1.1vw;
+            font-size: 1vw;
             display: inline-block;
-            margin-left: 1.7vw ;
+            margin-left: 1vw ;
             line-height: 5vh ;
             padding: 2px 2px 2px 2px;
 
@@ -554,8 +569,8 @@ body {
         }
 
         .bannerpc{
-            width: 100vw;
-            height: 100vh !important;
+            width: 100%;
+            height: 100vh ;
             /*overflow: hidden;*/
 
         }
