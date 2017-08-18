@@ -98,7 +98,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "12 August 2017"
+            lastupdated: "17 August 2017"
         },
         menu: {
             english: "EN",
@@ -411,7 +411,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "12 August 2017"
+            lastupdated: "17 August 2017"
         },
         menu: {
             english: "EN",
