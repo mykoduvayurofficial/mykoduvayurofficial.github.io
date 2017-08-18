@@ -442,6 +442,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic2alt: "",
                 pic3alt: ""
             }
+        },
+        pagetop: {
+            updated: "Last Updated : "
+        },
+        footer: {
+            copyright: "Team BehindBrains © 2017. All Rights Reserved.",
+            share: "Share: "
         }
     };
 
