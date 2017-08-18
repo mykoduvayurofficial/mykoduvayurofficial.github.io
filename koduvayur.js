@@ -114,20 +114,20 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/mountmob.jpg",
-                pic2: "./images/theme/mountmob.jpg",
+                pic1: "./images/theme/thememob.jpg",
+                pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
-                pic1alt: "Kottamala, Koduvayur.",
-                pic2alt: "",
-                pic3alt: ""
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/mountpc.jpg",
-                pic2: "./images/theme/mountpc.jpg",
+                pic1: "./images/theme/themepc.jpg",
+                pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
-                pic1alt: "Kottamala, Koduvayur.",
-                pic2alt: "",
-                pic3alt: ""
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
             }
         },
         pagetop: {
@@ -427,20 +427,20 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/mountmob.jpg",
-                pic2: "./images/theme/mountmob.jpg",
+                pic1: "./images/theme/thememob.jpg",
+                pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
-                pic1alt: "Kottamala, Koduvayur.",
-                pic2alt: "",
-                pic3alt: ""
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/mountpc.jpg",
-                pic2: "./images/theme/mountpc.jpg",
+                pic1: "./images/theme/themepc.jpg",
+                pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
-                pic1alt: "Kottamala, Koduvayur.",
-                pic2alt: "",
-                pic3alt: ""
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
             }
         },
         pagetop: {
@@ -455,7 +455,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     $rootScope.maldata.home = {
         intro: {
             title: "INTRODUCTION",
-            para1: "Koduvayur is a town located in the Southern part of Palakkad district in Kerala. It’s a Village Panchayat that comes under the Chittur Taluk. It is a place known for its Diversity. Be it the population, slang, festivals, business, culture or the livelihood, there are various kinds of it all in this place.",
+            para1: "കേരളത്തിലെ പാലക്കാട് ജില്ലയുടെ തെക്ക് ഭാഗത്തായി സ്ഥിതി ചെയ്യുന്ന ഒരു നഗരമാണ് കൊടുവായൂർ . ചിറ്റൂർ താലൂക്കിലുള്ള ഒരു ഗ്രാമ പഞ്ചായത്താണ് ഇത്. വൈവിധ്യത്തിന്‌  അറിയപ്പെടുന്ന ഒരു സ്ഥലമാണിത്. സംസാരഭാഷ , ജീവിതശൈലി , ഉത്സവങ്ങൾ, ബിസിനസ്, സംസ്കാരം എന്നിവ ഈ സ്ഥലത്ത് വിവിധമായ നിരവധി ഇനങ്ങളുണ്ട്.",
             para2_1: "MyKoduvayur",
             para2_2: " is a Web Project initiated by ",
             para2_3: "Team BehindBrains ",
