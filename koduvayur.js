@@ -147,7 +147,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             para2_2: " is a Web Project initiated by ",
             para2_3: "Team BehindBrains ",
             para2_4: "based on Koduvayur. This is an Information Website which primarily focuses on :",
-            list1: "Delivering any and every kind of regularly updated Information related to Koduvayur.",
+            list1: "Delivering any and every kind of regularly updated and correct Information related to Koduvayur.",
             list2: "Providing Technical Assistance and Promotion to institutions, businesses, events and schemes for Public Welfare, happening in and around Koduvayur.",
             para3: "This website intends to be a Library about Koduvayur for people from outside, a trustable and informative friend for those who live here, and an everlasting book of memories for those who miss this place.",
             para4: "Read on to find out more…"
@@ -155,7 +155,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         aboutthis: {
             title: "ABOUT THIS WEBSITE",
             list1: "This website is a collection of information regarding anything and everything that is related to Koduvayur.",
-            list2: "All the different institutions, Govt. offices, schools, hospitals, historic and religious places, festivals, commerce, events, associations etc. find their place on our website, presented in a clean ordered way.",
+            list2: "All the different institutions, Govt. offices, schools, hospitals, historic and religious places, festivals, news, commerce, politics, events, associations etc. find their place on our website, presented in a clean ordered way.",
             list3: "An extensive collection of information and contact details of every establishment and service in and around Koduvayur will help the public to meet their needs in an easier and faster way.",
             list4: "Regular news updates, alerts and a collection of good articles, photographs and videos that relate to our context are included.."
         },
@@ -454,32 +454,32 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     $rootScope.maldata.home = {
         intro: {
-            title: "INTRODUCTION",
-            para1: "കേരളത്തിലെ പാലക്കാട് ജില്ലയുടെ തെക്ക് ഭാഗത്തായി സ്ഥിതി ചെയ്യുന്ന ഒരു നഗരമാണ് കൊടുവായൂർ . ചിറ്റൂർ താലൂക്കിലുള്ള ഒരു ഗ്രാമ പഞ്ചായത്താണ് ഇത്. വൈവിധ്യത്തിന്‌  അറിയപ്പെടുന്ന ഒരു സ്ഥലമാണിത്. സംസാരഭാഷ , ജീവിതശൈലി , ഉത്സവങ്ങൾ, ബിസിനസ്, സംസ്കാരം എന്നിവ ഈ സ്ഥലത്ത് വിവിധമായ നിരവധി ഇനങ്ങളുണ്ട്.",
+            title: "ആമുഖം",
+            para1: "കേരളത്തിലെ പാലക്കാട് ജില്ലയുടെ തെക്ക് പടിഞ്ഞാറ് ഭാഗത്തായി സ്ഥിതി ചെയ്യുന്ന ഒരു നഗരമാണ് കൊടുവായൂർ . ചിറ്റൂർ താലൂക്കിലുള്ള ഒരു ഗ്രാമ പഞ്ചായത്താണ് ഇത്. വൈവിധ്യത്തിന്‌  അറിയപ്പെടുന്ന ഒരു സ്ഥലമാണിത്. സംസാരഭാഷ , ജീവിതശൈലി , ഉത്സവങ്ങൾ, ബിസിനസ്, സംസ്കാരം എന്നിവയൊക്കെ ഈ സ്ഥലത്ത് വിവിധമായ നിരവധി ഇനങ്ങളുണ്ട്.",
             para2_1: "Team BehindBrains",
             para2_2: " ആരംഭിച്ച ഒരു വെബ് പ്രോജക്റ്റ് ആണ്",
             para2_3: " MyKoduvayur",
-            para2_4: ". ഇത് കൊടുവായൂരിനെ കുറിച്ചുള്ള ഒരു വെബ്സൈറ്റ് ആണ്. ഈ വെബ്‌സൈറ്റിൽ താഴെ പറയുന്നവയൊക്കെ ഉൾപ്പെടുന്നു :",
-            list1: "Delivering any and every kind of regularly updated Information related to Koduvayur.",
-            list2: "Providing Technical Assistance and Promotion to institutions, businesses, events and schemes for Public Welfare, happening in and around Koduvayur.",
-            para3: "This website intends to be a Library about Koduvayur for people from outside, a trustable and informative friend for those who live here, and an everlasting book of memories for those who miss this place.",
-            para4: "Read on to find out more…"
+            para2_4: ". ഇത് കൊടുവായൂരിനെ ആസ്പദമാക്കിയുള്ള ഒരു വെബ്സൈറ്റ് ആണ്. ഈ വെബ്സൈറ്റിന്റെ പ്രധാന ലക്‌ഷ്യം എന്നത്  : ",
+            list1: "കൊടുവായൂരുമായി ബന്ധപ്പെട്ട എല്ലാ തരത്തിലും ഉള്ള പതിവായി വിലയിരുത്തപ്പെട്ട ശരിയായ വിവരങ്ങൾ  നാട്ടുകാരിലേക്ക് എത്തിക്കുക.",
+            list2: "കൊടുവായൂർ ഭാഗത്തും ചുറ്റുപാടും  ഉള്ള പൊതുമേഖലാ സ്ഥാപനങ്ങൾ, സ്വകാര്യ സ്ഥാപനങ്ങൾ, ബിസിനസ്സുകൾ, പൊതുജനക്ഷേമ പദ്ധതികൾ എന്നിവയ്ക്കുള്ള സാങ്കേതിക സഹായവും പ്രോത്സാഹനവും നൽകുക.  ",
+            para3: "ഈ വെബ്സൈറ്റ് പുറമെ നിന്നുള്ളവർക്ക് കൊടുവായൂരിനെക്കുറിച്ചുള്ള ഒരു വിജ്ഞാനകോശവും, ഇവിടെ ജനിച്ചുവളർന്ന് ഇപ്പോൾ മറുനാടുകളിൽ ജീവിക്കുന്നവർക്ക് ഇവിടത്തെ ഓർമകളുടെ ഒരു പുസ്തകവും, ഇവിടത്തെ നാട്ടുകാർക്ക് ശരിയായ വിവരങ്ങൾ ആവശ്യമായ സമയത്ത് നൽകുന്ന ഒരു വിശ്വസ്‌തനായ സുഹൃത്തും ആവും എന്ന് ഞങ്ങൾ വിശ്വസിക്കുന്നു. ",
+            para4: "കൂടുതൽ വിവരങ്ങൾക്കായി തുടർന്ന് വായിക്കുക..."
         },
         aboutthis: {
-            title: "ABOUT THIS WEBSITE",
-            list1: "This website is a collection of information regarding anything and everything that is related to Koduvayur.",
-            list2: "All the different institutions, Govt. offices, schools, hospitals, historic and religious places, festivals, commerce, events, associations etc. find their place on our website, presented in a clean ordered way.",
-            list3: "An extensive collection of information and contact details of every establishment and service in and around Koduvayur will help the public to meet their needs in an easier and faster way.",
-            list4: "Regular news updates, alerts and a collection of good articles, photographs and videos that relate to our context are included.."
+            title: " ഈ വെബ്‌സൈറ്റിനെക്കുറിച്ച്",
+            list1: "കൊടുവായൂരിനെ സംബന്ധിച്ച എല്ലാ തരം വിവരങ്ങളുടെയും ഒരു ശേഖരണമാണ് ഈ വെബ്‌സൈറ്റ്. ",
+            list2: "ഇവിടെയുള്ള എല്ലാതരം സ്ഥാപനങ്ങൾ, സർക്കാർ. ഓഫീസുകൾ, സ്കൂളുകൾ, ആശുപത്രികൾ, ആരാധനാലയങ്ങൾ, ഉത്സവങ്ങൾ, വാർത്തകൾ, വാണിജ്യം, ഭരണകൂടം, രാഷ്ട്രീയം, പരിപാടികൾ, അസോസിയേഷനുകൾ എന്നിവയെക്കുറിച്ചുള്ള വിവരങ്ങൾ ഞങ്ങളുടെ വെബ്സൈറ്റിൽ കൃത്യമായി ക്രമീകരിച്ച് അവതരിപ്പിച്ചിരിക്കുന്നു.",
+            list3: "കൊടുവായൂരിലും ചുറ്റുപാടും ഉള്ള എല്ലാ സ്ഥാപനങ്ങളെയും സേവനങ്ങളേയും കുറിച്ചുള്ള വിവരങ്ങളുടെ ഒരു വിശാലമായ ശേഖരം പൊതുജനങ്ങളെ അവരുടെ ആവശ്യങ്ങൾ എളുപ്പം നിറവേറ്റാൻ സഹായിക്കും.",
+            list4: "കൊടുവായൂർ സംബന്ധിച്ച വാർത്തകൾ, അറിയിപ്പുകൾ, നല്ല ലേഖനങ്ങളുടെ ഒരു ശേഖരം, ഫോട്ടോഗ്രാഫുകൾ, വിഡിയോകൾ എന്നിവയും ഈ വെബ്‌സൈറ്റിൽ ഉൾപ്പെടുന്നു."
         },
         behindlogo: {
-            title: "BEHIND THE LOGO",
-            para1_1: "The logo of ",
+            title: "ലോഗോയ്ക്ക് പിന്നിൽ",
+            para1_1: "",
             para1_2: "MyKoduvayur",
-            para1_3: " is a ",
-            para1_4: "Banyan tree",
-            para1_5: ". Its the National Tree of India. Its from the Moraceae family and its Scientific name is Ficus Benghalensis. Its considered as a Sacred tree all over India and it also has several medicinal properties.",
-            para2: "But that’s not why we kept it as Our Logo. In the culturally, geographically and ethnically diverse place of Koduvayur, it is the one thing in common that unites everyone in Koduvayur irrespective of age, gender, religion, caste, location and economic or social status.",
+            para1_3: "ന്റെ ലോഗോ ഒരു ",
+            para1_4: "ആൽമരം",
+            para1_5: " ആണ്. ഇന്ത്യയുടെ ദേശീയ വൃക്ഷമായ ആൽമരം മോറാസെയ എന്ന ജൈവകുടുംബത്തിൽ നിന്നാണ്.  അതിന്റെ ശാസ്ത്രനാമം ഫിക്കസ് ബെൻഘലെൻസിസ് ആണ്. ഇന്ത്യയിലുടനീളം ഒരു വിശുദ്ധ മരമായിട്ടാണ് ഇതിനെ ജനങ്ങൾ കാണുന്നത്. ആൽമരത്തിന് നിരവധി ഔഷധഗുണങ്ങൾ ഉണ്ട്.",
+            para2: "പക്ഷേ ഇത് കാരണമല്ല ആൽമരത്തെ ഞങ്ങളുടെ ലോഗോ ആക്കിയത്. സംസ്‌കാരത്തിലും പ്രദേശങ്ങളിലും സംസാരരീതികളിലും വൈവിധ്യമുള്ള  കൊടുവായൂരിലെ ജനങ്ങളെ ഏകീകരിക്കുന്ന ഒരു പദം കൂടി ആണ് ആൽമരം.",
             para3_1: "‘",
             para3_2: "Althara",
             para3_3: "', as we call it, is present in every prime location of the village, and it serves as the main host for almost every event that takes place in here. From small gatherings, to public meetings, business, processions, promotions, games, perfomance and festivals… these ‘Altharas’ have seen them all, from time to time. The term is a part and parcel of everyone in and around this place on their daily conversations. Koduvayur is decorated with numerous banyan trees in general. But it’s the old ones at the prime spots that are considered of great significance.",
