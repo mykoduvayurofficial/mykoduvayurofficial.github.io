@@ -294,10 +294,14 @@ body {
         margin: 0;
     }
 
-    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a {
         display: block;
         width: 100%;
         /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
+    }
+
+    #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
+        background-color: rgba(08,08,08,0.1);
     }
 
     #language {
@@ -331,8 +335,8 @@ body {
 
     @media (max-width: 1091px) {
 
-        #mykdr_menu>li:hover {
 
+        #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
             background-color: rgba(08,08,08,0.1);
         }
 
