@@ -295,6 +295,7 @@
         font-family: "Segoe UI Semibold";
         cursor: pointer;
         margin-bottom: 1%;
+        overflow: hidden;
     }
 
     #emergency {
@@ -665,6 +666,7 @@
             font-family: "Segoe UI Semibold";
             cursor: pointer;
             margin-bottom: 1%;
+            overflow: hidden;
         }
 
         #emergency {
@@ -1067,6 +1069,7 @@
             border: solid 1px darkgray;
             font-family: "Segoe UI Semibold";
             cursor: pointer;
+            overflow: hidden;
         }
 
         #emergency {
