@@ -98,7 +98,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "17 August 2017"
+            lastupdated: "19 August 2017"
         },
         menu: {
             english: "EN",
@@ -397,7 +397,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             }
         },
         ours: {
-            title: "OUR EVENTS",
+            title: "MYKODUVAYUR",
             list: {
 
             }
@@ -411,7 +411,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "17 August 2017"
+            lastupdated: "19 August 2017"
         },
         menu: {
             english: "EN",
@@ -466,14 +466,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             para4: "കൂടുതൽ വിവരങ്ങൾക്കായി തുടർന്ന് വായിക്കുക..."
         },
         aboutthis: {
-            title: " ഈ വെബ്‌സൈറ്റിനെക്കുറിച്ച്",
+            title: "ആശയം",
             list1: "കൊടുവായൂരിനെ സംബന്ധിച്ച എല്ലാ തരം വിവരങ്ങളുടെയും ഒരു ശേഖരണമാണ് ഈ വെബ്‌സൈറ്റ്. ",
             list2: "ഇവിടെയുള്ള എല്ലാതരം സ്ഥാപനങ്ങൾ, സർക്കാർ. ഓഫീസുകൾ, സ്കൂളുകൾ, ആശുപത്രികൾ, ആരാധനാലയങ്ങൾ, ഉത്സവങ്ങൾ, വാർത്തകൾ, വാണിജ്യം, ഭരണകൂടം, രാഷ്ട്രീയം, പരിപാടികൾ, അസോസിയേഷനുകൾ എന്നിവയെക്കുറിച്ചുള്ള വിവരങ്ങൾ ഞങ്ങളുടെ വെബ്സൈറ്റിൽ കൃത്യമായി ക്രമീകരിച്ച് അവതരിപ്പിച്ചിരിക്കുന്നു.",
             list3: "കൊടുവായൂരിലും ചുറ്റുപാടും ഉള്ള എല്ലാ സ്ഥാപനങ്ങളെയും സേവനങ്ങളേയും കുറിച്ചുള്ള വിവരങ്ങളുടെ ഒരു വിശാലമായ ശേഖരം പൊതുജനങ്ങളെ അവരുടെ ആവശ്യങ്ങൾ എളുപ്പം നിറവേറ്റാൻ സഹായിക്കും.",
             list4: "കൊടുവായൂർ സംബന്ധിച്ച വാർത്തകൾ, അറിയിപ്പുകൾ, നല്ല ലേഖനങ്ങളുടെ ഒരു ശേഖരം, ഫോട്ടോഗ്രാഫുകൾ, വിഡിയോകൾ എന്നിവയും ഈ വെബ്‌സൈറ്റിൽ ഉൾപ്പെടുന്നു."
         },
         behindlogo: {
-            title: "ലോഗോയ്ക്ക് പിന്നിൽ",
+            title: "ലോഗോയെക്കുറിച്ച്",
             para1_1: "",
             para1_2: "MyKoduvayur",
             para1_3: "ന്റെ ലോഗോ ഒരു ",
@@ -481,155 +481,155 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             para1_5: " ആണ്. ഇന്ത്യയുടെ ദേശീയ വൃക്ഷമായ ആൽമരം മോറാസെയ എന്ന ജൈവകുടുംബത്തിൽ നിന്നാണ്.  അതിന്റെ ശാസ്ത്രനാമം ഫിക്കസ് ബെൻഘലെൻസിസ് ആണ്. ഇന്ത്യയിലുടനീളം ഒരു വിശുദ്ധ മരമായിട്ടാണ് ഇതിനെ ജനങ്ങൾ കാണുന്നത്. ആൽമരത്തിന് നിരവധി ഔഷധഗുണങ്ങൾ ഉണ്ട്.",
             para2: "പക്ഷേ ഇത് കാരണമല്ല ആൽമരത്തെ ഞങ്ങളുടെ ലോഗോ ആക്കിയത്. സംസ്‌കാരത്തിലും പ്രദേശങ്ങളിലും സംസാരരീതികളിലും വൈവിധ്യമുള്ള  കൊടുവായൂരിലെ ജനങ്ങളെ ഏകീകരിക്കുന്ന ഒരു പദം കൂടി ആണ് ആൽമരം.",
             para3_1: "‘",
-            para3_2: "Althara",
-            para3_3: "', as we call it, is present in every prime location of the village, and it serves as the main host for almost every event that takes place in here. From small gatherings, to public meetings, business, processions, promotions, games, perfomance and festivals… these ‘Altharas’ have seen them all, from time to time. The term is a part and parcel of everyone in and around this place on their daily conversations. Koduvayur is decorated with numerous banyan trees in general. But it’s the old ones at the prime spots that are considered of great significance.",
-            para4: "Be it Angadi Althara, the Capital Centre of Koduvayur, which is the Gateway to the Koduvayur Market, or the Gramapeedika/ High School Athara, which is at the Junction entrance to the Keralapuram Agraharam, or the Sivan Kovil Althara which is at the Heart of the village and the centre spot of Koduvayur Radholsavam, or be it Ethanur, Kakkayur or other locations, ‘Althara’ is the one term that unites the whole of Koduvayur and that’s why we chose an Althara to represent MyKoduvayur."
+            para3_2: "ആൽത്തറ",
+            para3_3: "', എന്ന് നാം വിളിക്കുന്ന ഈ മരങ്ങൾ കൊടുവായൂരിന്റെ നാനാഭാഗത്തും ഉള്ള എല്ലാ സുപ്രധാന സ്ഥലങ്ങളുടെയും ഭാഗം ആണ്. ഇവിടെ ഏതു ഭാഗത്തു നടക്കുന്ന പരിപാടികൾ ആയാലും പൊതുവെ ആൽത്തറകൾ കേന്ദ്രികരിച്ചാണ് നടക്കാറുള്ളത്. ചെറിയ കൂടികാഴ്‌ചകൾ മുതൽ വലിയ ചടങ്ങുകളും ജാഥയും ബിസിനസ്സും ഉത്സവങ്ങളും കളികളും കലാപരിപാടികളും ഒക്കെ ഈ ആൽത്തറകൾ കാലാകാലങ്ങളായി കണ്ടുവരുന്നതാണ്. 'ആൽത്തറ' എന്ന ഈ വാക്ക് ഇവിടെ ഉള്ള എല്ലാവരുടെയും ദൈനംദിന സംഭാഷണങ്ങളുടെ ഒരു ഭാഗം ആണ്. കൊടുവായൂരിനെ അലങ്കരിക്കാൻ കുറെ ആൽമരങ്ങൾ ഉണ്ടെങ്കിലും, പ്രധാന സ്ഥലങ്ങളിലുള്ള പഴയ ആൽത്തറകളാണ് കൂടുതൽ വിശേഷപ്പെട്ടത്.",
+            para4: "കൊടുവായൂരിന്റെ തലസ്ഥാന കേന്ദ്രമായ 'അങ്ങാടി ആൽത്തറ', കേരളപുരം ഗ്രാമത്തിലേക്കുള്ള കവാടമായ 'ഗ്രാമപീടിക', ഗ്രാമത്തിന്റെ ഹൃദയഭാഗത്തുള്ളതും കൊടുവായൂർ രഥോത്സവത്തിന്റെ കേന്ദ്രവും ആയ 'ശിവൻ കോവിൽ ആൽത്തറ', എത്തനുർ, കിഴക്കേത്തറ, കാക്കയൂർ, നവക്കോട്, തുടങ്ങി കൊടുവായൂരിലെ ഏതു സ്ഥലം ആയാലും, കൊടുവായൂരിനെ ജാതി മത പ്രായ വർഗ ബേദമന്യേ ഒന്നിപ്പിക്കുന്ന ഒരു പദം ആണ് 'ആൽത്തറ'. അതിനാലാണ് ആൽത്തറയെ MyKoduvayurന്റെ ലോഗോ ആയി തിരഞ്ഞെടുത്തത്. "
         },
         funds: {
-            title: "FUNDS",
-            para1_1: "As is the case with any other website, this website needs funding for its ",
-            para1_2: "functioning and regular activity",
-            para1_3: ".",
-            para2_1: "This website ",
-            para2_2: "DOES NOT feature any Online Ads or Cookies",
-            para2_3: " as a source of income.",
-            para3_1: "Instead, we provide ",
-            para3_2: "Prescribed Ad Slots for fixed Time Period",
-            para3_3: " for Interested Businesses who wish to promote themselves with this website.",
-            para4_1: "The Ad Slot consists of a ",
-            para4_2: "fixed area",
-            para4_3: " on each page and a ",
-            para4_4: "Dedicated Page",
-            para4_5: " for each Sponsor.",
-            para5: "We also accept and appreciate funds from Well Wishers for the functioning of this Website."
+            title: "ഫണ്ടുകൾ",
+            para1_1: "ഏതൊരു വെബ്‌സൈറ്റിനെയും പോലെ, ഈ വെബ്‌സൈറ്റിനും അതിന്റെ ",
+            para1_2: "സ്ഥിരമായ പ്രവർത്തനത്തിനുവേണ്ടിയുള്ള ",
+            para1_3: "ഫണ്ടുകൾ ആവശ്യമാണ്.",
+            para2_1: "ഈ വെബ്സൈറ്റിന്റെ വരുമാനത്തിന് വേണ്ടി ഞങ്ങൾ ",
+            para2_2: "ഓൺലൈൻ പരസ്യങ്ങൾ പ്രസിദ്ധികരിക്കുന്നില്ല",
+            para2_3: ".",
+            para3_1: "അതിനു പകരം, ഇവിടെയുള്ള ബിസിനസ്സുകൾ പ്രചരിപ്പിക്കുവാൻ ആഗ്രഹിക്കുന്നവർക്കായി ഞങ്ങൾ ",
+            para3_2: "നിശ്ചിത കാലയളവിനുള്ള പരസ്യങ്ങൾ",
+            para3_3: " ഈ വെബ്‌സൈറ്റിൽ ലഭ്യമാക്കുന്നു.",
+            para4_1: "ഈ പരസ്യങ്ങൾക്ക് ഓരോ പേജിലും ഉള്ള ഒരു ",
+            para4_2: "നിശ്ചിത ഭാഗവും",
+            para4_3: " ഓരോ സ്‌പോൺസർമാർക്കും വേണ്ടി ",
+            para4_4: "വേറിട്ട ഒരു പേജും",
+            para4_5: " നൽകുന്നു.  ",
+            para5: "ഈ വെബ്സൈറ്റിന്റെ അബ്യുദയകാംഷികളിൽ നിന്നുള്ള സംഭാവനകൾ ഞങ്ങൾ നന്ദിപൂർവം സ്വീകരിക്കുന്നു."
         },
         guide: {
-            title: "WEBSITE GUIDE",
+            title: "വെബ്സൈറ്റ് ഘടന",
             image: "./images/kdrguide.jpg"
         }
     };
 
     $rootScope.maldata.locality = {
         intro: {
-            title: "INTRODUCTION",
+            title: "ആമുഖം",
             para1: "Koduvayur is one of the most prominent regions in the Southern part of Palakkad. The population here is a diverse combination of people with different lifestyles, belonging to several communities and speak different languages and slang. Nochur, Ethanur, Kakkayur, Keralapuram Gramam, Navakkode, Pittupeedika, Mini Estate etc are some of the notable places of this region, divided into 10 administrative wards."
         },
         koduvayur: {
-            title: "KODUVAYUR",
+            title: "കൊടുവായൂർ",
             para1: "The domain of Koduvayur stretches to Mannathukavu in the North-West, Nochur in the North-East, Ethanur in the West, Karippode in the East, Kakkayur in the South-West and Annakode in the South.",
             para2: "Koduvayur is the Geographical Intersection between a number of places like Palakkad, Nemmara, Alathur, Chittur, Pollachi, Kollengode etc. The Vehicle Traffic that frequently occurs here is a stand out feature. The road is busy 24/7 as it connects a number of places. KSRTC operates long route buses to Thrissur, Trivandrum, Kochi and Coimbatore through here.",
             para3: "Being the prime Business Center for the south-west region of Palakkad district, most of the population depends upon Koduvayur for their day-to-day needs like vegetables & other groceries, cloth and meat products. This place acts as a hub for merchandise coming from Coimbatore and Pollachi in Tamil Nadu. Koduvayur Market is one of the prominent places and business range from small scale shops to wholesale godowns, active 24/7.",
             para4: "The speaking tongues are mainly Malayalam and Tamil, although the slang varies for each locality and community of people. Population has a majority of Hindus belonging to a number of sub-castes. Muslim community is concentrated on some parts of Koduvayur and there are a number of Christian families spread around even though it is a minority here.  Koduvayur is known for its cultural diversity. From Eid, Easter and Onam to a number of Regional Festivals spread around, there is something to celebrate each time of the year."
         },
         administration: {
-            title: "ADMINISTRATION",
+            title: "ഭരണഘടന",
         },
         institutions: {
-            title: "INSTITUTIONS"
+            title: "സ്ഥാപനങ്ങൾ"
         },
         society: {
-            title: "SOCIETY",
+            title: "സമൂഹം",
             party: {
-                title: "POLITICAL PARTIES"
+                title: "രാഷ്ട്രീയ പാർട്ടികൾ"
             },
             clubs: {
-                title: "ARTS & SPORTS CLUBS"
+                title: "ക്ലബ്ബുകൾ"
             },
             other: {
-                title: "OTHER ASSOCIATIONS"
+                title: "മറ്റു കൂട്ടായ്‌മകൾ"
             }
         }
     };
 
     $rootScope.maldata.culture = {
         intro: {
-            title: "INTRODUCTION",
+            title: "ആമുഖം",
             para1: "The lifestyle and traditions of people vary for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur."
         },
         worship: {
-            title: "PLACES OF WORSHIP",
+            title: "ആരാധനാലയങ്ങൾ",
             temples: {
-                title: "TEMPLES",
-                subtitle: "TEMPLES IN KODUVAYUR"
+                title: "അമ്പലങ്ങൾ",
+                subtitle: "കൊടുവായൂരിലെ അമ്പലങ്ങൾ"
             },
             mosques: {
-                title: "MOSQUES",
-                subtitle: "MOSQUES IN KODUVAYUR"
+                title: "മസ്‌ജിദുകൾ",
+                subtitle: "കൊടുവായൂരിലെ മസ്‌ജിദുകൾ"
             },
             church: {
-                title: "CHURCHES",
-                subtitle: "CHURCHES IN KODUVAYUR"
+                title: "പള്ളികൾ",
+                subtitle: "കൊടുവായൂരിലെ പള്ളികൾ"
             }
         },
         festive: {
-            title: "FESTIVE CALENDAR"
+            title: "ഉത്സവ കലണ്ടർ"
         },
         festivals: {
-            title: "FESTIVALS"
+            title: "ഉത്സവങ്ങൾ"
         }
     };
 
     $rootScope.maldata.services = {
         intro: {
-            title: "INTRODUCTION",
+            title: "ആമുഖം",
             para1: "Koduvayur is the prime Business Center for the south-west region of Palakkad district. Almost every kind of services that one needs is available in and around this place. Its hard to keep record of every one of them and use them at the time of need. MyKoduvayur brings to you the entire list and details of every kind of services that is available around this place, presented in a clean and ordered way with categories and sub-categories. One can look through it whenever needed, choose one and use it. We believe that this page will be the most useful one in this website. We hope you find it useful."
         },
         emergency: {
-            title: "EMERGENCY"
+            title: "അത്യാവശ്യം"
         },
         categories: {
-            title: "CATEGORIES",
+            title: "വിഭാഗങ്ങൾ",
             list: {
                 education: {
-                    title: "EDUCATION",
+                    title: "വിദ്യാഭ്യാസം",
                     sublist: {
 
                     }
                 },
                 health: {
-                    title: "HEALTH",
+                    title: "ആരോഗ്യം",
                     sublist: {
 
                     }
                 },
                 transport: {
-                    title: "TRANSPORT",
+                    title: "വാഹനം",
                     sublist: {
 
                     }
                 },
                 household: {
-                    title: "HOUSEHOLD",
+                    title: "വീട്ടുകാര്യങ്ങൾ",
                     sublist: {
 
                     }
                 },
                 foodnstay: {
-                    title: "FOOD & STAY",
+                    title: "ഭക്ഷണം & താമസം",
                     sublist: {
 
                     }
                 },
                 shopping: {
-                    title: "SHOPPING",
+                    title: "ഷോപ്പിംഗ്",
                     sublist: {
 
                     }
                 },
                 govt: {
-                    title: "GOVT. SERVICES",
+                    title: "ഗവ. സേവനങ്ങൾ",
                     sublist: {
 
                     }
                 },
                 events: {
-                    title: "EVENTS",
+                    title: "പരിപാടികൾ",
                     sublist: {
 
                     }
                 },
                 repair: {
-                    title: "SERVICE & REPAIR",
+                    title: "സർവീസ് & റിപ്പയർ",
                     sublist: {
 
                     }
@@ -641,32 +641,32 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     $rootScope.maldata.trending = {
         alerts: {
-            title: "ALERTS",
+            title: "അറിയിപ്പുകൾ",
             list: {
 
             }
         },
         trends: {
             news: {
-                title: "NEWS",
+                title: "വാർത്ത",
                 list: {
 
                 }
             },
             articles: {
-                title: "ARTICLES",
+                title: "ലേഖനം",
                 list: {
 
                 }
             },
             pictures: {
-                title: "PICTURES",
+                title: "ചിത്രങ്ങൾ",
                 list: {
 
                 }
             },
             videos: {
-                title: "VIDEOS",
+                title: "വീഡിയോ",
                 list: {
 
                 }
@@ -677,8 +677,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     $rootScope.maldata.feedback = {
         intro: {
-            title: "INTRODUCTION",
-            para1: "This venture - MyKoduvayur, was planned and processed with the motive of making the Life better for the people in and from this place, using the Web Technology that is growing higher and reaching farther each passing day. So each one of you definitely have a say in here. Your opinions, suggestions and appreciations are a huge motivation for us to go forward and do further. We appreciate each of your support. "
+            title: "ആമുഖം",
+            para1: "MyKoduvayur എന്ന ഈ സംരംഭം ഇപ്പോൾ വളർന്നുവരുന്ന വെബ് ടെക്നോളജി ഉപയോഗിച്ച് കൊടുവായൂരിലെ ജനങ്ങളുടെ ജീവിതശൈലി എളുപ്പമാക്കുവാൻ സഹായിക്കുക എന്ന ഉദ്ദേശത്തോടെയാണ് ഉണ്ടാക്കിയത്. അതിനാൽ നിങ്ങൾ എല്ലാവര്ക്കും നിങ്ങളുടെ അഭിപ്രായങ്ങൾ ഇവിടെ പങ്കുവെക്കാം. നിങ്ങൾ ഓരോരുത്തരുടെയും പിന്തുണയ്ക്കും പ്രോത്സാഹനത്തിനും ഞങ്ങളുടെ നന്ദി പ്രകടിപ്പിക്കുന്നു."
         },
         haveyoursay: {
             title: "HAVE YOUR SAY"
@@ -688,29 +688,29 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     $rootScope.maldata.eventpage = {
         intro: {
-            title: "INTRODUCTION",
+            title: "ആമുഖം",
             para1: "Our busy lives may hinder us from witnessing and attending many events we wish to watch and participate. Also, memories of the ones we were part of will give us the sheer joy of watching and reading through them again and again. MyKoduvayur gives you the chance to do this with this page, where you can go through every kind of important events that happen in and around this place. Do enjoy the experience..."
         },
         general: {
-            title: "GENERAL EVENTS",
+            title: "പൊതു പരിപാടികൾ",
             list: {
 
             }
         },
         festive: {
-            title: "FESTIVE EVENTS",
+            title: "ആഘോഷങ്ങൾ",
             list: {
 
             }
         },
         artsnsports: {
-            title: "ARTS & SPORTS",
+            title: "കലാ - കായികം",
             list: {
 
             }
         },
         ours: {
-            title: "OUR EVENTS",
+            title: "MYKODUVAYUR",
             list: {
 
             }
