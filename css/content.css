@@ -1,3 +1,8 @@
+.fb-post {
+    width: 100% !important;
+    overflow: hidden;
+    display: block;
+}
 
 #institutions>div {
     background: rgba(200,200,200, 0.4);
@@ -399,6 +404,13 @@
             width: auto;
             height: auto;
         }
+
+    }
+
+    #news, #articles, #pictures, #videos {
+
+        padding: 1vh 1vw 1vh 1vw ;
+
 
     }
 
@@ -1166,6 +1178,20 @@
             width: auto;
             height: auto;
         }
+
+    }
+
+    #news, #articles, #pictures, #videos {
+
+        padding: 2vh 1vw 2vh 1vw ;
+
+
+    }
+
+    #pictures>div, #news>div, #articles>div #videos>div {
+
+        width: 100% !important;
+        height: auto;
 
     }
 
