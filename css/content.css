@@ -2,6 +2,7 @@
     width: 100% !important;
     overflow: hidden;
     display: block;
+    margin-bottom: 1.5vh;
 }
 
 #institutions>div {
