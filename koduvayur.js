@@ -76,6 +76,156 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'trendingController'
         })
 
+    //locality
+
+        // route for the panchayatoffice page
+        .when('/panchayatoffice', {
+            title :"Panchayat Office - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/panchayatoffice.html',
+            controller  : 'localityController'
+        })
+
+        // route for the govthospital page
+        .when('/govthospital', {
+            title :"Govt. Hospital - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/govthospital.html',
+            controller  : 'localityController'
+        })
+
+        // route for the ghsskoduvayur page
+        .when('/ghsskoduvayur', {
+            title :"Govt. High School - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/ghsskoduvayur.html',
+            controller  : 'localityController'
+        })
+
+        // route for the oldagehome page
+        .when('/oldagehome', {
+            title :"Old Age Home - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/oldagehome.html',
+            controller  : 'localityController'
+        })
+
+        // route for the mariancollege page
+        .when('/mariancollege', {
+            title :"Marian College - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/panchayatoffice.html',
+            controller  : 'localityController'
+        })
+
+        //culture
+
+        // route for the krishnankovil page
+        .when('/krishnankovil', {
+            title :"Krishna Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/krishnankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the keralathappankovil page
+        .when('/keralathappankovil', {
+            title :"Keralathappan Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/keralathappankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the sivankovil page
+        .when('/sivankovil', {
+            title :"Sree Visalakshy Sametha Sree Viswanathaswamy Temple  - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/krishnankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the ganapathykovil page
+        .when('/ganapathykovil', {
+            title :"MahaGanapathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/ganapathykovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the mariyammankovil page
+        .when('/mariyammankovil', {
+            title :"Mariyamman Temples - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/mariyammankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kakkayursivankovil page
+        .when('/kakkayursivankovil', {
+            title :"Kakkayur Siva Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/kakkayursivankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kottamalakovil page
+        .when('/kottamalakovil', {
+            title :"Kottamala Sree Ayyappa Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/kottamalakovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kottakovil page
+        .when('/kottakovil', {
+            title :"Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/kottakovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the altharaganapathy page
+        .when('/altharaganapathy', {
+            title :"Althara MahaGanapathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/altharaganapathy.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the ethanurkovil page
+        .when('/ethanurkovil', {
+            title :"Kizhakkethara Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/ethanurkovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the maruthikavu page
+        .when('/maruthikavu', {
+            title :"Ethanur Maruthi Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/maruthikavu.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the koymarpadam page
+        .when('/koymarpadam', {
+            title :"Koymar Padam Sree Subramaniya Swamy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/koymarpadam.html',
+            controller  : 'cultureController'
+        })
+
+        // events
+
+        // route for the koymarpadam page
+        .when('/keralothsavam2017', {
+            title :"Keralothsavam 2017, Koduvayur Grama Panchayath - MyKoduvayur",
+            description : "Panchayath Mela, 2017, Koduvayur, Arts, Athletics, Sports, Games, Cricket, Football, Volleyball, Clubs, Overall",
+            templateUrl : 'pages/events/keralothsavam2017.html',
+            controller  : 'eventsController'
+        })
+
 });
 
 mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
@@ -98,7 +248,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "19 August 2017"
+            lastupdated: "28 September 2017"
         },
         menu: {
             english: "EN",
@@ -111,6 +261,53 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             events: "EVENTS",
             feedback: "FEEDBACK",
             about: "ABOUT US"
+        },
+        theme: {
+            portrait: {
+                pic1: "./images/theme/thememob.jpg",
+                pic2: "./images/theme/albummob.jpg",
+                pic3: "./images/theme/mountmob.jpg",
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
+            },
+            landscape: {
+                pic1: "./images/theme/themepc.jpg",
+                pic2: "./images/theme/albumpc.jpg",
+                pic3: "./images/theme/mountpc.jpg",
+                pic1alt: "My Koduvayur.",
+                pic2alt: "PhotoFrame",
+                pic3alt: "Kottamala, Koduvayur"
+            }
+        },
+        pagetop: {
+            updated: "Last Updated : "
+        },
+        footer: {
+            copyright: "Team BehindBrains © 2017. All Rights Reserved.",
+            share: "Share: "
+        }
+    };
+
+    $rootScope.maldata.mainData = {
+
+        general: {
+            author: "kriz815",
+            url: "http://www.mykoduvayur.in",
+            logo: "./images/mylogo.png",
+            lastupdated: "28 സെപ്റ്റംബർ 2017"
+        },
+        menu: {
+            english: "EN",
+            malayalam: "മ",
+            home: "ഉള്ളടക്കം",
+            locality: "പ്രദേശം",
+            culture: "സാംസ്കാരികം",
+            services: "സേവനം",
+            trending: "തരംഗം",
+            events: "പരിപാടി",
+            feedback: "ജനശബ്ദം",
+            about: "അണിയറ"
         },
         theme: {
             portrait: {
@@ -196,262 +393,6 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
-    $rootScope.engdata.locality = {
-        intro: {
-            title: "INTRODUCTION",
-            para1: "Koduvayur is one of the most prominent regions in the Southern part of Palakkad. The population here is a diverse combination of people with different lifestyles, belonging to several communities and speak different languages and slang. Nochur, Ethanur, Kakkayur, Keralapuram Gramam, Navakkode, Pittupeedika, Mini Estate etc are some of the notable places of this region, divided into 10 administrative wards."
-        },
-        koduvayur: {
-            title: "KODUVAYUR",
-            para1: "The domain of Koduvayur stretches to Mannathukavu in the North-West, Nochur in the North-East, Ethanur in the West, Karippode in the East, Kakkayur in the South-West and Annakode in the South.",
-            para2: "Koduvayur is the Geographical Intersection between a number of places like Palakkad, Nemmara, Alathur, Chittur, Pollachi, Kollengode etc. The Vehicle Traffic that frequently occurs here is a stand out feature. The road is busy 24/7 as it connects a number of places. KSRTC operates long route buses to Thrissur, Trivandrum, Kochi and Coimbatore through here.",
-            para3: "Being the prime Business Center for the south-west region of Palakkad district, most of the population depends upon Koduvayur for their day-to-day needs like vegetables & other groceries, cloth and meat products. This place acts as a hub for merchandise coming from Coimbatore and Pollachi in Tamil Nadu. Koduvayur Market is one of the prominent places and business range from small scale shops to wholesale godowns, active 24/7.",
-            para4: "The speaking tongues are mainly Malayalam and Tamil, although the slang varies for each locality and community of people. Population has a majority of Hindus belonging to a number of sub-castes. Muslim community is concentrated on some parts of Koduvayur and there are a number of Christian families spread around even though it is a minority here.  As a part of the land of Palakkad, which is known for its cultural diversity, Koduvayur inherits that Palakkadan esssence for festivals and celebrations. From Eid, Easter and Onam to a number of Regional Festivals spread around, there is something to celebrate each time of the year."
-        },
-        administration: {
-            title: "ADMINISTRATION",
-        },
-        institutions: {
-            title: "INSTITUTIONS"
-        },
-        society: {
-            title: "SOCIETY",
-            party: {
-                title: "POLITICAL PARTIES"
-            },
-            clubs: {
-                title: "ARTS & SPORTS CLUBS"
-            },
-            other: {
-                title: "OTHER ASSOCIATIONS"
-            }
-        }
-    };
-
-    $rootScope.engdata.culture = {
-        intro: {
-            title: "INTRODUCTION",
-            para1: "The lifestyle and traditions of people vary for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur."
-        },
-        worship: {
-            title: "PLACES OF WORSHIP",
-            temples: {
-                title: "TEMPLES",
-                subtitle: "TEMPLES IN KODUVAYUR"
-            },
-            mosques: {
-                title: "MOSQUES",
-                subtitle: "MOSQUES IN KODUVAYUR"
-            },
-            church: {
-                title: "CHURCHES",
-                subtitle: "CHURCHES IN KODUVAYUR"
-            }
-        },
-        festive: {
-            title: "FESTIVE CALENDAR"
-        },
-        festivals: {
-            title: "FESTIVALS"
-        }
-    };
-
-    $rootScope.engdata.services = {
-        intro: {
-            title: "INTRODUCTION",
-            para1: "Koduvayur is the prime Business Center for the south-west region of Palakkad district. Almost every kind of services that one needs is available in and around this place. Its hard to keep record of every one of them and use them at the time of need. MyKoduvayur brings to you the entire list and details of every kind of services that is available around this place, presented in a clean and ordered way with categories and sub-categories. One can look through it whenever needed, choose one and use it. We believe that this page will be the most useful one in this website. We hope you find it useful."
-        },
-        emergency: {
-            title: "EMERGENCY"
-        },
-        categories: {
-            title: "CATEGORIES",
-            list: {
-                education: {
-                    title: "EDUCATION",
-                    sublist: {
-
-                    }
-                },
-                health: {
-                    title: "HEALTH",
-                    sublist: {
-
-                    }
-                },
-                transport: {
-                    title: "TRANSPORT",
-                    sublist: {
-
-                    }
-                },
-                household: {
-                    title: "HOUSEHOLD",
-                    sublist: {
-
-                    }
-                },
-                foodnstay: {
-                    title: "FOOD & STAY",
-                    sublist: {
-
-                    }
-                },
-                shopping: {
-                    title: "SHOPPING",
-                    sublist: {
-
-                    }
-                },
-                govt: {
-                    title: "GOVT. SERVICES",
-                    sublist: {
-
-                    }
-                },
-                events: {
-                    title: "EVENTS",
-                    sublist: {
-
-                    }
-                },
-                repair: {
-                    title: "SERVICE & REPAIR",
-                    sublist: {
-
-                    }
-                }
-            }
-
-        }
-    };
-
-    $rootScope.engdata.trending = {
-        alerts: {
-            title: "ALERTS",
-            list: {
-
-            }
-        },
-        trends: {
-            news: {
-                title: "NEWS",
-                list: {
-
-                }
-            },
-            articles: {
-                title: "ARTICLES",
-                list: {
-
-                }
-            },
-            pictures: {
-                title: "PICTURES",
-                list: {
-
-                }
-            },
-            videos: {
-                title: "VIDEOS",
-                list: {
-
-                }
-            }
-
-        }
-    };
-
-    $rootScope.engdata.feedback = {
-        intro: {
-            title: "INTRODUCTION",
-            para1: "This venture - MyKoduvayur, was planned and processed with the motive of making the Life better for the people in and from this place, using the Web Technology that is growing higher and reaching farther each passing day. So each one of you definitely have a say in here. Your opinions, suggestions and appreciations are a huge motivation for us to go forward and do further. We appreciate each of your support. "
-        },
-        haveyoursay: {
-            title: "HAVE YOUR SAY"
-        }
-
-    };
-
-    $rootScope.engdata.eventpage = {
-        intro: {
-            title: "INTRODUCTION",
-            para1: "Our busy lives may hinder us from witnessing and attending many events we wish to watch and participate. Also, memories of the ones we were part of will give us the sheer joy of watching and reading through them again and again. MyKoduvayur gives you the chance to do this with this page, where you can go through every kind of important events that happen in and around this place. Do enjoy the experience..."
-        },
-        general: {
-            title: "GENERAL EVENTS",
-            list: {
-
-            }
-        },
-        festive: {
-            title: "FESTIVE EVENTS",
-            list: {
-
-            }
-        },
-        artsnsports: {
-            title: "ARTS & SPORTS",
-            list: {
-
-            }
-        },
-        ours: {
-            title: "MYKODUVAYUR",
-            list: {
-
-            }
-        }
-
-    };
-
-    $rootScope.maldata.mainData = {
-
-        general: {
-            author: "kriz815",
-            url: "http://www.mykoduvayur.in",
-            logo: "./images/mylogo.png",
-            lastupdated: "19 August 2017"
-        },
-        menu: {
-            english: "EN",
-            malayalam: "മ",
-            home: "ഉള്ളടക്കം",
-            locality: "പ്രദേശം",
-            culture: "സാംസ്കാരികം",
-            services: "സേവനം",
-            trending: "തരംഗം",
-            events: "പരിപാടി",
-            feedback: "ജനശബ്ദം",
-            about: "അണിയറ"
-        },
-        theme: {
-            portrait: {
-                pic1: "./images/theme/thememob.jpg",
-                pic2: "./images/theme/albummob.jpg",
-                pic3: "./images/theme/mountmob.jpg",
-                pic1alt: "My Koduvayur.",
-                pic2alt: "PhotoFrame",
-                pic3alt: "Kottamala, Koduvayur"
-            },
-            landscape: {
-                pic1: "./images/theme/themepc.jpg",
-                pic2: "./images/theme/albumpc.jpg",
-                pic3: "./images/theme/mountpc.jpg",
-                pic1alt: "My Koduvayur.",
-                pic2alt: "PhotoFrame",
-                pic3alt: "Kottamala, Koduvayur"
-            }
-        },
-        pagetop: {
-            updated: "Last Updated : "
-        },
-        footer: {
-            copyright: "Team BehindBrains © 2017. All Rights Reserved.",
-            share: "Share: "
-        }
-    };
-
     $rootScope.maldata.home = {
         intro: {
             title: "ആമുഖം",
@@ -509,6 +450,38 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
+    $rootScope.engdata.locality = {
+        intro: {
+            title: "INTRODUCTION",
+            para1: "Koduvayur is one of the most prominent regions in the Southern part of Palakkad. The population here is a diverse combination of people with different lifestyles, belonging to several communities and speak different languages and slang. Nochur, Ethanur, Kakkayur, Keralapuram Gramam, Navakkode, Pittupeedika, Mini Estate etc are some of the notable places of this region, divided into 10 administrative wards."
+        },
+        koduvayur: {
+            title: "KODUVAYUR",
+            para1: "The domain of Koduvayur stretches to Mannathukavu in the North-West, Nochur in the North-East, Ethanur in the West, Karippode in the East, Kakkayur in the South-West and Annakode in the South.",
+            para2: "Koduvayur is the Geographical Intersection between a number of places like Palakkad, Nemmara, Alathur, Chittur, Pollachi, Kollengode etc. The Vehicle Traffic that frequently occurs here is a stand out feature. The road is busy 24/7 as it connects a number of places. KSRTC operates long route buses to Thrissur, Trivandrum, Kochi and Coimbatore through here.",
+            para3: "Being the prime Business Center for the south-west region of Palakkad district, most of the population depends upon Koduvayur for their day-to-day needs like vegetables & other groceries, cloth and meat products. This place acts as a hub for merchandise coming from Coimbatore and Pollachi in Tamil Nadu. Koduvayur Market is one of the prominent places and business range from small scale shops to wholesale godowns, active 24/7.",
+            para4: "The speaking tongues are mainly Malayalam and Tamil, although the slang varies for each locality and community of people. Population has a majority of Hindus belonging to a number of sub-castes. Muslim community is concentrated on some parts of Koduvayur and there are a number of Christian families spread around even though it is a minority here.  As a part of the land of Palakkad, which is known for its cultural diversity, Koduvayur inherits that Palakkadan esssence for festivals and celebrations. From Eid, Easter and Onam to a number of Regional Festivals spread around, there is something to celebrate each time of the year."
+        },
+        administration: {
+            title: "ADMINISTRATION",
+        },
+        institutions: {
+            title: "INSTITUTIONS"
+        },
+        society: {
+            title: "SOCIETY",
+            party: {
+                title: "POLITICAL PARTIES"
+            },
+            clubs: {
+                title: "ARTS & SPORTS CLUBS"
+            },
+            other: {
+                title: "OTHER ASSOCIATIONS"
+            }
+        }
+    };
+
     $rootScope.maldata.locality = {
         intro: {
             title: "ആമുഖം",
@@ -541,10 +514,39 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
+
+    $rootScope.engdata.culture = {
+        intro: {
+            title: "INTRODUCTION",
+            para1: "The lifestyle and traditions of people vary for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur."
+        },
+        worship: {
+            title: "PLACES OF WORSHIP",
+            temples: {
+                title: "TEMPLES",
+                subtitle: "TEMPLES IN KODUVAYUR"
+            },
+            mosques: {
+                title: "MOSQUES",
+                subtitle: "MOSQUES IN KODUVAYUR"
+            },
+            church: {
+                title: "CHURCHES",
+                subtitle: "CHURCHES IN KODUVAYUR"
+            }
+        },
+        festive: {
+            title: "FESTIVE CALENDAR"
+        },
+        festivals: {
+            title: "FESTIVALS"
+        }
+    };
+
     $rootScope.maldata.culture = {
         intro: {
             title: "ആമുഖം",
-            para1: "The lifestyle and traditions of people vary for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur."
+            para1: "ഏതൊരു സ്ഥലത്തും ഓരോ പ്രദേശത്തിലുള്ള ജനങ്ങളുടെ ജീവിതരീതികളും പാരമ്പര്യവും സമൂഹത്തിനും വ്യത്യാസമുണ്ടാവാം. ഇവിടെ കൊടുവായൂരിലും ഇത് ഒരു ശരിയായ വസ്തുത ആണ്. ഈ സാംസ്കാരിക വൈവിധ്യങ്ങൾ ഉള്ളതിനാൽ നിരവധി ആഘോഷങ്ങളും ഉത്സവങ്ങളും ഇവിടെയുണ്ട്. അവരുടെ ജാതിമതപ്രായബേദമന്യേ എല്ലാവർക്കും അതിവിശേഷമായ ദിവസങ്ങളാണ് കൊടുവായൂർ രഥോത്സവം. ഈസ്റ്റർ, ഓണം, റംസാൻ പോലെയുള്ള ലോകവ്യാപകമായ ഉത്സവങ്ങൾ മുതൽ എത്തനൂർ കുമമാട്ടി, ഗണേശോത്സവം, നവരാത്രി തുടങ്ങിയ നിരവധി പ്രാദേശിക ഉത്സവങ്ങൾ വരെ ഇവിടെ വർഷത്തിന്റെ ഓരോ സമയത്തും ആഘോഷിക്കുവാൻ കാരണങ്ങൾ ഉണ്ട്. ആരാധനാലയങ്ങളെക്കുറിച്ചും കൊടുവായൂരിൽ ആഘോഷിക്കുന്ന എല്ലാ പ്രധാനപ്പെട്ട ഉത്സവങ്ങളെക്കുറിച്ചും ഉള്ള വിശദാംശങ്ങളിലേക്ക്  ഈ പേജ് വെളിച്ചം വീശുന്നു."
         },
         worship: {
             title: "ആരാധനാലയങ്ങൾ",
@@ -569,70 +571,1887 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
+    $rootScope.engdata.services = {
+        intro: {
+            title: "INTRODUCTION",
+            para1: "Koduvayur is the prime Business Center for the south-west region of Palakkad district. Almost every kind of services that one needs is available in and around this place. Its hard to keep record of every one of them and use them at the time of need. MyKoduvayur brings to you the entire list and details of every kind of services that is available around this place, presented in a clean and ordered way with categories and sub-categories. One can look through it whenever needed, choose one and use it. We believe that this page will be the most useful one in this website. We hope you find it useful."
+        },
+        emergency: {
+            title: "EMERGENCY"
+        },
+        categories: {
+            title: "CATEGORIES",
+            list: [
+                {
+                    title: "EDUCATION",
+                    myid: "education",
+                    pic: "./images/thumbs/01.jpg",
+                    sublist: [
+                        {
+                            type: "SCHOOLS",
+                            listid: "school",
+                            typeitems: [
+                                {
+                                    a: "GHSS KODUVAYUR",
+                                    c: "HIGHER SECONDARY",
+                                    d: "Since 1904",
+                                    e: "Govt. School"
+                                },
+
+                            ]
+                        },
+                        {
+                            type: "COLLEGES",
+                            listid: "college",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TUITION COLLEGE",
+                            listid: "tuitionclg",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TUITION CENTERS",
+                            listid: "tuition",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "COMPUTER COURSE",
+                            listid: "computercourse",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TTC",
+                            listid: "ttc",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "OTHER COURSES",
+                            listid: "othercourse",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "HEALTH",
+                    myid: "health",
+                    pic: "./images/thumbs/02.jpg",
+                    sublist: [
+                        {
+                            type: "HOSPITALS",
+                            listid: "hospital",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "CLINICS",
+                            listid: "clinic",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "HOMOEO",
+                            listid: "homoeo",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "AYURVEDA",
+                            listid: "ayurveda",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ENG. MED. SHOP",
+                            listid: "engmed",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "AYUR. MED. SHOP",
+                            listid: "ayurmed",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "AMBULANCE",
+                            listid: "ambulance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "TRANSPORT",
+                    myid: "transport",
+                    pic: "./images/thumbs/03.jpg",
+                    sublist: [
+                        {
+                            type: "AUTORIKSHAW",
+                            listid: "auto",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "AUTO-TAXI",
+                            listid: "autotaxi",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TAXI",
+                            listid: "taxi",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "SUV",
+                            listid: "suv",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TRAVELLERS",
+                            listid: "traveller",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "CARRIER AUTO",
+                            listid: "carrier",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "HEAVY VEHICLES",
+                            listid: "heavy",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TRAVEL AGENCY",
+                            listid: "agency",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "HOUSEHOLD",
+                    myid: "household",
+                    pic: "./images/thumbs/04.jpg",
+                    sublist: [
+                        {
+                            type: "ELECTRICIAN",
+                            listid: "electrician",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "PLUMBER",
+                            listid: "plumber",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "CARPENTER",
+                            listid: "carpenter",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "PAINTING",
+                            listid: "painting",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "CONSTRUCTION",
+                            listid: "construction",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "SERVANTS",
+                            listid: "servant",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TREE CLIMBERS",
+                            listid: "treeclimb",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TREE CUTTING",
+                            listid: "treecut",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GAS AGENCIES",
+                            listid: "gas",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "BANKING",
+                            listid: "bank",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ATM",
+                            listid: "atm",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "SALOONS",
+                            listid: "saloon",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },{
+                            type: "BEAUTY PARLOR",
+                            listid: "beauty",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TAILORING",
+                            listid: "tailor",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "INSURANCE",
+                            listid: "insurance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FINANCE",
+                            listid: "finance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "LOCK PICKING",
+                            listid: "lockpick",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "FOOD & STAY",
+                    myid: "foodnstay",
+                    pic: "./images/thumbs/05.jpg",
+                    sublist: [
+                        {
+                            type: "BAKERY",
+                            listid: "bakery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "RESTAURANTS",
+                            listid: "restaurant",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TEA STALLS",
+                            listid: "teastall",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "THATTUKADA",
+                            listid: "thattukada",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MEAT STALLS",
+                            listid: "meat",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "HOTELS",
+                            listid: "hotel",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "LODGE",
+                            listid: "lodge",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "OTHER FOODS",
+                            listid: "other",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "BEVARAGES",
+                            listid: "bevarage",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "SHOPPING",
+                    myid: "shopping",
+                    pic: "./images/thumbs/06.jpg",
+                    sublist: [
+                        {
+                            type: "SUPERMARKET",
+                            listid: "supermarket",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "JEWELLERY",
+                            listid: "jewellery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FURNITURE",
+                            listid: "furniture",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "METALS",
+                            listid: "metals",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "HARDWARE",
+                            listid: "hardware",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "PAINT SHOPS",
+                            listid: "paint",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ELECTRICALS",
+                            listid: "electrical",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ELECTRONICS",
+                            listid: "electronics",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "HOME APPLIANCE",
+                            listid: "homeappliance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GIFT & FANCY",
+                            listid: "giftnfancy",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GROCERY",
+                            listid: "grocery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "STATIONERY",
+                            listid: "stationery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FOOTWEAR",
+                            listid: "footwear",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FRUIT STALL",
+                            listid: "fruits",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "VEGETABLES",
+                            listid: "vegetables",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FLOWER MART",
+                            listid: "flower",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "BOOK STALLS",
+                            listid: "books",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MILMA STALL",
+                            listid: "milma",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "WATCH MART",
+                            listid: "watch",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MOBILE STORES",
+                            listid: "mobile",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MOBILE PARTS",
+                            listid: "mobaccessories",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "RECHARGE SHOPS",
+                            listid: "recharge",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TWO WHEELERS",
+                            listid: "twowheeler",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "GOVT. SERVICES",
+                    myid: "govtservices",
+                    pic: "./images/thumbs/07.jpg",
+                    sublist: [
+                        {
+                            type: "RATION SHOPS",
+                            listid: "ration",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GRAMAPANCHAYAT",
+                            listid: "panchayat",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "WATER AUTHORITY",
+                            listid: "water",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "KSEB",
+                            listid: "kseb",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GOVT. HOSPITAL",
+                            listid: "govthospital",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "OLD AGE HOME",
+                            listid: "oldagehome",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "EVENTS",
+                    myid: "eventservice",
+                    pic: "./images/thumbs/08.jpg",
+                    sublist: [
+                        {
+                            type: "STUDIO",
+                            listid: "studio",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "LIGHT & SOUND",
+                            listid: "lightnsound",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "DECORATION",
+                            listid: "decoration",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "AUDITORIUM",
+                            listid: "auditorium",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "CARD SHOPPE",
+                            listid: "cardshoppe",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "GRAPHIC DESIGN",
+                            listid: "graphicdesign",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "PRIEST",
+                            listid: "priest",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    title: "SERVICE & REPAIR",
+                    myid: "servicenrepair",
+                    pic: "./images/thumbs/09.jpg",
+                    sublist: [
+                        {
+                            type: "WATCH REPAIR",
+                            listid: "watchrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MOBILE REPAIR",
+                            listid: "mobilerepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TV REPAIR",
+                            listid: "tvrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FRIDGE REPAIR",
+                            listid: "fridgerepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "OTHER ELECTRONICS",
+                            listid: "otherelectronicsrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "COMPUTER REPAIR",
+                            listid: "computerrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "MOBILE NETWORK",
+                            listid: "mobilenetwork",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "TWO WHEELERS",
+                            listid: "twowheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "THREE WHEELERS",
+                            listid: "threewheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "FOUR WHEELERS",
+                            listid: "fourwheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    };
+
     $rootScope.maldata.services = {
         intro: {
             title: "ആമുഖം",
-            para1: "Koduvayur is the prime Business Center for the south-west region of Palakkad district. Almost every kind of services that one needs is available in and around this place. Its hard to keep record of every one of them and use them at the time of need. MyKoduvayur brings to you the entire list and details of every kind of services that is available around this place, presented in a clean and ordered way with categories and sub-categories. One can look through it whenever needed, choose one and use it. We believe that this page will be the most useful one in this website. We hope you find it useful."
+            para1: "പാലക്കാട് ജില്ലയുടെ തെക്ക്-പടിഞ്ഞാറ് ഭാഗത്തെ പ്രധാന വാണിജ്യകേന്ദ്രമാണ് കൊടുവായൂർ. ഈ സ്ഥലത്തുള്ളവർക്ക് ആവശ്യമായ എല്ലാതരം സേവനങ്ങളും ഇവിടെ ലഭ്യമാണ്. ഓരോ സേവനത്തിന്റെയും രേഖകൾ സൂക്ഷിക്കുകയും ആവശ്യസമയത്ത് അവ ഉപയോഗിക്കുകയും ചെയ്യുന്നത് ബുദ്ധിമുട്ടാണ്. ഈ സ്ഥലത്ത് ലഭ്യമായ എല്ലാ സേവനങ്ങളുടെയും വിശദാംശങ്ങളും വിവരങ്ങളും, വിഭാഗങ്ങളും ഉപ വിഭാഗങ്ങളുമായി വൃത്തിയായി ക്രമീകരിച്ചിരിക്കുന്നതുമായ വിവരങ്ങളടങ്ങിയ ഈ പേജ് MyKoduvayur  നാട്ടുകാർക്ക് സമർപ്പിക്കുന്നു. ആവശ്യമുള്ളപ്പോഴെല്ലാം അത് നോക്കി ഉപയോഗിക്കുക. ഈ പേജ് എല്ലാവര്ക്കും ഉപയോഗപ്രദമാകുമെന്ന് ഞങ്ങൾ വിശ്വസിക്കുന്നു. നിങ്ങൾ അത് ഉപയോഗപ്രദമായി കണ്ടെത്തുമെന്ന് ഞങ്ങൾ പ്രതീക്ഷിക്കുന്നു.."
         },
         emergency: {
             title: "അത്യാവശ്യം"
         },
         categories: {
             title: "വിഭാഗങ്ങൾ",
-            list: {
-                education: {
+            list: [
+                {
                     title: "വിദ്യാഭ്യാസം",
-                    sublist: {
+                    myid: "education",
+                    pic: "./images/thumbs/01.jpg",
+                    sublist: [
+                        {
+                            type: "വിദ്യാലയങ്ങൾ",
+                            listid: "school",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "കോളേജ്",
+                            listid: "college",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ട്യൂഷൻ  കോളേജ്",
+                            listid: "tuitionclg",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ട്യൂഷൻ സെന്റർ",
+                            listid: "tuition",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "കമ്പ്യൂട്ടർ കോഴ്സ്",
+                            listid: "computercourse",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടി ടി സി",
+                            listid: "ttc",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇതര കോഴ്സുകൾ",
+                            listid: "othercourse",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                health: {
+                {
                     title: "ആരോഗ്യം",
-                    sublist: {
+                    myid: "health",
+                    pic: "./images/thumbs/02.jpg",
+                    sublist: [
+                        {
+                            type: "ആശുപത്രികൾ",
+                            listid: "hospital",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "ക്ലിനിക്കുകൾ",
+                            listid: "clinic",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഹോമിയോ",
+                            listid: "homoeo",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ആയുർവ്വേദം",
+                            listid: "ayurveda",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇംഗ്ലീഷ് മരുന്ന്",
+                            listid: "engmed",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ആയുർ. മരുന്ന്",
+                            listid: "ayurmed",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ആംബുലൻസ്",
+                            listid: "ambulance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                transport: {
+                {
                     title: "വാഹനം",
-                    sublist: {
+                    myid: "transport",
+                    pic: "./images/thumbs/03.jpg",
+                    sublist: [
+                        {
+                            type: "ഓട്ടോ",
+                            listid: "auto",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഓട്ടോ-ടാക്സി",
+                            listid: "autotaxi",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടാക്സി",
+                            listid: "taxi",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "എസ്.യു.വി",
+                            listid: "suv",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ട്രാവലർ",
+                            listid: "traveller",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പെട്ടി ഓട്ടോ",
+                            listid: "carrier",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഹെവി മോട്ടോർ",
+                            listid: "heavy",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഏജൻസികൾ",
+                            listid: "agency",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                household: {
+                {
                     title: "വീട്ടുകാര്യങ്ങൾ",
-                    sublist: {
+                    myid: "household",
+                    pic: "./images/thumbs/04.jpg",
+                    sublist: [
+                        {
+                            type: "ഇലക്ട്രിഷ്യൻ",
+                            listid: "electrician",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "പ്ലംബർ ",
+                            listid: "plumber",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ആശാരി ",
+                            listid: "carpenter",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പെയിന്റിംഗ്",
+                            listid: "painting",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "കെട്ടുപണി",
+                            listid: "construction",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "വീട്ടുജോലി",
+                            listid: "servant",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മരംകേറാൻ ",
+                            listid: "treeclimb",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മരംവെട്ടൽ ",
+                            listid: "treecut",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: " ഗ്യാസ് ഏജൻസി",
+                            listid: "gas",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ബാങ്കുകൾ",
+                            listid: "bank",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "എ.ടി.എം",
+                            listid: "atm",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "സലൂൺ",
+                            listid: "saloon",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },{
+                            type: "ബ്യൂട്ടിപാർലർ ",
+                            listid: "beauty",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടെയ്‌ലർ",
+                            listid: "tailor",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇൻഷുറൻസ്",
+                            listid: "insurance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫിനാൻസ്",
+                            listid: "finance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ലോക്ക്പിക്കിങ്",
+                            listid: "lockpick",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                foodnstay: {
+                {
                     title: "ഭക്ഷണം & താമസം",
-                    sublist: {
+                    myid: "foodnstay",
+                    pic: "./images/thumbs/05.jpg",
+                    sublist: [
+                        {
+                            type: "ബേക്കറി",
+                            listid: "bakery",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "റെസ്റ്ററന്റ്",
+                            listid: "restaurant",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ചായക്കട",
+                            listid: "teastall",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "തട്ടുകട",
+                            listid: "thattukada",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇറച്ചിക്കട",
+                            listid: "meat",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഹോട്ടൽ",
+                            listid: "hotel",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ലോഡ്ജ്",
+                            listid: "lodge",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മറ്റു ഭക്ഷണം",
+                            listid: "other",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പാനീയങ്ങൾ",
+                            listid: "bevarage",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                shopping: {
+                {
                     title: "ഷോപ്പിംഗ്",
-                    sublist: {
+                    myid: "shopping",
+                    pic: "./images/thumbs/06.jpg",
+                    sublist: [
+                        {
+                            type: "സൂപ്പർമാർക്കറ്റ്",
+                            listid: "supermarket",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "ജ്വല്ലറി",
+                            listid: "jewellery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫർണിച്ചർ",
+                            listid: "furniture",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മെറ്റൽസ്",
+                            listid: "metals",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഹാർഡ്‌വെയർ",
+                            listid: "hardware",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പെയിന്റ്",
+                            listid: "paint",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇലക്ട്രിക്കൽസ്",
+                            listid: "electrical",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഇലക്ട്രോണിക്സ്",
+                            listid: "electronics",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഹോം അപ്ലയൻസ്",
+                            listid: "homeappliance",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഗിഫ്റ് & ഫാൻസി",
+                            listid: "giftnfancy",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പലചരക്ക്",
+                            listid: "grocery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "സ്റ്റേഷനറി",
+                            listid: "stationery",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫൂട്ട്‍വെയർ",
+                            listid: "footwear",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫ്രൂട്ട് സ്റ്റാൾ",
+                            listid: "fruits",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "പച്ചക്കറി",
+                            listid: "vegetables",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫ്ലവർ മാർട്ട്",
+                            listid: "flower",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ബുക്ക് സ്റ്റാൾ",
+                            listid: "books",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മിൽമ സ്റ്റാൾ",
+                            listid: "milma",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "വാച്ച് മാർട്ട്",
+                            listid: "watch",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മൊബൈൽ സ്റ്റോർ",
+                            listid: "mobile",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "അക്‌സെസ്സറിസ്",
+                            listid: "mobaccessories",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "റീച്ചാർജ്",
+                            listid: "recharge",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടൂ വീലേഴ്സ്",
+                            listid: "twowheeler",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                govt: {
+                {
                     title: "ഗവ. സേവനങ്ങൾ",
-                    sublist: {
+                    myid: "govtservices",
+                    pic: "./images/thumbs/07.jpg",
+                    sublist: [
+                        {
+                            type: "റേഷൻ കട",
+                            listid: "ration",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഗ്രാമപഞ്ചായത്ത് ",
+                            listid: "panchayat",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "വാട്ടർ അതോറിറ്റി",
+                            listid: "water",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "കെ.എസ്.ഇ.ബി",
+                            listid: "kseb",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഗവ. ആശുപത്രി",
+                            listid: "govthospital",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "വൃദ്ധ സദനം",
+                            listid: "oldagehome",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                events: {
+                {
                     title: "പരിപാടികൾ",
-                    sublist: {
+                    myid: "eventservice",
+                    pic: "./images/thumbs/08.jpg",
+                    sublist: [
+                        {
+                            type: "സ്റ്റുഡിയോ",
+                            listid: "studio",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "ലൈറ്റ് സൗണ്ട്",
+                            listid: "lightnsound",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "അലങ്കാരം",
+                            listid: "decoration",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഓഡിറ്റോറിയം",
+                            listid: "auditorium",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "കാർഡ് ഷോപ്പ്",
+                            listid: "cardshoppe",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഡിസൈനിംഗ്",
+                            listid: "graphicdesign",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "വൈദീകം",
+                            listid: "priest",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
                 },
-                repair: {
+                {
                     title: "സർവീസ് & റിപ്പയർ",
-                    sublist: {
+                    myid: "servicenrepair",
+                    pic: "./images/thumbs/09.jpg",
+                    sublist: [
+                        {
+                            type: "വാച്ച് റിപ്പയർ",
+                            listid: "watchrepair",
+                            typeitems: [
+                                {
 
-                    }
+                                }
+                            ]
+                        },
+                        {
+                            type: "മൊബൈലുകൾ",
+                            listid: "mobilerepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടിവി റിപ്പയർ",
+                            listid: "tvrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫ്രിഡ്ജ് റിപ്പയർ",
+                            listid: "fridgerepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "മറ്റു ഇലക്ട്രോണിക്സ്",
+                            listid: "otherelectronicsrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "കമ്പ്യൂട്ടറുകൾ",
+                            listid: "computerrepair",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "നെറ്റ്വർക്കുകൾ",
+                            listid: "mobilenetwork",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ടൂ വീലർ",
+                            listid: "twowheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ത്രീ വീലർ ",
+                            listid: "threewheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        },
+                        {
+                            type: "ഫോർ വീലർ",
+                            listid: "fourwheelers",
+                            typeitems: [
+                                {
+
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    };
+
+
+    $rootScope.engdata.trending = {
+        alerts: {
+            title: "ALERTS",
+            list: {
+
+            }
+        },
+        trends: {
+            news: {
+                title: "NEWS",
+                list: {
+
+                }
+            },
+            articles: {
+                title: "ARTICLES",
+                list: {
+
+                }
+            },
+            pictures: {
+                title: "PICTURES",
+                list: {
+
+                }
+            },
+            videos: {
+                title: "VIDEOS",
+                list: {
+
                 }
             }
 
@@ -649,30 +2468,49 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         trends: {
             news: {
                 title: "വാർത്ത",
-                list: {
+                list: [
+                    {
 
-                }
+                    }
+                ]
             },
             articles: {
                 title: "ലേഖനം",
-                list: {
+                list: [
+                    {
 
-                }
+                    }
+                ]
             },
             pictures: {
                 title: "ചിത്രങ്ങൾ",
-                list: {
+                list: [
+                    {
 
-                }
+                    }
+                ]
             },
             videos: {
                 title: "വീഡിയോ",
-                list: {
+                list: [
+                    {
 
-                }
+                    }
+                ]
             }
 
         }
+    };
+
+    $rootScope.engdata.feedback = {
+        intro: {
+            title: "INTRODUCTION",
+            para1: "This venture - MyKoduvayur, was planned and processed with the motive of making the Life better for the people in and from this place, using the Web Technology that is growing higher and reaching farther each passing day. So each one of you definitely have a say in here. Your opinions, suggestions and appreciations are a huge motivation for us to go forward and do further. We appreciate each of your support. "
+        },
+        haveyoursay: {
+            title: "HAVE YOUR SAY"
+        }
+
     };
 
     $rootScope.maldata.feedback = {
@@ -686,26 +2524,50 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     };
 
-    $rootScope.maldata.eventpage = {
+    $rootScope.engdata.eventpage = {
         intro: {
-            title: "ആമുഖം",
+            title: "INTRODUCTION",
             para1: "Our busy lives may hinder us from witnessing and attending many events we wish to watch and participate. Also, memories of the ones we were part of will give us the sheer joy of watching and reading through them again and again. MyKoduvayur gives you the chance to do this with this page, where you can go through every kind of important events that happen in and around this place. Do enjoy the experience..."
         },
         general: {
-            title: "പൊതു പരിപാടികൾ",
+            title: "GENERAL EVENTS",
             list: {
 
             }
         },
         festive: {
-            title: "ആഘോഷങ്ങൾ",
+            title: "FESTIVE EVENTS",
             list: {
 
             }
         },
         artsnsports: {
-            title: "കലാ - കായികം",
+            title: "ARTS & SPORTS",
             list: {
+
+                keralotsavam2017 : {
+                    coverpic:  "./images/events/klogo.jpg",
+                    thumb:  "./images/events/kthumbs.jpg",
+                    pagetitle: "KERALOTSAVAM",
+                    title: "WELCOME",
+                    intro1: "22 of the strongest football teams of Koduvayur featuring in 21 thrilling matches...",
+                    intro2: "8 cricket teams to match up for the trophy ( stitch ball cricket tournament)....",
+                    intro3: "To swish up magic while ball is in the air and get the crowd ballistic with Engaging Volleyball bouts ...",
+                    intro4: "Photo finishes and Snapshots with various Athletic events ....",
+                    intro5: "And many other events...",
+                    intro6: "Our Place.. Our Fest.. Our Sport.. Our Passion...",
+                    intro7: "2017 Keralotsavam, Koduvayur Grama Panchayath Sep 29,30 & Oct 1...",
+                    intro8: "'Show the Real sportsman's spirit'",
+                    cricket: "CRICKET",
+                    cricketpic: "./images/events/kcricket.jpg",
+                    football: "FOOTBALL",
+                    footballpic : "./images/events/kfootball.jpg",
+                    volleyball: "VOLLEYBALL",
+                    volleyballpic : "./images/events/kvolleyball.jpg",
+                    results : "RESULTS"
+
+                }
+
 
             }
         },
@@ -714,6 +2576,69 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             list: {
 
             }
+        }
+
+    };
+
+    $rootScope.maldata.eventpage = {
+        intro: {
+            title: "ആമുഖം",
+            para1: "നമ്മുടെ തിരക്കുപിടിച്ച ജീവിതം കാരണം നാം കാണുന്നതും പങ്കെടുക്കാൻ ആഗ്രഹിക്കുന്നതുമായ നിരവധി സംഭവങ്ങളിൽ നമുക്ക് എത്താൻ പറ്റാതെ വന്നേക്കാം. കൂടാതെ, നാം ഭാഗമായിരുന്നവയുടെ ഓർമ്മകൾ വീണ്ടും കാണാനും വായിക്കാനും കഴിയുന്നത് നമുക്ക് അതിയായ സന്തോഷം നൽകും. ഈ സ്ഥലത്ത് ചുറ്റുമുള്ള എല്ലാ പ്രധാന സംഭവങ്ങളും ഈ പേജ് ഉപയോഗിച്ച് ഞങ്ങൾ നിങ്ങളിലേക്ക് എത്തിക്കുന്നു. അനുഭവം ആസ്വദിക്കൂ..."
+        },
+        general: {
+            title: "പൊതു പരിപാടികൾ",
+            list: [
+                {
+
+                }
+            ]
+        },
+        festive: {
+            title: "ആഘോഷങ്ങൾ",
+            list: [
+                {
+
+                }
+            ]
+        },
+        artsnsports: {
+            title: "കലാ - കായികം",
+            list: {
+
+                keralotsavam2017 : {
+                    coverpic:  "./images/events/klogo.jpg",
+                    thumb:  "./images/events/kthumbs.jpg",
+                    pagetitle: "കേരളോത്സവം",
+                    title: "സ്വാഗതം",
+                    intro1: "കൊടുവായൂരിലെ കരുത്തരായ 22 ടീമിന്റെ ആവേശകരമായ 21 ഫുട്ബോൾ മത്സരങ്ങൾ ...",
+                    intro2: "തീപാറുന്ന കളികൾ കാഴ്ചവയ്ക്കാൻ 8 ക്രിക്കറ്റ് ടീമുകൾ ( സ്റ്റിച്ച് ബോൾ ക്രിക്കറ്റ് ടൂർണമെന്റ് )...",
+                    intro3: "വായുവിൽ ഉയരുന്ന പന്തിന്റെ ഒപ്പം കാണികളെ ആവേശമൂർച്ചയിൽ എത്തിക്കുന്ന 8 ടീമിന്റെ വോളീബോൾ ടൂർണമെന്റ് ...",
+                    intro4: "സെക്കൻഡ്കളുടെ വ്യത്യാസത്തിൽ ഫിനിഷിങ് ലൈനിലെ ഫോട്ടോഫിനിഷ്‌കൾ കാഴ്ച വെക്കുന്ന അത്ലറ്റിക്‌സ് ഇനങ്ങൾ ....",
+                    intro5: "കൂടാതെ മറ്റു അനവധി മത്സരങ്ങൾ...",
+                    intro6: "ഇതു ഞങ്ങളുടെ ഉത്സവം , കൊടുവായൂരിലെ യുവാക്കൾ ഒന്നടങ്കം ഏറ്റെടുത്തു നടത്തുന്ന കായിക മാമാങ്കം കേരളോത്സവം ...",
+                    intro7: "2017 കേരളോത്സവം , കൊടുവായൂർ പഞ്ചായത്ത് Sep 29,30 & Oct 1...",
+                    intro8: "'ഷോ ദി റിയൽ സ്പോർട്സ്മാൻ സ്പിരിറ്റ് '",
+                    cricket: "ക്രിക്കറ്റ്",
+                    cricketpic: "./images/events/kcricket.jpg",
+                    football: "ഫുട്ബോൾ",
+                    footballpic : "./images/events/kfootball.jpg",
+                    volleyball: "വോളീബോൾ",
+                    volleyballpic : "./images/events/kvolleyball.jpg",
+                    results : "ഫലങ്ങൾ"
+
+                }
+
+
+            }
+
+        },
+        ours: {
+            title: "MYKODUVAYUR",
+            list: [
+                {
+
+                }
+            ]
         }
 
     };
@@ -861,7 +2786,7 @@ mykdrApp.controller('homeController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
     // alert($scope.message);
@@ -878,7 +2803,7 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
     $scope.myMap = function() {
@@ -902,7 +2827,7 @@ mykdrApp.controller('aboutController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 
@@ -916,9 +2841,8 @@ mykdrApp.controller('servicesController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
-
 
 });
 
@@ -930,7 +2854,7 @@ mykdrApp.controller('cultureController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
@@ -943,7 +2867,7 @@ mykdrApp.controller('eventsController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
@@ -962,7 +2886,7 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
     $scope.news = function() {
@@ -1013,7 +2937,7 @@ mykdrApp.controller('feedbackController', function($rootScope, $scope) {
         // run the app
     } else {
         // alert the user
-        alert("Facebbook Server not loaded! Press OK to Try Again..")
+        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
