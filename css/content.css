@@ -1,3 +1,5 @@
+
+
 .fb-post {
     width: 100% !important;
     overflow: hidden;
@@ -42,10 +44,19 @@
 .panelname:hover, .panelname:active {
     background-color: #707070 ;
     color: #fafafa;
+    text-overflow: ellipsis;
 }
 .servicesupersub:hover, .servicesupersub:active {
     background-color: darkgreen;
     color: #fafafa;
+}
+.servicelist {
+    background: rgba(20,20,20, 0.3);
+    border: none;
+    padding: 1% 0 1% 0;
+}
+.servicelistitem {
+
 }
 
 
@@ -337,9 +348,10 @@
     /*}*/
 
     .servicesub {
-        padding: 1% 1% 1% 1%;
-        border-radius: 1vh;
-        margin-bottom: 2%;
+        padding: 2% 1% 2% 1%;
+        border-bottom-left-radius: 1vh;
+        border-bottom-right-radius: 1vh;
+        margin: 0;
     }
 
     .servicesupersub {
@@ -363,6 +375,31 @@
         margin-right: 3%;
     }
     .servicesupersub>div {
+        text-overflow: ellipsis;
+    }
+
+    .servicelistitem {
+        font-size: 3.2vh;
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        cursor: pointer;
+        font-family: "Segoe UI Semibold";
+        height: auto;
+        line-height: 4vh;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        border-radius: 1vh;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        overflow: hidden;
+        padding: 1.5% 1% 1.5% 1%;
+    }
+    .servicelistitem>i {
+        text-align: left;
+        margin-right: 1%;
+    }
+    .servicelistitem>div {
         text-overflow: ellipsis;
     }
 
@@ -420,6 +457,10 @@
 
 
 @media (orientation: landscape) {
+
+    .myinline {
+        display: inline;
+    }
 
     @media (max-width: 1090px) {
 
@@ -747,6 +788,30 @@
             margin-right: 3%;
         }
         .servicesupersub>div {
+            text-overflow: ellipsis;
+        }
+
+        .servicelistitem {
+            font-size: 5vh;
+            width: 47.5%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 6.5vh;
+            height: auto;
+            text-overflow: ellipsis;
+            border-radius: 1.3vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            display: inline-block;
+            overflow: hidden;
+        }
+        .servicelistitem>i {
+            text-align: left;
+            margin-right: 1%;
+        }
+        .servicelistitem>div {
             text-overflow: ellipsis;
         }
 
@@ -1121,7 +1186,7 @@
         }
 
         .servicesupersub {
-            font-size: 3vh;
+            font-size: 2.8vh;
             width: 31.3%;
             margin-left: 1%;
             margin-right: 1%;
@@ -1142,6 +1207,31 @@
         }
 
         .servicesupersub > div {
+            text-overflow: ellipsis;
+        }
+
+        .servicelistitem {
+            font-size: 2.7vh;
+            width: 31.3%;
+            margin-left: 1%;
+            margin-right: 1%;
+            cursor: pointer;
+            font-family: "Segoe UI Semibold";
+            line-height: 3.6vh;
+            height: auto;
+            text-overflow: ellipsis;
+            border-radius: 1.3vh;
+            margin-top: 0.5%;
+            margin-bottom: 0.5%;
+            overflow: hidden;
+        }
+
+        .servicelistitem > i {
+            text-align: left;
+            margin-right: 1%;
+        }
+
+        .servicelistitem > div {
             text-overflow: ellipsis;
         }
 
