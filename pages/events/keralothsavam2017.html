@@ -38,11 +38,11 @@
         </div>
     </nav>
 
-    <div class="col-md-12" id="non-nav" ng-controller="trendingController">
+    <div class="col-md-12" id="non-nav" ng-controller="homeController">
 
-        <img class="pagebanner" src="./images/covers/trending.jpg" />
+        <img class="pagebanner" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.coverpic}}" />
 
-        <div class="col-md-12" id="content" ng-controller="trendingController">
+        <div class="col-md-12" id="content">
 
             <div class="col-md-2" id="adslot1_pc">
                 <div></div>
@@ -61,14 +61,44 @@
                     <div class="fb-like fb-like3" data-href="http://www.mykoduvayur.in/" data-width="310" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                 </div>
 
+                <!--<p><br /></p>-->
+
                 <div class="col-md-12" id="adslot1_mob">
                     <div></div>
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
-                <div class="col-md-12" id="alerts">
-                    <h1> {{dataSelected.trending.alerts.title}}<i class="fa fa-exclamation-triangle"></i></h1>
-                    <a href="#keralothsavam2017"><div class="myalert alert"><i class="fa fa-bullhorn"></i> KERALOTSAVAM 2017 </div></a>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.title}}<i class="fa fa-pencil-square-o"></i></h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro1}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro2}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro3}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro4}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro5}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro6}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro7}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro8}}</p>
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.cricket}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.cricketpic}}" />
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.football}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.footballpic}}" />
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.volleyball}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.volleyballpic}}" />
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.results}}</h1>
                 </div>
 
                 <div class="col-md-12" id="adslot2_mob">
@@ -76,35 +106,6 @@
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
-                <div class="col-md-12" id="trends">
-                        <div ng-click="news()" class="col-md-3 btn-primary" id="newshead"><i class="fa fa-newspaper-o"></i> {{dataSelected.trending.trends.news.title}}</div>
-                        <div ng-click="articles()" class="col-md-3 btn-warning" id="articleshead"><i class="fa fa-file-text-o"></i> {{dataSelected.trending.trends.articles.title}}</div>
-                        <div ng-click="pictures()" class="col-md-3 btn-success" id="pictureshead"><i class="fa fa-picture-o"></i> {{dataSelected.trending.trends.pictures.title}}</div>
-                        <div ng-click="videos()" class="col-md-3 btn-danger" id="videoshead"><i class="fa fa-play-circle"></i> {{dataSelected.trending.trends.videos.title}}</div>
-
-                        <div class="col-md-12" ng-show="showNews" id="news">testing news</div>
-                        <div class="col-md-12" ng-show="showArticles" id="articles">testing articles</div>
-                        <div class="col-md-12" ng-show="showPictures" id="pictures">
-
-                            <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494" data-show-text="true"><blockquote cite="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494&amp;type=3" class="fb-xfbml-parse-ignore"><p>&#xd0e;&#xd28;&#xd4d;&#xd31;&#xd46; &#xd15;&#xd4a;&#xd1f;&#xd41;&#xd35;&#xd3e;&#xd2f;&#xd42;&#xd7c; &lt;3</p>Posted by <a href="https://www.facebook.com/vichu.viswanath.5">Viswanath Iyer</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494&amp;type=3">Monday, August 21, 2017</a></blockquote></div>
-
-                            <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058" data-show-text="true"><blockquote cite="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058&amp;type=3" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/nkutty.kdr">N Kutty Kdr</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058&amp;type=3">Monday, August 21, 2017</a></blockquote></div>
-
-                        </div>
-                        <div class="col-md-12" ng-show="showVideos" id="videos">
-
-                            <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/YGZR6lnsK3U" frameborder="0" allowfullscreen></iframe>
-
-                            <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/1UWuZ5Kk_wo" frameborder="0" allowfullscreen></iframe>
-
-                            <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/zL8_qx5oWbk" frameborder="0" allowfullscreen></iframe>
-
-                            <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/3IEr5DMkhgE" frameborder="0" allowfullscreen></iframe>
-
-                            <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/M-ZWXsg9Ti4" frameborder="0" allowfullscreen></iframe>
-
-                        </div>
-                </div>
 
             </div>
 
@@ -135,4 +136,7 @@
 
     </div>
 
+
 </div>
+
+

@@ -70,181 +70,45 @@
                     <p>{{dataSelected.services.intro.para1}}</p>
                 </div>
 
-                <div class="col-md-8 btn-danger" id="emergency"><i class="fa fa-plus-square"></i> {{dataSelected.services.emergency.title}}</div>
+                <div class="col-md-12 btn-danger" id="emergency"><i class="fa fa-plus-square"></i> {{dataSelected.services.emergency.title}}</div>
 
                 <div class="col-md-12" id="adslot2_mob">
                     <div></div>
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
+
                 <div class="col-md-12">
                     <h1><i class="fa fa-spinner"></i> {{dataSelected.services.categories.title}}</h1>
                     <div class=" panel panel-default panelout" id="servicebroad">
-                        <div class="panel-body">
+                        <div class="panel-body col-md-12">
 
-                            <div data-toggle="collapse" data-target="#education" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/03.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.education.title}}</div>
-                            </div>
-                            <div id="education" class="col-md-12 panel panel-primary servicesub collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> SCHOOLS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> COLLEGES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TUITION CENTRE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> COMPUTER COURSE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> OTHER COURSES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TTC</div>
-                            </div>
+                            <div ng-repeat="item in dataSelected.services.categories.list" class="myinline">
 
-                            <div data-toggle="collapse" data-target="#health" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/02.jpg" class="panelimg" alt="test"></img>
+                                <div data-toggle="collapse" data-target="#{{item.myid}}" class="col-md-4 servicecol panel panel-default">
+                                    <div class="panel-body panelcontent">
+                                        <img src={{item.pic}} class="panelimg" alt={{item.title}}></img>
+                                    </div>
+                                    <div class="panel-footer panelname">{{item.title}}</div>
                                 </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.health.title}}</div>
-                            </div>
-                            <div id="health" class="col-md-12 panel panel-primary servicesub collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HOSPITALS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CLINICS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HOMOEO</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AYURVEDA</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> ENGLISH MEDICINE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AYURVEDA MEDICINE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AMBULANCE</div>
-                            </div>
 
-                            <div data-toggle="collapse" data-target="#transport" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/10.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.transport.title}}</div>
-                            </div>
-                            <div id="transport" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AUTORIKSHAW</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AUTO-TAXI</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TAXI</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TEMPO TRAVELLER</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AMBULANCE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CARRIER AUTO</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TRAVEL AGENCY</div>
-                            </div>
+                                <div id={{item.myid}} class="col-md-12 panel panel-primary servicesub collapse" >
+                                    <div ng-repeat="typeitem in item.sublist" class="myinline">
 
-                            <div data-toggle="collapse" data-target="#household" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/04.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.household.title}}</div>
-                            </div>
-                            <div id="household" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> ELECTRICIAN</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CARPENTER</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> PAINTER</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CONSTRUCTION</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> PLUMBER</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> SERVANTS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TREE CLIMBER</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> GAS AGENCIES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> BANKING</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> ATM</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CUSTOMER CARE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> BEAUTY PARLOUR</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> SALOON</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TAILORING</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> LOCK PICKING</div>
-                            </div>
+                                        <div data-toggle="collapse" data-target="#{{typeitem.listid}}" class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> {{typeitem.type}}</div>
 
-                            <div data-toggle="collapse" data-target="#foodnstay" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/05.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.foodnstay.title}}</div>
-                            </div>
-                            <div id="foodnstay" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> BAKERY</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> RESTAURANTS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TEA STALLS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> THATTUKADA</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HOTELS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HOTELS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> LODGE</div>
-                            </div>
+                                        <div id={{typeitem.listid}} class="col-md-12 panel panel-primary collapse servicelist">
+                                            <div ng-repeat="listitem in typeitem.typeitems" class="myinline">
+                                                <div class="servicelistitem label-warning col-md-4">
+                                                    <div ng-repeat="listitemdata in listitem" class="myservicedata">
+                                                        <p style="text-align: left">{{listitemdata}}</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
 
-                            <div data-toggle="collapse" data-target="#shopping" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/06.jpg" class="panelimg" alt="test"></img>
+                                    </div>
                                 </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.shopping.title}}</div>
-                            </div>
-                            <div id="shopping" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> SUPERMARKET</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> JEWELLERY</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> FURNITURE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> METAL SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TEXTILES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> MEDICAL SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AYURVEDIC SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> GIFT & FANCY</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> STATIONERY</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> BOOK STALLS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> MILMA STALLS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HARDWARE SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> PAINT SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> FRUIT STALLS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> VEGETABLE MART</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> GROCERIES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> HOME APPLIANCES</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> ELECTRICALS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> WATCH MARTS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> MOBILE & PARTS</div>
-                            </div>
-
-                            <div data-toggle="collapse" data-target="#govtservices" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/07.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.govt.title}}</div>
-                            </div>
-                            <div id="govtservices" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> RATION SHOPS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> KSEB</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> PANCHAYAT OFFICE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> WATER AUTHORITY</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> GOVT. HOSPITAL</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> OLD AGE HOME</div>
-                            </div>
-
-                            <div data-toggle="collapse" data-target="#eventservice" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/12.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.events.title}}</div>
-                            </div>
-                            <div id="eventservice" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> STUDIOS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CATERING</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> AUDITORIUM</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> CARD SHOPPE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> GRAPHIC DESIGN</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> FLOWER MART</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> STAGE DECORATION</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> PRIEST</div>
-                            </div>
-
-                            <div data-toggle="collapse" data-target="#servicenrepair" class="col-md-4 servicecol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="./images/thumbs/08.jpg" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.services.categories.list.repair.title}}</div>
-                            </div>
-                            <div id="servicenrepair" class="col-md-12 servicesub panel panel-primary collapse">
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> TV REPAIR</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> ELECTRONICS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> FRIDGE SERVICE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> 2 WHEELERS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> 3 WHEELERS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> 4 WHEELERS</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> MOBILE SERVICE</div>
-                                <div class="label-success servicesupersub col-md-4"><i class="fa fa-circle-o-notch"></i> COMPUTER SERVICE</div>
 
                             </div>
 
