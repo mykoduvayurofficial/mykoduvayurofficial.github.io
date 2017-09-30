@@ -2921,8 +2921,34 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         {
                             a: "SHOT PUT SENIOR BOYS",
-                            b: "1st Place: Nithin, New Bhavana"
+                            b: "1st Place: Nithin, New Bhavana",
+                            c: "2nd Place: Mahesh, Star Arts",
+                            d: "3rd Place: Nithin, Yuvathara"
 
+                        },
+                        {
+                            a: "100m RACE JUNIOR BOYS",
+                            b: "1st Place: Ramesh.B, KFC",
+                            c: "2nd Place: Sujith.S, KFC",
+                            d: "3rd Place: Haridas, Madathil"
+                        },
+                        {
+                            a: "100m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Mahesh, Star Arts",
+                            d: "3rd Place: Dinesh.B, KFC"
+                        },
+                        {
+                            a: "800m RACE JUNIOR BOYS",
+                            b: "1st Place: Sijin, KFC",
+                            c: "2nd Place: Sivadas.N, Star Arts",
+                            d: "3rd Place: Vipin.M, Individual"
+                        },
+                        {
+                            a: "800m RACE SENIOR BOYS",
+                            b: "1st Place: Aneesh.P, KFC",
+                            c: "2nd Place: Sreenath, KFC",
+                            d: "3rd Place: Praveen.V, CHM"
                         }
 
                     ],
@@ -3061,12 +3087,38 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         {
                             a: "SHOT PUT SENIOR BOYS",
-                            b: "1st Place: Nithin, New Bhavana"
+                            b: "1st Place: Nithin, New Bhavana",
+                            c: "2nd Place: Mahesh, Star Arts",
+                            d: "3rd Place: Nithin, Yuvathara"
 
+                        },
+                        {
+                            a: "100m RACE JUNIOR BOYS",
+                            b: "1st Place: Ramesh.B, KFC",
+                            c: "2nd Place: Sujith.S, KFC",
+                            d: "3rd Place: Haridas, Madathil"
+                        },
+                        {
+                            a: "100m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Mahesh, Star Arts",
+                            d: "3rd Place: Dinesh.B, KFC"
+                        },
+                        {
+                            a: "800m RACE JUNIOR BOYS",
+                            b: "1st Place: Sijin, KFC",
+                            c: "2nd Place: Sivadas.N, Star Arts",
+                            d: "3rd Place: Vipin.M, Individual"
+                        },
+                        {
+                            a: "800m RACE SENIOR BOYS",
+                            b: "1st Place: Aneesh.P, KFC",
+                            c: "2nd Place: Sreenath, KFC",
+                            d: "3rd Place: Praveen.V, CHM"
                         }
 
                     ],
-                    gallery: "PHOTO GALLERY",
+                    gallery: "ഫോട്ടോ ഗാലറി",
                     photolist: [
                         {
                             img: "./images/events/inaug1.jpg",
