@@ -248,7 +248,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "28 September 2017"
+            lastupdated: "30 September 2017"
         },
         menu: {
             english: "EN",
@@ -295,7 +295,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "28 സെപ്റ്റംബർ 2017"
+            lastupdated: "30 സെപ്റ്റംബർ 2017"
         },
         menu: {
             english: "EN",
@@ -464,6 +464,153 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         administration: {
             title: "ADMINISTRATION",
+            para1: "The Koduvayur Grama Panchayath is divided into 18 Administrative Wards. It is headed by the Grama Panchayath President and each Ward is represented and administered by the respective Ward Member. The details of the Administration Panel is given below. We hope you find good use of it.",
+            list: [
+                {
+                    wardno: "1",
+                    ward: "PULLA ROAD",
+                    name: "G.KRISHNAPRASAD",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9495485304"
+                },
+                {
+                    wardno: "2",
+                    ward: "UMMATHUMTHOPPU",
+                    name: "PRIYA.M",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9846165729"
+                },
+                {
+                    wardno: "3",
+                    ward: "CHANTHIRUTHI",
+                    name: "PATHMAKRISHNAN",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9809157250"
+                },
+                {
+                    wardno: "4",
+                    ward: "KERALAPURAM",
+                    name: "UMAIBA.A",
+                    party: "S.D.P.I",
+                    pic: "",
+                    phone: "8086059431"
+                },
+                {
+                    wardno: "5",
+                    ward: "KARUVANNURTHARA",
+                    name: "NILAVARNEESA",
+                    party: "I.U.M.L",
+                    pic: "",
+                    phone: "9388803700"
+                },
+                {
+                    wardno: "6",
+                    ward: "VADAKKUMPADAM",
+                    name: "SARITHA.B",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9961557345, 9447248583"
+                },
+                {
+                    wardno: "7",
+                    ward: "VEETIYODE",
+                    name: "C.ARUMUGHAN‍",
+                    party: "B.J.P",
+                    pic: "",
+                    phone: "9446152553"
+                },
+                {
+                    wardno: "8",
+                    ward: "NOCHUR‍",
+                    name: "USHA.N‍‍",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "8891374073"
+                },
+                {
+                    wardno: "9",
+                    ward: "KARNAKI NAGAR‍",
+                    name: "SREEJA SUNIL",
+                    party: "B.J.P",
+                    pic: "",
+                    phone: "9447941346"
+                },
+                {
+                    wardno: "10",
+                    ward: "KOYMAR PADAM",
+                    name: "M.SUNIL",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9447255022, 9745255022"
+                },
+                {
+                    wardno: "11",
+                    ward: "VETTUMPULLI",
+                    name: "V.RAJAN",
+                    party: "B.J.P",
+                    pic: "",
+                    phone: "9526408175"
+                },
+                {
+                    wardno: "12",
+                    ward: "PEZHUMKADU",
+                    name: "C.SWAMINATHAN‍‍",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9526312089"
+                },
+                {
+                    wardno: "13",
+                    ward: "KOLODE",
+                    name: "THANKAM",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9947446586"
+                },
+                {
+                    wardno: "14",
+                    ward: "KANNAMKODE",
+                    name: "CHANDRIKA.N‍",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9072982537"
+                },
+                {
+                    wardno: "15",
+                    ward: "VAKKODE",
+                    name: "BABU.K‍",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9447532813"
+                },
+                {
+                    wardno: "16",
+                    ward: "KAKKAYUR‍",
+                    name: "INDIRA.K‍",
+                    party: "INDEPENDENT‍",
+                    pic: "",
+                    phone: "9562612035"
+                },
+                {
+                    wardno: "17",
+                    ward: "VRINDHAVANAM",
+                    name: "UNNIKRISHNAN.M",
+                    party: "C.P.I(M)",
+                    pic: "",
+                    phone: "9287541060"
+                },
+                {
+                    wardno: "18",
+                    ward: "ETHANUR",
+                    name: "M.SUDHIR‍‍",
+                    party: "I.N.C",
+                    pic: "",
+                    phone: "9447964597"
+                }
+            ]
         },
         institutions: {
             title: "INSTITUTIONS"
@@ -496,6 +643,153 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         administration: {
             title: "ഭരണഘടന",
+            para1: "",
+            list: [
+                {
+                    wardno: "1",
+                    ward: "പുല്ലാറോഡ്",
+                    name: "ജി.ക്യഷ്ണപ്രസാദ്",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9495485304"
+                },
+                {
+                    wardno: "2",
+                    ward: "ഉമ്മത്തും തോപ്പ്",
+                    name: "പ്രീയ.എം",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9846165729"
+                },
+                {
+                    wardno: "3",
+                    ward: "ചാന്തിരുത്തി",
+                    name: "പത്മകൃഷ്ണന്‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9809157250"
+                },
+                {
+                    wardno: "4",
+                    ward: "കേരളപുരം",
+                    name: "ഉമൈബ.എ",
+                    party: "എസ്.ഡി.പി.ഐ",
+                    pic: "",
+                    phone: "8086059431"
+                },
+                {
+                    wardno: "5",
+                    ward: "കരുവന്നൂര്‍തറ",
+                    name: "നിലാവര്‍നീസ",
+                    party: "ഐ യു എം.എല്‍	",
+                    pic: "",
+                    phone: "9388803700"
+                },
+                {
+                    wardno: "6",
+                    ward: "വടക്കുംമ്പാടം",
+                    name: "സരിത.ബി",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9961557345, 9447248583"
+                },
+                {
+                    wardno: "7",
+                    ward: "വീട്ടിയോട്",
+                    name: "സി.ആറുമുഖന്‍",
+                    party: "ബി.ജെ.പി",
+                    pic: "",
+                    phone: "9446152553"
+                },
+                {
+                    wardno: "8",
+                    ward: "നൊച്ചൂൂര്‍",
+                    name: "ഉഷ.എന്‍‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "8891374073"
+                },
+                {
+                    wardno: "9",
+                    ward: "കര്‍ണ്ണകി നഗര്‍",
+                    name: "ശ്രീജ സുനില്‍",
+                    party: "ബി.ജെ.പി",
+                    pic: "",
+                    phone: "9447941346"
+                },
+                {
+                    wardno: "10",
+                    ward: "കൊയ്മാര്‍പാടം",
+                    name: "എ.സുനില്‍‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9447255022, 9745255022"
+                },
+                {
+                    wardno: "11",
+                    ward: "വെട്ടുുംമ്പുള്ളി",
+                    name: "വി.രാജന്‍‍",
+                    party: "ബി.ജെ.പി",
+                    pic: "",
+                    phone: "9526408175"
+                },
+                {
+                    wardno: "12",
+                    ward: "പേഴുംകാട്",
+                    name: "സി.സ്വാമിനാഥന്‍‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9526312089"
+                },
+                {
+                    wardno: "13",
+                    ward: "കോളോട്",
+                    name: "തങ്കം‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9947446586"
+                },
+                {
+                    wardno: "14",
+                    ward: "കണ്ണങ്കോട്",
+                    name: "ചന്ദ്രിക.എന്‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9072982537"
+                },
+                {
+                    wardno: "15",
+                    ward: "വാക്കോട്",
+                    name: "ബാബു.കെ‍",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9447532813"
+                },
+                {
+                    wardno: "16",
+                    ward: "കാക്കയൂര്‍",
+                    name: "ഇന്ദിര.കെ‍",
+                    party: "സ്വതന്ത്രന്‍",
+                    pic: "",
+                    phone: "9562612035"
+                },
+                {
+                    wardno: "17",
+                    ward: "വ്യന്ദാവനം",
+                    name: "ഉണ്ണിക്യഷ്ണന്‍.എ",
+                    party: "സി.പി.ഐ (എം)",
+                    pic: "",
+                    phone: "9287541060"
+                },
+                {
+                    wardno: "18",
+                    ward: "എത്തന്നൂര്‍",
+                    name: "എം.സുധീര്‍‍",
+                    party: "ഐ.എന്‍.സി",
+                    pic: "",
+                    phone: "9447964597"
+                }
+            ]
         },
         institutions: {
             title: "സ്ഥാപനങ്ങൾ"
@@ -2564,7 +2858,87 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     footballpic : "./images/events/kfootball.jpg",
                     volleyball: "VOLLEYBALL",
                     volleyballpic : "./images/events/kvolleyball.jpg",
-                    results : "RESULTS"
+                    results : "RESULTS",
+                    resultlist: [
+                        {
+                            a: "CRICKET TOURNAMENT",
+                            b: "Cancelled due to Damp Pitch and Bad Weather",
+                            c: "Mixed team to be sent for Block Tournament"
+                        },
+                        {
+                            a: "5000m RACE SENIOR BOYS",
+                            b: "1st Place: KiranKrishna.P.R, KFC",
+                            c: "2nd Place: Vipin.M, Individual",
+                            d: "3rd Place: Sabarish.J, New Bhavana"
+                        },
+                        {
+                            a: "5000m RACE MEN",
+                            b: "1st Place: Vineeth, New Bhavana",
+                            c: "2nd Place: Sreenath, KFC",
+                            d: "3rd Place: Sudheesh, New Bhavana"
+                        },
+                        {
+                            a: "200m RACE MEN",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Dinesh, KFC",
+                            d: "3rd Place: Sanjay, KFC"
+                        },
+                        {
+                            a: "200m RACE MEN",
+                            b: "1st Place: Subin, New Bhavana",
+                            c: "2nd Place: Ramesh.B, KFC",
+                            d: "3rd Place: Shafeer, Friends"
+                        },
+                        {
+                            a: "1500m RACE JUNIOR BOYS",
+                            b: "1st Place: Vipin.M, Individual",
+                            c: "2nd Place: Binu Prasad, KFC",
+                            d: "3rd Place: Sijin, KFC"
+                        },
+                        {
+                            a: "1500m RACE SENIOR BOYS",
+                            b: "1st Place: Praveen.V, KFC",
+                            c: "2nd Place: Sanoop, KFC",
+                            d: "3rd Place: Sudeep, New Boys"
+                        },
+                        {
+                            a: "400m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Praveen.V, KFC",
+                            d: "3rd Place: Arjun, KFC"
+                        },
+                        {
+                            a: "400m RACE JUNIOR BOYS",
+                            b: "1st Place: BinuPrasad, KFC",
+                            c: "2nd Place: Ajith, KFC",
+                            d: "3rd Place: Muhamed Farvesh, CHM"
+                        },
+                        {
+                            a: "SHOT PUT JUNIOR BOYS",
+                            b: "1st Place: Ramesh.B, KFC",
+                            c: "2nd Place: Aditya Rajesh, KFC",
+                            d: "3rd Place: Abdul Rehman, Yuvadhara"
+                        },
+                        {
+                            a: "SHOT PUT SENIOR BOYS",
+                            b: "1st Place: Nithin, New Bhavana"
+
+                        }
+
+                    ],
+                    gallery: "PHOTO GALLERY",
+                    photolist: [
+                        {
+                            img: "./images/events/inaug1.jpg",
+                            desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
+                            desc2: "Inaugrated by: Smt. Saratha Thulasidas, Hon'ble Kollengode Block Panchayat President."
+                        },
+                        {
+                            img: "./images/events/inaug2.jpg",
+                            desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
+                            desc2: "Addressing by: Sri. G.Krishnaprasad, Hon'ble Koduvayur Grama Panchayat President."
+                        }
+                    ]
 
                 }
 
@@ -2624,7 +2998,88 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     footballpic : "./images/events/kfootball.jpg",
                     volleyball: "വോളീബോൾ",
                     volleyballpic : "./images/events/kvolleyball.jpg",
-                    results : "ഫലങ്ങൾ"
+                    results : "ഫലങ്ങൾ",
+                    resultlist: [
+                        {
+                            a: "CRICKET TOURNAMENT",
+                            b: "Cancelled due to Damp Pitch and Bad Weather",
+                            c: "Mixed team to be sent for Block Tournament"
+                        },
+                        {
+                            a: "5000m RACE SENIOR BOYS",
+                            b: "1st Place: KiranKrishna.P.R, KFC",
+                            c: "2nd Place: Vipin.M, Individual",
+                            d: "3rd Place: Sabarish.J, New Bhavana"
+                        },
+                        {
+                            a: "5000m RACE MEN",
+                            b: "1st Place: Vineeth, New Bhavana",
+                            c: "2nd Place: Sreenath, KFC",
+                            d: "3rd Place: Sudheesh, New Bhavana"
+                        },
+                        {
+                            a: "200m RACE MEN",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Dinesh, KFC",
+                            d: "3rd Place: Sanjay, KFC"
+                        },
+                        {
+                            a: "200m RACE MEN",
+                            b: "1st Place: Subin, New Bhavana",
+                            c: "2nd Place: Ramesh.B, KFC",
+                            d: "3rd Place: Shafeer, Friends"
+                        },
+                        {
+                            a: "1500m RACE JUNIOR BOYS",
+                            b: "1st Place: Vipin.M, Individual",
+                            c: "2nd Place: Binu Prasad, KFC",
+                            d: "3rd Place: Sijin, KFC"
+                        },
+                        {
+                            a: "1500m RACE SENIOR BOYS",
+                            b: "1st Place: Praveen.V, KFC",
+                            c: "2nd Place: Sanoop, KFC",
+                            d: "3rd Place: Sudeep, New Boys"
+                        },
+                        {
+                            a: "400m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Praveen.V, KFC",
+                            d: "3rd Place: Arjun, KFC"
+                        },
+                        {
+                            a: "400m RACE JUNIOR BOYS",
+                            b: "1st Place: BinuPrasad, KFC",
+                            c: "2nd Place: Ajith, KFC",
+                            d: "3rd Place: Muhamed Farvesh, CHM"
+                        },
+                        {
+                            a: "SHOT PUT JUNIOR BOYS",
+                            b: "1st Place: Ramesh.B, KFC",
+                            c: "2nd Place: Aditya Rajesh, KFC",
+                            d: "3rd Place: Abdul Rehman, Yuvadhara"
+                        },
+                        {
+                            a: "SHOT PUT SENIOR BOYS",
+                            b: "1st Place: Nithin, New Bhavana"
+
+                        }
+
+                    ],
+                    gallery: "PHOTO GALLERY",
+                    photolist: [
+                        {
+                            img: "./images/events/inaug1.jpg",
+                            desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
+                            desc2: "Inaugrated by: Smt. Saratha Thulasidas, Hon'ble Kollengode Block Panchayat President."
+                        },
+                        {
+                            img: "./images/events/inaug2.jpg",
+                            desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
+                            desc2: "Addressing by: Sri. G.Krishnaprasad, Hon'ble Koduvayur Grama Panchayat President."
+                        }
+                    ]
+
 
                 }
 
