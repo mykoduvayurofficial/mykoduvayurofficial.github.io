@@ -70,7 +70,7 @@
 
 
                 <div class="col-md-12">
-                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.title}}<i class="fa fa-pencil-square-o"></i></h1>
+                    <h1> <i class="fa fa-pencil-square-o"></i></h1>
                     <!--<p><br /></p>-->
                     <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro1}}</p>
                     <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro2}}</p>
@@ -97,8 +97,29 @@
                     <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.volleyballpic}}" />
                 </div>
 
-                <div class="col-md-12">
+                <div  class="col-md-12">
                     <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.results}}</h1>
+
+                    <div ng-repeat="item in dataSelected.eventpage.artsnsports.list.keralotsavam2017.resultlist">
+
+                        <div class="servicelistitem label-warning col-md-4">
+                            <div ng-repeat="listitem in item">
+                                <p style="text-align: left">{{listitem}}</p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <h1>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.gallery}}</h1>
+
+                    <div class="panel panel-primary" ng-repeat="item in dataSelected.eventpage.artsnsports.list.keralotsavam2017.photolist">
+                        <img src={{item.img}} style="width:100%;height:auto" />
+                        <p style="text-align: center">{{item.desc1}}</p>
+                        <p style="text-align: center">{{item.desc2}}</p>
+                    </div>
+
                 </div>
 
                 <div class="col-md-12" id="adslot2_mob">
