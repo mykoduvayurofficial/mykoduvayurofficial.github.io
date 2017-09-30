@@ -2866,28 +2866,28 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             c: "Mixed team to be sent for Block Tournament"
                         },
                         {
-                            a: "5000m RACE SENIOR BOYS",
+                            a: "5000m RACE JUNIOR BOYS",
                             b: "1st Place: KiranKrishna.P.R, KFC",
                             c: "2nd Place: Vipin.M, Individual",
                             d: "3rd Place: Sabarish.J, New Bhavana"
                         },
                         {
-                            a: "5000m RACE MEN",
+                            a: "5000m RACE SENIOR BOYS",
                             b: "1st Place: Vineeth, New Bhavana",
                             c: "2nd Place: Sreenath, KFC",
                             d: "3rd Place: Sudheesh, New Bhavana"
                         },
                         {
-                            a: "200m RACE MEN",
-                            b: "1st Place: Nived, KFC",
-                            c: "2nd Place: Dinesh, KFC",
-                            d: "3rd Place: Sanjay, KFC"
-                        },
-                        {
-                            a: "200m RACE MEN",
+                            a: "200m RACE JUNIOR BOYS",
                             b: "1st Place: Subin, New Bhavana",
                             c: "2nd Place: Ramesh.B, KFC",
                             d: "3rd Place: Shafeer, Friends"
+                        },
+                        {
+                            a: "200m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Dinesh, KFC",
+                            d: "3rd Place: Sanjay, KFC"
                         },
                         {
                             a: "1500m RACE JUNIOR BOYS",
@@ -2902,16 +2902,16 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             d: "3rd Place: Sudeep, New Boys"
                         },
                         {
-                            a: "400m RACE SENIOR BOYS",
-                            b: "1st Place: Nived, KFC",
-                            c: "2nd Place: Praveen.V, KFC",
-                            d: "3rd Place: Arjun, KFC"
-                        },
-                        {
                             a: "400m RACE JUNIOR BOYS",
                             b: "1st Place: BinuPrasad, KFC",
                             c: "2nd Place: Ajith, KFC",
                             d: "3rd Place: Muhamed Farvesh, CHM"
+                        },
+                        {
+                            a: "400m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Praveen.V, KFC",
+                            d: "3rd Place: Arjun, KFC"
                         },
                         {
                             a: "SHOT PUT JUNIOR BOYS",
@@ -3032,28 +3032,28 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             c: "Mixed team to be sent for Block Tournament"
                         },
                         {
-                            a: "5000m RACE SENIOR BOYS",
+                            a: "5000m RACE JUNIOR BOYS",
                             b: "1st Place: KiranKrishna.P.R, KFC",
                             c: "2nd Place: Vipin.M, Individual",
                             d: "3rd Place: Sabarish.J, New Bhavana"
                         },
                         {
-                            a: "5000m RACE MEN",
+                            a: "5000m RACE SENIOR BOYS",
                             b: "1st Place: Vineeth, New Bhavana",
                             c: "2nd Place: Sreenath, KFC",
                             d: "3rd Place: Sudheesh, New Bhavana"
                         },
                         {
-                            a: "200m RACE MEN",
-                            b: "1st Place: Nived, KFC",
-                            c: "2nd Place: Dinesh, KFC",
-                            d: "3rd Place: Sanjay, KFC"
-                        },
-                        {
-                            a: "200m RACE MEN",
+                            a: "200m RACE JUNIOR BOYS",
                             b: "1st Place: Subin, New Bhavana",
                             c: "2nd Place: Ramesh.B, KFC",
                             d: "3rd Place: Shafeer, Friends"
+                        },
+                        {
+                            a: "200m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Dinesh, KFC",
+                            d: "3rd Place: Sanjay, KFC"
                         },
                         {
                             a: "1500m RACE JUNIOR BOYS",
@@ -3068,16 +3068,16 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             d: "3rd Place: Sudeep, New Boys"
                         },
                         {
-                            a: "400m RACE SENIOR BOYS",
-                            b: "1st Place: Nived, KFC",
-                            c: "2nd Place: Praveen.V, KFC",
-                            d: "3rd Place: Arjun, KFC"
-                        },
-                        {
                             a: "400m RACE JUNIOR BOYS",
                             b: "1st Place: BinuPrasad, KFC",
                             c: "2nd Place: Ajith, KFC",
                             d: "3rd Place: Muhamed Farvesh, CHM"
+                        },
+                        {
+                            a: "400m RACE SENIOR BOYS",
+                            b: "1st Place: Nived, KFC",
+                            c: "2nd Place: Praveen.V, KFC",
+                            d: "3rd Place: Arjun, KFC"
                         },
                         {
                             a: "SHOT PUT JUNIOR BOYS",
