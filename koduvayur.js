@@ -2948,7 +2948,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             a: "800m RACE SENIOR BOYS",
                             b: "1st Place: Aneesh.P, KFC",
                             c: "2nd Place: Sreenath, KFC",
-                            d: "3rd Place: Praveen.V, CHM"
+                            d: "3rd Place: Praveen.V, KFC"
                         }
 
                     ],
@@ -3114,7 +3114,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             a: "800m RACE SENIOR BOYS",
                             b: "1st Place: Aneesh.P, KFC",
                             c: "2nd Place: Sreenath, KFC",
-                            d: "3rd Place: Praveen.V, CHM"
+                            d: "3rd Place: Praveen.V, KFC"
                         }
 
                     ],
