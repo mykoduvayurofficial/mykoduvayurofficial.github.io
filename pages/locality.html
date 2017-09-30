@@ -84,6 +84,25 @@
 
                 <div class="col-md-12" id="administration">
                     <h1> {{dataSelected.locality.administration.title}}<i class="fa fa-bank"></i></h1>
+
+                    <div class="col-md-12 admin">
+                        <div ng-repeat="item in dataSelected.locality.administration.list">
+                            <div class="col-md-6" style="padding: 1%">
+                                <div class="col-md-12 label-default">
+                                    <div class="col-md-3">
+                                        <!--<img style="overflow: hidden" src="./images/locality/1.jpg">-->
+                                    </div>
+                                    <div style="text-align: left; color: white" class="col-md-9">
+                                        <p>Ward Number: {{item.wardno}}</p>
+                                        <p>Ward Name: {{item.ward}}</p>
+                                        <p>Ward Member: {{item.name}}</p>
+                                        <p>Political Party: {{item.party}}</p>
+                                        <p>Phone: {{item.phone}}</p>
+                                    </div>                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
                 <div class="col-md-12" id="institutions">
