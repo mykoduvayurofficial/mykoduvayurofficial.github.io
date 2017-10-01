@@ -3020,13 +3020,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                         d: "MAJESTCIC FC 0-0 NFC-A. NFC-A wins on Penalties.",
                                         e: "NEW BOYS vs CHM",
                                         f: "SEVENS vs VFC",
-                                        g: "THIRA-B vs THIRA-A",
-                                        h: "RYDERS vs CFC",
-                                        i: "NFC-B vs KFC"
+                                        g: "THIRA-B wins vs THIRA-A. Walk over.",
+                                        h: "RYDERS 0-0 CFC. CFC wins in Penalties.",
+                                        i: "NFC-B 0-1 KFC"
                                     },
                                     {
                                         a: "QUARTER FINAL",
-                                        b: "LEGENDS-A vs YUVADHARA"
+                                        b: "LEGENDS-A 1-0 YUVADHARA",
+                                        c: "KFC vs CFC"
                                     }
                                 ]
                             },
@@ -3316,13 +3317,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                     d: "MAJESTCIC FC 0-0 NFC-A. NFC-A wins on Penalties.",
                                     e: "NEW BOYS vs CHM",
                                     f: "SEVENS vs VFC",
-                                    g: "THIRA-B vs THIRA-A",
-                                    h: "RYDERS vs CFC",
-                                    i: "NFC-B vs KFC"
+                                    g: "THIRA-B wins vs THIRA-A. Walk over.",
+                                    h: "RYDERS 0-0 CFC. CFC wins in Penalties.",
+                                    i: "NFC-B 0-1 KFC"
                                 },
                                 {
                                     a: "QUARTER FINAL",
-                                    b: "LEGENDS-A vs YUVADHARA"
+                                    b: "LEGENDS-A 1-0 YUVADHARA",
+                                    c: "KFC vs CFC"
                                 }
                             ]
                         },
