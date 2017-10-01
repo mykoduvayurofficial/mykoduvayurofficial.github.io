@@ -102,10 +102,16 @@
 
                     <div ng-repeat="item in dataSelected.eventpage.artsnsports.list.keralotsavam2017.resultlist">
 
-                        <div class="servicelistitem label-warning col-md-4">
-                            <div ng-repeat="listitem in item">
-                                <p style="text-align: left">{{listitem}}</p>
+                        <div class= "label servicesupersub label-success" style="border-radius: 1% !important;">{{item.title}}</div>
+
+                        <div ng-repeat="itemlist in item.list">
+
+                            <div style="display: block !important; width: 100% !important;" class="servicelistitem label-warning col-md-12">
+                                <div ng-repeat="listitem in itemlist">
+                                    <p style=" display:inline-block; text-align: left">{{listitem}}</p>
+                                </div>
                             </div>
+
                         </div>
 
                     </div>
