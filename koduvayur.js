@@ -2845,7 +2845,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     pagetitle: "KERALOTSAVAM",
                     title: "WELCOME",
                     intro1: "22 of the strongest football teams of Koduvayur featuring in 21 thrilling matches...",
-                    intro2: "8 cricket teams to match up for the trophy ( stitch ball cricket tournament)....",
+                    intro2: "9 cricket teams to match up for the trophy ( stitch ball cricket tournament )....",
                     intro3: "To swish up magic while ball is in the air and get the crowd ballistic with Engaging Volleyball bouts ...",
                     intro4: "Photo finishes and Snapshots with various Athletic events ....",
                     intro5: "And many other events...",
@@ -2860,198 +2860,225 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     volleyballpic : "./images/events/kvolleyball.jpg",
                     results : "RESULTS",
                     resultlist: [
-                            {
-                                title: "TRACK EVENTS",
-                                list: [
-                                    {
-                                        a: "5000m RACE JUNIOR BOYS",
-                                        b: "1st Place: KiranKrishna.P.R, KFC",
-                                        c: "2nd Place: Vipin.M, Individual",
-                                        d: "3rd Place: Sabarish.J, New Bhavana"
-                                    },
-                                    {
-                                        a: "5000m RACE SENIOR BOYS",
-                                        b: "1st Place: Vineeth, New Bhavana",
-                                        c: "2nd Place: Sreenath, KFC",
-                                        d: "3rd Place: Sudheesh, New Bhavana"
-                                    },
-                                    {
-                                        a: "200m RACE JUNIOR BOYS",
-                                        b: "1st Place: Subin, New Bhavana",
-                                        c: "2nd Place: Ramesh.B, KFC",
-                                        d: "3rd Place: Shafeer, Friends"
-                                    },
-                                    {
-                                        a: "200m RACE SENIOR BOYS",
-                                        b: "1st Place: Nived, KFC",
-                                        c: "2nd Place: Dinesh, KFC",
-                                        d: "3rd Place: Sanjay, KFC"
-                                    },
-                                    {
-                                        a: "1500m RACE JUNIOR BOYS",
-                                        b: "1st Place: Vipin.M, Individual",
-                                        c: "2nd Place: Binu Prasad, KFC",
-                                        d: "3rd Place: Sijin, KFC"
-                                    },
-                                    {
-                                        a: "1500m RACE SENIOR BOYS",
-                                        b: "1st Place: Praveen.V, KFC",
-                                        c: "2nd Place: Sanoop, KFC",
-                                        d: "3rd Place: Sudeep, New Boys"
-                                    },
-                                    {
-                                        a: "400m RACE JUNIOR BOYS",
-                                        b: "1st Place: BinuPrasad, KFC",
-                                        c: "2nd Place: Ajith, KFC",
-                                        d: "3rd Place: Muhamed Farvesh, CHM"
-                                    },
-                                    {
-                                        a: "400m RACE SENIOR BOYS",
-                                        b: "1st Place: Nived, KFC",
-                                        c: "2nd Place: Praveen.V, KFC",
-                                        d: "3rd Place: Arjun, KFC"
-                                    },
-                                    {
-                                        a: "100m RACE JUNIOR BOYS",
-                                        b: "1st Place: Ramesh.B, KFC",
-                                        c: "2nd Place: Sujith.S, KFC",
-                                        d: "3rd Place: Haridas, Madathil"
-                                    },
-                                    {
-                                        a: "100m RACE SENIOR BOYS",
-                                        b: "1st Place: Nived, KFC",
-                                        c: "2nd Place: Mahesh, Star Arts",
-                                        d: "3rd Place: Dinesh.B, KFC"
-                                    },
-                                    {
-                                        a: "800m RACE JUNIOR BOYS",
-                                        b: "1st Place: Sijin, KFC",
-                                        c: "2nd Place: Sivadas.N, Star Arts",
-                                        d: "3rd Place: Vipin.M, Individual"
-                                    },
-                                    {
-                                        a: "800m RACE SENIOR BOYS",
-                                        b: "1st Place: Aneesh.P, KFC",
-                                        c: "2nd Place: Sreenath, KFC",
-                                        d: "3rd Place: Praveen.V, KFC"
-                                    },
-                                    {
-                                        a:"4x100m RELAY JUNIOR BOYS",
-                                        b: "1st Place: KFC",
-                                        c: "2nd Place: New Bhavana",
-                                        d: "3rd Place: New Boys"
-                                    },
-                                    {
-                                        a:"4x100m RELAY SENIOR BOYS",
-                                        b: "1st Place: KFC",
-                                        c: "2nd Place: Star Arts",
-                                        d: "3rd Place: Friends Club"
-                                    }
-                                ]
-                            },
-                            {
-                                title: "THROW EVENTS",
-                                list : [
-                                    {
-                                        a: "SHOT PUT JUNIOR BOYS",
-                                        b: "1st Place: Ramesh.B, KFC",
-                                        c: "2nd Place: Aditya Rajesh, KFC",
-                                        d: "3rd Place: Abdul Rehman, Yuvadhara"
-                                    },
-                                    {
-                                        a: "SHOT PUT SENIOR BOYS",
-                                        b: "1st Place: Nithin, New Bhavana",
-                                        c: "2nd Place: Mahesh, Star Arts",
-                                        d: "3rd Place: Nithin, Yuvathara"
+                        {
+                            title: "TRACK EVENTS",
+                            list: [
+                                {
+                                    a: "5000m RACE JUNIOR BOYS",
+                                    b: "1st Place: KiranKrishna.P.R, KFC",
+                                    c: "2nd Place: Vipin.M, Individual",
+                                    d: "3rd Place: Sabarish.J, New Bhavana"
+                                },
+                                {
+                                    a: "5000m RACE SENIOR BOYS",
+                                    b: "1st Place: Vineeth, New Bhavana",
+                                    c: "2nd Place: Sreenath, KFC",
+                                    d: "3rd Place: Sudheesh, New Bhavana"
+                                },
+                                {
+                                    a: "200m RACE JUNIOR BOYS",
+                                    b: "1st Place: Subin, New Bhavana",
+                                    c: "2nd Place: Ramesh.B, KFC",
+                                    d: "3rd Place: Shafeer, Friends"
+                                },
+                                {
+                                    a: "200m RACE SENIOR BOYS",
+                                    b: "1st Place: Nived, KFC",
+                                    c: "2nd Place: Dinesh, KFC",
+                                    d: "3rd Place: Sanjay, KFC"
+                                },
+                                {
+                                    a: "1500m RACE JUNIOR BOYS",
+                                    b: "1st Place: Vipin.M, Individual",
+                                    c: "2nd Place: Binu Prasad, KFC",
+                                    d: "3rd Place: Sijin, KFC"
+                                },
+                                {
+                                    a: "1500m RACE SENIOR BOYS",
+                                    b: "1st Place: Praveen.V, KFC",
+                                    c: "2nd Place: Sanoop, KFC",
+                                    d: "3rd Place: Sudeep, New Boys"
+                                },
+                                {
+                                    a: "400m RACE JUNIOR BOYS",
+                                    b: "1st Place: BinuPrasad, KFC",
+                                    c: "2nd Place: Ajith, KFC",
+                                    d: "3rd Place: Muhamed Farvesh, CHM"
+                                },
+                                {
+                                    a: "400m RACE SENIOR BOYS",
+                                    b: "1st Place: Nived, KFC",
+                                    c: "2nd Place: Praveen.V, KFC",
+                                    d: "3rd Place: Arjun, KFC"
+                                },
+                                {
+                                    a: "100m RACE JUNIOR BOYS",
+                                    b: "1st Place: Ramesh.B, KFC",
+                                    c: "2nd Place: Sujith.S, KFC",
+                                    d: "3rd Place: Haridas, Madathil"
+                                },
+                                {
+                                    a: "100m RACE SENIOR BOYS",
+                                    b: "1st Place: Nived, KFC",
+                                    c: "2nd Place: Mahesh, Star Arts",
+                                    d: "3rd Place: Dinesh.B, KFC"
+                                },
+                                {
+                                    a: "800m RACE JUNIOR BOYS",
+                                    b: "1st Place: Sijin, KFC",
+                                    c: "2nd Place: Sivadas.N, Star Arts",
+                                    d: "3rd Place: Vipin.M, Individual"
+                                },
+                                {
+                                    a: "800m RACE SENIOR BOYS",
+                                    b: "1st Place: Aneesh.P, KFC",
+                                    c: "2nd Place: Sreenath, KFC",
+                                    d: "3rd Place: Praveen.V, KFC"
+                                },
+                                {
+                                    a:"4x100m RELAY JUNIOR BOYS",
+                                    b: "1st Place: KFC",
+                                    c: "2nd Place: New Bhavana",
+                                    d: "3rd Place: New Boys"
+                                },
+                                {
+                                    a:"4x100m RELAY SENIOR BOYS",
+                                    b: "1st Place: KFC",
+                                    c: "2nd Place: Star Arts",
+                                    d: "3rd Place: Friends Club"
+                                }
+                            ]
+                        },
+                        {
+                            title: "THROW EVENTS",
+                            list : [
+                                {
+                                    a: "SHOT PUT JUNIOR BOYS",
+                                    b: "1st Place: Ramesh.B, KFC",
+                                    c: "2nd Place: Aditya Rajesh, KFC",
+                                    d: "3rd Place: Abdul Rehman, Yuvadhara"
+                                },
+                                {
+                                    a: "SHOT PUT SENIOR BOYS",
+                                    b: "1st Place: Nithin, New Bhavana",
+                                    c: "2nd Place: Mahesh, Star Arts",
+                                    d: "3rd Place: Nithin, Yuvathara"
 
-                                    },
-                                    {
-                                        a: "JAVELIN THROW SENIOR BOYS",
-                                        b: "1st Place: Nithin, Yuvathara",
-                                        c: "2nd Place: Prateesh, Star Arts",
-                                        d: "3rd Place: Sainuddheen, Friends Club"
+                                },
+                                {
+                                    a: "JAVELIN THROW SENIOR BOYS",
+                                    b: "1st Place: Nithin, Yuvathara",
+                                    c: "2nd Place: Prateesh, Star Arts",
+                                    d: "3rd Place: Sainuddheen, Friends Club"
 
-                                    },
-                                    {
-                                        a: "JAVELIN THROW JUNIOR BOYS",
-                                        b: "1st Place: Pranav.M, Star Arts",
-                                        c: "2nd Place: Ajith Prasad, New Bhavana",
-                                        d: "3rd Place: Aditya Rajesh, KFC"
-                                    },
-                                    {
-                                        a: "DISCUSS THROW SENIOR BOYS",
-                                        b: "1st Place: Arjun.R.Das, KFC",
-                                        c: "2nd Place: Mahesh, Star Arts",
-                                        d: "3rd Place: Abu Thahir, CHM"
-                                    },
-                                    {
-                                        a: "DISCUSS THROW JUNIOR BOYS",
-                                        b: "1st Place: Sujith.S, KFC",
-                                        c: "2nd Place: Ajith Prasad, New Bhavana",
-                                        d: "3rd Place: Aditya Rajesh, KFC"
-                                    },
-                                ]
-                            },
-                            {
-                                title: "CRICKET",
-                                list: [
-                                    {
+                                },
+                                {
+                                    a: "JAVELIN THROW JUNIOR BOYS",
+                                    b: "1st Place: Pranav.M, Star Arts",
+                                    c: "2nd Place: Ajith Prasad, New Bhavana",
+                                    d: "3rd Place: Aditya Rajesh, KFC"
+                                },
+                                {
+                                    a: "DISCUSS THROW SENIOR BOYS",
+                                    b: "1st Place: Arjun.R.Das, KFC",
+                                    c: "2nd Place: Mahesh, Star Arts",
+                                    d: "3rd Place: Abu Thahir, CHM"
+                                },
+                                {
+                                    a: "DISCUSS THROW JUNIOR BOYS",
+                                    b: "1st Place: Sujith.S, KFC",
+                                    c: "2nd Place: Ajith Prasad, New Bhavana",
+                                    d: "3rd Place: Aditya Rajesh, KFC"
+                                }
+                            ]
+                        },
+                        {
+                            title: "CRICKET",
+                            list: [
+                                {
                                     b: "Cancelled due to Damp Pitch and Bad Weather",
                                     c: "Mixed team to be sent for Block Tournament"
-                                    }
-                                ]
-                            },
-                            {
-                                title: "FOOTBALL",
-                                list: [
-                                    {
-                                        a: "FIRST ROUND",
-                                        b: "LEGENDS-B 0-0 GALAXY FC. LEGENDS-B win on Penalties.",
-                                        c: "KFC-B 0-0 MAJESTIC FC. MAJESTIC FC win on Penalties.",
-                                        d: "NFC-A 2-0 STAR CLUB",
-                                        e: "THIRA-B wins vs EFC. Walk Over",
-                                        f: "THIRA-A 0-0 NEW BHAVANA. THIRA-A wins on Penalties.",
-                                        g: "RYDERS 1-0 BLUE BOYS(FRIENDS)"
-                                    },
-                                    {
-                                        a: "SECOND ROUND",
-                                        b: "LEGENDS-A 1-0 MADATHIL FC.",
-                                        c: "YUVADHARA 0-0 LEGENDS-B. YUVADHARA wins on Penalties.",
-                                        d: "MAJESTCIC FC 0-0 NFC-A. NFC-A wins on Penalties.",
-                                        e: "NEW BOYS vs CHM",
-                                        f: "SEVENS vs VFC",
-                                        g: "THIRA-B wins vs THIRA-A. Walk over.",
-                                        h: "RYDERS 0-0 CFC. CFC wins in Penalties.",
-                                        i: "NFC-B 0-1 KFC"
-                                    },
-                                    {
-                                        a: "QUARTER FINAL",
-                                        b: "LEGENDS-A 1-0 YUVADHARA",
-                                        c: "KFC vs CFC"
-                                    }
-                                ]
-                            },
-                            {
-                                title: "VOLLEYBALL",
-                                list: [
-                                    {
-                                        a: "FIRST ROUND",
-                                        b: "KFC wins vs FRIENDS-A."
-                                    },
-                                    {
-                                        a: "SECOND ROUND",
-                                        b: "CHEATERS-ETR wins vs NFC.",
-                                        c: "KFC wins vs CHANGAYIES.",
-                                        d: "CHM wins vs FRIENDS-B",
-                                        e: "CHALLENGERS wins vs MST"
-                                    },
-                                    {
-                                        a: "SEMI FINAL",
-                                        b: "CHEATERS-ETR vs KFC",
-                                        c: "CHM vs CHALLENGERS"
-                                    }
-                                ]
-                            }
+                                }
+                            ]
+                        },
+                        {
+                            title: "FOOTBALL",
+                            list: [
+                                {
+                                    a: "FIRST ROUND",
+                                    b: "LEGENDS-B 0-0 GALAXY FC. LEGENDS-B win on Penalties.",
+                                    c: "KFC-B 0-0 MAJESTIC FC. MAJESTIC FC win on Penalties.",
+                                    d: "NFC-A 2-0 STAR CLUB",
+                                    e: "THIRA-B wins vs EFC. Walk Over",
+                                    f: "THIRA-A 0-0 NEW BHAVANA. THIRA-A wins on Penalties.",
+                                    g: "RYDERS 1-0 BLUE BOYS(FRIENDS)"
+                                },
+                                {
+                                    a: "SECOND ROUND",
+                                    b: "LEGENDS-A 1-0 MADATHIL FC.",
+                                    c: "YUVADHARA 0-0 LEGENDS-B. YUVADHARA wins on Penalties.",
+                                    d: "MAJESTCIC FC 0-0 NFC-A. NFC-A wins on Penalties.",
+                                    e: "NEW BOYS 0-0 CHM. NEW BOYS wins in Penalties.",
+                                    f: "SEVENS wins vs VFC. Walk over.",
+                                    g: "THIRA-B wins vs THIRA-A. Walk over.",
+                                    h: "RYDERS 0-0 CFC. CFC wins in Penalties.",
+                                    i: "NFC-B 0-1 KFC"
+                                },
+                                {
+                                    a: "QUARTER FINALS",
+                                    b: "LEGENDS-A 1-0 YUVADHARA",
+                                    c: "NFC 0-0 NEW BOYS. NFC wins in Penalties.",
+                                    d: "SEVENS 0-0 THIRA-B. SEVENS wins in Penalties.",
+                                    e: "KFC 0-0 CFC. CFC wins in Penalties."
+                                },
+                                {
+                                    a: "SEMI FINALS",
+                                    b: "LEGENDS-A 1-0 NFC.",
+                                    c: "SEVENS 0-3 CFC"
+                                },
+                                {
+                                    a: "FINALE",
+                                    b: "LEGENDS-A 0-0 CFC. CFC wins in Penalties.",
+                                    c: "CFC are the KERALOTSAVAM 2017 FOOTBALL CHAMPIONS !!!"
+                                }
+
+
+                            ]
+                        },
+                        {
+                            title: "VOLLEYBALL",
+                            list: [
+                                {
+                                    a: "FIRST ROUND",
+                                    b: "KFC wins vs FRIENDS-A."
+                                },
+                                {
+                                    a: "SECOND ROUND",
+                                    b: "CHEATERS-ETR wins vs NFC.",
+                                    c: "KFC wins vs CHANGAYIES.",
+                                    d: "CHM wins vs FRIENDS-B",
+                                    e: "CHALLENGERS wins vs MST"
+                                },
+                                {
+                                    a: "SEMI FINALS",
+                                    b: "KFC wins vs CHEATERS-ETR",
+                                    c: "CHALLENGERS wins vs CHM"
+                                },
+                                {
+                                    a: "FINALE",
+                                    b: "KFC wins vs CHALLENGERS",
+                                    c: "KFC aka KAKKAYUR UNITED are the KERALOTSAVAM 2017 VOLLEYBALL CHAMPIONS !!!"
+                                }
+                            ]
+                        },
+                        {
+                            title: "ATHLETICS CHAMPIONSHIP",
+                            list: [
+                                {
+                                    a: "KFC aka KAKKAYUR UNITED are the KERALOTSAVAM 2017 OVERALL ATHLETIC CHAMPIONS !!!"
+                                }
+                            ]
+                        }
                     ],
                     gallery: "PHOTO GALLERY",
                     photolist: [
@@ -3142,7 +3169,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     pagetitle: "കേരളോത്സവം",
                     title: "സ്വാഗതം",
                     intro1: "കൊടുവായൂരിലെ കരുത്തരായ 22 ടീമിന്റെ ആവേശകരമായ 21 ഫുട്ബോൾ മത്സരങ്ങൾ ...",
-                    intro2: "തീപാറുന്ന കളികൾ കാഴ്ചവയ്ക്കാൻ 8 ക്രിക്കറ്റ് ടീമുകൾ ( സ്റ്റിച്ച് ബോൾ ക്രിക്കറ്റ് ടൂർണമെന്റ് )...",
+                    intro2: "തീപാറുന്ന കളികൾ കാഴ്ചവയ്ക്കാൻ 9 ക്രിക്കറ്റ് ടീമുകൾ ( സ്റ്റിച്ച് ബോൾ ക്രിക്കറ്റ് ടൂർണമെന്റ് )...",
                     intro3: "വായുവിൽ ഉയരുന്ന പന്തിന്റെ ഒപ്പം കാണികളെ ആവേശമൂർച്ചയിൽ എത്തിക്കുന്ന 8 ടീമിന്റെ വോളീബോൾ ടൂർണമെന്റ് ...",
                     intro4: "സെക്കൻഡ്കളുടെ വ്യത്യാസത്തിൽ ഫിനിഷിങ് ലൈനിലെ ഫോട്ടോഫിനിഷ്‌കൾ കാഴ്ച വെക്കുന്ന അത്ലറ്റിക്‌സ് ഇനങ്ങൾ ....",
                     intro5: "കൂടാതെ മറ്റു അനവധി മത്സരങ്ങൾ...",
@@ -3286,7 +3313,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                     b: "1st Place: Sujith.S, KFC",
                                     c: "2nd Place: Ajith Prasad, New Bhavana",
                                     d: "3rd Place: Aditya Rajesh, KFC"
-                                },
+                                }
                             ]
                         },
                         {
@@ -3315,17 +3342,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                     b: "LEGENDS-A 1-0 MADATHIL FC.",
                                     c: "YUVADHARA 0-0 LEGENDS-B. YUVADHARA wins on Penalties.",
                                     d: "MAJESTCIC FC 0-0 NFC-A. NFC-A wins on Penalties.",
-                                    e: "NEW BOYS vs CHM",
-                                    f: "SEVENS vs VFC",
+                                    e: "NEW BOYS 0-0 CHM. NEW BOYS wins in Penalties.",
+                                    f: "SEVENS wins vs VFC. Walk over.",
                                     g: "THIRA-B wins vs THIRA-A. Walk over.",
                                     h: "RYDERS 0-0 CFC. CFC wins in Penalties.",
                                     i: "NFC-B 0-1 KFC"
                                 },
                                 {
-                                    a: "QUARTER FINAL",
+                                    a: "QUARTER FINALS",
                                     b: "LEGENDS-A 1-0 YUVADHARA",
-                                    c: "KFC vs CFC"
+                                    c: "NFC 0-0 NEW BOYS. NFC wins in Penalties.",
+                                    d: "SEVENS 0-0 THIRA-B. SEVENS wins in Penalties.",
+                                    e: "KFC 0-0 CFC. CFC wins in Penalties."
+                                },
+                                {
+                                    a: "SEMI FINALS",
+                                    b: "LEGENDS-A 1-0 NFC.",
+                                    c: "SEVENS 0-3 CFC"
+                                },
+                                {
+                                    a: "FINALE",
+                                    b: "LEGENDS-A 0-0 CFC. CFC wins in Penalties.",
+                                    c: "CFC are the KERALOTSAVAM 2017 FOOTBALL CHAMPIONS !!!"
                                 }
+
+
                             ]
                         },
                         {
@@ -3343,9 +3384,22 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                     e: "CHALLENGERS wins vs MST"
                                 },
                                 {
-                                    a: "SEMI FINAL",
-                                    b: "CHEATERS-ETR vs KFC",
-                                    c: "CHM vs CHALLENGERS"
+                                    a: "SEMI FINALS",
+                                    b: "KFC wins vs CHEATERS-ETR",
+                                    c: "CHALLENGERS wins vs CHM"
+                                },
+                                {
+                                    a: "FINALE",
+                                    b: "KFC wins vs CHALLENGERS",
+                                    c: "KFC aka KAKKAYUR UNITED are the KERALOTSAVAM 2017 VOLLEYBALL CHAMPIONS !!!"
+                                }
+                            ]
+                        },
+                        {
+                            title: "ATHLETICS CHAMPIONSHIP",
+                            list: [
+                                {
+                                    a: "KFC aka KAKKAYUR UNITED are the KERALOTSAVAM 2017 OVERALL ATHLETIC CHAMPIONS !!!"
                                 }
                             ]
                         }
