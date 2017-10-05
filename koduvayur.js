@@ -128,6 +128,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'cultureController'
         })
 
+        // route for the examplefestival page
+        .when('/examplefestival', {
+            title :"Example for Festival Page - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/example.html',
+            controller  : 'cultureController'
+        })
+
         // route for the keralathappankovil page
         .when('/keralathappankovil', {
             title :"Keralathappan Temple - MyKoduvayur",
@@ -828,6 +836,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             title: "LOCATION",
                             info: "Gokula Street, Keralapuram Gramam, Koduvayur."
                         },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
                         intro: {
                             title: "INTRODUCTION",
                             info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
@@ -866,7 +878,42 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             title: "FESTIVE CALENDAR"
         },
         festivals: {
-            title: "FESTIVALS"
+            title: "FESTIVALS",
+            list: {
+                example: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                }
+            }
         }
     };
 
@@ -888,6 +935,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         location: {
                             title: "സ്ഥലം",
                             info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
                         },
                         intro: {
                             title: "മുഖവുര",
@@ -922,10 +973,46 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             }
         },
         festive: {
-            title: "ഉത്സവ കലണ്ടർ"
+            title: "ഉത്സവ കലണ്ടർ",
         },
         festivals: {
-            title: "ഉത്സവങ്ങൾ"
+            title: "ഉത്സവങ്ങൾ",
+            list: {
+                example: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്ഥ്യമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+
+                }
+            }
         }
     };
 
