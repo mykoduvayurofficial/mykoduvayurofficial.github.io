@@ -1004,7 +1004,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     specialities: {
                         title: "ഉത്സവവിശേഷം",
-                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്ഥ്യമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
                     },
                     gallery: {
                         title: "ഗാലറി",
