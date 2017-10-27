@@ -78,11 +78,11 @@ mykdrApp.config(function($routeProvider) {
 
     //locality
 
-        // route for the panchayatoffice page
-        .when('/panchayatoffice', {
-            title :"Panchayat Office - MyKoduvayur",
+        // route for the gramapanchayathoffice page
+        .when('/gramapanchayathoffice', {
+            title :"Grama Panchayat Office - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/panchayatoffice.html',
+            templateUrl : 'pages/locality/gramapanchayathoffice.html',
             controller  : 'localityController'
         })
 
@@ -110,11 +110,19 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'localityController'
         })
 
-        // route for the mariancollege page
-        .when('/mariancollege', {
-            title :"Marian College - MyKoduvayur",
+        // route for the koduvayurmarket page
+        .when('/koduvayurmarket', {
+            title :"Koduvayur Market - MyKoduvayur",
             description : "",
             templateUrl : 'pages/locality/panchayatoffice.html',
+            controller  : 'localityController'
+        })
+
+        // route for the ksebkoduvayur page
+        .when('/ksebkoduvayur', {
+            title :"Koduvayur Market - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/ksebkoduvayur.html',
             controller  : 'localityController'
         })
 
@@ -128,6 +136,158 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'cultureController'
         })
 
+        // route for the keralathappankovil page
+        .when('/keralathappankovil', {
+            title :"Keralathappan Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/keralathappankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the sivankovil page
+        .when('/sivankovil', {
+            title :"Sree Visalakshi Sametha Sree Viswanatha Swamy Temple  - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/sivankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the ganapathikovil page
+        .when('/ganapathikovil', {
+            title :"MahaGanapathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/ganapathikovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the keralathappankovil page
+        .when('/keralathappankovil', {
+            title :"Keralathappan Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/keralathappankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the mariyammankovil page
+        .when('/mariyammankovil', {
+            title :"Keralapuram Mariyamman Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/mariyammankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kurukkulamtemple page
+        .when('/kurukkulamtemple', {
+            title :"Kurukkulam Mariyamman Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kurukkulamtemple.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kolodetemple page
+        .when('/kolodetemple', {
+            title :"Kolode Mariyamman Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kolodetemple.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kakkayursivankovil page
+        .when('/kakkayursivankovil', {
+            title :"Kakkayur Siva Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kakkayursivankovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kottamalakovil page
+        .when('/kottamala', {
+            title :"Kottamala Sree Ayyappa Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kottamala.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the kottakovil page
+        .when('/kottakovil', {
+            title :"Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kottakovil.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the altharaganapathy page
+        .when('/altharaganapathy', {
+            title :"Althara MahaGanapathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/altharaganapathy.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the ethanurkovil page
+        .when('/kizhakkethara', {
+            title :"Kizhakkethara Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kizhakkethara.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the maruthikavu page
+        .when('/maruthikavu', {
+            title :"Ethanur Maruthi Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/maruthikavu.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the koymarpadam page
+        .when('/koymarpadam', {
+            title :"Koymar Padam Sree Subramaniya Swamy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/koymarpadam.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the mandathbhagavathy page
+        .when('/mandathbhagavathy', {
+            title :"Thottekkattthara Sree Mandath Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/mandathbhagavathy.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the nochurbhagavathy page
+        .when('/nochurbhagavathy', {
+            title :"Nochur Bhagavathy Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/nochurbhagavathy.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the nochurkrishnatemple page
+        .when('/nochurkrishnatemple', {
+            title :"Nochur Krishna Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/nochurkrishnatemple.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the ramapuramtemple page
+        .when('/ramapuramtemple', {
+            title :"Ramapuram Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/ramapuramtemple.html',
+            controller  : 'cultureController'
+        })
+
+        // route for the uchimahaliyammantemple page
+        .when('/uchimahaliyammantemple', {
+            title :"Uchimahaliyamman Temple - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/uchimahaliyammantemple.html',
+            controller  : 'cultureController'
+        })
+
         // route for the examplefestival page
         .when('/examplefestival', {
             title :"Example for Festival Page - MyKoduvayur",
@@ -136,93 +296,104 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'cultureController'
         })
 
-        // route for the keralathappankovil page
-        .when('/keralathappankovil', {
-            title :"Keralathappan Temple - MyKoduvayur",
+        // route for the koduvayurratholsavam page
+        .when('/koduvayurratholsavam', {
+            title :"Koduvayur Ratholsavam - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/keralathappankovil.html',
+            templateUrl : 'pages/culture/koduvayurratholsavam.html',
             controller  : 'cultureController'
         })
 
-        // route for the sivankovil page
-        .when('/sivankovil', {
-            title :"Sree Visalakshy Sametha Sree Viswanathaswamy Temple  - MyKoduvayur",
+        // route for the thaipooyam page
+        .when('/thaipooyam', {
+            title :"Thaipooyam - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/krishnankovil.html',
+            templateUrl : 'pages/culture/thaipooyam.html',
             controller  : 'cultureController'
         })
 
-        // route for the ganapathykovil page
-        .when('/ganapathykovil', {
-            title :"MahaGanapathy Temple - MyKoduvayur",
+        // route for the nochurratholsavam page
+        .when('/nochurratholsavam', {
+            title :"Nochur Ratholsavam - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/ganapathykovil.html',
+            templateUrl : 'pages/culture/nochurratholsavam.html',
             controller  : 'cultureController'
         })
 
-        // route for the mariyammankovil page
-        .when('/mariyammankovil', {
-            title :"Mariyamman Temples - MyKoduvayur",
+        // route for the sivarathri page
+        .when('/sivarathri', {
+            title :"Sivarathri - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/mariyammankovil.html',
+            templateUrl : 'pages/culture/sivarathri.html',
             controller  : 'cultureController'
         })
 
-        // route for the kakkayursivankovil page
-        .when('/kakkayursivankovil', {
-            title :"Kakkayur Siva Temple - MyKoduvayur",
+        // route for the ethanurkummati page
+        .when('/ethanurkummati', {
+            title :"Ethanur Kummati - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/kakkayursivankovil.html',
+            templateUrl : 'pages/culture/ethanurkummati.html',
             controller  : 'cultureController'
         })
 
-        // route for the kottamalakovil page
-        .when('/kottamalakovil', {
-            title :"Kottamala Sree Ayyappa Temple - MyKoduvayur",
+        // route for the kanyarkali page
+        .when('/kanyarkali', {
+            title :"Kanyar Kali - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/kottamalakovil.html',
+            templateUrl : 'pages/culture/kanyarkali.html',
             controller  : 'cultureController'
         })
 
-        // route for the kottakovil page
-        .when('/kottakovil', {
-            title :"Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+        // route for the mariyammanpongal page
+        .when('/mariyammanpongal', {
+            title :"Mariyamman Pongal - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/kottakovil.html',
+            templateUrl : 'pages/culture/mariyammanpongal.html',
             controller  : 'cultureController'
         })
 
-        // route for the altharaganapathy page
-        .when('/altharaganapathy', {
-            title :"Althara MahaGanapathy Temple - MyKoduvayur",
+        // route for the aadipooram page
+        .when('/aadipooram', {
+            title :"Aadipooram - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/altharaganapathy.html',
+            templateUrl : 'pages/culture/aadipooram.html',
             controller  : 'cultureController'
         })
 
-        // route for the ethanurkovil page
-        .when('/ethanurkovil', {
-            title :"Kizhakkethara Sree Thiruvilayanadu Bhagavathy Temple - MyKoduvayur",
+        // route for the ganeshothsavam page
+        .when('/ganeshothsavam', {
+            title :"Ganeshothsavam - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/ethanurkovil.html',
+            templateUrl : 'pages/culture/ganeshothsavam.html',
             controller  : 'cultureController'
         })
 
-        // route for the maruthikavu page
-        .when('/maruthikavu', {
-            title :"Ethanur Maruthi Bhagavathy Temple - MyKoduvayur",
+        // route for the navarathri page
+        .when('/navarathri', {
+            title :"Navarathri - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/maruthikavu.html',
+            templateUrl : 'pages/culture/navarathri.html',
             controller  : 'cultureController'
         })
 
-        // route for the koymarpadam page
-        .when('/koymarpadam', {
-            title :"Koymar Padam Sree Subramaniya Swamy Temple - MyKoduvayur",
+        // route for the annabhishekham page
+        .when('/annabhishekham', {
+            title :"Annsbhishekham - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/koymarpadam.html',
+            templateUrl : 'pages/culture/annabhishekham.html',
             controller  : 'cultureController'
         })
+
+        // route for the kottamaladhanupath page
+        .when('/kottamaladhanupath', {
+            title :"Kottamala Dhanupath - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/culture/kottamaladhanupath.html',
+            controller  : 'cultureController'
+        })
+
+
+
 
         // events
 
@@ -621,18 +792,47 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             ]
         },
         institutions: {
-            title: "INSTITUTIONS"
+            title: "INSTITUTIONS",
+            list: {
+                ghsskoduvayur: {
+
+                },
+                gramapanchayathoffice: {
+
+                },
+                koduvayurarket: {
+
+                },
+                govthospital: {
+
+                },
+                ksebkoduvayur: {
+
+                },
+                oldagehome: {
+
+                }
+            }
         },
         society: {
             title: "SOCIETY",
             party: {
-                title: "POLITICAL PARTIES"
+                title: "POLITICAL PARTIES",
+                list: [
+
+                ]
             },
             clubs: {
-                title: "ARTS & SPORTS CLUBS"
+                title: "ARTS & SPORTS CLUBS",
+                list: [
+
+                ]
             },
             other: {
-                title: "OTHER ASSOCIATIONS"
+                title: "OTHER ASSOCIATIONS",
+                list: [
+
+                ]
             }
         }
     };
@@ -800,18 +1000,47 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             ]
         },
         institutions: {
-            title: "സ്ഥാപനങ്ങൾ"
+            title: "സ്ഥാപനങ്ങൾ",
+            list: {
+                ghsskoduvayur: {
+
+                },
+                gramapanchayathoffice: {
+
+                },
+                koduvayurarket: {
+
+                },
+                govthospital: {
+
+                },
+                ksebkoduvayur: {
+
+                },
+                oldagehome: {
+
+                }
+            }
         },
         society: {
             title: "സമൂഹം",
             party: {
-                title: "രാഷ്ട്രീയ പാർട്ടികൾ"
+                title: "രാഷ്ട്രീയ പാർട്ടികൾ",
+                list: [
+
+                ]
             },
             clubs: {
-                title: "ക്ലബ്ബുകൾ"
+                title: "ക്ലബ്ബുകൾ",
+                list: [
+
+                ]
             },
             other: {
-                title: "മറ്റു കൂട്ടായ്‌മകൾ"
+                title: "മറ്റു കൂട്ടായ്‌മകൾ",
+                list: [
+
+                ]
             }
         }
     };
@@ -832,6 +1061,600 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "SREE KRISHNA TEMPLE",
                         coverpic: "./images/culture/krishnankovil/cover.jpg",
                         thumb: "./images/culture/krishnankovil/thumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    ganapathikovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    sivankovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    keralathappankovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    mariyammankovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kurukkulamtemple: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kolodetemple: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kakkayursivankovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kottamala: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kottakovil: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    altharaganapathy: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    kizhakkethara: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    maruthikavu: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    koymarpadam: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    mandathbhagavathy: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    nochurbhagavathy: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    nochurkrishnatemple: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    ramapuramtemple: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "LOCATION",
+                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                        },
+                        priest: {
+                            title: "HEAD PRIEST",
+                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                        },
+                        intro: {
+                            title: "INTRODUCTION",
+                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                        },
+                        history: {
+                            title: "HISTORY",
+                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                        },
+                        deities: {
+                            title: "DEITIES",
+                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                        },
+                        pooja: {
+                            title: "SPECIAL POOJAS",
+                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                        },
+                        festival: {
+                            title: "FESTIVE DAYS",
+                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                        }
+                    },
+                    uchimahaliyammantemple: {
+                        title: "SREE KRISHNA TEMPLE",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
                             info: "Gokula Street, Keralapuram Gramam, Koduvayur."
@@ -912,7 +1735,404 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "GALLERY",
                         info: "Featured photos and video collection of this festival."
                     }
+                },
+                koduvayurratholsavam: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                thaipooyam: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                nochurratholsavam: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                sivarathri: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                ethanurkummati: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                kanyarkali: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                mariyammanpongal: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                aadipooram: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                ganeshothsavam: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                navarathri: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                annabhishekham: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
+                },
+                kottamaladhanupath: {
+                    title: "OUR FESTIVAL",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "LOCATION",
+                        info: "The place of the festival celebration."
+                    },
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "A brief introduction about the festival."
+                    },
+                    history: {
+                        title: "HISTORY",
+                        info: "The history how this festival was started and why it is celebrated."
+                    },
+                    season: {
+                        title: "THE FESTIVE SEASON",
+                        info: "The time of the year when the festival is celebrated."
+                    },
+                    celebration: {
+                        title: "CELEBRATIONS",
+                        info: "Description about how the festival is celebrated."
+                    },
+                    specialities: {
+                        title: "SPECIALITY",
+                        info: "About the important special facts and significance of this festival."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
+                    }
                 }
+
             }
         }
     };
@@ -932,6 +2152,600 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
                         coverpic: "./images/culture/krishnankovil/cover.jpg",
                         thumb: "./images/culture/krishnankovil/thumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും ആഞ്ജനേയോത്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    ganapathikovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    sivankovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    keralathappankovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    mariyammankovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kurukkulamtemple: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kolodetemple: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kakkayursivankovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kottamala: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kottakovil: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    altharaganapathy: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    kizhakkethara: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    maruthikavu: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    koymarpadam: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    mandathbhagavathy: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    nochurbhagavathy: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    nochurkrishnatemple: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    ramapuramtemple: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
+                        location: {
+                            title: "സ്ഥലം",
+                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                        },
+                        priest: {
+                            title: "മേൽശാന്തി",
+                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                        },
+                        intro: {
+                            title: "മുഖവുര",
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                        },
+                        history: {
+                            title: "ചരിത്രം",
+                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                        },
+                        deities: {
+                            title: "നടകൾ",
+                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                        },
+                        pooja: {
+                            title: "വിശേഷ പൂജകൾ",
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                        },
+                        festival: {
+                            title: "വിശേഷ ദിവസങ്ങൾ",
+                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                        }
+                    },
+                    uchimahaliyammantemple: {
+                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        coverpic: "./images/culture/example/templecover.jpg",
+                        thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
                             info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
@@ -1010,7 +2824,402 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "ഗാലറി",
                         info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
                     }
-
+                },
+                koduvayurratholsavam: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                thaipooyam: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                nochurratholsavam: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                sivarathri: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                ethanurkummati: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                kanyarkali: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                mariyammanpongal: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                aadipooram: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                ganeshothsavam: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                navarathri: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                annabhishekham: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
+                },
+                kottamaladhanupath: {
+                    title: "നമ്മുടെ ഉത്സവം",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: "ഉത്സവാങ്കണം ",
+                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                    },
+                    intro: {
+                        title: "മുഖവുര",
+                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                    },
+                    history: {
+                        title: "ഉത്സവചരിത്രം",
+                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                    },
+                    season: {
+                        title: "ഉത്സവവേള",
+                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                    },
+                    celebration: {
+                        title: "ആഘോഷങ്ങൾ",
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                    },
+                    specialities: {
+                        title: "ഉത്സവവിശേഷം",
+                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                    },
+                    gallery: {
+                        title: "ഗാലറി",
+                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                    }
                 }
             }
         }
@@ -2874,6 +5083,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
             }
         },
+        offers: {
+            title: "OFFERS",
+            list: {
+
+            }
+        },
         trends: {
             news: {
                 title: "NEWS",
@@ -2906,6 +5121,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     $rootScope.maldata.trending = {
         alerts: {
             title: "അറിയിപ്പുകൾ",
+            list: {
+
+            }
+        },
+        offers: {
+            title: "ആനുകൂല്യങ്ങള്‍",
             list: {
 
             }
@@ -2993,7 +5214,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 keralotsavam2017 : {
                     coverpic:  "./images/events/klogo.jpg",
                     thumb:  "./images/events/kthumbs.jpg",
-                    pagetitle: "KERALOTSAVAM",
+                    pagetitle: "KERALOTSAVAM 2017",
                     title: "WELCOME",
                     intro1: "22 of the strongest football teams of Koduvayur featuring in 21 thrilling matches...",
                     intro2: "9 cricket teams to match up for the trophy ( stitch ball cricket tournament )....",
@@ -3317,7 +5538,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 keralotsavam2017 : {
                     coverpic:  "./images/events/klogo.jpg",
                     thumb:  "./images/events/kthumbs.jpg",
-                    pagetitle: "കേരളോത്സവം",
+                    pagetitle: "കേരളോത്സവം 2017",
                     title: "സ്വാഗതം",
                     intro1: "കൊടുവായൂരിലെ കരുത്തരായ 22 ടീമിന്റെ ആവേശകരമായ 21 ഫുട്ബോൾ മത്സരങ്ങൾ ...",
                     intro2: "തീപാറുന്ന കളികൾ കാഴ്ചവയ്ക്കാൻ 9 ക്രിക്കറ്റ് ടീമുകൾ ( സ്റ്റിച്ച് ബോൾ ക്രിക്കറ്റ് ടൂർണമെന്റ് )...",
