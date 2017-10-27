@@ -38,9 +38,9 @@
         </div>
     </nav>
 
-    <div class="col-md-12" id="non-nav" ng-controller="localityController">
+    <div class="col-md-12" id="non-nav" ng-controller="homeController">
 
-        <img class="pagebanner" src="./images/covers/locality.jpg" />
+        <img class="pagebanner" src="{{dataSelected.culture.worship.temples.list.kakkayursivankovil.coverpic}}" />
 
         <div class="col-md-12" id="content">
 
@@ -61,67 +61,57 @@
                     <div class="fb-like fb-like3" data-href="http://www.mykoduvayur.in/" data-width="310" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
                 </div>
 
+                <!--<p><br /></p>-->
+
+                <div class="col-md-12">
+                    <h1 style="text-align: center;border-bottom: none">{{dataSelected.culture.worship.temples.list.kakkayursivankovil.title}}</h1>
+                </div>
+
                 <div class="col-md-12" id="adslot1_mob">
                     <div></div>
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
-                <div class="col-md-12" id="intro">
-                    <h1> {{dataSelected.locality.intro.title}}<i class="fa fa-pencil-square-o"></i></h1>
-                    <p>{{dataSelected.locality.intro.para1}}</p>
-                </div>
-
-                <div class="col-md-12" id="koduvayur">
-                    <h1> {{dataSelected.locality.koduvayur.title}}<i class="fa fa-map-marker"></i></h1>
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.location.title}}</h1>
                     <!--<p><br /></p>-->
-                    <div id="kdrmap"></div>
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.location.info}}</p>
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.priest.title}}</h1>
                     <!--<p><br /></p>-->
-                    <p>{{dataSelected.locality.koduvayur.para1}}</p>
-                    <p>{{dataSelected.locality.koduvayur.para2}}</p>
-                    <p>{{dataSelected.locality.koduvayur.para3}}</p>
-                    <p>{{dataSelected.locality.koduvayur.para4}}</p>
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.priest.info}}</p>
                 </div>
 
-                <div class="col-md-12" id="administration">
-                    <h1> {{dataSelected.locality.administration.title}}<i class="fa fa-bank"></i></h1>
-
-                    <div class="col-md-12 admin">
-                        <div ng-repeat="item in dataSelected.locality.administration.list">
-                            <div class="col-md-6" style="padding: 1%">
-                                <div class="col-md-12" style="background-color: #00CED1; border-radius: 5%">
-                                    <div class="col-md-3" style="">
-                                        <!--<img style="overflow: hidden" src="./images/locality/1.jpg">-->
-                                    </div>
-                                    <div style="text-align: left; color: #34495E; padding: 2%" class="col-md-9">
-                                        <p>Ward Number: {{item.wardno}}</p>
-                                        <p>Ward Name: {{item.ward}}</p>
-                                        <p>Ward Member: {{item.name}}</p>
-                                        <p>Political Party: {{item.party}}</p>
-                                        <p>Phone: {{item.phone}}</p>
-                                    </div>                                </div>
-                            </div>
-                        </div>
-                    </div>
-
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.intro.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.intro.info}}</p>
                 </div>
 
-                <div class="col-md-12" id="institutions">
-                    <h1>{{dataSelected.locality.institutions.title}}<i class="fa fa-building"></i></h1>
-                    <div class=" panel panel-default panelout">
-                        <div class="panel-body">
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.history.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.history.info}}</p>
+                </div>
 
-                            <a href="#ramapuramtemple">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.thumb}}" class="panelimg" alt="test"></img>
-                                    </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.title}}</div>
-                                </div>
-                            </a>
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.deities.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.deities.info}}</p>
+                </div>
 
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.pooja.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.pooja.info}}</p>
+                </div>
 
-                        </div>
-                    </div>
+                <div class="col-md-12">
+                    <h1> {{dataSelected.culture.worship.temples.list.kakkayursivankovil.festival.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.culture.worship.temples.list.kakkayursivankovil.festival.info}}</p>
                 </div>
 
                 <div class="col-md-12" id="adslot2_mob">
@@ -129,12 +119,6 @@
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
-                <div class="col-md-12" id="society">
-                    <h1> {{dataSelected.locality.society.title}}<i class="fa fa-users"></i></h1>
-                    <div id="parties" class="label categoryhead">{{dataSelected.locality.society.party.title}}</div>
-                    <div id="clubs" class="label categoryhead">{{dataSelected.locality.society.clubs.title}}</div>
-                    <div id="associations" class="label categoryhead">{{dataSelected.locality.society.other.title}}</div>
-                </div>
             </div>
 
             <div class="col-md-2" id="adslot2_pc">
@@ -164,4 +148,7 @@
 
     </div>
 
+
 </div>
+
+
