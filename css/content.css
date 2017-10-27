@@ -1,4 +1,11 @@
 
+#maincontent>div {
+    color: #34495E;
+}
+
+#emergency {
+    color: #fafafa !important;
+}
 
 .fb-post {
     width: 100% !important;
@@ -45,6 +52,9 @@
     background-color: #707070 ;
     color: #fafafa;
     text-overflow: ellipsis;
+}
+.servicesupersub{
+    color: #1c1c1c;
 }
 .servicesupersub:hover, .servicesupersub:active {
     background-color: darkgreen;
@@ -100,8 +110,8 @@
     }
 
     #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
-        padding: 0;
-        font-size: 2.5vh;
+        padding: 1%;
+        font-size: 2.4vh;
         font-family: "Segoe UI";
         /*border-left: solid #8b0000 1vw;*/
         margin-bottom: 3vh;
@@ -119,7 +129,7 @@
         /*margin-left: 1vh;*/
         color: #2F4F4F;
         border-bottom: #FF6347 2px solid;
-        font-size: 190% !important;
+        font-size: 160% !important;
         margin-bottom: 2.5vh;
     }
     #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
@@ -134,8 +144,8 @@
     }
     #behindlogo>h1>img {
         float: right;
-        width: 5vh;
-        height: 5.2vh;
+        width: 4.3vh;
+        height: 4.5vh;
         display: inline-block;
     }
     #guide {
@@ -161,7 +171,7 @@
     #footer>p {
         color: snow;
         font-family: "Segoe UI";
-        font-size: 2.3vh;
+        font-size: 2.1vh;
         line-height: 5vh;
         text-align: center;
         display: block;
@@ -210,7 +220,7 @@
         color: #257366 !important;
     }
     #mobshare>a>i {
-        font-size: 6.3vh;
+        font-size: 4.5vh;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -286,7 +296,7 @@
         font-family: "Segoe UI Semibold";
     }
 
-    #alerts>div {
+    #alerts>div, #alerts>a {
         font-family: "Segoe UI Semibold";
         font-size: 3vh;
         line-height: 5vh;
@@ -310,9 +320,9 @@
     #newshead,#articleshead,#pictureshead, #videoshead {
         text-align: center;
         font-weight: bold;
-        font-size: 4vh;
-        line-height: 8vh;
-        height: 8vh;
+        font-size: 3.6vh;
+        line-height: 6.4vh;
+        height: 6.4vh;
         border: solid 1px darkgray;
         font-family: "Segoe UI Semibold";
         cursor: pointer;
@@ -324,7 +334,7 @@
         border: 0 !important;
         font-size: 5vh !important;
         font-family: "Segoe UI Semibold";
-        line-height: 9vh;
+        line-height: 150%;
         height: 9vh;
         text-align: center;
         cursor: pointer;
@@ -360,14 +370,14 @@
     }
 
     .servicesupersub {
-        font-size: 3.5vh;
+        font-size: 3vh;
         width: 98%;
         margin-left: 1.5%;
         margin-right: 1.5%;
         cursor: pointer;
         font-family: "Segoe UI Semibold";
-        line-height: 8vh;
-        height: 8vh;
+        line-height: 6vh;
+        height: 6vh;
         overflow: hidden;
         text-overflow: ellipsis;
         border-radius: 4vh;
@@ -384,21 +394,21 @@
     }
 
     .servicelistitem {
-        font-size: 3.2vh;
+        font-size: 2.5vh;
         width: 96%;
         margin-left: 2%;
         margin-right: 2%;
+        padding-top: 1.5%;
         cursor: pointer;
         font-family: "Segoe UI Semibold";
         height: auto;
-        line-height: 4vh;
+        line-height: 2.8vh;
         overflow: hidden;
         text-overflow: ellipsis;
         border-radius: 1vh;
         margin-top: 2%;
         margin-bottom: 2%;
         overflow: hidden;
-        padding: 1.5% 1% 1.5% 1%;
     }
     .servicelistitem>i {
         text-align: left;
@@ -501,8 +511,8 @@
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
-            padding: 0;
-            font-size: 4.2vh;
+            padding: 1%;
+            font-size: 4vh;
             font-family: "Segoe UI";
             /*border-left: solid #8b0000 1vh;*/
             margin-bottom: 7vh;
@@ -520,7 +530,7 @@
             /*margin-left: 2vh;*/
             color: #2F4F4F;
             border-bottom: #FF6347 2px solid;
-            font-size: 8vh !important;
+            font-size: 6.4vh !important;
             margin-bottom: 4vh;
         }
         #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
@@ -535,8 +545,8 @@
         }
         #behindlogo>h1>img {
             float: right;
-            width: 8.4vh;
-            height: 8.4vh;
+            width: 6.7vh;
+            height: 6.9vh;
             display: inline-block;
         }
         #guide {
@@ -615,7 +625,7 @@
             color: #257366 !important;
         }
         #mobshare>a>i {
-            font-size: 11vh;
+            font-size: 8vh;
             padding-left: 8vw;
             padding-right: 8vw;
         }
@@ -691,7 +701,7 @@
             font-family: "Segoe UI Semibold";
         }
 
-        #alerts>div {
+        #alerts>div, #alerts>a {
             font-family: "Segoe UI Semibold";
             font-size: 4.5vh;
             line-height: 7vh;
@@ -718,7 +728,7 @@
             display: inline-block;
             text-align: center;
             font-weight: bold;
-            font-size: 6vh;
+            font-size: 5vh;
             line-height: 12vh;
             height: 12vh;
             border: solid 1px darkgray;
@@ -732,7 +742,7 @@
             border: 0 !important;
             font-size: 9vh !important;
             font-family: "Segoe UI Semibold";
-            line-height: 16vh;
+            line-height: 140%;
             height: 16vh;
             text-align: center;
             cursor: pointer;
@@ -773,14 +783,14 @@
         }
 
         .servicesupersub {
-            font-size: 5.5vh;
+            font-size: 4.5vh;
             width: 47.5%;
             margin-left: 1%;
             margin-right: 1%;
             cursor: pointer;
             font-family: "Segoe UI Semibold";
-            line-height: 12vh;
-            height: 12vh;
+            line-height: 10vh;
+            height: 10vh;
             text-overflow: ellipsis;
             border-radius: 5vh;
             margin-top: 0.5%;
@@ -797,13 +807,14 @@
         }
 
         .servicelistitem {
-            font-size: 5vh;
+            font-size: 4vh;
             width: 47.5%;
+            padding-top: 1%;
             margin-left: 1%;
             margin-right: 1%;
             cursor: pointer;
             font-family: "Segoe UI Semibold";
-            line-height: 6.5vh;
+            line-height: 5vh;
             height: auto;
             text-overflow: ellipsis;
             border-radius: 1.3vh;
@@ -883,7 +894,7 @@
 
         #intro, #behindlogo, #guide, #koduvayur, #maincontent > div {
             padding: 0;
-            font-size: 2.3vh;
+            font-size: 2.2vh;
             font-family: "Segoe UI";
             /*border-left: solid #8b0000 0.3vw;*/
 
@@ -904,7 +915,7 @@
             color: #2F4F4F;
             border-bottom: #FF6347 2px solid;
             margin-bottom: 3vh;
-            font-size: 4.8vh !important;
+            font-size: 4vh !important;
         }
 
         #intro > h1 > i, #guide > h1 > i, #koduvayur > h1 > i, #maincontent > div > h1 > i {
@@ -920,8 +931,8 @@
 
         #behindlogo > h1 > img {
             float: right;
-            width: 5.2vh;
-            height: 5.2vh;
+            width: 4vh;
+            height: 4.2vh;
             display: inline-block;
         }
 
@@ -973,7 +984,7 @@
         }
 
         #pcshare > a > i {
-            font-size: 5vh !important;
+            font-size: 4vh !important;
 
         }
 
@@ -1123,9 +1134,8 @@
             margin: 1.5% 1.5% 1.5% 1.5%;
         }
 
-        #alerts > div > i {
-            font-size: 4vh;
-            font-weight: bold;
+        #alerts > a {
+            font-size: 3vh;
             padding-right: 2%;
         }
 
@@ -1191,7 +1201,7 @@
         }
 
         .servicesupersub {
-            font-size: 2.8vh;
+            font-size: 2.5vh;
             width: 31.3%;
             margin-left: 1%;
             margin-right: 1%;
@@ -1216,13 +1226,15 @@
         }
 
         .servicelistitem {
-            font-size: 2.7vh;
+            font-size: 2.2vh;
+            color: #1c1c1c;
             width: 31.3%;
+            padding-top: 1%;
             margin-left: 1%;
             margin-right: 1%;
             cursor: pointer;
             font-family: "Segoe UI Semibold";
-            line-height: 3.6vh;
+            line-height: 3vh;
             height: auto;
             text-overflow: ellipsis;
             border-radius: 1.3vh;
