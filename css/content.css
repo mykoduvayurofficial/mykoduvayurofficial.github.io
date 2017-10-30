@@ -48,7 +48,10 @@
     border-color: rgba(120,120,120, 1);
     background: rgba(20,20,20, 0.25);
 }
-.panelname:hover, .panelname:active {
+.panelcol:hover, .panelcol:active {
+    cursor: pointer;
+}
+.panelcol:hover .panelname, .panelcol:active .panelname{
     background-color: #707070 ;
     color: #fafafa;
     text-overflow: ellipsis;
@@ -1087,6 +1090,12 @@
         .panelname {
             font-family: "Segoe UI Semibold";
             cursor: pointer;
+            height: 8.5vh;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .panelcol:hover .panelname, .panelcol:active panelname{
+            overflow-y: visible;
         }
 
         .categoryhead {
