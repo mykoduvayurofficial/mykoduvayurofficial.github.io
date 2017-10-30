@@ -1091,20 +1091,20 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     ganapathikovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE MAHAGANAPATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Corner Street - Double Street Junction, Keralapuram Gramam, Koduvayur."
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            info: "Jayaraman Vadhyar, Double Street, Koduvayur."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: "More popularly known as ‘Ganapathy Kovil’, The Mahaganapathy Temple of Keralapuram Gramam is one of the newer temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in the intersection of Corner Street and Double Street, in the north-west side of the pond that is populary called as 'Valyankulam' of this village. It is a regular stop for devotees in and around the village. "
                         },
                         history: {
                             title: "HISTORY",
@@ -1124,7 +1124,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     sivankovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE VISALAKSHY SAMETHA SREE VISWANATHA SWAMY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1157,7 +1157,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     keralathappankovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE KERALATHAPPAN TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1190,7 +1190,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     mariyammankovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KERALAPURAM SREE MARIYAMMAN TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1223,7 +1223,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kurukkulamtemple: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KURUKKULAM SREE MARIYAMMAN TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1256,7 +1256,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kolodetemple: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KOLODE SREE MARIYAMMAN TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1289,7 +1289,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kakkayursivankovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KAKKAYUR SREE MAHADEVA TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1322,7 +1322,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kottamala: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KOTTAMALA SREE AYYAPPA TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1355,7 +1355,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kottakovil: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE THIRUVILAYANADU BHAGAVATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1388,7 +1388,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     altharaganapathy: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "ALTHARA SREE MAHAGANAPATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1421,7 +1421,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kizhakkethara: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KIZHAKKETHARA SREE THIRUVILAYANADU BHAGAVATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1454,7 +1454,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     maruthikavu: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "ETHANUR SREE MARUTHI BHAGAVATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1487,7 +1487,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     koymarpadam: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "KOYMAR PADAM SREE SUBRAMANIYA SWAMY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1520,7 +1520,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     mandathbhagavathy: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE MANDATH BHAGAVATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1553,7 +1553,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     nochurbhagavathy: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "NOCHUR SREE BHAGAVATHY TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1586,7 +1586,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     nochurkrishnatemple: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "NOCHUR SREE KRISHNA TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1619,7 +1619,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     ramapuramtemple: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "PAMAPURAM SREERAMA TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1652,7 +1652,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     uchimahaliyammantemple: {
-                        title: "SREE KRISHNA TEMPLE",
+                        title: "SREE UCHIMAHALIYAMMAN TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -1737,7 +1737,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 koduvayurratholsavam: {
-                    title: "OUR FESTIVAL",
+                    title: "KODUVAYUR RATHOLSAVAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1770,7 +1770,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 thaipooyam: {
-                    title: "OUR FESTIVAL",
+                    title: "THAIPOOYAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1803,7 +1803,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 nochurratholsavam: {
-                    title: "OUR FESTIVAL",
+                    title: "NOCHUR RATHOLSAVAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1836,7 +1836,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 sivarathri: {
-                    title: "OUR FESTIVAL",
+                    title: "MAHASIVARATHRI",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1869,7 +1869,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 ethanurkummati: {
-                    title: "OUR FESTIVAL",
+                    title: "ETHANUR KUMMATI",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1902,7 +1902,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 kanyarkali: {
-                    title: "OUR FESTIVAL",
+                    title: "KANYARKALI",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1935,7 +1935,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 mariyammanpongal: {
-                    title: "OUR FESTIVAL",
+                    title: "MARIYAMMAN PONGAL",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -1968,7 +1968,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 aadipooram: {
-                    title: "OUR FESTIVAL",
+                    title: "AADIPOORAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2001,7 +2001,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 ganeshothsavam: {
-                    title: "OUR FESTIVAL",
+                    title: "GANESHOTHSAVAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2034,7 +2034,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 navarathri: {
-                    title: "OUR FESTIVAL",
+                    title: "NAVARATHRI",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2067,7 +2067,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 annabhishekham: {
-                    title: "OUR FESTIVAL",
+                    title: "ANNABHISHEKHAM",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2100,7 +2100,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 kottamaladhanupath: {
-                    title: "OUR FESTIVAL",
+                    title: "KOTTAMALA DHANUPATH",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2182,7 +2182,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     ganapathikovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ മഹാഗണപതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2215,7 +2215,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     sivankovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ വിശാലാക്ഷി സമേത ശ്രീ വിശ്വനാഥ സ്വാമി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2248,7 +2248,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     keralathappankovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ കേരളത്തപ്പന്‍ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2281,7 +2281,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     mariyammankovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കേരളപുരം ശ്രീ മാരിയമ്മന്‍ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2314,7 +2314,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kurukkulamtemple: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കുരുക്കുളം ശ്രീ മാരിയമ്മന്‍ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2347,7 +2347,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kolodetemple: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കോളോട് ശ്രീ മാരിയമ്മന്‍ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2380,7 +2380,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kakkayursivankovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കാക്കയൂര്‍ ശ്രീ മഹാദേവ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2413,7 +2413,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kottamala: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കോട്ടമല ശ്രീ അയ്യപ്പ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2446,7 +2446,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kottakovil: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ തിരുവിളയനാട് ഭഗവതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2479,7 +2479,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     altharaganapathy: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ആല്‍ത്തറ ശ്രീ മഹാഗണപതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2512,7 +2512,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kizhakkethara: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കിഴക്കേത്തറ ശ്രീ തിരുവിളയനാട് ഭഗവതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2545,7 +2545,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     maruthikavu: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "എത്തനൂര്‍ ശ്രീ മരുതി ഭഗവതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2578,7 +2578,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     koymarpadam: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "കൊയ്മര്‍ പാടം ശ്രീ സുബ്ബ്രഹ്മണ്യ സ്വാമി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2611,7 +2611,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     mandathbhagavathy: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ മന്ദത്ത് ഭഗവതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2644,7 +2644,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     nochurbhagavathy: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "നൊച്ചൂര്‍ ശ്രീ ഭഗവതി ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2677,7 +2677,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     nochurkrishnatemple: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "നൊച്ചൂര് ‍ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2710,7 +2710,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     ramapuramtemple: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "രാമപുരം ശ്രീരാമ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2743,7 +2743,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     uchimahaliyammantemple: {
-                        title: "ശ്രീ കൃഷ്ണ ക്ഷേത്രം",
+                        title: "ശ്രീ ഉച്ചിമാഹാളിയമ്മന്‍ ക്ഷേത്രം",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
@@ -2826,7 +2826,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 koduvayurratholsavam: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "കൊടുവായൂര്‍ രഥോത്സവം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2859,7 +2859,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 thaipooyam: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "തൈപ്പൂയം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2892,7 +2892,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 nochurratholsavam: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "നൊച്ചൂര്‍ രഥോത്സവം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2925,7 +2925,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 sivarathri: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "മഹാശിവരാത്രി",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2958,7 +2958,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 ethanurkummati: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "എത്തനൂര്‍ കുമ്മാട്ടി",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -2991,7 +2991,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 kanyarkali: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "കണ്യാര്‍കളി",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3024,7 +3024,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 mariyammanpongal: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "മാരിയമ്മന്‍ പൊങ്കല്‍",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3057,7 +3057,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 aadipooram: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "ആടിപ്പൂരം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3090,7 +3090,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 ganeshothsavam: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "ഗണേശോത്സവം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3123,7 +3123,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 navarathri: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "നവരാത്രി",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3156,7 +3156,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 annabhishekham: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "അന്നാഭിഷേകം",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
@@ -3189,7 +3189,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 kottamaladhanupath: {
-                    title: "നമ്മുടെ ഉത്സവം",
+                    title: "കോട്ടമല ധനുപ്പത്ത്",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
