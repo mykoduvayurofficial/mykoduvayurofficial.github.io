@@ -74,24 +74,14 @@
                 <div class="col-md-12" id="religious">
                     <h1> {{dataSelected.culture.worship.title}}<i class="glyphicon glyphicon-bell"></i></i></h1>
 
-                    <div class="col-md-4 panelcol panel panel-default">
+                    <div data-toggle="collapse" data-target="#temples" class="col-md-4 panelcol panel panel-default">
                         <div class="col-md-12 panel-body panelcontent">
                             <img src="./images/thumbs/hindu.png" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#temples" class="panel-footer panelname">{{dataSelected.culture.worship.temples.title}}</div>
+                        <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.title}}</div>
                     </div>
                     <div id="temples" class="col-md-12 collapse">
                         <div class="label-warning categoryhead">{{dataSelected.culture.worship.temples.subtitle}}</div>
-
-
-                        <a href="#krishnankovil">
-                            <div class="col-md-3 panelcol panel panel-default">
-                                <div class="panel-body panelcontent">
-                                    <img src="{{dataSelected.culture.worship.temples.list.krishnankovil.thumb}}" class="panelimg" alt="test"></img>
-                                </div>
-                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.krishnankovil.title}}</div>
-                            </div>
-                        </a>
 
                         <a href="#ganapathikovil">
                             <div class="col-md-3 panelcol panel panel-default">
@@ -99,6 +89,15 @@
                                     <img src="{{dataSelected.culture.worship.temples.list.ganapathikovil.thumb}}" class="panelimg" alt="test"></img>
                                 </div>
                                 <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.ganapathikovil.title}}</div>
+                            </div>
+                        </a>
+
+                        <a href="#krishnankovil">
+                            <div class="col-md-3 panelcol panel panel-default">
+                                <div class="panel-body panelcontent">
+                                    <img src="{{dataSelected.culture.worship.temples.list.krishnankovil.thumb}}" class="panelimg" alt="test"></img>
+                                </div>
+                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.krishnankovil.title}}</div>
                             </div>
                         </a>
 
@@ -168,9 +167,9 @@
                         <a href="#kottakovil">
                             <div class="col-md-3 panelcol panel panel-default">
                                 <div class="panel-body panelcontent">
-                                    <img src="{{dataSelected.culture.worship.temples.list.kottamala.thumb}}" class="panelimg" alt="test"></img>
+                                    <img src="{{dataSelected.culture.worship.temples.list.kottakovil.thumb}}" class="panelimg" alt="test"></img>
                                 </div>
-                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.kottamala.title}}</div>
+                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.kottakovil.title}}</div>
                             </div>
                         </a>
 
@@ -231,18 +230,18 @@
                         <a href="#nochurkrishnatemple">
                             <div class="col-md-3 panelcol panel panel-default">
                                 <div class="panel-body panelcontent">
-                                    <img src="{{dataSelected.culture.worship.temples.list.ramapuramtemple.thumb}}" class="panelimg" alt="test"></img>
+                                    <img src="{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.thumb}}" class="panelimg" alt="test"></img>
                                 </div>
-                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.ramapuramtemple.title}}</div>
+                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.title}}</div>
                             </div>
                         </a>
 
                         <a href="#ramapuramtemple">
                             <div class="col-md-3 panelcol panel panel-default">
                                 <div class="panel-body panelcontent">
-                                    <img src="{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.thumb}}" class="panelimg" alt="test"></img>
+                                    <img src="{{dataSelected.culture.worship.temples.list.ramapuramtemple.thumb}}" class="panelimg" alt="test"></img>
                                 </div>
-                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.nochurkrishnatemple.title}}</div>
+                                <div class="panel-footer panelname">{{dataSelected.culture.worship.temples.list.ramapuramtemple.title}}</div>
                             </div>
                         </a>
 
@@ -257,11 +256,11 @@
 
                     </div>
 
-                    <div class="col-md-4 panelcol panel panel-default">
+                    <div data-toggle="collapse" data-target="#mosques" class="col-md-4 panelcol panel panel-default">
                         <div class="col-md-12 panel-body panelcontent">
                             <img src="./images/thumbs/islam.png" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#mosques" class="panel-footer panelname">{{dataSelected.culture.worship.mosques.title}}</div>
+                        <div class="panel-footer panelname">{{dataSelected.culture.worship.mosques.title}}</div>
                     </div>
                     <div id="mosques" class="col-md-12 collapse">
                         <div class="label-success categoryhead">{{dataSelected.culture.worship.mosques.subtitle}}</div>
@@ -301,11 +300,11 @@
                         </div>
                     </div>
 
-                    <div class="col-md-4 panelcol panel panel-default">
+                    <div data-toggle="collapse" data-target="#churches" class="col-md-4 panelcol panel panel-default">
                         <div class="col-md-12 panel-body panelcontent">
                             <img src="./images/thumbs/christ.png" class="panelimg" alt="test"></img>
                         </div>
-                        <div data-toggle="collapse" data-target="#churches" class="panel-footer panelname">{{dataSelected.culture.worship.church.title}}</div>
+                        <div class="panel-footer panelname">{{dataSelected.culture.worship.church.title}}</div>
                     </div>
                     <div id="churches" class="col-md-12 collapse">
                         <div class="label-info categoryhead">{{dataSelected.culture.worship.church.subtitle}}</div>
@@ -351,108 +350,108 @@
                             <a href="#koduvayurratholsavam">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.koduvayurratholsavam.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.koduvayurratholsavam.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#thaipooyam">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.thaipooyam.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.thaipooyam.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#nochurratholsavam">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.nochurratholsavam.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.nochurratholsavam.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#sivarathri">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.sivarathri.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.sivarathri.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#ethanurkummati">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.ethanurkummati.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.ethanurkummati.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#kanyarkali">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.kanyarkali.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.kanyarkali.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#mariyammanpongal">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.mariyammanpongal.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.mariyammanpongal.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#aadipooram">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.aadipooram.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.aadipooram.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#ganeshothsavam">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.ganeshothsavam.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.ganeshothsavam.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#navarathri">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.navarathri.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.navarathri.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#annabhishekham">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.annabhishekham.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.annabhishekham.title}}</div>
                                 </div>
                             </a>
 
                             <a href="#kottamaladhanupath">
                                 <div class="col-md-3 panelcol panel panel-default">
                                     <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.culture.festivals.list.example.thumb}}" class="panelimg" alt="test"></img>
+                                        <img src="{{dataSelected.culture.festivals.list.kottamaladhanupath.thumb}}" class="panelimg" alt="test"></img>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.example.title}}</div>
+                                    <div class="panel-footer panelname">{{dataSelected.culture.festivals.list.kottamaladhanupath.title}}</div>
                                 </div>
                             </a>
 
