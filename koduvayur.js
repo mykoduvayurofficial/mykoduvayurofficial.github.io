@@ -6092,17 +6092,17 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         intro: "Winners of this Contest was announced on 23 February 2017, Sunday during the Official Preview of our website - ",
                         introsite: "www.mykoduvayur.in",
                         first: {
-                            pic: "",
-                            name: "",
-                            winnerpic: "",
-                            certificate: "",
+                            title: "WINNER",
+                            pic: "./images/events/contest2017/1.jpg",
+                            name: "MIDHUN.P.V",
+                            certificate: "./images/events/contest2017/first.jpg",
                             caption: ""
                         },
                         second: {
-                            pic: "",
-                            name: "",
-                            winnerpic: "",
-                            certificate: "",
+                            title: "RUNNER UP",
+                            pic: "./images/events/contest2017/2.jpg",
+                            name: "SUJESH.K.APPU",
+                            certificate: "./images/events/contest2017/second.jpg",
                             caption: ""
                         }
                     },
@@ -6111,52 +6111,124 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: "",
                         list: [
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/3.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/4.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/5.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/6.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/7.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/8.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/9.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/10.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/11.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/12.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/13.jpg",
                                 caption: ""
                             },
                             {
-                                pic: "",
+                                pic: "./images/events/contest2017/14.jpg",
                                 caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/15.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/16.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/17.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/18.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/19.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/20.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/21.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/22.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/23.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/24.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/25.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/26.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/27.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/28.jpg",
+                                caption: ""
+                            }
+                        ]
+                    },
+                    officialpreview: {
+                        title: "OFFICIAL ANNOUNCEMENT",
+                        info: "Prizes were distributed and the Official Preview of the Website was announced on 23 February 2017 at Althara, Keralapuram Gramam, Koduvayur.",
+                        chiefguest: {
+                            title: "CHIEF GUEST",
+                            info: "The session was headed and prizes were distributed by our beloved Gopal Sir, who was on our side right from the beginning and provided us with his support.",
+                        },
+                        list: [
+                            {
+                                pic: "./images/events/contest2017/preview1.jpg"
+                            },
+                            {
+                                pic: "./images/events/contest2017/preview2.jpg"
                             }
                         ]
                     }
