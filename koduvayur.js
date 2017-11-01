@@ -397,11 +397,19 @@ mykdrApp.config(function($routeProvider) {
 
         // events
 
-        // route for the koymarpadam page
+        // route for the keralothsavam2017 page
         .when('/keralothsavam2017', {
             title :"Keralothsavam 2017, Koduvayur Grama Panchayath - MyKoduvayur",
-            description : "Panchayath Mela, 2017, Koduvayur, Arts, Athletics, Sports, Games, Cricket, Football, Volleyball, Clubs, Overall",
-            templateUrl : 'pages/events/keralothsavam2017.html',
+            description : "Koduvayur, Mykoduvayur, Events, Panchayath Mela, 2017, Arts, Athletics, Sports, Games, Cricket, Football, Volleyball, Clubs, Overall",
+            templateUrl : 'pages/events/mobilephotographycontest2017.html',
+            controller  : 'eventsController'
+        })
+
+        // route for the mobilephotographycontest2017 page
+        .when('/mobilephotographycontest2017', {
+            title :"Mobile Photography Contest 2017, Koduvayur Ratholsavam - MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Events, Mobile Photography Contest, Photography, Contest, 2017, Koduvayur, Arts, Creative, Koduvayur, Ratholsavam, Koduvayur Ratholsavam, Theru, Prizemoney, Preview, Official",
+            templateUrl : 'pages/events/mobilephotographycontest2017.html',
             controller  : 'eventsController'
         })
 
@@ -5212,8 +5220,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             list: {
 
                 keralotsavam2017 : {
-                    coverpic:  "./images/events/klogo.jpg",
-                    thumb:  "./images/events/kthumbs.jpg",
+                    coverpic:  "./images/events/keralothsavam2017/klogo.jpg",
+                    thumb:  "./images/events/keralothsavam2017/kthumbs.jpg",
                     pagetitle: "KERALOTSAVAM 2017",
                     title: "WELCOME",
                     intro1: "22 of the strongest football teams of Koduvayur featuring in 21 thrilling matches...",
@@ -5225,11 +5233,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     intro7: "2017 Keralotsavam, Koduvayur Grama Panchayath Sep 29,30 & Oct 1...",
                     intro8: "'Show the Real sportsman's spirit'",
                     cricket: "CRICKET",
-                    cricketpic: "./images/events/kcricket.jpg",
+                    cricketpic: "./images/events/keralothsavam2017/kcricket.jpg",
                     football: "FOOTBALL",
-                    footballpic : "./images/events/kfootball.jpg",
+                    footballpic : "./images/events/keralothsavam2017/kfootball.jpg",
                     volleyball: "VOLLEYBALL",
-                    volleyballpic : "./images/events/kvolleyball.jpg",
+                    volleyballpic : "./images/events/keralothsavam2017/kvolleyball.jpg",
                     results : "RESULTS",
                     resultlist: [
                         {
@@ -5455,55 +5463,253 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     gallery: "PHOTO GALLERY",
                     photolist: [
                         {
-                            img: "./images/events/1.jpg",
+                            img: "./images/events/keralothsavam2017/1.jpg",
                             desc1: "KERALOTSAVAM 2017 - NOTICE",
                             desc2: "Propoganda and Schedule of the Events."
                         },
                         {
-                            img: "./images/events/inaug1.jpg",
+                            img: "./images/events/keralothsavam2017/inaug1.jpg",
                             desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
                             desc2: "Inaugrated by: Smt. Saratha Thulasidas, Hon'ble Kollengode Block Panchayat President."
                         },
                         {
-                            img: "./images/events/inaug2.jpg",
+                            img: "./images/events/keralothsavam2017/inaug2.jpg",
                             desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
                             desc2: "Addressing by: Sri. G.Krishnaprasad, Hon'ble Koduvayur Grama Panchayat President."
                         },
                         {
-                            img: "./images/events/2.jpg",
+                            img: "./images/events/keralothsavam2017/2.jpg",
                             desc1: "KERALOTSAVAM 2017 - THE GAME BEGINS",
                             desc2: "The Ground And the Crowd."
                         },
                         {
-                            img: "./images/events/3.jpg",
+                            img: "./images/events/keralothsavam2017/3.jpg",
                             desc1: "KERALOTSAVAM 2017 - VOLLEYBALL",
                             desc2: "The Volley Court surrounded by crowd."
                         },
                         {
-                            img: "./images/events/4.jpg",
+                            img: "./images/events/keralothsavam2017/4.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "The View from the top."
                         },
                         {
-                            img: "./images/events/5.jpg",
+                            img: "./images/events/keralothsavam2017/5.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "The Fight is Intense."
                         },
                         {
-                            img: "./images/events/6.jpg",
+                            img: "./images/events/keralothsavam2017/6.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "So who gets the ball?."
                         }
                     ]
-
                 }
-
 
             }
         },
         ours: {
             title: "MYKODUVAYUR",
             list: {
+                mobilephotographycontest2017: {
+                    title: "MOBILE PHOTOGRAPHY CONTEST 2017",
+                    cover: "./images/events/contest2017/contest2017cover.jpg",
+                    thumb: "./images/events/contest2017/contest2017thumb.jpg",
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "Team BehindBrains organised a Mobile Photography Contest in connection to the announcement of their venture of a web platform - MYKODUVAYUR, during the festive season of Koduvayur Ratholsavam on January 2017."
+                    },
+                    theme: {
+                        title: "THEME : ",
+                        info: "KODUVAYUR RATHOLSAVAM"
+                    },
+                    from: {
+                        title: "FROM : ",
+                        info: "07 January 2017 (Sat) 7pm"
+                    },
+                    to: {
+                        title: "TO : ",
+                        info: "13 January 2017 (Fri) 7pm"
+                    },
+                    eligibility: {
+                        title: "ELIGIBILITY",
+                        e1: "People of ANY AGE GROUP can participate in this contest.",
+                        e2: "Mobile Cameras of ANY RANGE can be used for this contest.",
+                        e3: "Only Photos submitted through EMAIL are considered eligible for the contest.",
+                    },
+                    rules: {
+                        title: "RULES",
+                        r1: "Only photos less than 10 MB size shall be submitted for the contest.",
+                        r2: "A Maximum of 3 PHOTOS is allowed for 1 PERSON.",
+                        r3: "Any Digital Alteration Or Editing done to the Captured Image will result in DISQUALIFICATION.",
+                        r4: "The Original Photo Should Be Presented for Verification if announced WINNER."
+                    },
+                    howtoenter: {
+                        title: "HOW TO ENTER",
+                        intro1: "Anyone who wish to Participate in this CONTEST should Send the Captured Photo to the following E-MAIL ID – ",
+                        intromail: " contest.mykoduvayur@gmail.com ",
+                        intro2: "along with following details : ",
+                        hte1: "PHOTO CAPTION",
+                        hte2: "NAME OF THE PHOTOGRAPHER",
+                        hte3: "CONTACT PHONE NO.",
+                        hte4: "MOBILE PHONE MODEL",
+                        ps: "P.S. ONLY 3 PHOTOS PER E-MAIL/CONTESTANT IS PERMITTED."
+                    },
+                    judging: {
+                        title: "JUDGING",
+                        info: "The Submitted Photographs will be judged based on the following criteria:",
+                        j1: "QUALITY",
+                        j2: "RELEVANCE TO THE THEME",
+                        j3: "ORIGINALITY",
+                        j4: "CREATIVE ELEMENT",
+                        j5: "OVERALL IMPACT"
+                    },
+                    results: {
+                        title: "RESULTS",
+                        intro: "Winners of this Contest was announced on 23 February 2017, Sunday during the Official Preview of our website - ",
+                        introsite: "www.mykoduvayur.in",
+                        first: {
+                            title: "WINNER",
+                            pic: "./images/events/contest2017/1.jpg",
+                            name: "MIDHUN.P.V",
+                            certificate: "./images/events/contest2017/first.jpg",
+                            caption: ""
+                        },
+                        second: {
+                            title: "RUNNER UP",
+                            pic: "./images/events/contest2017/2.jpg",
+                            name: "SUJESH.K.APPU",
+                            certificate: "./images/events/contest2017/second.jpg",
+                            caption: ""
+                        }
+                    },
+                    gallery: {
+                        title: "SELECTED BEST PHOTOS",
+                        info: "",
+                        list: [
+                            {
+                                pic: "./images/events/contest2017/3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/6.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/7.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/8.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/11.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/12.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/13.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/14.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/15.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/16.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/17.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/18.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/19.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/20.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/21.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/22.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/23.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/24.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/25.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/26.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/27.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/contest2017/28.jpg",
+                                caption: ""
+                            }
+                        ]
+                    },
+                    officialpreview: {
+                        title: "OFFICIAL ANNOUNCEMENT",
+                        info: "Prizes were distributed and the Official Preview of the Website was announced on 23 February 2017 at Althara, Keralapuram Gramam, Koduvayur.",
+                        chiefguest: {
+                            title: "CHIEF GUEST",
+                            info: "The session was headed and prizes were distributed by our beloved Gopal Sir, who was on our side right from the beginning and provided us with his support.",
+                        },
+                        list: [
+                            {
+                                pic: "./images/events/contest2017/preview1.jpg"
+                            },
+                            {
+                                pic: "./images/events/contest2017/preview2.jpg"
+                            }
+                        ]
+                    }
+                }
+
 
             }
         }
@@ -5536,8 +5742,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             list: {
 
                 keralotsavam2017 : {
-                    coverpic:  "./images/events/klogo.jpg",
-                    thumb:  "./images/events/kthumbs.jpg",
+                    coverpic:  "./images/events/keralothsavam2017/klogo.jpg",
+                    thumb:  "./images/events/keralothsavam2017/kthumbs.jpg",
                     pagetitle: "കേരളോത്സവം 2017",
                     title: "സ്വാഗതം",
                     intro1: "കൊടുവായൂരിലെ കരുത്തരായ 22 ടീമിന്റെ ആവേശകരമായ 21 ഫുട്ബോൾ മത്സരങ്ങൾ ...",
@@ -5549,11 +5755,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     intro7: "2017 കേരളോത്സവം , കൊടുവായൂർ പഞ്ചായത്ത് Sep 29,30 & Oct 1...",
                     intro8: "'ഷോ ദി റിയൽ സ്പോർട്സ്മാൻ സ്പിരിറ്റ് '",
                     cricket: "ക്രിക്കറ്റ്",
-                    cricketpic: "./images/events/kcricket.jpg",
+                    cricketpic: "./images/events/keralothsavam2017/kcricket.jpg",
                     football: "ഫുട്ബോൾ",
-                    footballpic : "./images/events/kfootball.jpg",
+                    footballpic : "./images/events/keralothsavam2017/kfootball.jpg",
                     volleyball: "വോളീബോൾ",
-                    volleyballpic : "./images/events/kvolleyball.jpg",
+                    volleyballpic : "./images/events/keralothsavam2017/kvolleyball.jpg",
                     results : "ഫലങ്ങൾ",
                     resultlist: [
                         {
@@ -5779,48 +5985,46 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     gallery: "PHOTO GALLERY",
                     photolist: [
                         {
-                            img: "./images/events/1.jpg",
+                            img: "./images/events/keralothsavam2017/1.jpg",
                             desc1: "KERALOTSAVAM 2017 - NOTICE",
                             desc2: "Propoganda and Schedule of the Events."
                         },
                         {
-                            img: "./images/events/inaug1.jpg",
+                            img: "./images/events/keralothsavam2017/inaug1.jpg",
                             desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
                             desc2: "Inaugrated by: Smt. Saratha Thulasidas, Hon'ble Kollengode Block Panchayat President."
                         },
                         {
-                            img: "./images/events/inaug2.jpg",
+                            img: "./images/events/keralothsavam2017/inaug2.jpg",
                             desc1: "KERALOTSAVAM 2017 - INAUGRAL FUNCTION",
                             desc2: "Addressing by: Sri. G.Krishnaprasad, Hon'ble Koduvayur Grama Panchayat President."
                         },
                         {
-                            img: "./images/events/2.jpg",
+                            img: "./images/events/keralothsavam2017/2.jpg",
                             desc1: "KERALOTSAVAM 2017 - THE GAME BEGINS",
                             desc2: "The Ground And the Crowd."
                         },
                         {
-                            img: "./images/events/3.jpg",
+                            img: "./images/events/keralothsavam2017/3.jpg",
                             desc1: "KERALOTSAVAM 2017 - VOLLEYBALL",
                             desc2: "The Volley Court surrounded by crowd."
                         },
                         {
-                            img: "./images/events/4.jpg",
+                            img: "./images/events/keralothsavam2017/4.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "The View from the top."
                         },
                         {
-                            img: "./images/events/5.jpg",
+                            img: "./images/events/keralothsavam2017/5.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "The Fight is Intense."
                         },
                         {
-                            img: "./images/events/6.jpg",
+                            img: "./images/events/keralothsavam2017/6.jpg",
                             desc1: "KERALOTSAVAM 2017 - FOOTBALL",
                             desc2: "So who gets the ball?."
                         }
                     ]
-
-
                 }
 
 
@@ -5829,11 +6033,135 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         ours: {
             title: "MYKODUVAYUR",
-            list: [
-                {
-
+            list: {
+                mobilephotographycontest2017: {
+                    title: "MOBILE PHOTOGRAPHY CONTEST 2017",
+                    cover: "./images/events/contest2017/contest2017cover.jpg",
+                    thumb: "./images/events/contest2017/contest2017thumb.jpg",
+                    intro: {
+                        title: "INTRODUCTION",
+                        info: "Team BehindBrains organised a Mobile Photography Contest in connection to the announcement of their venture of a web platform - MYKODUVAYUR, during the festive season of Koduvayur Ratholsavam on January 2017."
+                    },
+                    theme: {
+                        title: "THEME : ",
+                        info: "KODUVAYUR RATHOLSAVAM"
+                    },
+                    from: {
+                        title: "FROM : ",
+                        info: "07 January 2017 (Sat) 7pm"
+                    },
+                    to: {
+                        title: "TO : ",
+                        info: "13 January 2017 (Fri) 7pm"
+                    },
+                    eligibility: {
+                        title: "ELIGIBILITY",
+                        e1: "People of ANY AGE GROUP can participate in this contest.",
+                        e2: "Mobile Cameras of ANY RANGE can be used for this contest.",
+                        e3: "Only Photos submitted through EMAIL are considered eligible for the contest.",
+                    },
+                    rules: {
+                        title: "RULES",
+                        r1: "Only photos less than 10 MB size shall be submitted for the contest.",
+                        r2: "A Maximum of 3 PHOTOS is allowed for 1 PERSON.",
+                        r3: "Any Digital Alteration Or Editing done to the Captured Image will result in DISQUALIFICATION.",
+                        r4: "The Original Photo Should Be Presented for Verification if announced WINNER."
+                    },
+                    howtoenter: {
+                        title: "HOW TO ENTER",
+                        intro1: "Anyone who wish to Participate in this CONTEST should Send the Captured Photo to the following E-MAIL ID – ",
+                        intromail: " contest.mykoduvayur@gmail.com ",
+                        intro2: "along with following details : ",
+                        hte1: "PHOTO CAPTION",
+                        hte2: "NAME OF THE PHOTOGRAPHER",
+                        hte3: "CONTACT PHONE NO.",
+                        hte4: "MOBILE PHONE MODEL",
+                        ps: "P.S. ONLY 3 PHOTOS PER E-MAIL/CONTESTANT IS PERMITTED."
+                    },
+                    judging: {
+                        title: "JUDGING",
+                        info: "The Submitted Photographs will be judged based on the following criteria:",
+                        j1: "QUALITY",
+                        j2: "RELEVANCE TO THE THEME",
+                        j3: "ORIGINALITY",
+                        j4: "CREATIVE ELEMENT",
+                        j5: "OVERALL IMPACT"
+                    },
+                    results: {
+                        title: "RESULTS",
+                        intro: "Winners of this Contest was announced on 23 February 2017, Sunday during the Official Preview of our website - ",
+                        introsite: "www.mykoduvayur.in",
+                        first: {
+                            pic: "",
+                            name: "",
+                            winnerpic: "",
+                            certificate: "",
+                            caption: ""
+                        },
+                        second: {
+                            pic: "",
+                            name: "",
+                            winnerpic: "",
+                            certificate: "",
+                            caption: ""
+                        }
+                    },
+                    gallery: {
+                        title: "SELECTED BEST PHOTOS",
+                        info: "",
+                        list: [
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            },
+                            {
+                                pic: "",
+                                caption: ""
+                            }
+                        ]
+                    }
                 }
-            ]
+            }
         }
 
     };
@@ -6136,8 +6464,3 @@ mykdrApp.controller('feedbackController', function($rootScope, $scope) {
     }
 
 });
-
-
-
-
-
