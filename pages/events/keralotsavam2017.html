@@ -40,7 +40,7 @@
 
     <div class="col-md-12" id="non-nav" ng-controller="eventsController">
 
-        <img class="pagebanner" src="{{dataSelected.eventpage.festive.list.ganeshothsavam2017.cover}}" />
+        <img class="pagebanner" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.coverpic}}" />
 
         <div class="col-md-12" id="content">
 
@@ -68,18 +68,63 @@
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
 
+
                 <div class="col-md-12">
-                    <h1 style="text-align: center;border-bottom: none"> {{dataSelected.eventpage.festive.list.ganeshothsavam2017.pagetitle}}</h1>
+                    <h1>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.title}}</h1>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro1}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro2}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro3}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro4}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro5}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro6}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro7}}</p>
+                    <p>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.intro8}}</p>
                 </div>
 
-                
                 <div class="col-md-12">
-                    <h1>{{dataSelected.eventpage.festive.list.ganeshothsavam2017.gallery.title}}</h1>
-                    <div class="panel panel-primary" ng-repeat="item in dataSelected.eventpage.festive.list.ganeshothsavam2017.gallery.list">
-                        <img src={{item.pic}} style="width:100%;height:auto" />
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.cricket}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.cricketpic}}" />
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.football}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.footballpic}}" />
+                </div>
+
+                <div class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.volleyball}}</h1>
+                    <img style="width:100%" src="{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.volleyballpic}}" />
+                </div>
+
+                <div  class="col-md-12">
+                    <h1> {{dataSelected.eventpage.artsnsports.list.keralotsavam2017.results}}</h1>
+
+                    <div ng-repeat="item in dataSelected.eventpage.artsnsports.list.keralotsavam2017.resultlist">
+
+                        <div class= "label servicesupersub label-success" style="border-radius: 1% !important;">{{item.title}}</div>
+
+                        <div ng-repeat="itemlist in item.list">
+
+                            <div style="display: block !important; width: 96% !important;" class="servicelistitem label-warning col-md-12">
+                                <div ng-repeat="listitem in itemlist">
+                                    <p style=" display:inline-block; text-align: left">{{listitem}}</p>
+                                </div>
+                            </div>
+
+                        </div>
+
                     </div>
                 </div>
 
+                <div class="col-md-12">
+                    <h1>{{dataSelected.eventpage.artsnsports.list.keralotsavam2017.gallery}}</h1>
+                    <div class="panel panel-primary" ng-repeat="item in dataSelected.eventpage.artsnsports.list.keralotsavam2017.photolist">
+                        <img src={{item.img}} style="width:100%;height:auto" />
+                        <p style="text-align: center">{{item.desc1}}</p>
+                        <p style="text-align: center">{{item.desc2}}</p>
+                    </div>
+                </div>
 
                 <div class="col-md-12" id="adslot2_mob">
                     <div></div>
