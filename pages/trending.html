@@ -86,7 +86,14 @@
                         <div ng-click="pictures()" class="col-md-3 btn-success" id="pictureshead"><i class="fa fa-picture-o"></i> {{dataSelected.trending.trends.pictures.title}}</div>
                         <div ng-click="videos()" class="col-md-3 btn-danger" id="videoshead"><i class="fa fa-play-circle"></i> {{dataSelected.trending.trends.videos.title}}</div>
 
-                        <div class="col-md-12" ng-show="showNews" id="news">testing news</div>
+                        <div class="col-md-12" ng-show="showNews" id="news">
+                            <div class="col-md-12" style=" border: 1px black solid; border-radius: 2vh; padding: 2%;">
+                                <div class="label label-default" style="display: block; left:0;">{{dataSelected.trending.trends.news.list.krishnankovilroad.date}}</div>
+                                <img class="col-md-12" style="padding:1%" src="{{dataSelected.trending.trends.news.list.krishnankovilroad.pic}}" alt="krishnankovilroad" />
+                                <h2>{{dataSelected.trending.trends.news.list.krishnankovilroad.title}}</h2>
+                                <p>{{dataSelected.trending.trends.news.list.krishnankovilroad.news}}</p>
+                            </div>
+                        </div>
                         <div class="col-md-12" ng-show="showArticles" id="articles">testing articles</div>
                         <div class="col-md-12" ng-show="showPictures" id="pictures">
 
