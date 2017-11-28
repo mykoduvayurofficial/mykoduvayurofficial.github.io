@@ -1751,7 +1751,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     gallery: {
                         title: "GALLERY",
                         info: "Featured photos and video collection of this festival."
-                    }
+                    },
                 },
                 koduvayurratholsavam: {
                     title: "KODUVAYUR RATHOLSAVAM",
@@ -1759,27 +1759,48 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: "LOCATION",
-                        info: "The place of the festival celebration."
+                        info: "Sree Visalakshy Sametha Sree Viswanatha Swamy Temple, Keralapuram Gramam, Koduvayur."
                     },
                     intro: {
                         title: "INTRODUCTION",
-                        info: "A brief introduction about the festival."
+                        info: "KODUVAYUR RATHOLSAVAM is one of the famous and remarkable festivals of the Palakkad region, which is known to be 'the land of festivals'. This CHARIOT FEST occurs annually in the heart of the village of Koduvayur and it falls on the day of Thiruvathira star in the month of ‘Dhanu’ (Dec-Jan) at the SREE VISALAKSHY SAMETHA SREE VISWANATHA SWAMY Temple, Keralapuram, Koduvayur. It boasts of about 650 years of past history for the temple and the chariot festival here.. When the chariots roll their way down the 4 streets, the whole of the village collectively celebrate the occasion with tremendous joy, passion and pride... People from all around come to witness and be a part of this great festival, and to acquire the blessings of SREE VISALAKSHY SAMETHA SREE VISWANATHA SWAMY... Read on to find out more..."
                     },
                     history: {
-                        title: "HISTORY",
-                        info: "The history how this festival was started and why it is celebrated."
+                        title: "PREPARATIONS",
+                        l1: "The proceedings begin with the MUHURTHAKAAL CEREMONY exactly 18 days before the festival, where a decorated bamboo is adored and erected on the south-west corner of the temple, depicting the beginning of the festival season.",
+                        l2: "The whole village gets itself up and ready for the fest.. The temple and the streets are cleaned up, and the repair works, whitewashing, painting and decorating of the houses are done... Usually, native people who are settled abroad or any distant place, finds this the right time to return home...",
+                        l3: "The village sets up a beautiful festive mood all around in the coming days and exactly a week before the fest, the celebrations start up.. The undecorated chariots are taken out of the garages and set up outside the temple..",
+                        l4: "The ritual of GRAMA SANTHI takes place at the twilight, which according to mythology, is intended to encage the bad spirits which are wandering around the village.. "
                     },
                     season: {
-                        title: "THE FESTIVE SEASON",
-                        info: "The time of the year when the festival is celebrated."
+                        title: "THE FESTIVE DAYS",
+                        l1: "The next morning, the KODIYETTAM / DHWAJAROHANAM / FLAG HOIST CEREMONY takes place, marking the beginning of that year's festival.. This is the hoisting of the holy flag (DHWAJAM) in the DHWAJASTHAMBAM of the temple... The whole of the village would be present to witness the ceremony... From this day on till the festival, RUDRA ABHISHEKAM takes place in the temple each morning... ",
+                        l2: "On that night, the procession of the PALLAKKU takes place with the KAMADHENU VAHANAM.. Many people accompany the procession along with the bullock driven PALLAKKU and NAADASWARAM.. Pooja will be arranged in front of each house and will be done as the procession passes by..",
+                        l3: "The second night, the procession takes place with the BOOTHA VAHANAM on the PALLAKKU... On all these days, the beautiful KOLAM / RANGOLI in the frontyard of the houses sure provide a treat to the eyes and camera lenses..",
+                        l4: "The next night, it will be KUTHIRA VAAHANAM (horse)... By the third day, most people from abroad and around would have reached for the festival, so the procession act as a get-together for old friends to have a good time and refresh memories... The procession lasts for nearly 3 hours and covers nearly whole of the village...",
+                        l5: "By the fourth day, the decoration of the chariots will be on progress by the hierarchical carpenter families.. The fourth night, the KAILASA VAHANAM rolls on the streets of Koduvayur, with more joyous moments and more people getting together.. And the holy MAHAPRADOSHAM also falls on one of these 6 days... ",
+                        l6: "The fifth day is also called the ANJAAM THIRUNAAL... With the festive mood rising up on te whole village, the celebrations shift up to the next level... The THAZHIKA KUDAM will be adorned to the chariots on the ANJAM THIRUNAL.. The PALLAKKU will be decorated and will be adorned with the RISHABHA VAHANAM, for the royal procession,  with KACHERI... Fireworks spread colour to the procession..",
+                        l7: "The last PALLAKKU procesion will be a short one, on the sixth night with the AANA VAHANAM sprinting down the streets... With just one day left to the RATHOLSAVAM, serial lights spread the glitter and sparkle through the village streets.."
                     },
                     celebration: {
-                        title: "CELEBRATIONS",
-                        info: "Description about how the festival is celebrated."
+                        title: "DAY ONE - ONNAM THERU",
+                        l1 : "The MAHABHISHEKAM takes place from twilight till dawn of the ONNAM THERU... The ARDRA DARSANAM follows... Thousands of people gather to witness the holy ALANKARA DEEPARADHANA...",
+                        l2 : "The RATHAROHANAM occurs at nearly 6-7 am.. With the thousands of devotees gatherd around the temple, the 3 UTSAVA MOORTHIs revolve thrice around the temple and 9 times around the holy banyan tree and are adorned to the respective chariots...",
+                        l3 : "The sounds of PANCHAVADHYAM, CHENDAMELAM & NADASWARAM echoes with the mob dancing in joy... The  fireworks begin...",
+                        l4 : "The THIRUMANJANAM EZHUNNALLATH, the procession of elephants carrying the POORNA KUBHAM, accompanied by PANCHA VADHYAM takes place from 9.00 till noon..",
+                        l5 : "The RATHAM GRAMAPRADAKSHINAM begins afternoon where the 3 chariots roll their way through the streets one by one, accompanied by CHENDAMELAM till the middle of the GOKULA STREET, for day 1..",
+                        l6 : "Its a wonderly uniqurness of the KODUVAYUR RATHOLSAVAM that the path of the procession of the chariots resemble the holy tamil phrase 'OM'.. And its one of the very few chariot fests where the chariots are not reversed or repeated through the same path...",
+                        l7 : "The chariots rest in the GOKULA STREET on ONNAM THERU.. After all the chariots reach there, there would be recitals of many STOTRAMs and songs depicting LORD SHIVA, followed by DEEPARADHANA and KRAMARCHANA...",
+                        l8 : "PAANDI MELAM is a new custom that has been introduced for the past few years to the already busy schedule of KODUVAYUR RATHOLSAVAM.. "
                     },
                     specialities: {
-                        title: "SPECIALITY",
-                        info: "About the important special facts and significance of this festival."
+                        title: "DAY TWO - RANDAM THERU",
+                        l1 : "After the POOJA & DEEPARADHANA at the morning of the RANDAM THERU, the RATHAM GRAMAPRADAKSHINAM begins at early afternoon, and chariots make their way through CORNER STREET & DOUBLE STREET... ",
+                        l2 : "At about 7 pm, the 3 chariots proceed to the temple together.. It is a beautiful scene to watch and thousands of people our in just to witness this... As the CHENDAMELAM echoes, people dance with sheer joy and fireworks lighten up to give a visual treat... As the chariots reach the temple premises, the VEDIKKETTU follows... ",
+                        l3 : "That night, an orchestra band provides immense entertainment to a huge crowd that has turned up...",
+                        l4 : "The next early morning, PALLAKKU KACHERI occurs followed by KULATHERU & its MOUNAVRATHAM for the next day...",
+                        l5 : "MANJALNEERATU occurs on the second day after the RANDAM THERU... DHWAJAVAROHAM occurs that night.... With the POORNABHISHEKAM on the next morning, its curtains to that year's RATHOLSAVAM, or THERU as we call it..",
+                        l6 : "Everyone go back to their lives, from the next day, and their longing wait for the next THERU begin........"
                     },
                     gallery: {
                         title: "GALLERY",
@@ -2847,32 +2868,53 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
-                        title: "ഉത്സവാങ്കണം ",
-                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                        title: "ഉത്സവാങ്കണം",
+                        info: "ശ്രീ വിശാലാക്ഷി സമേത ശ്രീ വിശ്വനാഥ സ്വാമി ക്ഷേത്രം, കേരളപുരം ഗ്രാമം, കൊടുവായൂര്‍."
                     },
                     intro: {
                         title: "മുഖവുര",
-                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                        info: "KODUVAYUR RATHOLSAVAM is one of the famous and remarkable festivals of the Palakkad region, which is known to be 'the land of festivals'. This CHARIOT FEST occurs annually in the heart of the village of Koduvayur and it falls on the day of Thiruvathira star in the month of ‘Dhanu’ (Dec-Jan) at the SREE VISALAKSHY SAMETHA SREE VISWANATHA SWAMY Temple, Keralapuram, Koduvayur. It boasts of about 650 years of past history for the temple and the chariot festival here.. When the chariots roll their way down the 4 streets, the whole of the village collectively celebrate the occasion with tremendous joy, passion and pride... People from all around come to witness and be a part of this great festival, and to acquire the blessings of SREE VISALAKSHY SAMETHA SREE VISWANATHA SWAMY... Read on to find out more..."
                     },
                     history: {
-                        title: "ഉത്സവചരിത്രം",
-                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                        title: "PREPARATIONS",
+                        l1: "The proceedings begin with the MUHURTHAKAAL CEREMONY exactly 18 days before the festival, where a decorated bamboo is adored and erected on the south-west corner of the temple, depicting the beginning of the festival season.",
+                        l2: "The whole village gets itself up and ready for the fest.. The temple and the streets are cleaned up, and the repair works, whitewashing, painting and decorating of the houses are done... Usually, native people who are settled abroad or any distant place, finds this the right time to return home...",
+                        l3: "The village sets up a beautiful festive mood all around in the coming days and exactly a week before the fest, the celebrations start up.. The undecorated chariots are taken out of the garages and set up outside the temple..",
+                        l4: "The ritual of GRAMA SANTHI takes place at the twilight, which according to mythology, is intended to encage the bad spirits which are wandering around the village.. "
                     },
                     season: {
-                        title: "ഉത്സവവേള",
-                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                        title: "THE FESTIVE DAYS",
+                        l1: "The next morning, the KODIYETTAM / DHWAJAROHANAM / FLAG HOIST CEREMONY takes place, marking the beginning of that year's festival.. This is the hoisting of the holy flag (DHWAJAM) in the DHWAJASTHAMBAM of the temple... The whole of the village would be present to witness the ceremony... From this day on till the festival, RUDRA ABHISHEKAM takes place in the temple each morning... ",
+                        l2: "On that night, the procession of the PALLAKKU takes place with the KAMADHENU VAHANAM.. Many people accompany the procession along with the bullock driven PALLAKKU and NAADASWARAM.. Pooja will be arranged in front of each house and will be done as the procession passes by..",
+                        l3: "The second night, the procession takes place with the BOOTHA VAHANAM on the PALLAKKU... On all these days, the beautiful KOLAM / RANGOLI in the frontyard of the houses sure provide a treat to the eyes and camera lenses..",
+                        l4: "The next night, it will be KUTHIRA VAAHANAM (horse)... By the third day, most people from abroad and around would have reached for the festival, so the procession act as a get-together for old friends to have a good time and refresh memories... The procession lasts for nearly 3 hours and covers nearly whole of the village...",
+                        l5: "By the fourth day, the decoration of the chariots will be on progress by the hierarchical carpenter families.. The fourth night, the KAILASA VAHANAM rolls on the streets of Koduvayur, with more joyous moments and more people getting together.. And the holy MAHAPRADOSHAM also falls on one of these 6 days... ",
+                        l6: "The fifth day is also called the ANJAAM THIRUNAAL... With the festive mood rising up on te whole village, the celebrations shift up to the next level... The THAZHIKA KUDAM will be adorned to the chariots on the ANJAM THIRUNAL.. The PALLAKKU will be decorated and will be adorned with the RISHABHA VAHANAM, for the royal procession,  with KACHERI... Fireworks spread colour to the procession..",
+                        l7: "The last PALLAKKU procesion will be a short one, on the sixth night with the AANA VAHANAM sprinting down the streets... With just one day left to the RATHOLSAVAM, serial lights spread the glitter and sparkle through the village streets.."
                     },
                     celebration: {
-                        title: "ആഘോഷങ്ങൾ",
-                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                        title: "DAY ONE - ONNAM THERU",
+                        l1 : "The MAHABHISHEKAM takes place from twilight till dawn of the ONNAM THERU... The ARDRA DARSANAM follows... Thousands of people gather to witness the holy ALANKARA DEEPARADHANA...",
+                        l2 : "The RATHAROHANAM occurs at nearly 6-7 am.. With the thousands of devotees gatherd around the temple, the 3 UTSAVA MOORTHIs revolve thrice around the temple and 9 times around the holy banyan tree and are adorned to the respective chariots...",
+                        l3 : "The sounds of PANCHAVADHYAM, CHENDAMELAM & NADASWARAM echoes with the mob dancing in joy... The  fireworks begin...",
+                        l4 : "The THIRUMANJANAM EZHUNNALLATH, the procession of elephants carrying the POORNA KUBHAM, accompanied by PANCHA VADHYAM takes place from 9.00 till noon..",
+                        l5 : "The RATHAM GRAMAPRADAKSHINAM begins afternoon where the 3 chariots roll their way through the streets one by one, accompanied by CHENDAMELAM till the middle of the GOKULA STREET, for day 1..",
+                        l6 : "Its a wonderly uniqurness of the KODUVAYUR RATHOLSAVAM that the path of the procession of the chariots resemble the holy tamil phrase 'OM'.. And its one of the very few chariot fests where the chariots are not reversed or repeated through the same path...",
+                        l7 : "The chariots rest in the GOKULA STREET on ONNAM THERU.. After all the chariots reach there, there would be recitals of many STOTRAMs and songs depicting LORD SHIVA, followed by DEEPARADHANA and KRAMARCHANA...",
+                        l8 : "PAANDI MELAM is a new custom that has been introduced for the past few years to the already busy schedule of KODUVAYUR RATHOLSAVAM.. "
                     },
                     specialities: {
-                        title: "ഉത്സവവിശേഷം",
-                        info: "ഈ ഉത്സവത്തിന്റെ വ്യത്യസ്തമാക്കുന്ന വിശേഷങ്ങളും വസ്തുതകളും."
+                        title: "DAY TWO - RANDAM THERU",
+                        l1 : "After the POOJA & DEEPARADHANA at the morning of the RANDAM THERU, the RATHAM GRAMAPRADAKSHINAM begins at early afternoon, and chariots make their way through CORNER STREET & DOUBLE STREET... ",
+                        l2 : "At about 7 pm, the 3 chariots proceed to the temple together.. It is a beautiful scene to watch and thousands of people our in just to witness this... As the CHENDAMELAM echoes, people dance with sheer joy and fireworks lighten up to give a visual treat... As the chariots reach the temple premises, the VEDIKKETTU follows... ",
+                        l3 : "That night, an orchestra band provides immense entertainment to a huge crowd that has turned up...",
+                        l4 : "The next early morning, PALLAKKU KACHERI occurs followed by KULATHERU & its MOUNAVRATHAM for the next day...",
+                        l5 : "MANJALNEERATU occurs on the second day after the RANDAM THERU... DHWAJAVAROHAM occurs that night.... With the POORNABHISHEKAM on the next morning, its curtains to that year's RATHOLSAVAM, or THERU as we call it..",
+                        l6 : "Everyone go back to their lives, from the next day, and their longing wait for the next THERU begin........"
                     },
                     gallery: {
-                        title: "ഗാലറി",
-                        info: "ഉത്സവത്തിന്റെ ചിത്രങ്ങളും വിഡിയോകളുടെയും ശേഖരം."
+                        title: "GALLERY",
+                        info: "Featured photos and video collection of this festival."
                     }
                 },
                 thaipooyam: {
@@ -5111,6 +5153,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 title: "NEWS",
                 list: {
 
+                    krishnankovilroad: {
+                        date: "27.11.2017",
+                        title: "KERALAPURAM KRISHNAN KOVIL ROAD CONSTRUCTION",
+                        pic: "./images/trending/news/krishnankovilroad.jpg",
+                        news: "സത്യപ്രതിജ്ഞ കഴിഞ്ഞു അധികാരത്തിൽ കയറി സഖാവ്‌ ഇബ്രാഹിം'മിൽ നിന്നും ഏറ്റുവാങ്ങിയ സഖാവ് പത്മകൃഷ്ണന്റെ ആദ്യത്തെ പരാതി ആയിരുന്നു കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ്. അധികാരമേറ്റ് ഒരു മാസത്തിനുള്ളിൽ ഇതിനായി ഫണ്ട് മാറ്റിവച്ചു. പഞ്ചായത്ത് പ്രസിഡന്റ് ജി.കൃഷ്ണപ്രസാദ് അവറുകളുടെ വളരെ ശക്തമായ ഇടപെടലുകൾ കൊണ്ട് വളരെ പെട്ടെന്ന് അതിന്റെ പുറകിലുള്ള സാങ്കേതിക പ്രശ്നങ്ങൾ പരിഹരിച്ചു. കഴിഞ്ഞ 35 വർഷത്തോളമായി ആ പരിസരവാസികളുടെ ഏറ്റവും വലിയ ആവശ്യവും,സ്വപ്നവും ഇന്ന് പൂർത്തീകരിച്ചു. "
+                    }
+
                 }
             },
             articles: {
@@ -5151,11 +5200,16 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         trends: {
             news: {
                 title: "വാർത്ത",
-                list: [
-                    {
+                list:{
+
+                        krishnankovilroad: {
+                            date: "27.11.2017",
+                            title: "കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ് രൂപീകരിച്ചു",
+                            pic: "./images/trending/news/krishnankovilroad.jpg",
+                            news: "സത്യപ്രതിജ്ഞ കഴിഞ്ഞു അധികാരത്തിൽ കയറി സഖാവ്‌ ഇബ്രാഹിം'മിൽ നിന്നും ഏറ്റുവാങ്ങിയ സഖാവ് പത്മകൃഷ്ണന്റെ ആദ്യത്തെ പരാതി ആയിരുന്നു കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ്. അധികാരമേറ്റ് ഒരു മാസത്തിനുള്ളിൽ ഇതിനായി ഫണ്ട് മാറ്റിവച്ചു. പഞ്ചായത്ത് പ്രസിഡന്റ് ജി.കൃഷ്ണപ്രസാദ് അവറുകളുടെ വളരെ ശക്തമായ ഇടപെടലുകൾ കൊണ്ട് വളരെ പെട്ടെന്ന് അതിന്റെ പുറകിലുള്ള സാങ്കേതിക പ്രശ്നങ്ങൾ പരിഹരിച്ചു. കഴിഞ്ഞ 35 വർഷത്തോളമായി ആ പരിസരവാസികളുടെ ഏറ്റവും വലിയ ആവശ്യവും,സ്വപ്നവും ഇന്ന് പൂർത്തീകരിച്ചു. "
+                        }
 
                     }
-                ]
             },
             articles: {
                 title: "ലേഖനം",
