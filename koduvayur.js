@@ -410,6 +410,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'eventsController'
         })
 
+        // route for the keralotsavam2017 page
+        .when('/majesticfc7sdec2017', {
+            title :"Majestic FC 7's Football Dec 2017, Koduvayur Grama Panchayath - MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Events, Majestic FC, 7s, Tournament, Football, Live, Update, Official, 2017, Arts and Sports, Football, Winners, Champions, Clubs",
+            templateUrl : 'pages/events/majesticfc7sdec2017.html',
+            controller  : 'eventsController'
+        })
+
         // route for the mobilephotographycontest2017 page
         .when('/mobilephotographycontest2017', {
             title :"Mobile Photography Contest 2017, Koduvayur Ratholsavam - MyKoduvayur",
@@ -5714,6 +5722,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             desc2: "So who gets the ball?."
                         }
                     ]
+                },
+
+                majesticfc7sdec2017: {
+                    coverpic: "./images/events/majesticfc7sdec2017/cover.jpg",
+                    thumb: "./images/events/majesticfc7sdec2017/thumb.jpg",
+                    pagetitle: "MAJESTIC FC 7's DEC 2017"
                 }
 
             }
@@ -6407,6 +6421,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             desc2: "So who gets the ball?."
                         }
                     ]
+                },
+
+                majesticfc7sdec2017: {
+                    coverpic: "./images/events/majesticfc7sdec2017/cover.jpg",
+                    thumb: "./images/events/majesticfc7sdec2017/thumb.jpg",
+                    pagetitle: "MAJESTIC FC 7's DEC 2017"
                 }
 
 
