@@ -63,13 +63,39 @@
 
                 <!--<p><br /></p>-->
 
+                <div class="col-md-12" id="adslot1_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
                 <div class="col-md-12">
                     <h1 style="text-align: center;border-bottom: none">{{dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.pagetitle}}</h1>
                 </div>
 
-                <div class="col-md-12" id="adslot1_mob">
-                    <div></div>
-                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                <div class="col-md-12">
+                    <div class="servicesupersub label-warning col-md-12" style="display: block !important; width: 96% !important;">{{dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.held}}</div>
+                </div>
+
+                <div class="col-md-12">
+                    <h1>{{dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.results.title}}</h1>
+
+                    <div style="display: block !important; width: 96% !important;" class="servicelistitem label-warning col-md-12">
+                        <div ng-repeat="item in dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.results.resultlist">
+                            <div ng-repeat="listitem in item">
+                                <p style=" display:inline-block; text-align: left">{{listitem}}</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <h1>{{dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.gallery.title}}</h1>
+
+                    <div class="col-md-12">
+                        <div class="panel panel-primary" ng-repeat="item in dataSelected.eventpage.artsnsports.list.majesticfc7sdec2017.gallery.photolist">
+                            <img src={{item.img}} style="width:100%;height:auto" />
+                        </div>
+                    </div>
                 </div>
 
 
