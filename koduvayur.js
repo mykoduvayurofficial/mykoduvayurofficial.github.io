@@ -1070,7 +1070,6 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
-
     $rootScope.engdata.culture = {
         intro: {
             title: "INTRODUCTION",
@@ -5166,6 +5165,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "KERALAPURAM KRISHNAN KOVIL ROAD CONSTRUCTION",
                         pic: "./images/trending/news/krishnankovilroad.jpg",
                         news: "സത്യപ്രതിജ്ഞ കഴിഞ്ഞു അധികാരത്തിൽ കയറി സഖാവ്‌ ഇബ്രാഹിം'മിൽ നിന്നും ഏറ്റുവാങ്ങിയ സഖാവ് പത്മകൃഷ്ണന്റെ ആദ്യത്തെ പരാതി ആയിരുന്നു കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ്. അധികാരമേറ്റ് ഒരു മാസത്തിനുള്ളിൽ ഇതിനായി ഫണ്ട് മാറ്റിവച്ചു. പഞ്ചായത്ത് പ്രസിഡന്റ് ജി.കൃഷ്ണപ്രസാദ് അവറുകളുടെ വളരെ ശക്തമായ ഇടപെടലുകൾ കൊണ്ട് വളരെ പെട്ടെന്ന് അതിന്റെ പുറകിലുള്ള സാങ്കേതിക പ്രശ്നങ്ങൾ പരിഹരിച്ചു. കഴിഞ്ഞ 35 വർഷത്തോളമായി ആ പരിസരവാസികളുടെ ഏറ്റവും വലിയ ആവശ്യവും,സ്വപ്നവും ഇന്ന് പൂർത്തീകരിച്ചു. "
+                    },
+
+                    cleankoduvayur: {
+                        date: "07.12.2017",
+                        title: "CLEAN KODUVAYUR",
+                        pic: "./images/trending/news/cleankoduvayur.jpg",
+                        news: "മൃഗ സംരക്ഷണ വകുപ്പിന്റെ ആദിമുഖ്യത്തിൽ നടന്ന ക്ലീൻ കൊടുവായൂർ മിഷൻന്റെ മാലിന്യ സംസ്കരണ ബോധവത്കരണ റാലി "
                     }
 
                 }
@@ -5727,9 +5733,57 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 majesticfc7sdec2017: {
                     coverpic: "./images/events/majesticfc7sdec2017/cover.jpg",
                     thumb: "./images/events/majesticfc7sdec2017/thumb.jpg",
-                    pagetitle: "MAJESTIC FC 7's DEC 2017"
+                    pagetitle: "MAJESTIC FC 7's DEC 2017",
+                    held: "HELD AT GHSS KODUVAYUR GROUND ON 9, 10 DECEMBER 2017...",
+                    results: {
+                        title: "RESULTS",
+                        resultlist: [
+                            {
+                                a: "TOTAL TEAMS PARTICIPATED : 22",
+                                b: "",
+                                c: "SEMI FINALS",
+                                d: "ESFC PANDIYODE 2 - 0 PFC PUTHUR. ESFC TO THE FINALS.",
+                                e: "AL FIDHA PALAKKAD 1 - 1 PFC PPERUVEMBU. AL FIDHA WINS 5-4 IN PENALTIES. AL FIDHA INTO THE FINALS.",
+                                f: "",
+                                g: "FINALS",
+                                h: "AL FIDHA PALAKKAD 2 - 1 ESFC PANDIYODE. AL FIDHA WINS.",
+                                i: "",
+                                j: "AL FIDHA PALAKKAD ARE THE CHAMPIONS !!!",
+                                k: "",
+                                m: "BEST PLAYER: 'AACHI' OF AL FIDHA PALAKKAD.",
+                                n: "",
+                                o: "CONGRAGULATIONS TO THE WINNERS...",
+                                p: "A BIG THANK YOU FOR ALL THE CHIEF GUESTS, TEAMS, PLAYERS, HIGH SCHOOL AUTHORITY, ALL THE VOLUNTEERS AND THE PASSIONATE CROWD..."
+                            }
+                        ]
+                    },
+                    gallery: {
+                        title: "PHOTO GALLERY",
+                        photolist: [
+                            {
+                                img: "./images/events/majesticfc7sdec2017/0.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/1.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/2.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/3.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/4.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/5.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/6.jpg"
+                            }
+                        ]
+                    }
                 }
-
             }
         },
         ours: {
@@ -6426,9 +6480,57 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 majesticfc7sdec2017: {
                     coverpic: "./images/events/majesticfc7sdec2017/cover.jpg",
                     thumb: "./images/events/majesticfc7sdec2017/thumb.jpg",
-                    pagetitle: "MAJESTIC FC 7's DEC 2017"
+                    pagetitle: "MAJESTIC FC 7's DEC 2017",
+                    held: "HELD AT GHSS KODUVAYUR GROUND ON 9, 10 DECEMBER 2017...",
+                    results: {
+                        title: "RESULTS",
+                        resultlist: [
+                            {
+                                a: "TOTAL TEAMS PARTICIPATED : 22",
+                                b: "",
+                                c: "SEMI FINALS",
+                                d: "ESFC PANDIYODE 2 - 0 PFC PUTHUR. ESFC TO THE FINALS.",
+                                e: "AL FIDHA PALAKKAD 1 - 1 PFC PPERUVEMBU. AL FIDHA WINS 5-4 IN PENALTIES. AL FIDHA INTO THE FINALS.",
+                                f: "",
+                                g: "FINALS",
+                                h: "AL FIDHA PALAKKAD 2 - 1 ESFC PANDIYODE. AL FIDHA WINS.",
+                                i: "",
+                                j: "AL FIDHA PALAKKAD ARE THE CHAMPIONS !!!",
+                                k: "",
+                                m: "BEST PLAYER: 'AACHI' OF AL FIDHA PALAKKAD.",
+                                n: "",
+                                o: "CONGRAGULATIONS TO THE WINNERS...",
+                                p: "A BIG THANK YOU FOR ALL THE CHIEF GUESTS, TEAMS, PLAYERS, HIGH SCHOOL AUTHORITY, ALL THE VOLUNTEERS AND THE PASSIONATE CROWD..."
+                            }
+                        ]
+                    },
+                    gallery: {
+                        title: "PHOTO GALLERY",
+                        photolist: [
+                            {
+                                img: "./images/events/majesticfc7sdec2017/0.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/1.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/2.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/3.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/4.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/5.jpg"
+                            },
+                            {
+                                img: "./images/events/majesticfc7sdec2017/6.jpg"
+                            }
+                        ]
+                    }
                 }
-
 
             }
 
