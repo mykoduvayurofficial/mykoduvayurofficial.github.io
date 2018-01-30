@@ -402,6 +402,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'eventsController'
         })
 
+        // route for the thaipooyam2018 page
+        .when('/thaipooyam2018', {
+            title :"Thaipooyam 2018- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Events, Festival, Thaipooyam, Bala Ratholsavam, 2018, Theru, Subramaniya Swamy, Official, Photos, Pictures",
+            templateUrl : 'pages/events/thaipooyam2018.html',
+            controller  : 'eventsController'
+        })
+
         // route for the keralotsavam2017 page
         .when('/keralotsavam2017', {
             title :"Keralotsavam 2017, Koduvayur Grama Panchayath - MyKoduvayur",
@@ -452,7 +460,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "30 September 2017"
+            lastupdated: "30 January 2018"
         },
         menu: {
             english: "EN",
@@ -499,7 +507,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "30 സെപ്റ്റംബർ 2017"
+            lastupdated: "30 ജനുവരി 2018"
         },
         menu: {
             english: "EN",
@@ -5436,6 +5444,38 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             }
                         ]
                     }
+                },
+
+                thaipooyam2018: {
+                    pagetitle: "THAIPOOYAM 2018",
+                    cover: "./images/events/thaipooyam2018/cover.jpg",
+                    thumb: "./images/events/thaipooyam2018/thumb.jpg",
+                    gallery: {
+                        title: "PHOTO ALBUM",
+                        info: "",
+                        list: [
+                            {
+                                pic: "./images/events/thaipooyam2018/1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/5.jpg",
+                                caption: ""
+                            }
+                        ]
+                    }
                 }
 
             }
@@ -6035,8 +6075,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         festive: {
             title: "ആഘോഷങ്ങൾ",
-            list: [
-                {
+            list: {
                     ganeshothsavam2017: {
                         pagetitle: "ഗണേശോത്സവം 2017",
                         cover: "./images/events/ganeshothsavam2017/cover.jpg",
@@ -6183,9 +6222,40 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 }
                             ]
                         }
+                    },
+
+                    thaipooyam2018: {
+                        pagetitle: "തൈപ്പൂയം 2018",
+                        cover: "./images/events/thaipooyam2018/cover.jpg",
+                        thumb: "./images/events/thaipooyam2018/thumb.jpg",
+                        gallery: {
+                            title: "PHOTO ALBUM",
+                            info: "",
+                            list: [
+                                {
+                                    pic: "./images/events/thaipooyam2018/1.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/2.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/3.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/4.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/5.jpg",
+                                    caption: ""
+                                }
+                            ]
+                        }
                     }
-                }
-            ]
+            }
         },
         artsnsports: {
             title: "കലാ - കായികം",
