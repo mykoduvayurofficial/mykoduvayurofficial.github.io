@@ -5485,6 +5485,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             {
                                 pic: "./images/events/thaipooyam2018/8.jpg",
                                 caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/9.jpg",
+                                caption: ""
                             }
                         ]
                     }
@@ -6274,6 +6278,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 },
                                 {
                                     pic: "./images/events/thaipooyam2018/8.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/9.jpg",
                                     caption: ""
                                 }
                             ]
