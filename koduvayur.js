@@ -460,7 +460,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "30 January 2018"
+            lastupdated: "01 February 2018"
         },
         menu: {
             english: "EN",
@@ -507,7 +507,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "kriz815",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "30 ജനുവരി 2018"
+            lastupdated: "01 ഫെബ്രുവരി 2018"
         },
         menu: {
             english: "EN",
