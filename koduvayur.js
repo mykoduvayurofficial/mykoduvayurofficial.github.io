@@ -496,7 +496,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             updated: "Last Updated : "
         },
         footer: {
-            copyright: "Team BehindBrains © 2017. All Rights Reserved.",
+            copyright: "Team BehindBrains © 2018. All Rights Reserved.",
             share: "Share: "
         }
     };
@@ -543,7 +543,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             updated: "Last Updated : "
         },
         footer: {
-            copyright: "Team BehindBrains © 2017. All Rights Reserved.",
+            copyright: "Team BehindBrains © 2018. All Rights Reserved.",
             share: "Share: "
         }
     };
@@ -5180,7 +5180,15 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "CLEAN KODUVAYUR",
                         pic: "./images/trending/news/cleankoduvayur.jpg",
                         news: "മൃഗ സംരക്ഷണ വകുപ്പിന്റെ ആദിമുഖ്യത്തിൽ നടന്ന ക്ലീൻ കൊടുവായൂർ മിഷൻന്റെ മാലിന്യ സംസ്കരണ ബോധവത്കരണ റാലി "
+                    },
+
+                    superbloodmoon: {
+                        date: "31.01.2018",
+                        title: "SUPER BLOOD MOON",
+                        pic: "./images/trending/news/superbloodmoon.jpg",
+                        news: "Super Blood Moon Lunar Eclipse Occcurs once in 152 years. It happened at 5.30 pm to 9.00 pm on 31 Jan 2018. Was clearly visible in Koduvayur. Photographed by Aravind Mohan."
                     }
+
 
                 }
             },
@@ -5223,13 +5231,28 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             news: {
                 title: "വാർത്ത",
                 list:{
+                    krishnankovilroad: {
+                        date: "27.11.2017",
+                        title: "കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ് രൂപീകരിച്ചു",
+                        pic: "./images/trending/news/krishnankovilroad.jpg",
+                        news: "സത്യപ്രതിജ്ഞ കഴിഞ്ഞു അധികാരത്തിൽ കയറി സഖാവ്‌ ഇബ്രാഹിം'മിൽ നിന്നും ഏറ്റുവാങ്ങിയ സഖാവ് പത്മകൃഷ്ണന്റെ ആദ്യത്തെ പരാതി ആയിരുന്നു കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ്. അധികാരമേറ്റ് ഒരു മാസത്തിനുള്ളിൽ ഇതിനായി ഫണ്ട് മാറ്റിവച്ചു. പഞ്ചായത്ത് പ്രസിഡന്റ് ജി.കൃഷ്ണപ്രസാദ് അവറുകളുടെ വളരെ ശക്തമായ ഇടപെടലുകൾ കൊണ്ട് വളരെ പെട്ടെന്ന് അതിന്റെ പുറകിലുള്ള സാങ്കേതിക പ്രശ്നങ്ങൾ പരിഹരിച്ചു. കഴിഞ്ഞ 35 വർഷത്തോളമായി ആ പരിസരവാസികളുടെ ഏറ്റവും വലിയ ആവശ്യവും,സ്വപ്നവും ഇന്ന് പൂർത്തീകരിച്ചു. "
+                    },
 
-                        krishnankovilroad: {
-                            date: "27.11.2017",
-                            title: "കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ് രൂപീകരിച്ചു",
-                            pic: "./images/trending/news/krishnankovilroad.jpg",
-                            news: "സത്യപ്രതിജ്ഞ കഴിഞ്ഞു അധികാരത്തിൽ കയറി സഖാവ്‌ ഇബ്രാഹിം'മിൽ നിന്നും ഏറ്റുവാങ്ങിയ സഖാവ് പത്മകൃഷ്ണന്റെ ആദ്യത്തെ പരാതി ആയിരുന്നു കേരളപുരം കൃഷ്ണൻ കോവിൽ റോഡ്. അധികാരമേറ്റ് ഒരു മാസത്തിനുള്ളിൽ ഇതിനായി ഫണ്ട് മാറ്റിവച്ചു. പഞ്ചായത്ത് പ്രസിഡന്റ് ജി.കൃഷ്ണപ്രസാദ് അവറുകളുടെ വളരെ ശക്തമായ ഇടപെടലുകൾ കൊണ്ട് വളരെ പെട്ടെന്ന് അതിന്റെ പുറകിലുള്ള സാങ്കേതിക പ്രശ്നങ്ങൾ പരിഹരിച്ചു. കഴിഞ്ഞ 35 വർഷത്തോളമായി ആ പരിസരവാസികളുടെ ഏറ്റവും വലിയ ആവശ്യവും,സ്വപ്നവും ഇന്ന് പൂർത്തീകരിച്ചു. "
-                        }
+                    cleankoduvayur: {
+                        date: "07.12.2017",
+                        title: "CLEAN KODUVAYUR",
+                        pic: "./images/trending/news/cleankoduvayur.jpg",
+                        news: "മൃഗ സംരക്ഷണ വകുപ്പിന്റെ ആദിമുഖ്യത്തിൽ നടന്ന ക്ലീൻ കൊടുവായൂർ മിഷൻന്റെ മാലിന്യ സംസ്കരണ ബോധവത്കരണ റാലി "
+                    },
+
+                    superbloodmoon: {
+                        date: "31.01.2018",
+                        title: "SUPER BLOOD MOON",
+                        pic: "./images/trending/news/superbloodmoon.jpg",
+                        news: "Super Blood Moon Lunar Eclipse Occcurs once in 152 years. It happened on 5.30 pm to 9.00 pm on 31 Jan 2018. Was clearly visible in Koduvayur. Photographed by Aravind Mohan."
+                    }
+
+
 
                     }
             },
@@ -5488,6 +5511,30 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             },
                             {
                                 pic: "./images/events/thaipooyam2018/9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/11.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/12.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/13.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/14.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/thaipooyam2018/15.jpg",
                                 caption: ""
                             }
                         ]
@@ -6282,6 +6329,30 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 },
                                 {
                                     pic: "./images/events/thaipooyam2018/9.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/10.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/11.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/12.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/13.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/14.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/15.jpg",
                                     caption: ""
                                 }
                             ]
