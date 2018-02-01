@@ -88,6 +88,17 @@
 
                         <div class="col-md-12" ng-show="showNews" id="news">
 
+                            <div class="col-md-12">
+                                <h1> {{dataSelected.trending.trends.news.title}}</h1>
+                            </div>
+
+                            <div class="col-md-12" style=" border: 1px black solid; border-radius: 2vh; padding: 2%;">
+                                <div class="label label-default" style="display: block; left:0;">{{dataSelected.trending.trends.news.list.superbloodmoon.date}}</div>
+                                <img class="col-md-12" style="width: 100%; height: auto; padding:1%" src="{{dataSelected.trending.trends.news.list.superbloodmoon.pic}}" alt="krishnankovilroad" />
+                                <h2>{{dataSelected.trending.trends.news.list.superbloodmoon.title}}</h2>
+                                <p>{{dataSelected.trending.trends.news.list.superbloodmoon.news}}</p>
+                            </div>
+
                             <div class="col-md-12" style=" border: 1px black solid; border-radius: 2vh; padding: 2%;">
                                 <div class="label label-default" style="display: block; left:0;">{{dataSelected.trending.trends.news.list.cleankoduvayur.date}}</div>
                                 <img class="col-md-12" style="width: 100%; height: auto; padding:1%" src="{{dataSelected.trending.trends.news.list.cleankoduvayur.pic}}" alt="krishnankovilroad" />
@@ -103,15 +114,31 @@
                             </div>
 
                         </div>
-                        <div class="col-md-12" ng-show="showArticles" id="articles">testing articles</div>
+                        <div class="col-md-12" ng-show="showArticles" id="articles">
+
+                            <div class="col-md-12">
+                                <h1> {{dataSelected.trending.trends.articles.title}}</h1>
+                            </div>
+
+                        </div>
+
                         <div class="col-md-12" ng-show="showPictures" id="pictures">
+
+                            <div class="col-md-12">
+                                <h1> {{dataSelected.trending.trends.pictures.title}}</h1>
+                            </div>
 
                             <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494" data-show-text="true"><blockquote cite="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494&amp;type=3" class="fb-xfbml-parse-ignore"><p>&#xd0e;&#xd28;&#xd4d;&#xd31;&#xd46; &#xd15;&#xd4a;&#xd1f;&#xd41;&#xd35;&#xd3e;&#xd2f;&#xd42;&#xd7c; &lt;3</p>Posted by <a href="https://www.facebook.com/vichu.viswanath.5">Viswanath Iyer</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=1065721050231185&amp;set=a.145176795618953.31817.100003799007494&amp;type=3">Monday, August 21, 2017</a></blockquote></div>
 
                             <div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058" data-show-text="true"><blockquote cite="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058&amp;type=3" class="fb-xfbml-parse-ignore">Posted by <a href="https://www.facebook.com/nkutty.kdr">N Kutty Kdr</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=823652254462936&amp;set=a.101369150024587.3366.100004545063058&amp;type=3">Monday, August 21, 2017</a></blockquote></div>
 
                         </div>
+
                         <div class="col-md-12" ng-show="showVideos" id="videos">
+
+                            <div class="col-md-12">
+                                <h1> {{dataSelected.trending.trends.videos.title}}</h1>
+                            </div>
 
                             <iframe style="margin-bottom: 1.5vh" width="100%" height="480px" src="https://www.youtube.com/embed/YGZR6lnsK3U" frameborder="0" allowfullscreen></iframe>
 
