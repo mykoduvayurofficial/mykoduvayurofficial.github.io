@@ -457,10 +457,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     $rootScope.engdata.mainData = {
 
         general: {
-            author: "kriz815",
+            author: "krishchianna",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "01 February 2018"
+            lastupdated: "11 February 2018"
         },
         menu: {
             english: "EN",
@@ -504,10 +504,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     $rootScope.maldata.mainData = {
 
         general: {
-            author: "kriz815",
+            author: "krishchianna",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "01 ഫെബ്രുവരി 2018"
+            lastupdated: "11 ഫെബ്രുവരി 2018"
         },
         menu: {
             english: "EN",
@@ -1321,36 +1321,36 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         }
                     },
                     kakkayursivankovil: {
-                        title: "KAKKAYUR SREE MAHADEVA TEMPLE",
+                        title: "KAKKAYUR SREE MAHA SHIVA TEMPLE",
                         coverpic: "./images/culture/example/templecover.jpg",
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Near DMSB School - Althara, Kakkayur, Koduvayur."
                         },
                         priest: {
-                            title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            title: "HEAD PRIESTS",
+                            info: "Thantri - Panavoor Manakkal Brahmasree Parameshwaran Namboothiri, Melshanthi - S.Rajagopal Embranthiri."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: "Popularly known as 'Kakkayur Sivan Kovil', The Maha Shiva Temple of Kakkayur is one of the oldest temples of Koduvayur. Situated in the heart of Kakkayur region near the DMSB School and Althara, it is a regular stop for devotees from around and also far from this region. This temple is known for its divineness, beautiful surroundings, effective and special rituals, and many special features..."
                         },
                         history: {
                             title: "HISTORY",
-                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                            info: "The Kakkayur Maha Shiva Temple features the 'Kuthiravatta Swaroopam' of Lord Shiva. The poojas and rituals that are carried out here are based on 'Malayala Sambradayam' or 'Haveeka Poojavidhi'. This temple is around 600 years old and was under HRMC before and is now under Malabar Devaswom."
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                            info: "This temple has a unique speciality of having 2 Main Deities as Lord Shiva and Lord Subramaniya Swamy respectively with equal importance to both and both deities facing the east, in the elliptical centres of the temple. The sub deities include Lord Mahaganapathy in the south-west corner, Lord Dakshinamoorthy in the southern side corner, Sree Dharmasastha in the center, Sree Durga Bhagavathy facing south, and the Nagadevatas. This temple has its sacred wells inside and outside the temple and Thidappally in the southern side. The sacred pond is on the west of the outside premises of the temple. "
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                            info: "Poojas and rituals are carried out based on Malayala Sambradayam in this temple. Daily 3 kala pooja is performed. Special poojas include Mrithyunjaya Homam, which is a well known pooja of this temple and is believed as very effective and special. The other special poojas include Navakam Rudrabhishekam for Lord Shiva, Kavadipooja for Lord Subramaniya, and Dhara, and other usual offerings and poojas."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
-                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                            info: "MahaSivarathri, Thaipooyam, Navarathri, Vishu, Thiruvathira are the main festive days here. Special Abhishekams and poojas are conducted on these days. Last Kumbhabhishekam was conducted on 2014 and Prathistadinam is celebrated on Makeeram star on the month of Edavam each year."
                         }
                     },
                     kottamala: {
@@ -2438,31 +2438,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
-                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                            info: "DMSB സ്ക്കൂല്‍ - ആല്‍തറ, കാക്കയൂര്‍, കൊടുവായൂർ."
                         },
                         priest: {
-                            title: "മേൽശാന്തി",
-                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                            title: "പൂജാനിര്‍വ്വഹണം",
+                            info: "തന്ത്രി - പനവൂര്‍ മനയ്ക്കല്‍ ബ്രഹ്മശ്രീ പരമേശ്വരന്‍ നമ്പൂതിരി, മേല്‍ശാന്തി - S. രാജഗോപാല്‍ എംബ്രാന്തിരി, കാക്കയൂര്‍."
                         },
                         intro: {
                             title: "മുഖവുര",
-                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                            info: "കാക്കയുരില്‍ സ്ഥിതി ചെയ്യുന്ന ഈ മഹാശിവ ക്ഷേത്രം കൊടുവായൂരിലെ പുരാതനമായ ക്ഷേത്രങ്ങളില്‍ ഒന്നാണ്. ഏകദേശം 600 വര്ഷം പഴക്കമുള്ള ഈ ക്ഷേത്രം അതിന്റെ ചൈതന്യത്തിനും ചുറ്റംബലത്തിന്റെ ദൃശ്യഭംഗിക്കും പേരുകേട്ടതാണ്. മലയാള സമ്പ്രദായത്തില്‍ ഹവീക ശാസ്ത്രവിധിപ്രകാരം പൂജ ചെയ്യപ്പെടുന്ന ഈ ക്ഷേത്രത്തിലേക്ക് പക്കല്‍ നിന്നും ദൂരെ നിന്നും ഒരുപോലെ ഭക്തജനങ്ങള്‍ വന്നെത്താറുണ്ട്."
                         },
                         history: {
                             title: "ചരിത്രം",
-                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                            info: "ഏകദേശം 600 വര്ഷം പഴക്കമുള്ള കാക്കയൂര്‍ മഹാശിവ ക്ഷേത്രം 'കുതിരവട്ട സ്വരൂപം' എന്ന മാതൃകയില്‍ ആണ് ഉള്ളത്. HRMCയുടെ കീഴില്‍ ആയിരുന്ന ഈ ക്ഷേത്രം പിന്നീട് മലബാര്‍ ദേവസ്വത്തിന്റെ അധികാരത്തില്‍ ആക്കപ്പെട്ടു. ഇവിടത്തെ പൂജാകര്യങ്ങള്‍ നിര്‍വഹിക്കുന്നത് മലയാള സമ്പ്രദായത്തില്‍ ഹവീക ബ്രാഹ്മണരുടെ ശാസ്ത്രവിധിപ്രകാരം ആണ്."
                         },
                         deities: {
                             title: "നടകൾ",
-                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                            info: "ഈ ക്ഷേത്രത്തിലെ ഏറ്റവും വലിയ പ്രത്യേകത ആവുന്നത് ഇവിടത്തെ പ്രധാന ദേവതകള്‍ ആണ്. തുല്യ പ്രാധാന്യമുള്ള ശിവഭഗവാന്റെയും സുബ്രഹ്മന്യസ്വാമിയുടെയും നടകള്‍ കിഴക്ക് നോക്കി ക്ഷേത്രത്തിന്റെ 2 കേന്ദ്രങ്ങളിലായി സ്ഥിതി ചെയ്യുന്നു. കിഴക്കുതെക്ക് മൂലയിലെ മഹാഗണപതി, ശ്രീ ദക്ഷിണാമൂര്‍ത്തി, മധ്യഭാഗത്തുള്ള ശ്രീ ധര്‍മശാസ്താ, ശ്രീ ദുര്ഗാഭഗവതി, നാഗദേവതകള്‍ എന്നിവ ആണ് ഉപദേവതകള്‍. ക്ഷേത്രത്തിനു അകത്തും പുറത്തും തീര്‍ത്ഥ കിണറുകള്‍ ഉണ്ട്. ക്ഷേത്രത്തിനു പുറത്ത് പടിഞ്ഞാറു ഭാഗത്ത് ക്ഷേത്രക്കുളം സ്ഥിതി ചെയ്യുന്നു. ക്ഷേത്ര തിടപ്പള്ളി തെക്കുഭാഗത്താണ്."
                         },
                         pooja: {
-                            title: "വിശേഷ പൂജകൾ",
-                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                          title: "വിശേഷ പൂജകൾ",
+                            info: "മലയാള സമ്പ്രദായത്തില്‍ പൂജാകാര്യങ്ങള്‍ നിര്‍വഹിച്ചുവരുന്ന ഈ ക്ഷേത്രത്തില്‍ ദിവസേന ൩ കാല പൂജ ഉണ്ടാവാറുണ്ട്. ഇവിടത്തെ പ്രധാന വിശേഷ പൂജ ആയ മൃത്യുഞ്ജയ ഹോമം വളരെ പ്രസിദ്ധവും ശീഘ്രഫലസിദ്ധി ഉള്ളതും ആണ് എന്നു വിശ്വസിക്കപ്പെടുന്നു. നവകം രുദ്രാഭിഷേകം, സുബ്രഹ്മണ്യസ്വാമിക്കു കാവടിപൂജ, ധാര തുടങ്ങി മറ്റു പൊതുവായുള്ള വഴിപടുകളെല്ലാം ഇവിടെ കഴിക്കാറുണ്ട്."
                         },
                         festival: {
                             title: "വിശേഷ ദിവസങ്ങൾ",
-                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                            info: "മഹാശിവരാത്രി, തൈപ്പൂയ്യം, വിഷു, നവാരാത്രി, തിരുവാതിര എന്നിവയാണ് ഇവിടത്തെ പ്രധാന വിശേഷ ദിവസങ്ങള്‍. ഈ ദിവസങ്ങളില്‍ വിശേഷ അഭിഷേകങ്ങളും പൂജകളും ഉണ്ടാവാറുണ്ട്. 2014ല്‍ ആണ് ഇവിടെ കുംഭാഭിഷേകം കഴിഞ്ഞത്. എല്ലാക്കൊല്ലവും ഇടവമാസത്തിലെ മകയീരം നക്ഷത്രത്തില്‍ ഇവിടെ പ്രതിഷ്ഠാദിനം ആഘോഷിക്കാറുണ്ട്. "
                         }
                     },
                     kottamala: {
@@ -5148,8 +5148,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             ]
         }
     };
-
-
+    
     $rootScope.engdata.trending = {
         alerts: {
             title: "ALERTS",
@@ -6288,7 +6287,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
 
                     thaipooyam2018: {
-                        pagetitle: "തൈപ്പൂയം 2018",
+                        pagetitle: "തൈപ്പൂയ്യം 2018",
                         cover: "./images/events/thaipooyam2018/cover.jpg",
                         thumb: "./images/events/thaipooyam2018/thumb.jpg",
                         gallery: {
