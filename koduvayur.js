@@ -25,7 +25,6 @@ mykdrApp.config(function($routeProvider) {
             templateUrl : 'pages/home.html',
             controller  : 'homeController'
         })
-
         // route for the landscape page
         .when('/locality', {
             title :"Locality - MyKoduvayur",
@@ -123,6 +122,14 @@ mykdrApp.config(function($routeProvider) {
             title :"Koduvayur Market - MyKoduvayur",
             description : "",
             templateUrl : 'pages/locality/ksebkoduvayur.html',
+            controller  : 'localityController'
+        })
+
+        // route for the dmsbschool page
+        .when('/dmsbschool', {
+            title :"DMSB School - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/dmsbschool.html',
             controller  : 'localityController'
         })
 
@@ -844,6 +851,54 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 },
                 oldagehome: {
 
+                },
+                dmsbschool: {
+                    title: "DMSB SCHOOL, KAKKAYUR",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " LOCATION",
+                        info: "Near Kakkayur Siva Temple and Althara, Kakkayur, Koduvayur."
+                    },
+                    details: {
+                        title: "DETAILS",
+                        info: [
+                            {
+                                syllabus: "STATE PATTERN SYLLABUS",
+                                email: "e-mail: dmsbskakkayur@gmail.com",
+                                phone: "04923 251131",
+                                principal: "HEAD MASTER: K.G.Anilkumar",
+                                classes: "FROM L.K.G to VIIth STD.",
+                                divisions: "3 divisions on each class (2 Eng. Medium and 1 Mal. Medium}.",
+                                strength: "Total Number of Students: 578",
+                                faculty: "Total Faculty Members: 26"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "SPECIAL FEATURES",
+                        info: [
+                            {a: "3 School Vehicles"},
+                            {a: "4 Digital / Smart Class Rooms"},
+                            {a: "Computer Lab with 20 Computers"},
+                            {a: "Music, Dance, Drawing, Abacus Special Coaching"},
+                            {a: "Noon Feeding for 638 students currently"},
+                            {a: "Play Ground (Above 1 Acre)"},
+                            {a: "Thanal + Sandwanam Project adopting 33 pupils"},
+                            {a: "School Radio: Kalalaya Vani"},
+                            {a: "36 CCTV Cameras Installed"}
+                        ]
+                    },
+                    about: {
+                        title: "ABOUT THIS SCHOOL",
+                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
                 }
             }
         },
@@ -1052,6 +1107,54 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 },
                 oldagehome: {
 
+                },
+                dmsbschool: {
+                    title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " സ്ഥലം",
+                        info: "കാക്കയൂര്‍ ശിവക്ഷേത്രത്തിനു സമീപം, കാക്കയൂര്‍."
+                    },
+                    details: {
+                        title: "പ്രധാന വിവരങ്ങള്‍",
+                        info: [
+                            {
+                                syllabus: "സ്റ്റേറ്റ് സിലബസ്",
+                                email: "ഇ-മെയില്‍ : dmsbskakkayur@gmail.com",
+                                phone: "04923 251131",
+                                principal: "ഹെഡ്മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                classes: "L.K.G മുതല്‍ VIIth STD വരെ",
+                                divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍ (2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം}.",
+                                strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
+                                faculty: "മൊത്തം അദ്ധ്യാപകര്‍ : 26"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "പ്രത്യേകതകള്‍",
+                        info: [
+                            {a: "3 സ്ക്കൂള്‍ വാഹനങ്ങള്‍"},
+                            {a: "4 ഡിജിറ്റല്‍ / സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍"},
+                            {a: "20 കമ്പ്യൂട്ടര്‍ ഉള്ള കമ്പ്യൂട്ടര്‍ ലാബ്‌"},
+                            {a: "സംഗീതം, നൃത്തം, ചിത്രരചന, അബാക്കസ് സ്പെഷ്യല്‍ കോച്ചിംഗ്"},
+                            {a: "ഉച്ചഭക്ഷണം 538 വിദ്യാര്‍ത്ഥികള്‍ക്ക് "},
+                            {a: "1 ഏക്കര്‍ ദൈര്‍ഘ്യമുള്ള കളിസ്ഥലം"},
+                            {a: "33 വിദ്യാര്‍ത്ഥികളെ ഏറ്റെടുത്ത തണല്‍ + സാന്ദ്വനം പ്രോജക്റ്റ്"},
+                            {a: "സ്ക്കൂള്‍ റേഡിയോ: കലാലയ വാണി"},
+                            {a: "36 CCTV ക്യാമറകള്‍"}
+                        ]
+                    },
+                    about: {
+                        title: "ഈ സ്ക്കൂളിനെക്കുറിച്ച്",
+                        info: "കൊടുവായൂര്‍ പഞ്ചായത്തിലെ കാക്കയൂര്‍ ഗ്രാമത്തിന്റെ ഹൃദയഭാഗത്താണ്‌ ഈ സ്ക്കൂള്‍ സ്ഥിതി ചെയ്യുന്നത്. 1895ല്‍ പള്ളിയില്‍ വീടിന്റെ കലവറയില്‍ ഒരു ചെറിയ ഠശാല ആയി പള്ളിയില്‍ ചാത്തന്‍കുട്ടി മേനോന്‍ ആണ് ഈ വിദ്യാലയം ആരംഭിച്ചത്. 1900ല്‍ ഇത് ഒരു പെണ്‍ പള്ളിക്കുടം ആയി അംഗീകൃതം ആവുകയും 1924ല്‍ ഗവണ്മെന്റ് ഇതിനെ ഒരു മിശ്രിത പള്ളിക്കുദമായി അംഗീകരിക്കുകയും ചെയ്തു. 1956ല്‍ ഈ വിദ്യാലയം ഒരു അടിസ്ഥാന വിദ്യാലയമായി മാറ്റിക്കൊണ്ട് ഗവണ്മെന്റ് ഉത്തരവിടുകയും പള്ളിയില്‍ K.P. ഭാസ്കരമേനോന്‍ സ്ഥാപനത്തിന്റെ മാനേജ്‌മന്റ്‌ ഏറ്റെടുക്കുകയും ചെയ്തു. ഇന്ന് ഈ വിദ്യാലയം ദേവകി ഹാള്‍, നാരായണന്‍ ഹാള്‍, ഗോവിന്ദന്‍ ഹാള്‍ എന്നീ വിശാലമായ ൩ കെട്ടിടങ്ങള്‍ ആയിട്ടാണ് ഉള്ളത്. മാനെജെമെന്റും പൂര്‍വ വിദ്യാര്‍ത്ഥികളും സഹായിക്കുന്നതുകൊണ്ടും അഭ്യുദയകാംക്ഷികളുടെ പിന്തുണ കൊണ്ടും ഈ വിദ്യാലയം ഓരോ കൊല്ലവും നല്ല രീതിയില്‍ പ്രവര്‍ത്തിച്ചുവരുന്നു. വിദ്യാലയങ്ങളിലെ നൂതന സൌകര്യങ്ങളായ സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍, കമ്പ്യൂട്ടര്‍ ലാബ്‌, ബയോഗ്യാസ്‌ പ്ലാന്റ്, സ്ക്കൂള്‍ റേഡിയോ, സ്ക്കൂള്‍ വാഹനങ്ങള്‍, കിച്ചണ്‍, സ്റ്റോര്‍ മുതലായവ ഈ സ്ക്കൂളില്‍ ഉണ്ട്. ഈ സ്ക്കൂള്‍ ഇവിടത്തെ വിദ്യാര്‍ത്ഥികള്‍ക്ക് ഉള്ള ഉച്ചഭക്ഷണം നല്‍കുകയും പാവപെട്ട കുട്ടികളെ ഏറ്റെടുക്കുകയും ചെയ്യുന്നു. ഈ സ്ക്കൂളില്‍ 1 ഏക്കര്‍ വിസ്തീര്‍ണമുള്ള ഒരു വിശാല കളിസ്ഥലവും ഉണ്ട്."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
                 }
             }
         },
@@ -1342,7 +1445,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "This temple has a unique speciality of having 2 Main Deities as Lord Shiva and Lord Subramaniya Swamy respectively with equal importance to both and both deities facing the east, in the elliptical centres of the temple. The sub deities include Lord Mahaganapathy in the south-west corner, Lord Dakshinamoorthy in the southern side corner, Sree Dharmasastha in the center, Sree Durga Bhagavathy facing south, and the Nagadevatas. This temple has its sacred wells inside and outside the temple and Thidappally in the southern side. The sacred pond is on the west of the outside premises of the temple. "
+                            info: "This temple has a unique speciality of having 2 Main Deities as Lord Shiva and Lord Subramaniya Swamy respectively with equal importance to both and both deities facing the east, in the elliptical centres of the temple. The sub deities include Lord Mahaganapathy and Lord Dakshinamoorthy on the north center, Sree Dharmasastha in the center, Sree Durga Bhagavathy facing east on the north-west corner, and the Nagadevatas. This temple has its sacred wells inside and outside the temple and Thidappally in the southern side. The sacred pond is on the west of the outside premises of the temple. "
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
@@ -2454,7 +2557,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         deities: {
                             title: "നടകൾ",
-                            info: "ഈ ക്ഷേത്രത്തിലെ ഏറ്റവും വലിയ പ്രത്യേകത ആവുന്നത് ഇവിടത്തെ പ്രധാന ദേവതകള്‍ ആണ്. തുല്യ പ്രാധാന്യമുള്ള ശിവഭഗവാന്റെയും സുബ്രഹ്മന്യസ്വാമിയുടെയും നടകള്‍ കിഴക്ക് നോക്കി ക്ഷേത്രത്തിന്റെ 2 കേന്ദ്രങ്ങളിലായി സ്ഥിതി ചെയ്യുന്നു. കിഴക്കുതെക്ക് മൂലയിലെ മഹാഗണപതി, ശ്രീ ദക്ഷിണാമൂര്‍ത്തി, മധ്യഭാഗത്തുള്ള ശ്രീ ധര്‍മശാസ്താ, ശ്രീ ദുര്ഗാഭഗവതി, നാഗദേവതകള്‍ എന്നിവ ആണ് ഉപദേവതകള്‍. ക്ഷേത്രത്തിനു അകത്തും പുറത്തും തീര്‍ത്ഥ കിണറുകള്‍ ഉണ്ട്. ക്ഷേത്രത്തിനു പുറത്ത് പടിഞ്ഞാറു ഭാഗത്ത് ക്ഷേത്രക്കുളം സ്ഥിതി ചെയ്യുന്നു. ക്ഷേത്ര തിടപ്പള്ളി തെക്കുഭാഗത്താണ്."
+                            info: "ഈ ക്ഷേത്രത്തിലെ ഏറ്റവും വലിയ പ്രത്യേകത ആവുന്നത് ഇവിടത്തെ പ്രധാന ദേവതകള്‍ ആണ്. തുല്യ പ്രാധാന്യമുള്ള ശിവഭഗവാന്റെയും സുബ്രഹ്മന്യസ്വാമിയുടെയും നടകള്‍ കിഴക്ക് നോക്കി ക്ഷേത്രത്തിന്റെ 2 കേന്ദ്രങ്ങളിലായി സ്ഥിതി ചെയ്യുന്നു. വടക്ക് മധ്യഭാഗത്ത്‌ മഹാഗണപതിയും ശ്രീ ദക്ഷിണാമൂര്‍ത്തിയും, മധ്യഭാഗത്തുള്ള ശ്രീ ധര്‍മശാസ്താ, വടക്കുപടിഞ്ഞാറെ മൂലയില്‍ കിഴക്ക് നോക്കി ശ്രീ ദുര്ഗാഭഗവതി, നാഗദേവതകള്‍ എന്നിവ ആണ് ഉപദേവതകള്‍. ക്ഷേത്രത്തിനു അകത്തും പുറത്തും തീര്‍ത്ഥ കിണറുകള്‍ ഉണ്ട്. ക്ഷേത്രത്തിനു പുറത്ത് പടിഞ്ഞാറു ഭാഗത്ത് ക്ഷേത്രക്കുളം സ്ഥിതി ചെയ്യുന്നു. ക്ഷേത്ര തിടപ്പള്ളി തെക്കുഭാഗത്താണ്."
                         },
                         pooja: {
                           title: "വിശേഷ പൂജകൾ",
@@ -7106,11 +7209,10 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
     $scope.myMap = function() {
         var mapProp= {
             center:new google.maps.LatLng(10.678849, 76.646882),
-            zoom:13
+            zoom:14
         };
-        var map=new google.maps.Map(document.getElementById("kdrmap"),mapProp);
+        var map = new google.maps.Map(document.getElementById("kdrmap"),mapProp);
     };
-
     $scope.myMap();
 
 
