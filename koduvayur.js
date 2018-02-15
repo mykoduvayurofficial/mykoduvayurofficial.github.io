@@ -864,14 +864,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "DETAILS",
                         info: [
                             {
-                                syllabus: "STATE PATTERN SYLLABUS",
-                                email: "e-mail: dmsbskakkayur@gmail.com",
-                                phone: "Phone: 04923 251131",
-                                principal: "HEAD MASTER: K.G.Anilkumar",
-                                classes: "FROM L.K.G to VIIth STD.",
-                                divisions: "3 divisions on each class (2 English Medium and 1 Malayalam Medium}.",
-                                strength: "Total Number of Students: 578",
-                                faculty: "Total Faculty Members: 26"
+                                a_syllabus: "STATE PATTERN SYLLABUS",
+                                b_email: "e-mail: dmsbskakkayur@gmail.com",
+                                c_phone: "Phone: 04923 251131",
+                                d_principal: "HEAD MASTER: K.G.Anilkumar",
+                                e_classes: "FROM L.K.G to VIIth STD.",
+                                f_divisions: "3 divisions on each class (2 English Medium and 1 Malayalam Medium}.",
+                                g_strength: "Total Number of Students: 578",
+                                h_faculty: "Total Faculty Members: 26"
                             }
                         ]
                     },
@@ -1120,14 +1120,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "പ്രധാന വിവരങ്ങള്‍",
                         info: [
                             {
-                                syllabus: "സ്റ്റേറ്റ് സിലബസ്",
-                                email: "ഇ-മെയില്‍ : dmsbskakkayur@gmail.com",
-                                phone: "ഫോണ്‍: 04923 251131",
-                                principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
-                                classes: "L.K.G മുതല്‍ VIIth STD വരെ",
-                                divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍ (2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം}.",
-                                strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
-                                faculty: "മൊത്തം അദ്ധ്യാപകര്‍ : 26"
+                                a_syllabus: "സ്റ്റേറ്റ് സിലബസ്",
+                                b_email: "ഇ-മെയില്‍ : dmsbskakkayur@gmail.com",
+                                c_phone: "ഫോണ്‍: 04923 251131",
+                                d_principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                e_classes: "L.K.G മുതല്‍ VIIth STD വരെ",
+                                f_divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍ (2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം}.",
+                                g_strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
+                                h_faculty: "മൊത്തം അദ്ധ്യാപകര്‍ : 26"
                             }
                         ]
                     },
