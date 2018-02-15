@@ -89,10 +89,7 @@
                         <div ng-repeat="item in dataSelected.locality.administration.list">
                             <div class="col-md-6" style="padding: 1%">
                                 <div class="col-md-12" style="background-color: #00CED1; border-radius: 5%">
-                                    <div class="col-md-3" style="">
-                                        <!--<img style="overflow: hidden" src="./images/locality/1.jpg">-->
-                                    </div>
-                                    <div style="text-align: left; color: #34495E; padding: 2%" class="col-md-9">
+                                    <div style="text-align: left; color: #34495E; padding: 2%" class="col-md-12">
                                         <p>Ward Number: {{item.wardno}}</p>
                                         <p>Ward Name: {{item.ward}}</p>
                                         <p>Ward Member: {{item.name}}</p>
@@ -109,6 +106,15 @@
                     <h1>{{dataSelected.locality.institutions.title}}<i class="fa fa-building"></i></h1>
                     <div class=" panel panel-default panelout">
                         <div class="panel-body">
+
+                            <a href="#dmsbschool">
+                                <div class="col-md-3 panelcol panel panel-default">
+                                    <div class="panel-body panelcontent">
+                                        <img src="{{dataSelected.locality.institutions.list.dmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                    </div>
+                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dmsbschool.title}}</div>
+                                </div>
+                            </a>
 
 
 
