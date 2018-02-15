@@ -866,10 +866,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             {
                                 syllabus: "STATE PATTERN SYLLABUS",
                                 email: "e-mail: dmsbskakkayur@gmail.com",
-                                phone: "04923 251131",
+                                phone: "Phone: 04923 251131",
                                 principal: "HEAD MASTER: K.G.Anilkumar",
                                 classes: "FROM L.K.G to VIIth STD.",
-                                divisions: "3 divisions on each class (2 Eng. Medium and 1 Mal. Medium}.",
+                                divisions: "3 divisions on each class (2 English Medium and 1 Malayalam Medium}.",
                                 strength: "Total Number of Students: 578",
                                 faculty: "Total Faculty Members: 26"
                             }
@@ -1122,8 +1122,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             {
                                 syllabus: "സ്റ്റേറ്റ് സിലബസ്",
                                 email: "ഇ-മെയില്‍ : dmsbskakkayur@gmail.com",
-                                phone: "04923 251131",
-                                principal: "ഹെഡ്മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                phone: "ഫോണ്‍: 04923 251131",
+                                principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
                                 classes: "L.K.G മുതല്‍ VIIth STD വരെ",
                                 divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍ (2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം}.",
                                 strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
