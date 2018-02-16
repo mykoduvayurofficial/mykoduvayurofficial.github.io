@@ -829,7 +829,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     pic: "",
                     phone: "9447964597"
                 }
-            ]
+            ],
+            wardno: "Ward Number: ",
+            wardname: "Ward Name: ",
+            name: "Member: ",
+            party: "Political Party: ",
+            phone: "Phone: "
         },
         institutions: {
             title: "INSTITUTIONS",
@@ -850,12 +855,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 },
                 oldagehome: {
-                    title: "HOME FOR PHYSICALLY HANDICAPPED(AND AGED)(HPH), KODUVAYUR",
-                    thumb: "",
-                    coverpic: "",
+                    title: "HOME FOR PHYSICALLY HANDICAPPED (AND AGED) (HPH), KODUVAYUR",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    coverpic: "./images/culture/example/cover.jpg",
                     location: {
                         title: "LOCATION",
-                        info: "Thottkkattuthara, Koduvayur."
+                        info: "Thottakkattuthara, Koduvayur."
                     },
                     details: {
                         title: "DETAILS",
@@ -863,7 +868,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             {a: "Established in Koduvayur Since 1983"},
                             {a: "Under Social Justice Dept. of State Govt. Kerala"},
                             {a: "Phone: 04923 251341"},
-                            {a: "Visiting Hours: 6 am to 6 pm"},
+                            {a: "Visiting Hours: 8 am to 8 pm"},
                             {a: "Superindentent: Mr. P.Narayanan"},
                             {a: "Accomodation Capacity: 25"},
                             {a: "Private Ambulance available"},
@@ -888,7 +893,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     about: {
                         title: "ABOUT HPH",
-                        info: "Home for Physically Handicapped(And Aged)- HPH functions under the Social Justice Department of the State Govt. of Kerala, and was established in Koduvayur on 20 April, 1983. It started functioning in a rented house and eventually was shifted to its own building in 2006. With an inmates capacity of 25 and all basic facilities provided, this institution is a blessing for all such people who need to be cared for. It is mainly funded by the State Govt. but many sponsors also immensely contribute to the running of this establishment. Many families on their special events, organise feasts for all the inmates and donate generously for their cause. For any further details regarding admission or contribution, contact the authorities."
+                        info: "Home for Physically Handicapped(And Aged)- HPH, Koduvayur functions under the Social Justice Department of the State Govt. of Kerala, and was established in Koduvayur on 20 April, 1983. It is aimed at providing foo and shelter for old aged and differently abled people who are socially marginalised and have no dear and near to depend upon. It started functioning in a rented house and eventually was shifted to its own building in 2006. With an inmates capacity of 25 and all basic facilities provided, this institution is a blessing for all such people who need to be cared for. It is mainly funded by the State Govt. but many sponsors also immensely contribute to the running of this establishment. Many families on their special events, organise feasts for all the inmates and donate generously for their cause. For any further details regarding admission or contribution, contact the authorities."
                     },
                     gallery: {
                         title: "GALLERY",
@@ -1130,7 +1135,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     pic: "",
                     phone: "9447964597"
                 }
-            ]
+            ],
+            wardno: "വാര്‍ഡ്‌ നമ്പര്‍: ",
+            wardname: "വാര്‍ഡിന്റെ പേര്: ",
+            name: "മെമ്പര്‍: ",
+            party: "രാഷ്ട്രീയ പാര്‍ട്ടി: ",
+            phone: "ഫോണ്‍: "
         },
         institutions: {
             title: "സ്ഥാപനങ്ങൾ",
@@ -1152,8 +1162,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 },
                 oldagehome: {
                     title: "വികലാംഗ വൃദ്ധ സദനം, കൊടുവായൂര്‍",
-                    thumb: "",
-                    coverpic: "",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    coverpic: "./images/culture/example/cover.jpg",
                     location: {
                         title: "സ്ഥലം",
                         info: "തോട്ടെക്കാട്ടുതറ, കൊടുവായൂര്‍"
@@ -1161,35 +1171,35 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     details: {
                         title: "പ്രധാന വിവരങ്ങള്‍",
                         info: [
-                            {a: "Established in Koduvayur Since 1983"},
-                            {a: "Under Social Justice Dept. of State Govt. Kerala"},
-                            {a: "Phone: 04923 251341"},
-                            {a: "Visiting Hours: 6 am to 6 pm"},
-                            {a: "Superindentent: Mr. P.Narayanan"},
-                            {a: "Accomodation Capacity: 25"},
-                            {a: "Private Ambulance available"},
-                            {a: "Funded mainly by Govt. but also by Local Sponsors"},
-                            {a: "Minimum Age 60 for Old Aged Inmates"},
-                            {a: "Faculties: 1 Ayurveda Doctor, 1 Nurse, 1 Cook, 2 Helpers"},
-                            {a: "TV, Praying Room, Books, Park, Carroms, Chess etc. provided for inmates"}
+                            {a: "കൊടുവായൂരില്‍ 1983ല്‍ സ്ഥാപിച്ചു"},
+                            {a: "കേരള സര്‍ക്കാര്‍ സാമൂഹ്യ നീതി വകുപ്പിന് കീഴില്‍ പ്രവര്‍ത്തിക്കുന്നു "},
+                            {a: "ഫോണ്‍: 04923 251341"},
+                            {a: "സന്ദര്‍ശന സമയം : 8 am to 8 pm"},
+                            {a: "കാര്യാധികാരി: P.നാരായണന്‍"},
+                            {a: "താമസസൌകര്യം: 25 പേര്‍ക്ക്"},
+                            {a: "സ്വകാര്യ ആംബുലന്‍സ് ലഭ്യമാണ്"},
+                            {a: "സര്‍ക്കാരുടെയും ചില നാട്ടുകാരുടെയും സംഭാവനകളാല്‍ നടത്തിക്കൊണ്ടുവരുന്നു"},
+                            {a: "വൃദ്ധരായ അന്ധേയവാസികളുടെ പ്രായം കുറഞ്ഞത് 60 ആണ്"},
+                            {a: "പരിപാലിക്കുന്നവര്‍: 1 ആയുര്‍വേദ ഡോക്ടര്‍, 1 നേഴ്സ്, 1 പാചക ഉദ്യോഗസ്ഥ, 2 സഹായികള്‍"},
+                            {a: "ടി.വി , പ്രാര്‍ത്ഥനാലയം, പുസ്തകങ്ങള്‍, തോട്ടം, ക്യാരംസ്, ചെസ്സ്‌ തുടങ്ങിയ സൌകര്യങ്ങള്‍ അന്ധേയവാസികള്‍ക്ക് നല്‍കുന്നു"}
                         ]
                     },
                     contributions: {
-                        title: "CONTRIBUTIONS",
+                        title: "സംഭാവനകള്‍",
                         info: [
-                            {a: "Monetary Funds"},
-                            {a: "Clothes"},
-                            {a: "Equipments"},
-                            {a: "Vegetables and Fruits"},
-                            {a: "Grains"},
-                            {a: "Spices"},
-                            {a: "Contact For Other Contributions"},
-                            {a: "NO OUTSIDE FOODS ALLOWED"}
+                            {a: "സാമ്പത്തികമായി"},
+                            {a: "തുണിത്തരങ്ങള്‍"},
+                            {a: "ഉപകരണങ്ങള്‍"},
+                            {a: "പഴങ്ങളും പച്ചക്കറികളും"},
+                            {a: "ധാന്യങ്ങള്‍"},
+                            {a: "മറ്റു പാചകസാധനങ്ങള്‍"},
+                            {a: "മറ്റു സംഭാവനകള്‍ക്ക് ബന്ധപ്പെടുക"},
+                            {a: "പുറമേ നിന്നുള്ള ഭക്ഷണം അനുവദിക്കുന്നതല്ല"}
                         ]
                     },
                     about: {
-                        title: "ABOUT HPH",
-                        info: "Home for Physically Handicapped(And Aged)- HPH functions under the Social Justice Department of the State Govt. of Kerala, and was established in Koduvayur on 20 April, 1983. It started functioning in a rented house and eventually was shifted to its own building in 2006. With an inmates capacity of 25 and all basic facilities provided, this institution is a blessing for all such people who need to be cared for. It is mainly funded by the State Govt. but many sponsors also immensely contribute to the running of this establishment. Many families on their special events, organise feasts for all the inmates and donate generously for their cause. For any further details regarding admission or contribution, contact the authorities."
+                        title: "സ്ഥാപനത്തെക്കുറിച്",
+                        info: "കൊടുവായൂരിലെ വികലാംഗ വൃദ്ധസദനം കേരള സര്‍ക്കാര്‍ സാമൂഹ്യ നീതി വകുപ്പിനു കീഴില്‍ 1983 ഏപ്രില്‍ 20ന് പ്രവര്‍ത്തനമാരംഭിച്ചു. സമൂഹത്തില്‍ നിന്ന് പാര്‍ശ്വവത്കരിക്കപ്പെട്ടവരും പരിപാലിക്കാന്‍ സ്വന്തബന്ധങ്ങള്‍ ഇല്ലാത്തവരുമായ വൃദ്ധരേയും വികലാംഗരേയും ശുശ്രൂഷിക്കുക എന്ന ഉദ്ദേശത്തോടെയാണ് ഈ സ്ഥാപനം ആരംഭിച്ചത്. തുടങ്ങിയപ്പോള്‍ ഒരു വാടകവീട്ടില്‍ ആയിരുന്ന ഈ സ്ഥാപനം 2006ല്‍ ഒരു പുതിയ സ്വന്തം കെട്ടിടത്തേക്ക് മാറ്റി. 25 പേര്‍ക്കുള്ള താമസസൌകര്യം ഉള്ള ഇവിടെ എല്ലാ അടിസ്ഥാന സൌകര്യങ്ങളും അന്ധേയവാസികള്‍ക്ക് നല്‍കപ്പെടുന്നു. സംസ്ഥാന സര്‍ക്കാരുടെയും മറ്റു ചില നാട്ടുകാരുടെയും സംഭാവനകളാല്‍ നടത്തിക്കൊണ്ടുവരുന്ന ഈ സ്ഥാപനം ഇത്തരത്തിലുള്ള ജനങ്ങള്‍ക്ക് ഒരു അനുഗ്രഹമാണ്. ചില കുടുംബങ്ങള്‍ വിശേഷ ദിവസങ്ങളില്‍ ഇവിടുള്ളവര്‍ക്ക് സദ്യയും സമ്മാനങ്ങളും നല്‍കാറുണ്ട്. കൂടുതല്‍ വിവരങ്ങള്‍ക്ക് ഇവിടത്തെ കാര്യധികാരിയുമായി ബന്ധപ്പെടുക."
                     },
                     gallery: {
                         title: "GALLERY",
