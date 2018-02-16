@@ -850,7 +850,52 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 },
                 oldagehome: {
-
+                    title: "HOME FOR PHYSICALLY HANDICAPPED(AND AGED)(HPH), KODUVAYUR",
+                    thumb: "",
+                    coverpic: "",
+                    location: {
+                        title: "LOCATION",
+                        info: "Thottkkattuthara, Koduvayur."
+                    },
+                    details: {
+                        title: "DETAILS",
+                        info: [
+                            {a: "Established in Koduvayur Since 1983"},
+                            {a: "Under Social Justice Dept. of State Govt. Kerala"},
+                            {a: "Phone: 04923 251341"},
+                            {a: "Visiting Hours: 6 am to 6 pm"},
+                            {a: "Superindentent: Mr. P.Narayanan"},
+                            {a: "Accomodation Capacity: 25"},
+                            {a: "Private Ambulance available"},
+                            {a: "Funded mainly by Govt. but also by Local Sponsors"},
+                            {a: "Minimum Age 60 for Old Aged Inmates"},
+                            {a: "Faculties: 1 Ayurveda Doctor, 1 Nurse, 1 Cook, 2 Helpers"},
+                            {a: "TV, Praying Room, Books, Park, Carroms, Chess etc. provided for inmates"}
+                        ]
+                    },
+                    contributions: {
+                        title: "CONTRIBUTIONS",
+                        info: [
+                            {a: "Monetary Funds"},
+                            {a: "Clothes"},
+                            {a: "Equipments"},
+                            {a: "Vegetables and Fruits"},
+                            {a: "Grains"},
+                            {a: "Spices"},
+                            {a: "Contact For Other Contributions"},
+                            {a: "NO OUTSIDE FOODS ALLOWED"}
+                        ]
+                    },
+                    about: {
+                        title: "ABOUT HPH",
+                        info: "Home for Physically Handicapped(And Aged)- HPH functions under the Social Justice Department of the State Govt. of Kerala, and was established in Koduvayur on 20 April, 1983. It started functioning in a rented house and eventually was shifted to its own building in 2006. With an inmates capacity of 25 and all basic facilities provided, this institution is a blessing for all such people who need to be cared for. It is mainly funded by the State Govt. but many sponsors also immensely contribute to the running of this establishment. Many families on their special events, organise feasts for all the inmates and donate generously for their cause. For any further details regarding admission or contribution, contact the authorities."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
                 },
                 dmsbschool: {
                     title: "DMSB SCHOOL, KAKKAYUR",
@@ -1106,7 +1151,52 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 },
                 oldagehome: {
-
+                    title: "വികലാംഗ വൃദ്ധ സദനം, കൊടുവായൂര്‍",
+                    thumb: "",
+                    coverpic: "",
+                    location: {
+                        title: "സ്ഥലം",
+                        info: "തോട്ടെക്കാട്ടുതറ, കൊടുവായൂര്‍"
+                    },
+                    details: {
+                        title: "പ്രധാന വിവരങ്ങള്‍",
+                        info: [
+                            {a: "Established in Koduvayur Since 1983"},
+                            {a: "Under Social Justice Dept. of State Govt. Kerala"},
+                            {a: "Phone: 04923 251341"},
+                            {a: "Visiting Hours: 6 am to 6 pm"},
+                            {a: "Superindentent: Mr. P.Narayanan"},
+                            {a: "Accomodation Capacity: 25"},
+                            {a: "Private Ambulance available"},
+                            {a: "Funded mainly by Govt. but also by Local Sponsors"},
+                            {a: "Minimum Age 60 for Old Aged Inmates"},
+                            {a: "Faculties: 1 Ayurveda Doctor, 1 Nurse, 1 Cook, 2 Helpers"},
+                            {a: "TV, Praying Room, Books, Park, Carroms, Chess etc. provided for inmates"}
+                        ]
+                    },
+                    contributions: {
+                        title: "CONTRIBUTIONS",
+                        info: [
+                            {a: "Monetary Funds"},
+                            {a: "Clothes"},
+                            {a: "Equipments"},
+                            {a: "Vegetables and Fruits"},
+                            {a: "Grains"},
+                            {a: "Spices"},
+                            {a: "Contact For Other Contributions"},
+                            {a: "NO OUTSIDE FOODS ALLOWED"}
+                        ]
+                    },
+                    about: {
+                        title: "ABOUT HPH",
+                        info: "Home for Physically Handicapped(And Aged)- HPH functions under the Social Justice Department of the State Govt. of Kerala, and was established in Koduvayur on 20 April, 1983. It started functioning in a rented house and eventually was shifted to its own building in 2006. With an inmates capacity of 25 and all basic facilities provided, this institution is a blessing for all such people who need to be cared for. It is mainly funded by the State Govt. but many sponsors also immensely contribute to the running of this establishment. Many families on their special events, organise feasts for all the inmates and donate generously for their cause. For any further details regarding admission or contribution, contact the authorities."
+                    },
+                    gallery: {
+                        title: "GALLERY",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
                 },
                 dmsbschool: {
                     title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
@@ -7207,11 +7297,24 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
     }
 
     $scope.myMap = function() {
-        var mapProp= {
-            center:new google.maps.LatLng(10.678849, 76.646882),
+        var mapProp1= {
+            center: new google.maps.LatLng(10.678849, 76.646882),
             zoom:14
         };
-        var map = new google.maps.Map(document.getElementById("kdrmap"),mapProp);
+        var map1 = new google.maps.Map(document.getElementById("kdrmap"),mapProp1);
+
+        var mapProp2= {
+            center: new google.maps.LatLng(10.657190, 76.639858),
+            zoom:14
+        };
+        var map2 = new google.maps.Map(document.getElementById("dmsbschool"),mapProp2);
+
+        var mapProp3= {
+            center: new google.maps.LatLng(10.680947, 76.664712),
+            zoom:14
+        };
+        var map3 = new google.maps.Map(document.getElementById("oldagehome"),mapProp3);
+
     };
     $scope.myMap();
 
