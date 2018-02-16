@@ -7297,23 +7297,11 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
     }
 
     $scope.myMap = function() {
-        var mapProp1= {
+        var mapProp= {
             center: new google.maps.LatLng(10.678849, 76.646882),
             zoom:14
         };
-        var map1 = new google.maps.Map(document.getElementById("kdrmap"),mapProp1);
-
-        var mapProp2= {
-            center: new google.maps.LatLng(10.657190, 76.639858),
-            zoom:14
-        };
-        var map2 = new google.maps.Map(document.getElementById("dmsbschool"),mapProp2);
-
-        var mapProp3= {
-            center: new google.maps.LatLng(10.680947, 76.664712),
-            zoom:14
-        };
-        var map3 = new google.maps.Map(document.getElementById("oldagehome"),mapProp3);
+        var map = new google.maps.Map(document.getElementById("kdrmap"),mapProp);
 
     };
     $scope.myMap();
