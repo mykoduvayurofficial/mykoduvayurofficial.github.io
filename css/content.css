@@ -168,6 +168,7 @@
         background: #020202;
         overflow: hidden;
         bottom: 0 !important;
+        padding-top: 0.5vh;
     }
     #footer>p {
         color: snow;
@@ -567,7 +568,7 @@
             background: #020202;  /* fallback for old browsers */
             overflow: hidden;
             bottom: 0 !important;
-            padding-top: 1vh;
+            padding-top: 1.5vh;
         }
         #footer>p {
             color: snow;
