@@ -163,11 +163,9 @@
     }
     #footer {
         display: block;
-        height: 8vh;
+        height: 15vh;
         width: 100%;
-        background: #232526;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background: #020202;
         overflow: hidden;
         bottom: 0 !important;
     }
@@ -175,7 +173,7 @@
         color: snow;
         font-family: "Segoe UI";
         font-size: 2.1vh;
-        line-height: 5vh;
+        line-height: 3vh;
         text-align: center;
         display: block;
     }
@@ -564,19 +562,18 @@
         }
         #footer {
             display: block;
-            height: 12vh;
+            height: 25vh;
             width: 100%;
-            background: #232526;  /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #020202;  /* fallback for old browsers */
             overflow: hidden;
             bottom: 0 !important;
+            padding-top: 1vh;
         }
         #footer>p {
             color: snow;
             font-family: "Segoe UI";
             font-size: 3.5vh;
-            line-height: 12vh;
+            line-height: 5vh;
             text-align: center;
             display: block;
         }
@@ -957,11 +954,9 @@
 
         #footer {
             display: block;
-            height: 16vh;
+            height: 25vh;
             width: 100%;
-            background: #232526; /* fallback for old browsers */
-            background: -webkit-linear-gradient(to right, #414345, #232526); /* Chrome 10-25, Safari 5.1-6 */
-            background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            background: #020202;
             overflow: hidden;
             bottom: 0 !important;
         }
@@ -996,7 +991,7 @@
             display: inline-block;
         }
 
-        #pcshare {
+        #pcshare, #visits {
             display: block;
             text-align: center;;
             /*text-align: center;*/
