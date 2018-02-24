@@ -167,7 +167,7 @@ mykdrApp.config(function($routeProvider) {
 
         // route for the vidyadhirajaschool page
         .when('/vidyadhirajaschool', {
-            title :"Vidysdhiraja School - MyKoduvayur",
+            title :"Vidyadhiraja School - MyKoduvayur",
             description : "",
             templateUrl : 'pages/locality/vidyadhirajaschool.html',
             controller  : 'localityController'
@@ -186,6 +186,14 @@ mykdrApp.config(function($routeProvider) {
             title :"Satya Sai School - MyKoduvayur",
             description : "",
             templateUrl : 'pages/locality/satyasaischool.html',
+            controller  : 'localityController'
+        })
+
+        // route for the nochurschool page
+        .when('/nochurschool', {
+            title :"Nochur School - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/nochurschool.html',
             controller  : 'localityController'
         })
 
@@ -957,6 +965,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         ]
                     }
                 },
+
                 ghsskoduvayur: {
                     title: "GOVERNMENT HIGHER SECONDARY SCHOOL, KODUVAYUR",
                     coverpic: "./images/culture/example/cover.jpg",
@@ -1042,7 +1051,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: [
                             {a: "3 School Vehicles"},
                             {a: "4 Digital / Smart Class Rooms"},
-                            {a: "Computer Lab with 20 Computers"},
+                            {a: "Computer Lab with 25 Computers"},
                             {a: "School Library Available"},
                             {a: "Music, Dance, Drawing, Abacus Special Coaching"},
                             {a: "Noon Feeding for 638 students currently"},
@@ -1253,14 +1262,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: " LOCATION",
-                        info: "Near Kakkayur Siva Temple and Althara, Kakkayur, Koduvayur."
+                        info: "Koduvayur-Palakkad Road, Near Marian College Junction, Koduvayur."
                     },
                     details: {
                         title: "DETAILS",
                         info: [
                             {
                                 a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MASTER: K.G.Anilkumar",
+                                b_principal: "HEAD MISTRESS: Ushadevi.K",
                                 c_classes: "FROM L.K.G to VIIth STD.",
                                 d_divisions: "3 divisions on each class",
                                 e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
@@ -1273,24 +1282,24 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "SPECIAL FEATURES",
                         info: [
                             {a: "3 School Vehicles"},
-                            {a: "4 Digital / Smart Class Rooms"},
-                            {a: "Computer Lab with 20 Computers"},
+                            {a: "Smart Class Rooms powered by TATA Class EDGE"},
+                            {a: "Computer, Science, Maths and Social Labs"},
                             {a: "School Library Available"},
-                            {a: "Music, Dance, Drawing, Abacus Special Coaching"},
-                            {a: "Noon Feeding for 638 students currently"},
-                            {a: "Free Uniform for students"},
-                            {a: "Play Ground (Above 1 Acre)"},
-                            {a: "Thanal + Sandwanam Project adopting 33 pupils"},
-                            {a: "School Radio: Kalalaya Vani"},
+                            {a: "Yoga, Dance, Karate, Instrumental music optional Special Coaching"},
+                            {a: "Mini-Park available for students"},
+                            {a: "Study Tour for students each year"},
+                            {a: "Play Ground in school premises"},
+                            {a: "Participation and medals won in Sub-District Kalolsavam each year by students"},
+                            {a: "School Radio installed"},
                             {a: "36 CCTV Cameras Installed"}
                         ]
                     },
                     contact: {
                         title: "CONTACT US",
                         info: [
-                            {a: "e-mail: dmsbskakkayur@gmail.com"},
-                            {a: "Phone: 04923 251131"},
-                            {a: "Head Master (Mob): 9447840431"}
+                            {a: "e-mail: vidyadhirajaschool@gmail.com"},
+                            {a: "Phone: 04923 253744"},
+                            {a: "Head Mistress (Mob): 9447392833"}
                         ]
 
                     },
@@ -1734,6 +1743,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         ]
                     }
                 },
+
                 ghsskoduvayur: {
                     title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
                     coverpic: "./images/culture/example/cover.jpg",
@@ -1819,7 +1829,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: [
                             {a: "3 സ്ക്കൂള്‍ വാഹനങ്ങള്‍"},
                             {a: "4 ഡിജിറ്റല്‍ / സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍"},
-                            {a: "20 കമ്പ്യൂട്ടര്‍ ഉള്ള കമ്പ്യൂട്ടര്‍ ലാബ്‌"},
+                            {a: "25 കമ്പ്യൂട്ടര്‍ ഉള്ള കമ്പ്യൂട്ടര്‍ ലാബ്‌"},
                             {a: "സ്ക്കൂള്‍ ലൈബ്രറി സൌകര്യം"},
                             {a: "സംഗീതം, നൃത്തം, ചിത്രരചന, അബാക്കസ് സ്പെഷ്യല്‍ കോച്ചിംഗ്"},
                             {a: "ഉച്ചഭക്ഷണം 538 വിദ്യാര്‍ത്ഥികള്‍ക്ക് "},
