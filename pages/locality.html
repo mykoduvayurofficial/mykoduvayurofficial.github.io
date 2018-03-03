@@ -106,88 +106,119 @@
                 <div class="col-md-12" id="institutions">
                     <h1>{{dataSelected.locality.institutions.title}}<i class="fa fa-building"></i></h1>
                     <div class=" panel panel-default panelout">
+
                         <div class="panel-body">
 
-                            <a href="#ghsskoduvayur">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.ghsskoduvayur.thumb}}" class="panelimg" alt="test"></img>
-                                    </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.ghsskoduvayur.title}}</div>
+                            <div data-toggle="collapse" data-target="#schools" class="col-md-3 panelcol panel panel-default">
+                                <div class="panel-body panelcontent">
+                                    <img src={{dataSelected.locality.institutions.thumbs.schools.pic}} class="panelimg" alt="test"></img>
                                 </div>
-                            </a>
+                                <div class="panel-footer panelname">{{dataSelected.locality.institutions.thumbs.schools.info}}</div>
+                            </div>
+                            <div id="schools" class="col-md-12 collapse" style="background-color: rgba(08,08,08,0.1); padding-top: 2%;margin-bottom: 1%">
 
-                            <a href="#mmmsbschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.mmmsbschool.thumb}}" class="panelimg" alt="test"></img>
-                                    </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.mmmsbschool.title}}</div>
-                                </div>
-                            </a>
+                                <div class="label-primary categoryhead">{{dataSelected.locality.institutions.thumbs.schools.category}}</div>
 
-                            <a href="#dmsbschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.dmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#ghskoduvayur">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.ghskoduvayur.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.ghskoduvayur.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dmsbschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#stpaulsschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.stpaulsschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#ghsskoduvayur">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.ghsskoduvayur.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.ghsskoduvayur.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.stpaulsschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#vidyadhirajaschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.vidyadhirajaschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#mmmsbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.mmmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.mmmsbschool.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.vidyadhirajaschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#nalandaschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.nalandaschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#dmsbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.dmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dmsbschool.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.nalandaschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#gbupschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.gbupschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#stpaulsschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.stpaulsschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.stpaulsschool.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gbupschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#gblpschool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.gblpschool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#vidyadhirajaschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.vidyadhirajaschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.vidyadhirajaschool.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gblpschool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
 
-                            <a href="#satyasaischool">
-                                <div class="col-md-3 panelcol panel panel-default">
-                                    <div class="panel-body panelcontent">
-                                        <img src="{{dataSelected.locality.institutions.list.satyasaischool.thumb}}" class="panelimg" alt="test"></img>
+                                <a href="#nalandaschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.nalandaschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.nalandaschool.title}}</div>
                                     </div>
-                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.satyasaischool.title}}</div>
-                                </div>
-                            </a>
+                                </a>
+
+                                <a href="#gbupschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.gbupschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gbupschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#gblpschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.gblpschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gblpschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#satyasaischool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.satyasaischool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.satyasaischool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#dnmjbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.dnmjbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dnmjbschool.title}}</div>
+                                    </div>
+                                </a>
+
+                            </div>
 
                             <a href="#oldagehome">
                                 <div class="col-md-3 panelcol panel panel-default">
