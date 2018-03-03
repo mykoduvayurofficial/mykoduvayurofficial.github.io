@@ -93,9 +93,17 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'localityController'
         })
 
+        // route for the ghskoduvayur page
+        .when('/ghskoduvayur', {
+            title :"Govt. High School - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/locality/ghskoduvayur.html',
+            controller  : 'localityController'
+        })
+
         // route for the ghsskoduvayur page
         .when('/ghsskoduvayur', {
-            title :"Govt. High School - MyKoduvayur",
+            title :"Govt. Higher Secondary School - MyKoduvayur",
             description : "",
             templateUrl : 'pages/locality/ghsskoduvayur.html',
             controller  : 'localityController'
@@ -189,11 +197,11 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'localityController'
         })
 
-        // route for the nochurschool page
-        .when('/nochurschool', {
-            title :"Nochur School - MyKoduvayur",
+        // route for the dnmjbschool page
+        .when('/dnmjbschool', {
+            title :"DNMJB School - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/locality/nochurschool.html',
+            templateUrl : 'pages/locality/dnmjbschool.html',
             controller  : 'localityController'
         })
 
@@ -904,6 +912,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         institutions: {
             title: "INSTITUTIONS",
+            thumbs: {
+                schools: {
+                    pic: "./images/locality/institutions/schools.jpg",
+                    info: "SCHOOLS",
+                    category: "SCHOOLS IN KODUVAYUR"
+                }
+            },
             list: {
                 gramapanchayathoffice: {
 
@@ -966,50 +981,111 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
 
-                ghsskoduvayur: {
-                    title: "GOVERNMENT HIGHER SECONDARY SCHOOL, KODUVAYUR",
+                ghskoduvayur: {
+                    title: "GOVERNMENT HIGH SCHOOL, KODUVAYUR",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: " LOCATION",
-                        info: "Near Kakkayur Siva Temple and Althara, Kakkayur, Koduvayur."
+                        info: "Opp. Koduvayur Bus Stand, Gramapeedika, Koduvayur."
                     },
                     details: {
                         title: "DETAILS",
                         info: [
                             {
                                 a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MASTER: K.G.Anilkumar",
-                                c_classes: "FROM L.K.G to VIIth STD.",
-                                d_divisions: "3 divisions on each class",
-                                e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
-                                f_strength: "Total Number of Students: 578",
-                                g_faculty: "Total Faculty Members: 26"
+                                b_principal: "HEAD MASTER: Mr. T. Gopalakrishnan",
+                                c_classes: "FROM Vth to Xth STD.",
+                                d_divisions: "More than 10 divisions on each class",
+                                e_medium: "English Medium and Malayalam Medium",
+                                f_strength: "Total Number of Students: 2446",
+                                g_faculty: "Total Faculty Members: 91",
+                                h_pta: "PTA President: Mr. M. Rajan",
+                                i_alumni: "Alumni Association President: Mr. A.K. Narayanan"
                             }
                         ]
                     },
                     special: {
                         title: "SPECIAL FEATURES",
                         info: [
-                            {a: "3 School Vehicles"},
-                            {a: "4 Digital / Smart Class Rooms"},
-                            {a: "Computer Lab with 20 Computers"},
+                            {a: "One of the best Govt. schools of the district"},
+                            {a: "Computer, Physics, Chemistry, Biology, Maths and Social Science Labs"},
                             {a: "School Library Available"},
-                            {a: "Music, Dance, Drawing, Abacus Special Coaching"},
-                            {a: "Noon Feeding for 638 students currently"},
-                            {a: "Free Uniform for students"},
-                            {a: "Play Ground (Above 1 Acre)"},
-                            {a: "Thanal + Sandwanam Project adopting 33 pupils"},
-                            {a: "School Radio: Kalalaya Vani"},
-                            {a: "36 CCTV Cameras Installed"}
+                            {a: "Scouts and Guides"},
+                            {a: "National Cadet Corps (NCC) for boys and girls"},
+                            {a: "Junior Red Cross (JRC) for boys and girls"},
+                            {a: "Vast Play Ground for multiple sports"},
+                            {a: "Special Coaching on various sports"},
+                            {a: "Overall Champions in various Sub District Competitions for consecutive years"},
+                            {a: "Special Coaching for weaker students"},
+                            {a: "8 CCTV Cameras Installed"}
                         ]
                     },
                     contact: {
                         title: "CONTACT US",
                         info: [
-                            {a: "e-mail: dmsbskakkayur@gmail.com"},
-                            {a: "Phone: 04923 251131"},
-                            {a: "Head Master (Mob): 9447840431"}
+                            {a: "e-mail: headmistressghskoduvayur@gmail.com"},
+                            {a: "Phone: 04923 25----"},
+                            {a: "Head Master (Mob): 9447014123"},
+                            {a: "PTA President (Mob): 9447962709"},
+                            {a: "Alumni Association President (Mob): 9447082524"}
+                        ]
+
+                    },
+                    about: {
+                        title: "ABOUT THIS SCHOOL",
+                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
+                },
+                ghsskoduvayur: {
+                    title: "GOVERNMENT HIGHER SECONDARY SCHOOL, KODUVAYUR",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " LOCATION",
+                        info: "Opp. Koduvayur Bus Stand, Gramapeedika, Koduvayur."
+                    },
+                    details: {
+                        title: "DETAILS",
+                        info: [
+                            {
+                                a_syllabus: "STATE PATTERN SYLLABUS",
+                                b_principal: "PRINCIPAL: Mr. M. Swaminathan",
+                                c_classes: "Classes: Higher Secondary (XI and XII)",
+                                d_divisions: "Divisions: Biology-2, Computer Science-1, Commerce-1, Humanities(History)-1, Humanities(Journalism)-1",
+                                e_medium: "English Medium",
+                                f_strength: "Total Number of Students: 360",
+                                g_faculty: "Total Faculty Members: 20"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "SPECIAL FEATURES",
+                        info: [
+                            {a: "Vijayasree Program for weaker students"},
+                            {a: "Part of Mathrubhumi SEED Project and Eco-Campaign"},
+                            {a: "Computer, Botany, Physics, Chemistry and Zoology Labs"},
+                            {a: "School Library Available"},
+                            {a: "Career Guidance and Counselling"},
+                            {a: "Student - Teacher 'Souhrida' Club"},
+                            {a: "Overall Champions for consecutive years on various Sub District events"},
+                            {a: "Vast Play Ground for multiple sports"},
+                            {a: "One of the finest Higher Secondary Schools of the District"},
+                            {a: "8 CCTV Cameras Installed"}
+                        ]
+                    },
+                    contact: {
+                        title: "CONTACT US",
+                        info: [
+                            {a: "e-mail: ghsskoduvaayur@gmail.com"},
+                            {a: "Phone: 04923 253522"},
+                            {a: "Principal (Mob): 9495584073"}
                         ]
 
                     },
@@ -1037,7 +1113,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: [
                             {
                                 a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MASTER: K.G.Anilkumar",
+                                b_principal: "HEAD MASTER: Mr. K.G. Anilkumar",
                                 c_classes: "FROM L.K.G to VIIth STD.",
                                 d_divisions: "3 divisions on each class",
                                 e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
@@ -1146,50 +1222,51 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: " LOCATION",
-                        info: "Near Kakkayur Siva Temple and Althara, Kakkayur, Koduvayur."
+                        info: "Near Uchimahaliyamman Temple, Koduvayur - Thrippalur Road, Ethanur, Koduvayur."
                     },
                     details: {
                         title: "DETAILS",
                         info: [
                             {
-                                a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MASTER: K.G.Anilkumar",
-                                c_classes: "FROM L.K.G to VIIth STD.",
+                                a_syllabus: "CBSE SYLLABUS",
+                                b_principal: "PRINCIPAL: Mrs. D. Radhika",
+                                c_classes: "FROM Ist to VIIth STD.",
                                 d_divisions: "3 divisions on each class",
-                                e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
-                                f_strength: "Total Number of Students: 578",
-                                g_faculty: "Total Faculty Members: 26"
+                                e_medium: "English Medium",
+                                f_strength: "Total Number of Students: 216",
+                                g_faculty: "Total Faculty Members: 15"
                             }
                         ]
                     },
                     special: {
                         title: "SPECIAL FEATURES",
                         info: [
-                            {a: "3 School Vehicles"},
-                            {a: "4 Digital / Smart Class Rooms"},
-                            {a: "Computer Lab with 20 Computers"},
+                            {a: "1 School Vehicle"},
+                            {a: "All classrooms with Digital / Smart Class facility"},
+                            {a: "Computer Lab and General Science Lab"},
                             {a: "School Library Available"},
-                            {a: "Music, Dance, Drawing, Abacus Special Coaching"},
-                            {a: "Noon Feeding for 638 students currently"},
-                            {a: "Free Uniform for students"},
+                            {a: "Yoga, Music, Art, and Games Special Coaching"},
+                            {a: "Indoor games, music and dance rooms for students"},
+                            {a: "Football and Archery coaching camps for students"},
                             {a: "Play Ground (Above 1 Acre)"},
-                            {a: "Thanal + Sandwanam Project adopting 33 pupils"},
-                            {a: "School Radio: Kalalaya Vani"},
-                            {a: "36 CCTV Cameras Installed"}
+                            {a: "Personality Development and guidance for students"},
+                            {a: "Annual Medical and health check up for students"},
+                            {a: "CCTV Cameras Installed"}
                         ]
                     },
                     contact: {
                         title: "CONTACT US",
                         info: [
-                            {a: "e-mail: dmsbskakkayur@gmail.com"},
-                            {a: "Phone: 04923 251131"},
-                            {a: "Head Master (Mob): 9447840431"}
+                            {a: "e-mail: stpaulsethanur@gmail.com"},
+                            {a: "Phone: 04923 252096"},
+                            {a: "Administrator (Mob): 8129964121"},
+                            {a: "Visit: www.stpaulsethanur.com"}
                         ]
 
                     },
                     about: {
                         title: "ABOUT THIS SCHOOL",
-                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                        info: "This school was established in the year 2005 under the management of the St.Paul’s Mission Society, an educational and charitable organization . The Society quite appropriately gave priority to establish a central school in Koduvayur,a remote village in Palakkad district with an aim of providing quality education to children in rural and undeveloped area. The school got affiliation in the year 2014 to conduct classes upto secondary level.  The school aims at all round development of each student, provides opportunities for their physical, intellectual, moral and spiritual growth and helps to acquire the modern concepts of liberalism, socialism, secularism equality and fraternity. It strives to promote patriotism, spirit of national integration, pride in our cultural, heritage and a scientific outlook. The calm and serene atmosphere that prevails in this campus makes it ideal for an academic institution. The buildings are all modern and spacious and offer the students with a comfortable learning experience."
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1269,7 +1346,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: [
                             {
                                 a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MISTRESS: Ushadevi.K",
+                                b_principal: "HEAD MISTRESS: Mrs. K. Ushadevi",
                                 c_classes: "FROM L.K.G to VIIth STD.",
                                 d_divisions: "3 divisions on each class",
                                 e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
@@ -1281,7 +1358,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     special: {
                         title: "SPECIAL FEATURES",
                         info: [
-                            {a: "3 School Vehicles"},
+                            {a: "Calm and peaceful campus away from town"},
                             {a: "Smart Class Rooms powered by TATA Class EDGE"},
                             {a: "Computer, Science, Maths and Social Labs"},
                             {a: "School Library Available"},
@@ -1305,7 +1382,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     about: {
                         title: "ABOUT THIS SCHOOL",
-                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                        info: "This school was founded and headed by Vidyadhiraja Vidyasamajam in 1985 and it started in a rented house in the Keralapuram village. Later on it was moved to its independent current location and the running and ownership of the school was taken over by Mr. R. Ramachandran and Family, who are currently running this school. The Kerala State Govt. affiliated this school in 2013 based on its current standards. This school is one of the prominent elementary schools around this place in terms of academics, infrastructure, activities and student performances."
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1315,55 +1392,55 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 gbupschool: {
-                    title: "GBUP SCHOOL, KODUVAYUR",
+                    title: "GBUP SCHOOL, ETHANUR",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: " LOCATION",
-                        info: "Near Kakkayur Siva Temple and Althara, Kakkayur, Koduvayur."
+                        info: "Near Pittupeedika Junction, Koduvayur - Thrippalur Road, Ethanur, Koduvayur."
                     },
                     details: {
                         title: "DETAILS",
                         info: [
                             {
                                 a_syllabus: "STATE PATTERN SYLLABUS",
-                                b_principal: "HEAD MASTER: K.G.Anilkumar",
+                                b_principal: "HEAD MISTRESS: Mrs. G. Padmini",
                                 c_classes: "FROM L.K.G to VIIth STD.",
-                                d_divisions: "3 divisions on each class",
-                                e_medium: "2 English Medium and 1 Malayalam Medium ‍division",
-                                f_strength: "Total Number of Students: 578",
-                                g_faculty: "Total Faculty Members: 26"
+                                d_divisions: "2 divisions on each class",
+                                e_medium: "Malayalam Medium with Parallel English Medium Classes",
+                                f_strength: "Total Number of Students: 423",
+                                g_faculty: "Total Faculty Members: 24"
                             }
                         ]
                     },
                     special: {
                         title: "SPECIAL FEATURES",
                         info: [
-                            {a: "3 School Vehicles"},
-                            {a: "4 Digital / Smart Class Rooms"},
-                            {a: "Computer Lab with 20 Computers"},
-                            {a: "School Library Available"},
-                            {a: "Music, Dance, Drawing, Abacus Special Coaching"},
-                            {a: "Noon Feeding for 638 students currently"},
-                            {a: "Free Uniform for students"},
-                            {a: "Play Ground (Above 1 Acre)"},
-                            {a: "Thanal + Sandwanam Project adopting 33 pupils"},
-                            {a: "School Radio: Kalalaya Vani"},
+                            {a: "Digital / Smart Class Room"},
+                            {a: "Computer Lab, Science Lab and Maths Lab"},
+                            {a: "Class Library Available in each class"},
+                            {a: "Physical training, arts and work experience Special Coaching"},
+                            {a: "Arabic and L.S.S classes"},
+                            {a: "Noon Feeding for students"},
+                            {a: "Free Uniform and text books for students from I to VII std"},
+                            {a: "Play Ground in school campus"},
+                            {a: "Specialised assembly hall and dining hall for pupils"},
+                            {a: "School Radio: Aakasha Vani"},
                             {a: "36 CCTV Cameras Installed"}
                         ]
                     },
                     contact: {
                         title: "CONTACT US",
                         info: [
-                            {a: "e-mail: dmsbskakkayur@gmail.com"},
-                            {a: "Phone: 04923 251131"},
-                            {a: "Head Master (Mob): 9447840431"}
+                            {a: "e-mail: gbupsethanur@gmail.com"},
+                            {a: "Phone: 04923 251177"},
+                            {a: "Head Mistress (Mob): 9037403712"}
                         ]
 
                     },
                     about: {
                         title: "ABOUT THIS SCHOOL",
-                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                        info: "This school began as an Ashram in 1912 near Ethanur. It was then brought under Malabar Dist. Board as two separate schools, one for boys and one for girls. Then it was merged to one school again on a building given by the Mullakkal family. It shifted to the current building in 1997 and is run smoothly with the help of the Panchayath, MLA, Former students and other well wishers. L.S.S, prizes in quiz and literary competitions, a state of the art maths lab, specialised assembly hall and dining hall, a rain water harvesting plant, etc are some of the highlights of this school. "
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1480,6 +1557,60 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     about: {
                         title: "ABOUT THIS SCHOOL",
                         info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
+                },
+                dnmjbschool: {
+                    title: "DNMJB SCHOOL, NOCHUR",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " LOCATION",
+                        info: "Near BSNL Telephone Exchange, Nochur Main Road, Nochur, Koduvayur."
+                    },
+                    details: {
+                        title: "DETAILS",
+                        info: [
+                            {
+                                a_syllabus: "STATE PATTERN SYLLABUS",
+                                b_principal: "HEAD MISTRESS: Mrs V.S. Sobha",
+                                c_classes: "FROM L.K.G to IVth STD.",
+                                d_divisions: "1 division on each class",
+                                e_medium: "Malayalam Medium",
+                                f_strength: "Total Number of Students: 130",
+                                g_faculty: "Total Faculty Members: 6"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "SPECIAL FEATURES",
+                        info: [
+                            {a: "Free Vehicle Service, Uniform and Study Kit for Class I students"},
+                            {a: "Pre Nursery Available"},
+                            {a: "Arabic and L.S.S Classes"},
+                            {a: "Special Coaching for weaker students"},
+                            {a: "Noon Feeding for students"},
+                            {a: "Annual Day and Study Tour for students"},
+                            {a: "Play Ground in school campus"}
+                        ]
+                    },
+                    contact: {
+                        title: "CONTACT US",
+                        info: [
+                            {a: "e-mail: sobhadnmjbs@gmail.com"},
+                            {a: "Phone: 04923 251000"},
+                            {a: "Head Mistress (Mob): 9496673270"}
+                        ]
+
+                    },
+                    about: {
+                        title: "ABOUT THIS SCHOOL",
+                        info: "This school is named after Late Mr. Damodaran Nair in his memory. It was established in 1935 and run by the Nochur Devaswom as a Kudi-Pallikkudam. It was shifted to the current building is 1990 under the management of Mr.Sivaramakrishnan from Palakkad. This is a State Govt. Aided institution and is also helped by former students for its smooth functioning. Pre nursery and child care is also available here. Teachers are very caring and affectionate and it is a nice atmosphere here for students."
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1682,6 +1813,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         institutions: {
             title: "സ്ഥാപനങ്ങൾ",
+            thumbs: {
+                schools: {
+                    pic: "./images/locality/institutions/schools.jpg",
+                    info: "SCHOOLS",
+                    category: "SCHOOLS IN KODUVAYUR"
+                }
+            },
             list: {
                 gramapanchayathoffice: {
 
@@ -1744,6 +1882,64 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
 
+                ghskoduvayur: {
+                    title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " സ്ഥലം",
+                        info: "കാക്കയൂര്‍ ശിവക്ഷേത്രത്തിനു സമീപം, കാക്കയൂര്‍."
+                    },
+                    details: {
+                        title: "പ്രധാന വിവരങ്ങള്‍",
+                        info: [
+                            {
+                                a_syllabus: "സ്റ്റേറ്റ് സിലബസ്",
+                                b_principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                c_classes: "L.K.G മുതല്‍ VIIth STD വരെ",
+                                d_divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍",
+                                e_medium: "2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം ഡിവിഷന്‍",
+                                f_strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
+                                g_faculty: "മൊത്തം അദ്ധ്യാപകര്‍ : 26"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "പ്രത്യേകതകള്‍",
+                        info: [
+                            {a: "3 സ്ക്കൂള്‍ വാഹനങ്ങള്‍"},
+                            {a: "4 ഡിജിറ്റല്‍ / സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍"},
+                            {a: "20 കമ്പ്യൂട്ടര്‍ ഉള്ള കമ്പ്യൂട്ടര്‍ ലാബ്‌"},
+                            {a: "സ്ക്കൂള്‍ ലൈബ്രറി സൌകര്യം"},
+                            {a: "സംഗീതം, നൃത്തം, ചിത്രരചന, അബാക്കസ് സ്പെഷ്യല്‍ കോച്ചിംഗ്"},
+                            {a: "ഉച്ചഭക്ഷണം 538 വിദ്യാര്‍ത്ഥികള്‍ക്ക് "},
+                            {a: "വിദ്യാര്‍ത്ഥികള്‍ക്ക് സൌജന്യ യൂണിഫോം"},
+                            {a: "1 ഏക്കര്‍ ദൈര്‍ഘ്യമുള്ള കളിസ്ഥലം"},
+                            {a: "33 വിദ്യാര്‍ത്ഥികളെ ഏറ്റെടുത്ത തണല്‍ + സാന്ദ്വനം പ്രോജക്റ്റ്"},
+                            {a: "സ്ക്കൂള്‍ റേഡിയോ: കലാലയ വാണി"},
+                            {a: "36 CCTV ക്യാമറകള്‍"}
+                        ]
+                    },
+                    contact: {
+                        title: "ബന്ധപ്പെടുക",
+                        info: [
+                            {a: "ഇ-മെയില്‍: dmsbskakkayur@gmail.com"},
+                            {a: "ഫോണ്‍: 04923 251131"},
+                            {a: "ഹെഡ് മാസ്റ്റര്‍ (Mob): 9447840431"}
+                        ]
+
+                    },
+                    about: {
+                        title: "ഈ സ്ക്കൂളിനെക്കുറിച്ച്",
+                        info: "കൊടുവായൂര്‍ പഞ്ചായത്തിലെ കാക്കയൂര്‍ ഗ്രാമത്തിന്റെ ഹൃദയഭാഗത്താണ്‌ ഈ സ്ക്കൂള്‍ സ്ഥിതി ചെയ്യുന്നത്. 1895ല്‍ പള്ളിയില്‍ വീടിന്റെ കലവറയില്‍ ഒരു ചെറിയ ഠശാല ആയി പള്ളിയില്‍ ചാത്തന്‍കുട്ടി മേനോന്‍ ആണ് ഈ വിദ്യാലയം ആരംഭിച്ചത്. 1900ല്‍ ഇത് ഒരു പെണ്‍ പള്ളിക്കുടം ആയി അംഗീകൃതം ആവുകയും 1924ല്‍ ഗവണ്മെന്റ് ഇതിനെ ഒരു മിശ്രിത പള്ളിക്കുദമായി അംഗീകരിക്കുകയും ചെയ്തു. 1956ല്‍ ഈ വിദ്യാലയം ഒരു അടിസ്ഥാന വിദ്യാലയമായി മാറ്റിക്കൊണ്ട് ഗവണ്മെന്റ് ഉത്തരവിടുകയും പള്ളിയില്‍ K.P. ഭാസ്കരമേനോന്‍ സ്ഥാപനത്തിന്റെ മാനേജ്‌മന്റ്‌ ഏറ്റെടുക്കുകയും ചെയ്തു. ഇന്ന് ഈ വിദ്യാലയം ദേവകി ഹാള്‍, നാരായണന്‍ ഹാള്‍, ഗോവിന്ദന്‍ ഹാള്‍ എന്നീ വിശാലമായ ൩ കെട്ടിടങ്ങള്‍ ആയിട്ടാണ് ഉള്ളത്. മാനെജെമെന്റും പൂര്‍വ വിദ്യാര്‍ത്ഥികളും സഹായിക്കുന്നതുകൊണ്ടും അഭ്യുദയകാംക്ഷികളുടെ പിന്തുണ കൊണ്ടും ഈ വിദ്യാലയം ഓരോ കൊല്ലവും നല്ല രീതിയില്‍ പ്രവര്‍ത്തിച്ചുവരുന്നു. വിദ്യാലയങ്ങളിലെ നൂതന സൌകര്യങ്ങളായ സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍, കമ്പ്യൂട്ടര്‍ ലാബ്‌, ബയോഗ്യാസ്‌ പ്ലാന്റ്, സ്ക്കൂള്‍ റേഡിയോ, സ്ക്കൂള്‍ വാഹനങ്ങള്‍, കിച്ചണ്‍, സ്റ്റോര്‍ മുതലായവ ഈ സ്ക്കൂളില്‍ ഉണ്ട്. ഈ സ്ക്കൂള്‍ ഇവിടത്തെ വിദ്യാര്‍ത്ഥികള്‍ക്ക് ഉള്ള ഉച്ചഭക്ഷണം നല്‍കുകയും പാവപെട്ട കുട്ടികളെ ഏറ്റെടുക്കുകയും ചെയ്യുന്നു. ഈ സ്ക്കൂളില്‍ 1 ഏക്കര്‍ വിസ്തീര്‍ണമുള്ള ഒരു വിശാല കളിസ്ഥലവും ഉണ്ട്."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
+                },
                 ghsskoduvayur: {
                     title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
                     coverpic: "./images/culture/example/cover.jpg",
@@ -1815,7 +2011,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: [
                             {
                                 a_syllabus: "സ്റ്റേറ്റ് സിലബസ്",
-                                b_principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                b_principal: "ഹെഡ് മാസ്റ്റര്‍: Mr. K.G. അനില്‍കുമാര്‍",
                                 c_classes: "L.K.G മുതല്‍ VIIth STD വരെ",
                                 d_divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍",
                                 e_medium: "2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം ഡിവിഷന്‍",
@@ -2209,6 +2405,64 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     }
                 },
                 satyasaischool: {
+                    title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
+                    coverpic: "./images/culture/example/cover.jpg",
+                    thumb: "./images/culture/example/thumb.jpg",
+                    location: {
+                        title: " സ്ഥലം",
+                        info: "കാക്കയൂര്‍ ശിവക്ഷേത്രത്തിനു സമീപം, കാക്കയൂര്‍."
+                    },
+                    details: {
+                        title: "പ്രധാന വിവരങ്ങള്‍",
+                        info: [
+                            {
+                                a_syllabus: "സ്റ്റേറ്റ് സിലബസ്",
+                                b_principal: "ഹെഡ് മാസ്റ്റര്‍: K.G.അനില്‍കുമാര്‍",
+                                c_classes: "L.K.G മുതല്‍ VIIth STD വരെ",
+                                d_divisions: "എല്ലാ ക്ലാസ്സുകളിലും 3 ഡിവിഷന്‍",
+                                e_medium: "2 ഇംഗ്ലീഷ് മീഡിയം 1 മലയാളം മീഡിയം ഡിവിഷന്‍",
+                                f_strength: "മൊത്തം വിദ്യാര്‍ത്ഥികള്‍ : 578",
+                                g_faculty: "മൊത്തം അദ്ധ്യാപകര്‍ : 26"
+                            }
+                        ]
+                    },
+                    special: {
+                        title: "പ്രത്യേകതകള്‍",
+                        info: [
+                            {a: "3 സ്ക്കൂള്‍ വാഹനങ്ങള്‍"},
+                            {a: "4 ഡിജിറ്റല്‍ / സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍"},
+                            {a: "20 കമ്പ്യൂട്ടര്‍ ഉള്ള കമ്പ്യൂട്ടര്‍ ലാബ്‌"},
+                            {a: "സ്ക്കൂള്‍ ലൈബ്രറി സൌകര്യം"},
+                            {a: "സംഗീതം, നൃത്തം, ചിത്രരചന, അബാക്കസ് സ്പെഷ്യല്‍ കോച്ചിംഗ്"},
+                            {a: "ഉച്ചഭക്ഷണം 538 വിദ്യാര്‍ത്ഥികള്‍ക്ക് "},
+                            {a: "വിദ്യാര്‍ത്ഥികള്‍ക്ക് സൌജന്യ യൂണിഫോം"},
+                            {a: "1 ഏക്കര്‍ ദൈര്‍ഘ്യമുള്ള കളിസ്ഥലം"},
+                            {a: "33 വിദ്യാര്‍ത്ഥികളെ ഏറ്റെടുത്ത തണല്‍ + സാന്ദ്വനം പ്രോജക്റ്റ്"},
+                            {a: "സ്ക്കൂള്‍ റേഡിയോ: കലാലയ വാണി"},
+                            {a: "36 CCTV ക്യാമറകള്‍"}
+                        ]
+                    },
+                    contact: {
+                        title: "ബന്ധപ്പെടുക",
+                        info: [
+                            {a: "ഇ-മെയില്‍: dmsbskakkayur@gmail.com"},
+                            {a: "ഫോണ്‍: 04923 251131"},
+                            {a: "ഹെഡ് മാസ്റ്റര്‍ (Mob): 9447840431"}
+                        ]
+
+                    },
+                    about: {
+                        title: "ഈ സ്ക്കൂളിനെക്കുറിച്ച്",
+                        info: "കൊടുവായൂര്‍ പഞ്ചായത്തിലെ കാക്കയൂര്‍ ഗ്രാമത്തിന്റെ ഹൃദയഭാഗത്താണ്‌ ഈ സ്ക്കൂള്‍ സ്ഥിതി ചെയ്യുന്നത്. 1895ല്‍ പള്ളിയില്‍ വീടിന്റെ കലവറയില്‍ ഒരു ചെറിയ ഠശാല ആയി പള്ളിയില്‍ ചാത്തന്‍കുട്ടി മേനോന്‍ ആണ് ഈ വിദ്യാലയം ആരംഭിച്ചത്. 1900ല്‍ ഇത് ഒരു പെണ്‍ പള്ളിക്കുടം ആയി അംഗീകൃതം ആവുകയും 1924ല്‍ ഗവണ്മെന്റ് ഇതിനെ ഒരു മിശ്രിത പള്ളിക്കുദമായി അംഗീകരിക്കുകയും ചെയ്തു. 1956ല്‍ ഈ വിദ്യാലയം ഒരു അടിസ്ഥാന വിദ്യാലയമായി മാറ്റിക്കൊണ്ട് ഗവണ്മെന്റ് ഉത്തരവിടുകയും പള്ളിയില്‍ K.P. ഭാസ്കരമേനോന്‍ സ്ഥാപനത്തിന്റെ മാനേജ്‌മന്റ്‌ ഏറ്റെടുക്കുകയും ചെയ്തു. ഇന്ന് ഈ വിദ്യാലയം ദേവകി ഹാള്‍, നാരായണന്‍ ഹാള്‍, ഗോവിന്ദന്‍ ഹാള്‍ എന്നീ വിശാലമായ ൩ കെട്ടിടങ്ങള്‍ ആയിട്ടാണ് ഉള്ളത്. മാനെജെമെന്റും പൂര്‍വ വിദ്യാര്‍ത്ഥികളും സഹായിക്കുന്നതുകൊണ്ടും അഭ്യുദയകാംക്ഷികളുടെ പിന്തുണ കൊണ്ടും ഈ വിദ്യാലയം ഓരോ കൊല്ലവും നല്ല രീതിയില്‍ പ്രവര്‍ത്തിച്ചുവരുന്നു. വിദ്യാലയങ്ങളിലെ നൂതന സൌകര്യങ്ങളായ സ്മാര്‍ട്ട്‌ ക്ലാസ്സ്‌ മുറികള്‍, കമ്പ്യൂട്ടര്‍ ലാബ്‌, ബയോഗ്യാസ്‌ പ്ലാന്റ്, സ്ക്കൂള്‍ റേഡിയോ, സ്ക്കൂള്‍ വാഹനങ്ങള്‍, കിച്ചണ്‍, സ്റ്റോര്‍ മുതലായവ ഈ സ്ക്കൂളില്‍ ഉണ്ട്. ഈ സ്ക്കൂള്‍ ഇവിടത്തെ വിദ്യാര്‍ത്ഥികള്‍ക്ക് ഉള്ള ഉച്ചഭക്ഷണം നല്‍കുകയും പാവപെട്ട കുട്ടികളെ ഏറ്റെടുക്കുകയും ചെയ്യുന്നു. ഈ സ്ക്കൂളില്‍ 1 ഏക്കര്‍ വിസ്തീര്‍ണമുള്ള ഒരു വിശാല കളിസ്ഥലവും ഉണ്ട്."
+                    },
+                    photos: {
+                        title: "PHOTOS",
+                        album: [
+                            {pic: ""}
+                        ]
+                    }
+                },
+                dnmjbschool: {
                     title: "DMSB സ്ക്കൂള്‍, കാക്കയൂര്‍",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
