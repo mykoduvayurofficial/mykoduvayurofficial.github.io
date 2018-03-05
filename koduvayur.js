@@ -539,7 +539,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "krishchianna",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "22 February 2018"
+            lastupdated: "05 March 2018"
         },
         menu: {
             english: "EN",
@@ -587,7 +587,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             author: "krishchianna",
             url: "http://www.mykoduvayur.in",
             logo: "./images/mylogo.png",
-            lastupdated: "22 ഫെബ്രുവരി 2018"
+            lastupdated: "05 മാര്‍ച്ച്‌ 2018"
         },
         menu: {
             english: "EN",
@@ -916,7 +916,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 schools: {
                     pic: "./images/locality/institutions/schools.jpg",
                     info: "SCHOOLS",
-                    category: "SCHOOLS IN KODUVAYUR"
+                    category: "SCHOOLS"
                 }
             },
             list: {
@@ -1034,7 +1034,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     about: {
                         title: "ABOUT THIS SCHOOL",
-                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                        info: "The story and history of this school goes back a century and it has influenced the life and development of the people in Koduvayur. This place belonged to the Malabar district of Madras state then. The British Govt. initiative of educating people all over India resulted in the establishment of many schools and this school was started in 1897 in Koduvayur, in a small room near a shop in Gramapeedika with a few students. A building was constructed on its current location and started functioning as an elementary school from 1906. This became the first High School of the district from 1918. The current office building in the campus was constructed and the school was fledged with High School classes, staff and facilities in 1928 and was known as Board High School, Koduvayur. The first radio of Koduvayur was set up in front of the school in 1955. Engineering and weaving were also taught here. This school has given birth to innumerous number of talents over the years. It has performed well in multiple fields of academics, arts and sports, and also in many social impacting ways. Higher Secondary was started here in 1990 and the school is well equipped now with all necessary facilities for all departments and still ongoing further developments in all sections. Students are also coached on various sports, NCC, JRC, Scouts and Guides, Personality and Career Development etc. Students of this school have been winning prizes and championships on various competitions in all levels for many years now. This school has a very active PTA and Alumni associations and they help extensively for the development and smooth running of this school. With a beautiful campus, a large number of students and staff, and excellent performance in all departments, this school proves to be one of the best schools around."
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1091,7 +1091,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     about: {
                         title: "ABOUT THIS SCHOOL",
-                        info: "This school is situated in the heart of Kakkayur Village of Koduvayur Panchayath, Palakkad. It was started in 1895 as a small learning institute by Palliyil Chathankutty Menon. It was certified as a Girls School in 1900 and was extended to a Mixed School in 1924. It was affiliated as an Elementary School by the Govt. in 1956 and the Management was headed by Palliyil K.P. Bhaskara Menon. Today, this school consists of 3 Blocks namely Devaki Hall, Narayani Hall and Govindan Hall. The school is being developed each passing year with the constant support of the Management and Former Students. This School has many of the modern facilities including Smart Class Rooms, IT Labs, Bio-Gas Plant, School Radio, School Vehicles, Kitchen and Store etc. This school feeds most of the pupils here for noon and also has adopted a few pupils who are economically backward. This school also has a vast playground of about 1 acre."
+                        info: "The story and history of this school goes back a century and it has influenced the life and development of the people in Koduvayur. This place belonged to the Malabar district of Madras state then. The British Govt. initiative of educating people all over India resulted in the establishment of many schools and this school was started in 1897 in Koduvayur, in a small room near a shop in Gramapeedika with a few students. A building was constructed on its current location and started functioning as an elementary school from 1906. This became the first High School of the district from 1918. The current office building in the campus was constructed and the school was fledged with High School classes, staff and facilities in 1928 and was known as Board High School, Koduvayur. The first radio of Koduvayur was set up in front of the school in 1955. Engineering and weaving were also taught here. This school has given birth to innumerous number of talents over the years. It has performed well in multiple fields of academics, arts and sports, and also in many social impacting ways. Higher Secondary was started here in 1990 and the school is well equipped now with all necessary facilities for all departments and still ongoing further developments in all sections. Students are also coached on various sports, NCC, JRC, Scouts and Guides, Personality and Career Development etc. Students of this school have been winning prizes and championships on various competitions in all levels for many years now. This school has a very active PTA and Alumni associations and they help extensively for the development and smooth running of this school. With a beautiful campus, a large number of students and staff, and excellent performance in all departments, this school proves to be one of the best schools around."
                     },
                     photos: {
                         title: "PHOTOS",
@@ -1230,28 +1230,28 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             {
                                 a_syllabus: "CBSE SYLLABUS",
                                 b_principal: "PRINCIPAL: Mrs. D. Radhika",
-                                c_classes: "FROM Ist to VIIth STD.",
+                                c_classes: "FROM L.K.G to Xth STD.",
                                 d_divisions: "3 divisions on each class",
                                 e_medium: "English Medium",
-                                f_strength: "Total Number of Students: 216",
-                                g_faculty: "Total Faculty Members: 15"
+                                f_strength: "Total Number of Students: 400 (approx.)",
+                                g_faculty: "Total Faculty Members: 21"
                             }
                         ]
                     },
                     special: {
                         title: "SPECIAL FEATURES",
                         info: [
+                            {a: "The only CBSE school in Koduvayur"},
                             {a: "1 School Vehicle"},
-                            {a: "All classrooms with Digital / Smart Class facility"},
+                            {a: "Digital / Smart Class facility"},
                             {a: "Computer Lab and General Science Lab"},
                             {a: "School Library Available"},
                             {a: "Yoga, Music, Art, and Games Special Coaching"},
                             {a: "Indoor games, music and dance rooms for students"},
-                            {a: "Football and Archery coaching camps for students"},
-                            {a: "Play Ground (Above 1 Acre)"},
+                            {a: "Football, Archery, Karate, Yoga, Handball coaching for students"},
+                            {a: "Play Ground (Above 1 Acre) and Kids Park"},
                             {a: "Personality Development and guidance for students"},
-                            {a: "Annual Medical and health check up for students"},
-                            {a: "CCTV Cameras Installed"}
+                            {a: "Annual Medical and health check up for students"}
                         ]
                     },
                     contact: {
