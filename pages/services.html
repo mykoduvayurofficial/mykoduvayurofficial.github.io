@@ -22,7 +22,7 @@
                 <li ng-click="menuload()" id="services"><a href="#services">{{dataSelected.mainData.menu.services}}</a></li>
                 <li ng-click="menuload()" id="trending"><a href="#trending">{{dataSelected.mainData.menu.trending}}</a></li>
                 <li ng-click="menuload()" id="events"><a href="#events">{{dataSelected.mainData.menu.events}}</a></li>
-                <li ng-click="menuload()" id="feedback"><a href="#feedback">{{dataSelected.mainData.menu.feedback}}</a></li>
+                <li ng-click="menuload()" id="emergency"><a href="#emergency">{{dataSelected.mainData.menu.emergency}}</a></li>
                 <li ng-click="menuload()" id="about"><a href="#about">{{dataSelected.mainData.menu.about}}</a></li>
                 <li id="mobshare">
                     <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
@@ -44,6 +44,7 @@
         <div class="col-md-12" id="content">
 
             <div class="col-md-2" id="adslot1_pc">
+                <div></div>
                 <div></div>
                 <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
             </div>
@@ -70,9 +71,17 @@
                     <p>{{dataSelected.services.intro.para1}}</p>
                 </div>
 
-                <div class="col-md-12 btn-danger" id="emergency"><i class="fa fa-plus-square"></i> {{dataSelected.services.emergency.title}}</div>
-
                 <div class="col-md-12" id="adslot2_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+
+                <a href="#emergency">
+                    <div class="col-md-12 btn-danger" id="emergencylink"><i class="fa fa-plus-square"></i> {{dataSelected.services.emergency.title}}</div>
+                </a>
+
+                <div class="col-md-12" id="adslot3_mob">
                     <div></div>
                     <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
                 </div>
@@ -116,9 +125,16 @@
                     </div>
                 </div>
 
+                <div class="col-md-12" id="adslot4_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+
             </div>
 
             <div class="col-md-2" id="adslot2_pc">
+                <div></div>
                 <div></div>
                 <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
             </div>
