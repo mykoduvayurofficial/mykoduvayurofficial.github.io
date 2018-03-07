@@ -135,6 +135,14 @@ body {
 #home:hover>a, #locality:hover>a, #culture:hover>a, #services:hover>a, #trending:hover>a, #events:hover>a, #feedback:hover>a, #about:hover>a {
     color: #1c1c1c;
 }
+
+#emergency>a {
+    color: #f20000;
+}
+#emergency:hover a{
+    color: #fafafa;
+}
+
 #mykdr_menu>li>a:hover {
     text-decoration: wavy !important;
 
@@ -282,7 +290,7 @@ body {
         text-align: center;
         position: relative;
     }
-    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a {
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #language>a, #emergency>a {
         position: relative;
         height: 9vh;
         line-height: 9vh;
@@ -294,14 +302,17 @@ body {
         margin: 0;
     }
 
-    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a {
+    #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a, #emergency>a {
         display: block;
         width: 100%;
         /*border-bottom: solid 1px rgba(08,08,08,0.7);*/
     }
 
-    #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
+    #home:hover, #locality:hover, #culture:hover, #services:hover, #trending:hover, #events:hover, #about:hover {
         background-color: rgba(08,08,08,0.1);
+    }
+    #emergency:hover {
+        background-color: rgba(252,00,00,0.7);
     }
 
     #language {
@@ -336,8 +347,11 @@ body {
     @media (max-width: 1091px) {
 
 
-        #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #feedback>a:hover, #about>a:hover {
+        #home:hover, #locality:hover, #culture:hover, #services:hover, #trending:hover, #events:hover, #about:hover {
             background-color: rgba(08,08,08,0.1);
+        }
+        #emergency:hover {
+            background-color: rgba(252,00,00,0.7);
         }
 
         #language{
@@ -503,6 +517,11 @@ body {
 
 
     @media (min-width: 1091px) {
+
+        #emergency:hover {
+            background-color: #f20000;
+            border-radius: 5%;
+        }
 
         #mykdr_nav{
 

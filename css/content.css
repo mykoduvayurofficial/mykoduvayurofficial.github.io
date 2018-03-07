@@ -1,9 +1,10 @@
 
+
 #maincontent>div {
     color: #34495E;
 }
 
-#emergency {
+#emergencylink {
     color: #fafafa !important;
 }
 
@@ -332,7 +333,7 @@
         overflow: hidden;
     }
 
-    #emergency {
+    #emergencylink {
         border: 0 !important;
         font-size: 5vh !important;
         font-family: "Segoe UI Semibold";
@@ -739,7 +740,7 @@
             overflow: hidden;
         }
 
-        #emergency {
+        #emergencylink {
             border: 0 !important;
             font-size: 9vh !important;
             font-family: "Segoe UI Semibold";
@@ -875,18 +876,21 @@
         }
 
         #maincontent {
+            display: inline-block;
             /*background-color: #cccccc;*/
             padding: 5vh 1vh 2vh 1vh;
         }
 
         #adslot1_pc, #adslot2_pc {
+            display: inline-block;
             padding: 2vh 2vh 2vh 2vh;
             margin: 0;
         }
 
         #adslot1_pc > div, #adslot2_pc > div {
-            height: 75vh;
-            background: none;
+            height: 90vh;
+            margin-bottom: 4vh;
+            background-color: #00aced;
         }
 
         #adslot1_mob, #adslot2_mob {
@@ -1170,7 +1174,7 @@
             overflow: hidden;
         }
 
-        #emergency {
+        #emergencylink {
             border: 0 !important;
             font-size: 4vh !important;
             font-family: "Segoe UI Semibold";
