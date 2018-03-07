@@ -53,12 +53,12 @@ mykdrApp.config(function($routeProvider) {
             templateUrl : 'pages/services.html',
             controller  : 'servicesController'
         })
-        // route for the feedback page
-        .when('/feedback', {
-            title :"Feedback - MyKoduvayur",
+        // route for the emergency page
+        .when('/emergency', {
+            title :"Emergency - MyKoduvayur",
             description : "",
-            templateUrl : 'pages/feedback.html',
-            controller  : 'feedbackController'
+            templateUrl : 'pages/emergency.html',
+            controller  : 'emergencyController'
         })
         // route for the about page
         .when('/about', {
@@ -550,7 +550,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             services: "SERVICES",
             trending: "TRENDING",
             events: "EVENTS",
-            feedback: "FEEDBACK",
+            emergency: "EMERGENCY",
             about: "ABOUT US"
         },
         theme: {
@@ -598,7 +598,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             services: "സേവനം",
             trending: "തരംഗം",
             events: "പരിപാടി",
-            feedback: "ജനശബ്ദം",
+            emergency: "അത്യാവശ്യം",
             about: "അണിയറ"
         },
         theme: {
@@ -683,6 +683,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         guide: {
             title: "WEBSITE GUIDE",
             image: "./images/kdrguide.jpg"
+        },
+        feedback: {
+            title: "FEEDBACK",
+            intro: "This venture - MyKoduvayur, was planned and processed with the motive of making the Life better for the people in and from this place, using the Web Technology that is growing higher and reaching farther each passing day. So each one of you definitely have a say in here. Your opinions, suggestions and appreciations are a huge motivation for us to go forward and do further. We appreciate each of your support. "
         }
     };
 
@@ -740,6 +744,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         guide: {
             title: "വെബ്‌സൈറ്റ് ഘടന",
             image: "./images/kdrguide.jpg"
+        },
+        feedback: {
+            title: "പ്രതികരണം",
+            intro: "MyKoduvayur എന്ന ഈ സംരംഭം ഇപ്പോൾ വളർന്നുവരുന്ന വെബ് ടെക്നോളജി ഉപയോഗിച്ച് കൊടുവായൂരിലെ ജനങ്ങളുടെ ജീവിതശൈലി എളുപ്പമാക്കുവാൻ സഹായിക്കുക എന്ന ഉദ്ദേശത്തോടെയാണ് ആരംഭിച്ചത്. നാട്ടുകാർക്ക് വേണ്ടിയുള്ള ഈ വെബ്‌സൈറ്റിൽ നിങ്ങൾക്കെല്ലാവർക്കും നിങ്ങളുടെ അഭിപ്രായങ്ങളും നിർദേശങ്ങളും ഇവിടെ നിങ്ങളുടെ ഫേസ്ബുക് അക്കൗണ്ട് ഉപയോഗിച്ച് പങ്കുവെക്കാം. നിങ്ങൾ ഓരോരുത്തരുടെയും പിന്തുണയ്ക്കും പ്രോത്സാഹനത്തിനും ഞങ്ങളുടെ നന്ദി പ്രകടിപ്പിക്കുന്നു."
+
         }
     };
 
@@ -6748,7 +6757,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         }
     };
 
-    $rootScope.engdata.feedback = {
+    $rootScope.engdata.emergency = {
         intro: {
             title: "INTRODUCTION",
             para1: "This venture - MyKoduvayur, was planned and processed with the motive of making the Life better for the people in and from this place, using the Web Technology that is growing higher and reaching farther each passing day. So each one of you definitely have a say in here. Your opinions, suggestions and appreciations are a huge motivation for us to go forward and do further. We appreciate each of your support. "
@@ -6759,7 +6768,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     };
 
-    $rootScope.maldata.feedback = {
+    $rootScope.maldata.emergency = {
         intro: {
             title: "ആമുഖം",
             para1: "MyKoduvayur എന്ന ഈ സംരംഭം ഇപ്പോൾ വളർന്നുവരുന്ന വെബ് ടെക്നോളജി ഉപയോഗിച്ച് കൊടുവായൂരിലെ ജനങ്ങളുടെ ജീവിതശൈലി എളുപ്പമാക്കുവാൻ സഹായിക്കുക എന്ന ഉദ്ദേശത്തോടെയാണ് ആരംഭിച്ചത്. നാട്ടുകാർക്ക് വേണ്ടിയുള്ള ഈ വെബ്‌സൈറ്റിൽ നിങ്ങൾക്കെല്ലാവർക്കും നിങ്ങളുടെ അഭിപ്രായങ്ങളും നിർദേശങ്ങളും ഇവിടെ നിങ്ങളുടെ ഫേസ്ബുക് അക്കൗണ്ട് ഉപയോഗിച്ച് പങ്കുവെക്കാം. നിങ്ങൾ ഓരോരുത്തരുടെയും പിന്തുണയ്ക്കും പ്രോത്സാഹനത്തിനും ഞങ്ങളുടെ നന്ദി പ്രകടിപ്പിക്കുന്നു."
@@ -8423,6 +8432,7 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
     $rootScope.fbloader = true;
 
 
+
     $rootScope.closed = function() {
         var z= document.getElementById("mymenuglyph");
         z.style.display="inline-block";
@@ -8537,11 +8547,11 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
     };
 
 
-
 });
 
 mykdrApp.controller('homeController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
+    
 
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
@@ -8552,6 +8562,7 @@ mykdrApp.controller('homeController', function($rootScope, $scope) {
     }
 
     // alert($scope.message);
+
 
 });
 
@@ -8689,8 +8700,9 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
 
 });
 
-mykdrApp.controller('feedbackController', function($rootScope, $scope) {
+mykdrApp.controller('emergencyController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
+
 
     // alert("hi");
 
