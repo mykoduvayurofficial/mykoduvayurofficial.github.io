@@ -101,16 +101,16 @@
     #adslot1_pc, #adslot2_pc {
         display: none;
     }
-    #adslot1_mob, #adslot2_mob {
+    #adslot1_mob, #adslot2_mob, #adslot3_mob, #adslot4_mob {
         display: block;
         padding: 1vw 1vw 1vw 1vw;
         margin: 0;
-        margin-bottom: 3vh;
+        margin-bottom: 1.5vh;
         border: 0 !important;
     }
-    #adslot1_mob > div, #adslot2_mob > div {
-        height: 8vh;
-        background: none;
+    #adslot1_mob>div, #adslot2_mob>div, #adslot3_mob>div, #adslot4_mob>div {
+        height: 10vh;
+        background-color: #c7254e;
     }
 
     #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -501,16 +501,16 @@
         #adslot1_pc, #adslot2_pc {
             display: none;
         }
-        #adslot1_mob, #adslot2_mob {
+        #adslot1_mob, #adslot2_mob, #adslot3_mob, #adslot4_mob {
             display: block;
             padding: 1vw 1vw 1vw 1vw;
             margin: 0;
-            margin-bottom: 3vh;
+            margin-bottom: 1.5vh;
             border: 0 !important;
         }
-        #adslot1_mob>div, #adslot2_mob>div {
-            height: 16vh;
-            background: none;
+        #adslot1_mob>div, #adslot2_mob>div, #adslot3_mob>div, #adslot4_mob>div {
+            height: 20vh;
+            background-color: #c7254e;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
