@@ -8649,10 +8649,6 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
     $scope.message = 'Look! I am an about page.';
 
 
-    $scope.showNews = true;
-    $scope.showArticles = false;
-    $scope.showPictures = false;
-    $scope.showVideos = false;
 
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
@@ -8664,37 +8660,64 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
 
     $scope.news = function() {
 
-        $scope.showNews = true;
-        $scope.showArticles = false;
-        $scope.showPictures = false;
-        $scope.showVideos = false;
+        var z = document.getElementById("news");
+        z.style.display = "block";
+
+        var w = document.getElementById("articles");
+        w.style.display = "none";
+
+        var x = document.getElementById("pictures");
+        x.style.display = "none";
+
+        var y = document.getElementById("videos");
+        y.style.display = "none";
 
     };
 
     $scope.articles = function() {
 
-        $scope.showNews = false;
-        $scope.showArticles = true;
-        $scope.showPictures = false;
-        $scope.showVideos = false;
+        var w = document.getElementById("news");
+        w.style.display = "none";
+
+        var z = document.getElementById("articles");
+        z.style.display = "block";
+
+        var x = document.getElementById("pictures");
+        x.style.display = "none";
+
+        var y = document.getElementById("videos");
+        y.style.display = "none";
 
     };
 
     $scope.pictures = function() {
 
-        $scope.showNews = false;
-        $scope.showArticles = false;
-        $scope.showPictures = true;
-        $scope.showVideos = false;
+        var w = document.getElementById("news");
+        w.style.display = "none";
 
+        var x = document.getElementById("articles");
+        x.style.display = "none";
+
+        var z = document.getElementById("pictures");
+        z.style.display = "block";
+
+        var y = document.getElementById("videos");
+        y.style.display = "none";
     };
 
     $scope.videos = function() {
 
-        $scope.showNews = false;
-        $scope.showArticles = false;
-        $scope.showPictures = false;
-        $scope.showVideos = true;
+        var w = document.getElementById("news");
+        w.style.display = "none";
+
+        var x = document.getElementById("articles");
+        x.style.display = "none";
+
+        var y = document.getElementById("pictures");
+        y.style.display = "none";
+
+        var z = document.getElementById("videos");
+        z.style.display = "block";
 
     };
 
