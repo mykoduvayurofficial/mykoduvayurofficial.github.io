@@ -343,6 +343,7 @@
         cursor: pointer;
         border-radius: 6px;
         width: 100%;
+        margin-bottom: 3vh;
     }
 
 
@@ -749,6 +750,7 @@
             text-align: center;
             cursor: pointer;
             border-radius: 12px;
+            margin-bottom: 3vh;
         }
 
 
