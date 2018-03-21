@@ -3121,7 +3121,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         festival: {
                             title: "FESTIVE DAYS",
-                            info: "Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is an important festival of this temple. Prathishta dinam is a special occasion here every year. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, etc are other Festive Events here."
+                            info: "Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is an important festival of this temple. Nochur Ratholsavam and Prathishta dinam is a special occasion here every year. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, etc are other Festive Events here."
                         }
                     },
                     ramapuramtemple: {
