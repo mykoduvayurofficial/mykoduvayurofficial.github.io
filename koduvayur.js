@@ -3097,31 +3097,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Nochur Main Road, Nochur Agraharam, Koduvayur."
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            info: "P.C.Vilwadhri Vadhyar, Nochur."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: "More popularly known as ‘Krishnan Kovil’, The Lakshmi Narayana Perumal Temple of Nochur Agraharam is another popular temple of this place. It functions under Nochur Devaswom. It is located in the south-west corner of Nochur Agraharam and is the second of the two main temples of this place. It is a regular stop for devotees in and around the village. "
                         },
                         history: {
                             title: "HISTORY",
-                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                            info: "This temple has a history of around 400 years. This temple was constructed based on the suggestions of astrologers who sensed a presence of Lord Maha Vishnu in the village. It is believed that Jagadguru Sankaracharya visited this temple and felt the divinity of Lord Guruvayurappa in this deity. This temple is constructed based on the Guruvayur model."
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                            info: "Lord Maha Vishnu, known here as Lakshmi Narayana Perumal, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Prasanna Maha Ganapathy, placed at the ‘Kanni Moola’ as Sub Deity. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple."
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                            info: "The poojas in this temple are carried out based on Vaikanaswa Sashthravidhi. Generally, 2 Kala Pooja is carried out every day in this Temple. Chandanakkappu, Palpayasam, Kalabhabhishekham etc are some of the special offerings in this temple. Apart from this, the general poojas so pushpanjali, sooktharchanas, etc are also carried out in this temple."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
-                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                            info: "Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is an important festival of this temple. Prathishta dinam is a special occasion here every year. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, etc are other Festive Events here."
                         }
                     },
                     ramapuramtemple: {
