@@ -2866,31 +2866,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Kottappadi Junction, Main Road, Koduvayur."
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            info: "Thantri - Sree Easwaraprasad Embranthiri, Rishinaradamangalam. Melshanthi - Gopalakrishna Vadhyar, Puthukode."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: "More popularly known as ‘Kotta Temple', Sree Thiruvilayanadu Bhagavathy Temple is one of the well known temples of Koduvayur. It was part of the property of the royal family of Kuthiravatta Swaroopam which ruled this placce centuries ago. This is a regular stop for the devotees around the place. It is now run by a Commitee of well wishers and devotees. Festivals here are celebrated in grand manner."
                         },
                         history: {
                             title: "HISTORY",
-                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                            info: "This temple was part of the Royal Family of Kuthiravatta Swaroopam. It has a history of more than 300 years and was constructed as a devotional place for one of the senior members of the family. High walls similar to a fort was built around the temple, and hence the name 'Kotta temple'. The origin of this deity is from Pulappatta temple. The main deity here is believed to be Calm and Pleasant form of Goddess Durga. In the olden days, this temple was covered with greenery and frequent special events were conducted by the family members. Now this temple is run and administered by a Commitee consisting of well wishers, devotees and families around this place."
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                            info: "Sree Thiruvilayanadu Bhagavathy, facing west, a calm and pleasant form of Goddess Durga, placed in the centre of the main temple, is the main deity here. Sree Mahaganapathy, under a Banyan tree outside the premises, Sree Mahishasura Mardhini, a fierce and powerful form of Goddess Durga, in the south-east corner facing west, Sree Kiratha Moorthi, a fierce form of Lord Shiva, facing east on a separate temple on the southern side of the premises, and Nagadevathas on the south-west corner of the premises are the sub deities in this temple. Thidappally is on the south-east of the main temple and there is a pond on the front of the temple premises."
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                            info: "Thantrika vidhi is followed for poojas in this temple. Generally, 2 kaala pooja is carried out everyday. Kadum Madhura Payasam is the main special offering of this temple. Devotees, on Vijayadashami day, bring their kids for 'Ezhuthiniruthal', which is a famous practice here that is considered to be very effective. Niramala, Saraswatham and Aikamathya sooktharchanas, and pushpanjali, etc are the other general poojas in this temple."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
-                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                            info: "Navarathri Mahothsavam, which extends for 10 days, is the biggest festival in this temple and is celebrated in grand manner every year. Mandalakaala pooja, Niraputhiri, Karkkidaka masa pooja, etc are the other special occasions of this temple."
                         }
                     },
                     altharaganapathy: {
@@ -3072,11 +3072,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "Also known as ‘Nochur Santhi Durga Parameshwari Temple’, The Bhagavathy Temple of Nochur Agraharam is one of the older temples of this place. It functions under Nochur Devaswom. It is located in the heart of Nochur Agraharam. Home to many grand events and also the Nochur Radholsavam each year, it is one of the most popular temples of Koduvayur and attracts devotees from near and far in large numbers. "
+                            info: "Also known as ‘Nochur Bhagavathy Temple', The Santhi Durga Parameshwari Temple of Nochur Agraharam is one of the older temples of this place. It functions under Nochur Devaswom. It is located in the heart of Nochur Agraharam. Home to many grand events and also the Nochur Radholsavam each year, it is one of the most popular temples of Koduvayur and attracts devotees from near and far in large numbers. "
                         },
                         history: {
                             title: "HISTORY",
-                            info: "It is believed that once a farmer, while working in his field, struck his plough on a stone and blood started flowing out of the stone. Astonished and afraid, he approached the chief astrologers of the place and told them about this. The astrologers found that this was not a stone but the sacred deity of a powerful Goddess called VanaDurga. So they brought Brahmins from the province of Thanjavur and built a temple in the village and positioned the Deity facing north. The Brahmins started performing daily poojas and people visited and worshipped the Goddess with devotion. Time passed and about 200-300 years ago from the present, once there occured a widespread fire all over the village. So the astrologers found out that the deity was ultimately powerful and needed to be cooled down. So after all discussions and detailed research, they positioned the VanaDurga deity to face west, and built a pond in front of the temple to cool her down. So since then, the deity of Nochur Bhagavathy Temple is called 'Santhi Durga Parameshwari' and is widely worshipped by people from near and far. Nearly a century ago, a Shiva temple, which was situated in another part of the village was moved near to the Bhagavathy Temple, and recently, a deity of Lord Ayyappa was also installed in the temple premises."
+                            info: "It is believed that once a lady farmer, while working in his field, struck his plough on a stone and blood started flowing out of the stone. Astonished and afraid, she approached the chief astrologers of the place and told them about this. The astrologers found that this was not a stone but the sacred deity of a powerful Goddess called VanaDurga. So they brought Brahmins from the province of Thanjavur and built a temple in the village and positioned the Deity facing north. The Brahmins started performing daily poojas and people visited and worshipped the Goddess with devotion. Time passed and about 200-300 years ago from the present, once there occured a widespread fire and diseases all over the village. So the astrologers found out that the deity was ultimately powerful and needed to be cooled down. So after all discussions and detailed research, they positioned the VanaDurga deity to face west, and built a pond in front of the temple to cool her down. So since then, the deity of Nochur Bhagavathy Temple is called 'Santhi Durga Parameshwari' and is widely worshipped by people from near and far. Nearly a century ago, a Shiva temple, which was situated in another part of the village was moved near to the Bhagavathy Temple, and recently, a deity of Lord Ayyappa was also installed in the temple premises."
                         },
                         deities: {
                             title: "DEITIES",
@@ -3084,7 +3084,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "The Poojas of the Bhagavathy Temple and the adjacent Shiva temple are carried out based on Aagama Shasthravidhi. Daily, 2 Kala pooja is performed to all the deities. On special days, 5 kala pooja is performed and the Kumbhabhishekham was performed 4 years ago with 6 Kala Saparivaara Pooja. Kadum Madhura Payasam and Sathusshatha Payasam Nivedyam here are widely well known for their effectiveness and also their taste. Lalitha Sahasranama Archana, Saraswatham and other Sooktharchanas are also well known poojas performed in this temple and are believed to be immediate and well effective. MahaPradosham is performed once in every month in the Shiva Temple. Pushparchana, Niramala etc are some of the other general poojas performed here."
+                            info: "The Poojas of the Bhagavathy Temple and the adjacent Shiva temple are carried out based on Aagama Shasthravidhi. Daily, 2 Kala pooja is performed to all the deities. On special days, 5 kala pooja is performed and the Kumbhabhishekham was performed in 2013 with 6 Kala Saparivaara Pooja. Kadum Madhura Payasam and Sathusshatha Payasam Nivedyam here are widely well known for their effectiveness and also their taste. Lalitha Sahasranama Archana, Saraswatham and other Sooktharchanas are also well known poojas performed in this temple and are believed to be immediate and well effective. MahaPradosham is performed once in every month in the Shiva Temple. Pushparchana, Niramala etc are some of the other general poojas performed here."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
@@ -3117,7 +3117,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "The poojas in this temple are carried out based on Vaikanaswa Sashthravidhi. Generally, 2 Kala Pooja is carried out every day in this Temple. Chandanakkappu, Palpayasam, Kalabhabhishekham etc are some of the special offerings in this temple. Apart from this, the general poojas so pushpanjali, sooktharchanas, etc are also carried out in this temple."
+                            info: "The poojas in this temple are carried out based on Vaikanaswa Sashthravidhi. Generally, 2 Kala Pooja is carried out every day in this Temple. Chandanakkappu, Palpayasam, Kalabhabhishekham etc are some of the special offerings in this temple. Apart from this, the general poojas including pushpanjali, sooktharchanas, etc are also carried out in this temple."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
@@ -3912,11 +3912,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
-                            info: "DMSB സ്ക്കൂല്‍ - ആല്‍തറ, കാക്കയൂര്‍, കൊടുവായൂർ."
+                            info: "DMSB സ്ക്കൂള്‍ - ആല്‍തറ, കാക്കയൂര്‍, കൊടുവായൂർ."
                         },
                         priest: {
                             title: "പൂജാനിര്‍വ്വഹണം",
-                            info: "തന്ത്രി - പനവൂര്‍ മനയ്ക്കല്‍ ബ്രഹ്മശ്രീ പരമേശ്വരന്‍ നമ്പൂതിരി, മേല്‍ശാന്തി - S. രാജഗോപാല്‍ എംബ്രാന്തിരി, കാക്കയൂര്‍."
+                            info: "തന്ത്രി - പനാവൂര്‍ മനയ്ക്കല്‍ ബ്രഹ്മശ്രീ പരമേശ്വരന്‍ നമ്പൂതിരി, മേല്‍ശാന്തി - S. രാജഗോപാല്‍ എംബ്രാന്തിരി, കാക്കയൂര്‍."
                         },
                         intro: {
                             title: "മുഖവുര",
@@ -4176,31 +4176,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
-                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                            info: "നൊച്ചുര്‍ മെയിന്‍ റോഡ്‌, നൊച്ചുര്‍ അഗ്രഹാരം, കൊടുവായൂർ."
                         },
                         priest: {
                             title: "മേൽശാന്തി",
-                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                            info: "P.C. വില്വാദ്രി വാധ്യാര്‍, നൊച്ചുര്‍."
                         },
                         intro: {
                             title: "മുഖവുര",
-                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                            info: "'നൊച്ചൂര്‍ ഭഗവതി ക്ഷേത്രം' എന്നറിയപ്പെടുന്ന നൊച്ചൂര്‍ അഗ്രഹാരത്തിലെ ശ്രീ ശാന്തിദുര്‍ഗാ പരമേശ്വരി ക്ഷേത്രം കൊടുവയൂരിലെ തന്നെ പുരാതനവും അറിയപ്പെടുന്നതും ആയ ക്ഷേത്രങ്ങളില്‍ ഒന്നാണ്. നൊച്ചൂര്‍ ദേവസ്വത്തിന്റെ കീഴില്‍ പ്രവര്‍ത്തിക്കുന്ന ഈ ക്ഷേത്രം നൊച്ചൂരിന്റെ ഹൃദയഭാഗത്താണ്‌സ്ഥിതി ചെയ്യുന്നത്. നൊച്ചൂര്‍ രഥോത്സവം തുടങ്ങി അനേകം വിശേഷങ്ങളുടെ അങ്കണമായ ഈ ക്ഷേത്രം ദര്‍ശിക്കാന്‍ ദൂരെ നിന്നും പക്കല്‍ നിന്നും അനേകം ഭക്തജനങ്ങള്‍ എത്താറുണ്ട്."
                         },
                         history: {
                             title: "ചരിത്രം",
-                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                            info: "ഈ ക്ഷേത്രത്തിന്റെ ഉത്ഭവത്തിനു പിന്നില്‍ ഉള്ള സങ്കല്‍പ്പം ഇതാണ്. പണ്ടൊരിക്കല് ‍ഒരു കര്‍ഷകസ്ത്രീ പാടത്ത് പണിയെടുത്തുകൊണ്ടിരിക്കുമ്പോള്‍ ആയുധം അവിടത്തെ ഒരു കല്ലില്‍ തട്ടുകയും അതില്‍ നിന്ന് രക്തം പ്രവഹിക്കുകയും ചെയ്തു. അത്ഭുതവും ഭയവും കൊണ്ട് ഗ്രാമവാസികള്‍ അവിടത്തെ പ്രധാന ജ്യോത്സ്യന്മാരെ സമീപിച്ചപ്പോള്‍ ഇത് വനദുര്‍ഗ എന്ന ശക്തിസ്വരൂപിണിയായ ദേവി ആണെന്നു തെളിയുകയും അതിനു ശേഷം താന്ത്രികവിധിപ്രകാരം ഒരു ക്ഷേത്രം നിര്‍മ്മിക്കുകയും ദേവിയെ വടക്ക് അഭിമുഖീകരിചുകൊണ്ട് പ്രതിഷ്ഠിക്കുകയും തഞ്ചാവൂരില്‍ നിന്നുള്ള ബ്രാഹ്മണരെ ആനയിച്ച് ഇവിടത്തെ ദിവസപൂജ കഴിപ്പിക്കുകയും ചെയ്തു. ഏകദേശം ഇപ്പോള്‍ നിന്ന് 300 വര്‍ഷങ്ങള്‍ക്ക് മുന്‍പ് ഈ പ്രദേശം അഗ്നിക്കിരയാവുകയും ഗ്രാമവാസികള്‍ രോഗബാധിതരാവുകയും ചെയ്തു. ജ്യോത്സ്യവിധിപ്രകാരം ശക്തിസ്വരൂപിണിയായ വനദുര്‍ഗയെ ശാന്തസ്വരൂപിണിയാക്കുവാന്‍ ദേവിയെ പടിഞ്ഞാറ് അഭിമുഖീകരിച്ചുകൊണ്ട് പ്രതിഷ്ഠിക്കുകയും ക്ഷേത്രത്തിന് മുന്‍വശം ഒരു കുളം നിര്‍മ്മിക്കുകയും ചെയ്തു. അന്നുതൊട്ടാണ് ഇവിടത്തെ ഭഗവതി ശാന്തിദുര്‍ഗാ പരമേശ്വരി എന്നു അറിയപ്പെടാന്‍ തുടങ്ങിയത്. ഏകദേശം 100 വര്‍ഷങ്ങള്‍ക്ക് മുന്‍പ് ഗ്രാമത്തിലെ മറ്റൊരു ഭാഗത്തുള്ള ശിവക്ഷേത്രം ദേവീക്ഷേത്രത്തിന്റെ അടുത്തേക്ക് മാറ്റിപ്രതിഷ്ഠിച്ചു. കുറച്ചു വര്‍ഷങ്ങള്‍ക്ക് മുന്‍പ് ശ്രീ ധര്‍മശാസ്താവിന്റെ ഒരു സന്നിധിയും ക്ഷേത്രാങ്കണത്തില്‍ നിര്‍മ്മിച്ചിട്ടുണ്ട്."
                         },
                         deities: {
                             title: "നടകൾ",
-                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                            info: "ഭഗവതീക്ഷേത്രത്തില്‍ പടിഞ്ഞാറുനോക്കിയുള്ള ശ്രീ ശാന്തിദുര്‍ഗാ പരമേശ്വരി ആണ് പ്രധാന പ്രതിഷ്ഠ. തെക്കുഭാഗത്ത്‌ കിഴക്കുനോക്കിയുള്ള മഹാഗണപതിയും വടക്കുഭാഗത്തു കിഴക്കുനോകിയുള്ള ശ്രീ ബാലമുരുഗനും ആണ് ഉപദേവതകള്‍. ക്ഷേത്രത്തിനകത്ത് തെക്കുകിഴക്ക് ഭാഗത്തായി തിടപ്പള്ളിയും പുറത്ത് ഇതേ ഭാഗത്തായി തീര്‍ത്ഥക്കിണറും സ്ഥാപിച്ചിട്ടുണ്ട്. പടിഞ്ഞാറുനോക്കിയുള്ള ശ്രീ മഹാദേവന്‍ പ്രധാന പ്രതിഷ്ഠ ആയിട്ടുള്ള തൊട്ടടുത്തുള്ള ശിവക്ഷേത്രത്തില്‍ തെക്കുനോക്കിയുള്ള ശ്രീ വിശാലക്ഷിയും കിഴക്കുനോക്കിയുള്ള മഹാഗണപതിയും ശ്രീധര്മാശാസ്താവും ഉപദേവതകള്‍ ആണ്."
                         },
                         pooja: {
                             title: "വിശേഷ പൂജകൾ",
-                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                            info: "ആഗമ ശാസ്ത്രവിധിപ്രകാരമാണ് ഇവിടത്തെ പൂജകള്‍ ചെയ്തുവരുന്നത്. ദിവസേന 2 കാല പൂജയും വിശേഷ ദിവസങ്ങളില്‍ 5 കാല പൂജയും ആണ്. 2013ല്‍ നടത്തിയ കുംഭാഭിഷേകം‍ 6 കാല സപരിവാര പൂജയോടെയാണ് അനുഷ്ടിച്ചത്. ഇവിടത്തെ കടുംമധുരപായസനിവേദ്യവും ശതുശ്ശതപായസനിവേദ്യവും വളരെ പ്രശസ്തവും വിശേഷപ്പെട്ടതും ആണ്. ലളിതാസഹസ്രനാമാര്‍ച്ചന, സാരസ്വതവും മറ്റു സൂക്താര്‍ച്ചനകളും ആണ് ഇവിടത്തെ മറ്റു പ്രധാന വഴിപാടുകള്‍. ഇവിടത്തെ ശിവക്ഷേത്രത്തില്‍ മാസത്തിലൊരിക്കല്‍ മഹാപ്രദോഷം നടത്താറുണ്ട്. നിറമാല, പുഷ്പാഞ്ജലി, തുടങ്ങിയവ ആണ് മറ്റു വഴിപാടുകള്‍. "
                         },
                         festival: {
                             title: "വിശേഷ ദിവസങ്ങൾ",
-                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                            info: "നൊച്ചൂര്‍ രഥോത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെയും ഗ്രാമത്തിലെയും ഏറ്റവും വലിയ ഉത്സവം. എല്ലാക്കൊല്ലവും മകരമാസത്തിലെ ആദ്യത്തെ വെള്ളിയാഴ്ച്ചയില്‍ ആണ് ഈ ഉത്സവം ആഘോഷിക്കുന്നത്. ശിവരാത്രിയില്‍ ഇവിടെ രാത്രി രുദ്രാഭിഷേകവും, വിഷുവിനു വിഷുക്കണിയും, എല്ലാ മെയ്‌ മാസം 25നും ലളിതാസഹസ്രനാമ പാരായണത്തോടെ പ്രതിഷ്ഠാദിനവും ആഘോഷിക്കാറുണ്ട്. പുട്ടുപാടലും അഭിഷേകവും ആടിപ്പൂരത്തിനു പതിവാണ്. നവാരാത്രി, അന്നാഭിഷേകം, തൃക്കാര്‍ത്തിക, മണ്ഡലകാലപൂജ, തിരുവാതിര എന്നിവയാണ് ഇവിടത്തെ മറ്റു വിശേഷ ദിവസങ്ങള്‍."
                         }
                     },
                     nochurkrishnatemple: {
@@ -4209,31 +4209,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
-                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                            info: "നൊച്ചുര്‍ മെയിന്‍ റോഡ്‌, നൊച്ചുര്‍ അഗ്രഹാരം, കൊടുവായൂർ."
                         },
                         priest: {
                             title: "മേൽശാന്തി",
-                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                            info: "P.C. വില്വാദ്രി വാധ്യാര്‍, നൊച്ചുര്‍."
                         },
                         intro: {
                             title: "മുഖവുര",
-                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന നൊച്ചുര്‍ അഗ്രഹാരത്തിലെ ലക്ഷ്മീനാരായണ പെരുമാള്‍ ക്ഷേത്രം ഇവിടെയുള്ള അറിയപ്പെടുന്ന അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം നൊച്ചുര്‍ ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ആഗ്രഹരത്തിന്റെ തെക്കുപടിഞ്ഞാറ് മൂലയില്‍ ആണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
                         },
                         history: {
                             title: "ചരിത്രം",
-                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                            info: "ഈ ക്ഷേത്രത്തിന് ഏകദേശം 400 വര്‍ഷത്തെ ചരിത്രം ഉണ്ട്. അഗ്രഹാരത്തില് ഭഗവാന്‍ മഹാവിഷ്ണുവിന്റെ ചൈതന്യം ഉള്ളതായി കണ്ട ഗ്രാമപണ്ഡിതരുടെ നിര്‍ദേശപ്രകാരം ആണ് ഈ ക്ഷേത്രം നിര്‍മിച്ചത്. ഒരിക്കല്‍ ജഗദ്ഗുരു ശങ്കരാചാര്യര്‍ ഇവിടം സന്ദര്‍ശിക്കുകയും ഇവിടെ ശ്രീ ഗുരുവായുരപ്പന്റെ സമാനമായ വിശേഷപ്പെട്ട ദേവസാന്നിധ്യം അനുഭവപ്പെടുകയും ചെയ്തു എന്നു വിശ്വസിക്കപ്പെടുന്നു. ഗുരുവായൂര്‍ മാതൃകയില്‍ ആണ് ക്ഷേത്രം പണികഴിച്ചിരിക്കുന്നത്."
                         },
                         deities: {
                             title: "നടകൾ",
-                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                            info: "ലക്ഷ്മീനാരായണ പെരുമാള്‍ എന്നറിയപ്പെടുന്ന ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട പ്രസന്ന മഹാഗണപതി ആണ് ഇവിടത്തെ ഉപ പ്രതിഷ്ട. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു."
                         },
                         pooja: {
                             title: "വിശേഷ പൂജകൾ",
-                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                            info: "വൈകാനസ്വ ശാസ്ത്രവിധിപ്രകാരം പൂജാനിര്‍വ്വഹണം നടത്തിവരുന്ന ഈ ക്ഷേത്രത്തില്‍ ദിവസേന 2 കാലപൂജ ആണ് നടത്തിവരുന്നത്. ചന്ദനക്കാപ്പ്, പാല്‍പായസം, കളഭാഭിഷേകം എന്നിവയാണ് ഇവിടത്തെ പ്രധാന വിശേഷ വഴിപാടുകള്‍. ഇതുകൂടാതെ സൂക്താര്‍ച്ചന, പുഷ്പാഞ്ജലി, തുടങ്ങിയ വഴിപാടുകളും ഉണ്ട്."
                         },
                         festival: {
                             title: "വിശേഷ ദിവസങ്ങൾ",
-                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                            info: "ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ പ്രധാന ഉത്സവം. എല്ലാക്കൊല്ലവും നൊച്ചുര്‍ രഥോത്സവവും പ്രതിഷ്ഠാദിനവും ഇവിടത്തെ വിശേഷ ദിവസങ്ങള്‍ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
                         }
                     },
                     ramapuramtemple: {
