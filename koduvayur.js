@@ -2606,7 +2606,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "Jayaraman Vadhyar, Double Street, Koduvayur."
+                            info: "K.R. Jayarama Vadhyar, Double Street, Koduvayur."
                         },
                         intro: {
                             title: "INTRODUCTION",
@@ -2614,19 +2614,19 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         history: {
                             title: "HISTORY",
-                            info: "Most Agraharas of Kerala were said to be inhabited by a class of Brahmins called ‘Smartha Vibhaga’, from the ancient times. They worshipped Lord Maha Deva and Lord Maha Vishnu equally.  The west side of Keralapuram Village faces the Burial Grounds of the village. All funerary rituals of people around this place were carried out there. The regular deaths and the fires from the grounds were a reason for the worries and concerns of the people. The smoke from the grounds reaching the village was considered to be a cause for these deaths.  So with the guidance of Scholars and Astrologers, A Maha Vishnu temple was constructed facing the East, on this side of the village. Daily Poojas were carried out and peace returned to the village."
+                            info: "This temple has a history of around 300 years. The deity that is erected here was brought to this village by the Brahmins of this village from a nearby village called Peruvembu. A temple was built by the King's orders and daily pooja was performed. This deity is believed to be special and it makes true our hearty wishes."
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                            info: "Lord Mahaganapathy is the Main and only Deity here facing the East, in the centre of the temple. There is a sacred well in the North side and the Thidappally located in the Southern side of the temple."
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
-                            info: "Generally, 3 Kala Pooja is carried out every day in this Temple. In Special and Festive Days, 5 Kala Pooja is carried out. The Palpayasam Nivedyam, which is as Sacred and delicious as anywhere, is what this Sree Krishna Temple is widely known for, especially on Thiruvonam star each month.  Avil Nivedyam during Kuchela Dinam and Sree Rama Navami and Vada Nivedyam during Anjaneyotsava are also equally famous. Kalabhabhisheka is another Special Pooja that happens frequently in this temple on Special days or Devotee Requests. The fact that the Sandal prepared here is pure and without using machineries, makes the Chandhanakkappu Vazhipadu here very famous. Other Poojas include Shravanavratha Pooja on Thiruvonam days,  Sudharshana Pushpanjali, Santhana Gopala Pushpanjali, etc. "
+                            info: "Generally, 2 Kaala pooja is done here regularly. On festive days, 3 Kaala pooja is done. Mahaganapathy Homam is the main special offering here. Apart from this, Modhakam and other special Nivedyams are also done. Kadum Madhura payasam, Sooktharchanas, etc are the general offerings here."
                         },
                         festival: {
                             title: "FESTIVE DAYS",
-                            info: "Sree Rama Navami, considered to be the birthday of Lord Rama is the most Important Festival celebrated based on this Temple, which is followed by Anjaneyotsavam on the next day.Gokulashtami or Sree Krishna Ashtami, considered the birthday of Lord Krishna, is another important festival of this temple, which is followed by Uriyadi on next day. Ekadashi days are always considered sacred on Maha Vishnu temples. Vaikunta Ekadashi, which falls on the month of Dhanu, is another Special and Festive Day here. Other than that, Vishukani, Illam Nira Thripputhari, Navarathri and Dhanumasa Pooja during month of Dhanu are other Festive Events here."
+                            info: "Vinayaka Chathurthi, the birthday of Lord Ganesha is the main festive day here. There will be Poornabhishekam at morning and Special Bhajana at evening on this day. Thaipooyam is also celebrated big here with Kavadiyattam the previous night, Abhishekam on the day and Balaratholsavam in the evening and Special Prasada Oottu at noon. Karkkidaka Mahaganapathy Homam, Prathishta Dinam on Makeeryam star in the month of Edavam, etc are the other festive days here. Apart from these, Sampradaya Bhajana is organised every friday evening in this temple."
                         }
                     },
                     sivankovil: {
@@ -2668,15 +2668,15 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Keralapuram Gramam - Santhipuram (Chanthiruthi) Main Road, Koduvayur."
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            info: "K.P.Manikanda Vadhyar, New Street, Koduvayur."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: "The Keralathappan Mahavishnu Temple of Keralapuram Gramam is one of the popular temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located on the sides of the Koduvayur main road that extends to Santhipuram (Chanthiruthi) near the pond popularly known as 'Valyankulam'. It is a regular stop for devotees in and around the village."
                         },
                         history: {
                             title: "HISTORY",
@@ -2684,7 +2684,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         },
                         deities: {
                             title: "DEITIES",
-                            info: "Lord Maha Vishnu, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Sree Krishna Temple. This temple also has Lord Maha Ganapathy, placed at the ‘Kanni Moola’ and NagaDevathas as Sub Deities. This temple also consists of a Namaskara Mandapa, Thidappally and a sacred well which is all modeled based on the Guruvayur Temple. A Dhwaja Sthamba is placed on the front of the Temple. The grace of all the Incarnations of Lord Maha Vishnu is believed to be present in this temple. "
+                            info: "Lord Maha Vishnu facing West, in the centre of the temple, adorned by Sankhu Chakra Gadha and Pathma, is the Main Deity of this Temple. Lord MahaGanapathy, Sree Dharmashastha, and Nagadevathas facing East in the South-West corner and Lord Anjaneya facing East in the North-West corner are the sub-deities of this temple. Thidappally is located in the South-East corner and the sacred well is in the North-East side of the temple."
                         },
                         pooja: {
                             title: "SPECIAL POOJAS",
@@ -3302,14 +3302,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: "LOCATION",
-                        info: "The place of the festival celebration."
+                        info: "Keralapuram Gramam, Kurudankulambu."
                     },
                     intro: {
                         title: "INTRODUCTION",
-                        info: "A brief introduction about the festival."
+                        info: "Thaipooyam is an auspicious day mainly for the Tamil Hindu Community all over the world. It is celebrated on the full moon day of the Tamil Lunar month of 'Thai'. It is the commemoration of the day when Goddess Parvati gave the 'Vel' to her son Muruga (Lord Subramaniya). This day is celebrated widely on all the places where Lord Subramaniya is worshipped. Read along to know how this day is celebrated in Koduvayur."
                     },
                     history: {
-                        title: "HISTORY",
+                        title: "PREVIEW",
                         info: "The history how this festival was started and why it is celebrated."
                     },
                     season: {
@@ -3560,33 +3560,34 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: "Featured photos and video collection of this festival."
                     }
                 },
-                navarathri: {
+                navarathri:  {
                     title: "NAVARATHRI",
                     coverpic: "./images/culture/example/cover.jpg",
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: "LOCATION",
-                        info: "The place of the festival celebration."
+                        info: "Keralapuram Gramam, Sree Thiruvilayanadu Bhagavathy Temple."
                     },
                     intro: {
-                        title: "INTRODUCTION",
-                        info: "A brief introduction about the festival."
+                        title: "WHAT IS NAVARATHRI?",
+                        info: "Navarathri is a festival that is celebrated in honor of Goddesses for 10 days in the beginning of autumn every year. It falls on the first 10 days of the lunar month of 'Ashvin'/'Thulam'. It is celebrated as a religious and also a social event in many ways in different parts of the country. First 3 days honor Goddess Durga, next 3 days honor Goddess Lakshmi, and the last 3 days honor Goddess Saraswathi. The 10th day is celebrated as 'Dusshera'/'Vijaya Dashami'. Read along to know how Navarathri is celebrated in the village of Koduvayur."
                     },
                     history: {
-                        title: "HISTORY",
-                        info: "The history how this festival was started and why it is celebrated."
+                        title: "IN KODUVAYUR",
+                        info: "Koduvayur is a village which is occupied mainly by the descendants of old Tamil families that settled here and follows the Tamil culture in most festivals. So in Navarathri too, the Tamil culture is predominantly followed here. Navarathri is celebrated in all temples which has the presence of atleast one Goddess. In Sree Vishalakshy Sametha Sree Vishwanatha Swamy Temple and Kotta Sree Thiruvilayanadu Bhagavathy Temple, this festival is celebrated in a grand way. Also, it is celebrated ceremoniously in almost all homes of the families belonging to the Tamil Brahmin community in the village."
                     },
                     season: {
-                        title: "THE FESTIVE SEASON",
-                        info: "The time of the year when the festival is celebrated."
+                        title: "THE CELEBRATIONS",
+                        info1: "In Sree Vishalakshy Sametha Sree Vishwanatha Swamy Temple, the Navarathri is a ceremonious occasion. On each of these 9 days and the tenth day, the deities of Goddesses Madurai Meenakshi and Sree Visalakshy are adorned beautifully with garlands and special decorations. 'Navarathri Vilakku' is a tradition organised by members of each street and a specific few old families of this village. Each street/family organises and funds all the decorations, poojas and various dishes as 'Nivedyam' and organises the special proceedings of the temple during their respective 'Navarathri Vilakku' day. A late night Bhajan Concert termed as 'Avathaara' is conducted on every of these nights inside the temple, followed by Special Dishes as 'Nivedyam' which are distributed to the devotees. On the ninth day, which is also called 'Mahanavami', there would be 'Ayudha Pooja' and 'Saraswathi Pooja' where devotees bring their vehicles, books and other work equipments for Pooja to the temple. The tenth day called 'Vijaya Dashami' or 'Vidyarambham' is considered the best day to start any new venture. Many children are taught to read and write for the first time on this day. On the evening of this day, there would be a special procession which commemorises the decapitation of Mahishasura by Goddess Durga. After the procession there will be a special 'Paanaka Nivedyam' and that puts an end to that year's Navarathri celebrations of this temple.",
+                        info2: "In Kotta Sree Thiruvilayanaadu Bhagavathy Temple, Navarathri is the biggest festival celebrated there each year. It is celebrated with much devotion and grandeur and is one of the popular festivals in Koduvayur. It is organised by the Temple Commitee with the help of numerous devotees from around. It is a 10 days festival. The temple and its premises are cleaned and decorated as the festival approaches. For all these 10 days, there will be Mahs Ganapathy Homam, Niramala, Chuttuvilakkku and Special Deeparadhana on each day. Devi Bagavatham recitals and orations, music concerts and other cultural programmes are held on each evening of these days. On the 7th day of the celebrations, there will be a special procession consisting of Panchavadyam and Elephants lifting the sacred and decorated Thidambu that starts from the Althara Maha Ganapathy Temple and goes through Keralapuram Gramam to return back to Sree Thiruvilayanadu Bhagavathy Temple. As the procession gets completed, fireworks and a special programme follows for the night. On Vijayadashami, the 10th day, its a special occasion here on this temple. There will be Saraswathi Pooja held in the morning followed by Vidyarambham. Annadaanam, also called as Prasada Oottu which is the practice of giving free food to a mass of people, is a tradition here on this day, and is done in a grand way. There will be a special Niramala and Deeparadhana held on that evening. A special programme will be held on the stage set in the temple premises that night. And that concludes the Navarathri celebration for that year."
                     },
                     celebration: {
-                        title: "CELEBRATIONS",
-                        info: "Description about how the festival is celebrated."
+                        title: "BOMMAGOLU",
+                        info: "For each festival, there is a tradition, a history and many delightful features that makes the festival a beautiful occasion. Bommagolu - a festive and thematic display of dolls, figurines and decorations thats arranged in many homes and temples of South India, is a delightful feature of Navarathri. These dolls and figurines are arranged usually on specially made steps setup specificaly for this purpose. Mostly these dolls represent several gods, goddesses, places and events based on the ancient Hindu mytholoy. Beautifully crafted thematic and creative decorations are also done as a part of the Bommagolu arrangement. Generally, a Bommagolu consists of an odd number of steps (3,5,7,9 and so on) racked up tier to tier covered with brightly coloured fabrics on top of which the Golu is arranged. Golu is all about celebrating the rich history, traditions, characters from the past and importantly,means to pay a homage to the various Gods and Goddesses, through a grand display of their dolls. The display begins from Mahalaya, the first day of Navarathr and concludes after Vijayadasami. Special poojas, aarti and bhajans are performed on a daily basis, friends and family are invited, gifts are exchanged and delightful dishes are prepared and shared and thus celebrated for the nine days of Navrathri. Dolls made of clay, wood or paper mache are typically used for this splendid display. Though it is a custom that is traditionally recognised as a women’s event, is enjoyed by men, women and children alike.",
                     },
                     specialities: {
                         title: "SPECIALITY",
-                        info: "About the important special facts and significance of this festival."
+                        info: "Navrathri is to honour and celebrate the glory of Devi in Her various avatars, by her various names, each holding a certain significance. In a world that considers men as predominant, the festival of Navarathri is all about honoring, giving importance and respect to women. It gives them a chance for exposure and getting in touch with the society. Bomma Golu is a tradition that has been followed for many generations. It is a great tool devised by our forefathers to keep our culture and traditions alive, to ensure that it passes on from one generation to the other with enthusiasm. It has been built into our traditions in such a way that it also ensures a customary social gathering, year after year, which keeps relationships alive, while creating an opportunity for new bonds. And just like all the other places in India with Hindu population, the people of Koduvayur also celebrate Navarathri with joy, devotion and grandeur."
                     },
                     gallery: {
                         title: "GALLERY",
@@ -3713,31 +3714,31 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/ganapathikovil/templethumb.jpg",
                         location: {
                             title: "സ്ഥലം",
-                            info: "ഗോകുലാ തെരുവ്, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
+                            info: "ഇരട്ടത്തെരുവ്-മൊക്കുത്തെരുവ് ചേരുന്ന കവല, കേരളപുരം ഗ്രാമം, കൊടുവായൂർ."
                         },
                         priest: {
                             title: "മേൽശാന്തി",
-                            info: "കെ.പീ.രാമചന്ദ്ര വാദ്ധ്യാർ, ഗോകുലാ സ്ട്രീറ്റ്, കൊടുവായൂർ."
+                            info: "K.R. ജയറാമ വാദ്ധ്യാര്‍, കൊടുവായൂർ."
                         },
                         intro: {
                             title: "മുഖവുര",
-                            info: "'കൃഷ്ണൻ കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ കൃഷ്ണ ക്ഷേത്രം ഇവിടെയുള്ള പുരാതനമായ അമ്പലങ്ങളിൽ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഏറ്റവും കൂടുതൽ നീളവും വീതിയും ഉള്ള ഗോകുലാ തെരുവ് എന്നറിയപ്പെടുന്ന കൊരങ്ങോട്ട് തെരുവിന്റെ ഒരു അറ്റത്താണ് ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിനുള്ളിലും ചുറ്റും ഉള്ള ഭക്തജനങ്ങയുടെ പതിവായുള്ള സന്ദർശനസ്ഥലം ആണ് ഈ ശ്രീ കൃഷ്ണ ക്ഷേത്രം."
+                            info: "'ഗണപതി കോവിൽ' എന്ന് അറിയപ്പെടുന്ന കേരളപുരം ഗ്രാമത്തെ ശ്രീ മഹാഗണപതി ക്ഷേത്രം ഇവിടെയുള്ള പുതിയ ക്ഷേത്രങ്ങളില്‍ ഒന്നാണ്. ഈ അമ്പലം കൊടുവായൂർ ശ്രീ വിശ്വനാഥസ്വാമി ദേവസ്വത്തിന് കീഴിലാണ് പ്രവർത്തിക്കുന്നത്. ഗ്രാമത്തിലെ ഇരട്ടത്തെരുവും മൊക്കുത്തെരുവും കൂടിച്ചേരുന്ന കവലയില്‍ വല്യാംകുളം എന്നു അറിയപ്പെടുന്ന ക്ഷേത്രക്കുളത്തിന്റെ വടക്കുപടിഞ്ഞാറ് ഭാഗത്തായാണ്‌ ആണ് ഈ ക്ഷേത്രം സ്ഥിതി ചെയ്യുന്നത്."
                         },
                         history: {
                             title: "ചരിത്രം",
-                            info: "കേരളത്തിലെ അഗ്രഹാരങ്ങളിൽ പുരാതന കാലങ്ങൾ തൊട്ട് വസിച്ചിരുന്നത് ബ്രാഹ്മണരിലെ 'സ്മാർത്ത വിഭാഗക്കാർ' ആണെന്ന് പറയപ്പെടുന്നു. മഹാദേവനെയും മഹാവിഷ്ണുവിനേയും ഒരുപോലെ ആരാധിച്ചിരുന്നവരായിരുന്നു ഇവർ. കേരളപുരം ഗ്രാമത്തിലെ പടിഞ്ഞാറു ഭാഗത്താണ് ശ്മശാനം സ്ഥിതി ചെയ്യുന്നത്. ഗ്രാമത്തിലും ചുറ്റിലും ഉള്ളവരുടെ എല്ലാം അന്ത്യകർമങ്ങൾ പണ്ടുതൊട്ടേ നടത്തിവരുന്നത് ഇവിടെയാണ്. അവിടെനിന്നുയർന്നു ഗ്രാമത്തിൽ എത്തുമായിരുന്ന പുകയും ഇടയ്ക്കിടെ ഗ്രാമത്തിൽ ഉണ്ടായിരുന്ന മരണങ്ങളും ജനങ്ങളെ ഭീതിയിലാഴ്ത്തി. പണ്ഡിതരുടെയും ജ്യോതിഷരുടെയും നിഗമനങ്ങളിൽ ഗ്രാമത്തിലോട്ട് വമിച്ചിരുന്ന ആ പുകയും ഗന്ധവും ആണ് മരണങ്ങൾക്ക് കാരണം എന്ന് ജനങ്ങൾക്ക് ബോധ്യപ്പെട്ടു. അവരുടെ ഉപദേശപ്രകാരം പ്രായശ്ചിത്തമായി ഗ്രാമത്തിന്റെ പടിഞ്ഞാറു ഭാഗത്തു കിഴക്കു നോക്കി ഒരു മഹാവിഷ്ണുക്ഷേത്രം നിര്മിക്കപ്പെടുകയും ദിവസപൂജ നടത്തിവരുകയും ചെയ്തു."
+                            info: "ഈ ക്ഷേത്രത്തിന് ഏകദേശം 300 വര്‍ഷത്തെ ചരിത്രമുണ്ട്. പണ്ട് പെരുവെമ്പ് എന്ന ഗ്രാമത്തില്‍ നിന്ന് ഇവിടെ ജീവിച്ചിരുന്ന ബ്രാഹ്മണര്‍ ആണ് ഈ വിഗ്രഹം കൊണ്ടുവന്നത്. അക്കാലത്ത് ഇവിടം ഭരിച്ചിരുന്ന രാജാവിന്റെ നിര്‍ദേശപ്രകാരം ഒരു ക്ഷേത്രം നിര്‍മ്മിക്കുകയും ദിവസപൂജ ചെയ്തുവരികയും ചെയ്തു. ഇവിടത്തെ മഹാഗണപതി പ്രതിഷ്ഠ വിശേഷമായതും ഇഷ്ടഫലസിദ്ധി പ്രദായകവും ആണ്."
                         },
                         deities: {
                             title: "നടകൾ",
-                            info: "ശംഖുചക്രഗദാപത്മധാരിയായ ഭഗവൻ മഹാവിഷ്ണു ആണ് ഇവിടത്തെ പ്രധാന പ്രതിഷ്ഠ. കന്നിമൂലസ്ഥാനത്തു പ്രതിഷ്ഠിക്കപ്പെട്ട മഹാഗണപതിയും പിന്നെ നാഗദേവതകളും ആണ് ഇവിടത്തെ മറ്റു പ്രതിഷ്ഠകൾ. ഇതുകൂടാതെ ഗുരുവായൂർ ക്ഷേത്രത്തിന്റെ മാതൃകയിൽ നിർമിച്ചിട്ടുള്ള നമസ്കാര മണ്ഡപവും തിടപ്പള്ളിയും തീർത്ഥകിണറും ഈ ക്ഷേത്രത്തിൽ സ്ഥിതി ചെയ്യുന്നു. ശ്രീ മഹാവിഷ്ണുവിന്റെ അവതാരങ്ങളുടെ എല്ലാം, പ്രത്യേകിച്ച് ശ്രീരാമന്റെയും ശ്രീകൃഷ്ണന്റെയും ചൈതന്യവും അന്തർലീനവും ഇവിടെ നിലകൊള്ളുന്നു എന്ന് വിശ്വസിക്കപ്പെടുന്നു. "
+                            info: "ക്ഷേത്രത്തിന് മദ്ധ്യത്തില്‍ കിഴക്കുനോക്കി പ്രതിഷ്ഠിച്ചിട്ടുള്ള ശ്രീ മഹാഗണപതി ആണ് ഇവിടത്തെ മൂര്‍ത്തി. ക്ഷേത്രത്തിന് വടക്കുഭാഗത്ത് തീര്‍ത്ഥക്കിണറും തെക്കുഭാഗത്ത്‌ തിടപ്പള്ളിയും ഉണ്ട്."
                         },
                         pooja: {
                             title: "വിശേഷ പൂജകൾ",
-                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 3 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 5 കാല പൂജയും ചെയ്ത വരുന്നു. ഇവിടത്തെ വിശേഷവും രുചികരവും ആയ പാൽപായസ നിവേദ്യം, പ്രത്യേകിച്ച് തിരുവോണത്തിലും മറ്റു വിശേഷ ദിനങ്ങളിലും, നാടാകെ പ്രശശ്തി ആർജിച്ചതാണ്. കുചേലദിനത്തിലും ശ്രീരാമാനവമിയിലും ഉണ്ടാവാറുള്ള അവിൽ നിവേദ്യവും അജ്ഞാനിയോട്സവത്തിലെ വട നിവേദ്യവും ഇതുപോലെ പ്രശസ്തമാണ്. വിശേഷ ദിവസങ്ങളിലും വഴിപാടുകൾ ആയും ഇവിടെ കളഭാഭിഷേകം നടത്താറുണ്ട്. ഇവിടത്തെ ചന്ദനം ശുദ്ധമായും യന്ത്രസഹായം ഇല്ലാതെയും അരക്കുന്നതാണ്. ചന്ദനക്കാപ്പ്, തിരുവോണദിനങ്ങളിലെ ശ്രവണവ്രതപൂജ, സുദർശന പുഷ്പാഞ്ജലി, സന്താന ഗോപാല പുഷ്പാഞ്ജലി, തുടങ്ങിയവയാണ് ഇവിടത്തെ മറ്റു വഴിപാടുകൾ."
+                            info: "ഈ ക്ഷേത്രത്തിൽ ദിവസേന 2 കാല പൂജയും വിശേഷ ദിവസങ്ങളിൽ 3 കാല പൂജയും ചെയ്ത വരുന്നു. മഹാഗണപതിഹോമം ആണ് ഇവിടത്തെ പ്രധാന വഴിപാട്. ഇതുകൂടാതെ മോദകനിവേദ്യവും മറ്റു വിശേഷ പ്രസാദ നിവേദ്യങ്ങളും ഇവിടെ വിശേഷമാണ്. കടുംമധുരപായസനിവേദ്യവും സൂക്താര്‍ച്ചനകളും മറ്റും ആണ് ഇവിടത്തെ മറ്റു വഴിപാടുകള്‍."
                         },
                         festival: {
                             title: "വിശേഷ ദിവസങ്ങൾ",
-                            info: "ഭഗവൻ ശ്രീരാമന്റെ ജന്മദിനത്തോടനുബന്ധിച്ചു നടത്താറുള്ള ശ്രീരാമാനവമി ഉത്സവം ആണ് ഈ ക്ഷേത്രത്തിലെ പ്രധാന ഉത്സാവങ്ങളിൽ ഒന്ന്. ഇതിന്റെ പിറ്റേദിവസം ആഞ്ജനേയോത്സവവും ആഘോഷിക്കുന്നു. ഭഗവൻ ശ്രീകൃഷ്ണന്റെ പിറന്നാളായ ഗോകുലാഷ്ടമി അഥവാ ശ്രീകൃഷ്ണാഷ്ടമി ആണ് ഇവിടത്തെ മറ്റൊരു പ്രധാന ഉത്സവം. അത് കഴിഞ്ഞുള്ള ദിവസം ഉരിയാടിയും നടക്കാറുണ്ട്.  ഏകാദശി ദിനങ്ങൾ ഏതൊരു മഹാവിഷ്ണു ക്ഷേത്രത്തിലെയും പുണ്യദിനങ്ങൾ ആണ്. ധനുമാസത്തിൽ വരാറുള്ള വൈകുണ്ഠ ഏകാദശി ഇവിടത്തെ ഒരു വിശേഷ ദിവസം ആണ്.  ഇതുകൂടാതെ വിഷുക്കണി, ഇല്ലം നിര തൃപ്പുത്തരി, നവരാത്രി, ധനുമാസപൂജ, തുടങ്ങിയവ ഈ ക്ഷേത്രത്തിലെ വിശേഷങ്ങൾ ആണ്."
+                            info: "ശ്രീ മഹാഗണപതിയുടെ ജന്മദിനമായ വിനായക ചതുര്‍ഥി ആണ് ഇവിടത്തെ പ്രധാന വിശേഷ ദിവസം. കാലത്ത് പൂര്‍ണാഭിഷേകവും വൈകീട്ട് വിശേഷ സമ്പ്രദായ ഭജനയും ഈ ദിവസം ഉണ്ടാവും. തൈപ്പൂയം ഇവിടെ നല്ലരീതിയില്‍ ആഘോഷിക്കുന്ന മറ്റൊരു ഉത്സവദിനം ആണ്. തലേദിവസം രാത്രി കാവടിയാട്ടവും അന്ന് രാവിലെ പൂര്‍ണാഭിഷേകവും ഉച്ചയ്ക്ക് വിശേഷ പ്രസാദ ഊട്ടും വൈകീട്ട് ബാലരഥോത്സവവും ഉണ്ടാവും. കര്‍ക്കിടക മഹാഗണപതിഹോമം, ഇടവമാസം മകീര്യം നക്ഷത്രത്തില്‍ വരുന്ന പ്രതിഷ്ഠാ ദിനം, തുടങ്ങിയവയാണ് ഇവിടത്തെ പ്രധാന വിശേഷങ്ങള്‍. ഇതുകൂടാതെ എല്ലാ വെള്ളിയാഴ്ച്ചയും വൈകീട്ട് സമ്പ്രദായ ഭജന ഉണ്ടാവാറുണ്ട്."
                         }
                     },
                     sivankovil: {
@@ -4687,11 +4688,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     season: {
                         title: "ഉത്സവവേള",
-                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                        info1: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം.",
+                        info2: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
                     },
                     celebration: {
                         title: "ആഘോഷങ്ങൾ",
-                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ."
+                        info: "ഈ ആഘോഷകാലത്തിന്റെ വിവരണങ്ങൾ.",
                     },
                     specialities: {
                         title: "ഉത്സവവിശേഷം",

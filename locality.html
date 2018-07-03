@@ -1,0 +1,296 @@
+
+<div class="col-md-12" id="mypage">
+
+    <nav id="mykdr_nav" ng-controller="mainController">
+
+        <div class="col-md-12">
+
+            <div id="mykdr_logo">
+                <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></img></a>
+                <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-bars"></i></label>
+                <label ng-click="closed()" id="closenav"><i class="glyphicon glyphicon-remove"></i></label>
+            </div>
+
+            <ul id="mykdr_menu">
+                <li id="language">
+                    <a ng-click="changetoeng()" id="english">{{dataSelected.mainData.menu.english}}</a>
+                    <a ng-click="changetomal()" id="malayalam">{{dataSelected.mainData.menu.malayalam}}</a>
+                </li>
+                <li ng-click="menuload()" id="home"><a href="#home">{{dataSelected.mainData.menu.home}}</a></li>
+                <li ng-click="menuload()" id="locality"><a href="#locality">{{dataSelected.mainData.menu.locality}}</a></li>
+                <li ng-click="menuload()" id="culture"><a href="#culture">{{dataSelected.mainData.menu.culture}}</a></li>
+                <li ng-click="menuload()" id="services"><a href="#services">{{dataSelected.mainData.menu.services}}</a></li>
+                <li ng-click="menuload()" id="trending"><a href="#trending">{{dataSelected.mainData.menu.trending}}</a></li>
+                <li ng-click="menuload()" id="events"><a href="#events">{{dataSelected.mainData.menu.events}}</a></li>
+                <li ng-click="menuload()" id="emergency"><a href="#emergency">{{dataSelected.mainData.menu.emergency}}</a></li>
+                <li ng-click="menuload()" id="about"><a href="#about">{{dataSelected.mainData.menu.about}}</a></li>
+                <li id="mobshare">
+                    <a id="mobfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
+                    <a id="mobplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
+                    <a id="mobtweet" href="https://twitter.com/share?url=http://www.mykoduvayur.in"><i  class="fa fa-twitter"></i></a>
+                    <a id="mobwhatsapp" href="whatsapp://send?text=http://www.mykoduvayur.in"><i class="fa fa-whatsapp"></i></a>
+                </li>
+            </ul>
+        </div>
+        <div id="alertlang" class="alert label-info" role="alert">
+            <a href="" class="close" aria-label="close" ng-click="alertClose()">×</a>
+            Selected Language: <strong>{{myLang}}</strong>
+        </div>
+    </nav>
+
+    <div class="col-md-12" id="non-nav" ng-controller="localityController">
+
+        <img class="pagebanner" src="./images/covers/locality.jpg" />
+
+        <div class="col-md-12" id="content">
+
+            <div class="col-md-2" id="adslot1_pc">
+                <div></div>
+                <div></div>
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+            </div>
+
+            <div class="col-md-8" id="maincontent">
+
+                <div class="col-md-12" id="firstline">
+                    <div id="lastupdated">
+                        <p>{{dataSelected.mainData.pagetop.updated}}</p>
+                        <p>{{dataSelected.mainData.general.lastupdated}}</p>
+                    </div>
+                    <div class="fb-like fb-like1" data-href="http://www.mykoduvayur.in/" data-width="300" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                    <div class="fb-like fb-like2" data-href="http://www.mykoduvayur.in/" data-width="280" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                    <div class="fb-like fb-like3" data-href="http://www.mykoduvayur.in/" data-width="310" data-layout="standard" data-action="like" data-size="large" data-show-faces="true" data-share="true"></div>
+                </div>
+
+                <div class="col-md-12" id="adslot1_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+                <div class="col-md-12" id="intro">
+                    <h1> {{dataSelected.locality.intro.title}}<i class="fa fa-pencil-square-o"></i></h1>
+                    <p>{{dataSelected.locality.intro.para1}}</p>
+                </div>
+
+                <div class="col-md-12" id="koduvayur">
+                    <h1> {{dataSelected.locality.koduvayur.title}}<i class="fa fa-map-marker"></i></h1>
+                    <!--<p><br /></p>-->
+                    <div id="kdrmap"></div>
+                    <!--<p><br /></p>-->
+                    <p>{{dataSelected.locality.koduvayur.para1}}</p>
+                    <p>{{dataSelected.locality.koduvayur.para2}}</p>
+                    <p>{{dataSelected.locality.koduvayur.para3}}</p>
+                    <p>{{dataSelected.locality.koduvayur.para4}}</p>
+                </div>
+
+                <div class="col-md-12" id="adslot2_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+
+                <div class="col-md-12" id="administration">
+                    <h1> {{dataSelected.locality.administration.title}}<i class="fa fa-bank"></i></h1>
+
+                    <div class="col-md-12 admin">
+                        <div ng-repeat="item in dataSelected.locality.administration.list">
+                            <div class="col-md-6" style="padding: 1%">
+                                <div class="col-md-12" style="background-color: #00CED1; border-radius: 5%">
+                                    <div style="text-align: left; color: #34495E; padding: 2%" class="col-md-12">
+                                        <p><b>{{dataSelected.locality.administration.wardno}} {{item.wardno}}</b></p>
+                                        <p>{{dataSelected.locality.administration.wardname}} {{item.ward}}</p>
+                                        <p>{{dataSelected.locality.administration.name}} {{item.name}}</p>
+                                        <p>{{dataSelected.locality.administration.party}} {{item.party}}</p>
+                                        <p>{{dataSelected.locality.administration.phone}} {{item.phone}}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12" id="adslot3_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+
+                <div class="col-md-12" id="institutions">
+                    <h1>{{dataSelected.locality.institutions.title}}<i class="fa fa-building"></i></h1>
+                    <div class=" panel panel-default panelout">
+
+                        <div class="panel-body">
+
+                            <div data-toggle="collapse" data-target="#schools" class="col-md-3 panelcol panel panel-default">
+                                <div class="panel-body panelcontent">
+                                    <img src={{dataSelected.locality.institutions.thumbs.schools.pic}} class="panelimg" alt="test"></img>
+                                </div>
+                                <div class="panel-footer panelname">{{dataSelected.locality.institutions.thumbs.schools.info}}</div>
+                            </div>
+                            <div id="schools" class="col-md-12 collapse" style="background-color: rgba(08,08,08,0.1); padding-top: 2%;margin-bottom: 1%">
+
+                                <div class="label-primary categoryhead">{{dataSelected.locality.institutions.thumbs.schools.category}}</div>
+
+                                <a href="#ghskoduvayur">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.ghskoduvayur.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.ghskoduvayur.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#ghsskoduvayur">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.ghsskoduvayur.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.ghsskoduvayur.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#mmmsbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.mmmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.mmmsbschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#dmsbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.dmsbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dmsbschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#stpaulsschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.stpaulsschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.stpaulsschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#vidyadhirajaschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.vidyadhirajaschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.vidyadhirajaschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#nalandaschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.nalandaschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.nalandaschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#gbupschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.gbupschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gbupschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#gblpschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.gblpschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.gblpschool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#satyasaischool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.satyasaischool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.satyasaischool.title}}</div>
+                                    </div>
+                                </a>
+
+                                <a href="#dnmjbschool">
+                                    <div class="col-md-3 panelcol panel panel-default">
+                                        <div class="panel-body panelcontent">
+                                            <img src="{{dataSelected.locality.institutions.list.dnmjbschool.thumb}}" class="panelimg" alt="test"></img>
+                                        </div>
+                                        <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.dnmjbschool.title}}</div>
+                                    </div>
+                                </a>
+
+                            </div>
+
+                            <a href="#oldagehome">
+                                <div class="col-md-3 panelcol panel panel-default">
+                                    <div class="panel-body panelcontent">
+                                        <img src="{{dataSelected.locality.institutions.list.oldagehome.thumb}}" class="panelimg" alt="test"></img>
+                                    </div>
+                                    <div class="panel-footer panelname">{{dataSelected.locality.institutions.list.oldagehome.title}}</div>
+                                </div>
+                            </a>
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-12" id="adslot4_mob">
+                    <div></div>
+                    <!--<div><div style="font-size: xx-large; text-align: center ">AD SLOT</div></div>-->
+                </div>
+
+                <div class="col-md-12" id="society">
+                    <h1> {{dataSelected.locality.society.title}}<i class="fa fa-users"></i></h1>
+                    <div id="parties" class="label categoryhead">{{dataSelected.locality.society.party.title}}</div>
+                    <div id="clubs" class="label categoryhead">{{dataSelected.locality.society.clubs.title}}</div>
+                    <div id="associations" class="label categoryhead">{{dataSelected.locality.society.other.title}}</div>
+                </div>
+            </div>
+
+            <div class="col-md-2" id="adslot2_pc">
+                <div></div>
+                <div></div>
+                <!--<div style="font-size: xx-large; padding-top: 30vh; text-align: center ">AD SLOT</div>-->
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="col-md-12" id="footer" ng-controller="mainController">
+
+        <p id="copyright">{{dataSelected.mainData.footer.copyright}}</p>
+
+        <!--<p id="follow">Follow Us On:-->
+        <!--<a href="https://www.facebook.com/MyKoduvayur-675861215918423/" ><i class="fa fa-facebook-official"></i></a>-->
+        <!--</p>-->
+
+        <p id="pcshare">
+            <label>{{dataSelected.mainData.footer.share}}</label>
+            <a id="pcfbshare" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.mykoduvayur.in%2F&amp;src=sdkpreparse"><i class="fa fa-facebook-official"></i></a>
+            <a id="pcplusone" href="https://plus.google.com/share?url=http://www.mykoduvayur.in"><i class="fa fa-google-plus-official"></i></a>
+            <a id="pctweet" href="https://twitter.com/share?url=http://www.mykoduvayur.in"><i  class="fa fa-twitter"></i></a>
+            <a id="pcwhatsapp" href="whatsapp://send?text=http://www.mykoduvayur.in"><i class="fa fa-whatsapp"></i></a>
+        </p>
+
+        <p id="visits">{{dataSelected.mainData.footer.visits}}</p>
+        <a href="#" target="_blank">
+            <img id="hitimage" src="http://hitwebcounter.com/counter/counter.php?page=6902850&style=0036&nbdigits=6&type=page&initCount=5196" title="Visits" Alt="website hits" border="0" >
+        </a>
+
+    </div>
+
+</div>
