@@ -1,7 +1,7 @@
 
 
 #maincontent>div {
-    color: #34495E;
+    color: #093145;
 }
 
 #emergencylink {
@@ -115,7 +115,7 @@
 
     #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
         padding: 1%;
-        font-size: 2.4vh;
+        font-size: 2.5vh;
         font-family: "Segoe UI";
         /*border-left: solid #8b0000 1vw;*/
         margin-bottom: 3vh;
@@ -131,7 +131,7 @@
     }
     #intro>h1,#behindlogo>h1,#guide>h1, #koduvayur>h1, #maincontent>div>h1 {
         /*margin-left: 1vh;*/
-        color: #2F4F4F;
+        color: #093145;
         border-bottom: #FF6347 2px solid;
         font-size: 160% !important;
         margin-bottom: 2.5vh;
@@ -516,7 +516,7 @@
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
             padding: 1%;
-            font-size: 4vh;
+            font-size: 4.2vh;
             font-family: "Segoe UI";
             /*border-left: solid #8b0000 1vh;*/
             margin-bottom: 7vh;
@@ -532,9 +532,9 @@
         }
         #intro>h1,#behindlogo>h1,#guide>h1,#koduvayur>h1, #maincontent>div>h1 {
             /*margin-left: 2vh;*/
-            color: #2F4F4F;
+            color: #093145;
             border-bottom: #FF6347 2px solid;
-            font-size: 6.4vh !important;
+            font-size: 6.6vh !important;
             margin-bottom: 4vh;
         }
         #intro>h1>i, #guide>h1>i, #koduvayur>h1>i, #maincontent>div>h1>i {
@@ -901,7 +901,7 @@
 
         #intro, #behindlogo, #guide, #koduvayur, #maincontent > div {
             padding: 0;
-            font-size: 2.2vh;
+            font-size: 2.4vh;
             font-family: "Segoe UI";
             /*border-left: solid #8b0000 0.3vw;*/
 
@@ -919,10 +919,10 @@
 
         #intro > h1, #behindlogo > h1, #guide > h1, #koduvayur > h1, #maincontent > div > h1 {
             /*margin-left: 2vh;*/
-            color: #2F4F4F;
+            color: #093145;
             border-bottom: #FF6347 2px solid;
             margin-bottom: 3vh;
-            font-size: 4vh !important;
+            font-size: 4.2vh !important;
         }
 
         #intro > h1 > i, #guide > h1 > i, #koduvayur > h1 > i, #maincontent > div > h1 > i {
