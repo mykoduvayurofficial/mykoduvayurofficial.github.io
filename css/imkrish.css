@@ -131,6 +131,10 @@ body {
     text-transform: uppercase;
 }
 
+#home:hover, #locality:hover, #culture:hover, #services:hover, #trending:hover, #events:hover, #about:hover {
+    border-bottom: 5px #DC143C solid;
+}
+
 
 #home:hover>a, #locality:hover>a, #culture:hover>a, #services:hover>a, #trending:hover>a, #events:hover>a, #feedback:hover>a, #about:hover>a {
     color: #1c1c1c;
@@ -163,13 +167,9 @@ body {
     opacity: 0.93;
 }
 
-#feedback:hover>a, #feedback:hover>a>i {
-    color: #4B0082 !important;
-    text-decoration: wavy;
-}
 
 #home>a, #locality>a, #culture>a, #services>a, #trending>a, #events>a, #feedback>a, #about>a{
-    color: #5b3930;
+    color: #383845;
     cursor: pointer;
 }
 
@@ -596,7 +596,7 @@ body {
             margin-bottom: 1.5vh;
             border-radius: 4px;
             cursor: pointer;
-            border: 1px #34495E solid;
+            border: 1px #093145 solid;
             line-height: 4vh !important;
         }
         #english, #malayalam {
