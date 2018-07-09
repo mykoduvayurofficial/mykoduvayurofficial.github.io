@@ -3306,7 +3306,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     intro: {
                         title: "INTRODUCTION",
-                        info: "Thaipooyam is an auspicious day mainly for the Tamil Hindu Community all over the world. It is celebrated on the full moon day of the Tamil Lunar month of 'Thai', which falls on Jan-Feb of each year. It is the commemoration of the day when Goddess Parvati gave the 'Vel' to her son Muruga (Lord Subramaniya). This day is celebrated widely on all the places where Lord Subramaniya is worshipped. Read along to know how this day is celebrated in Koduvayur."
+                        info: "Thaipooyam is an auspicious day mainly for the Tamil Hindu Community all over the world. It is celebrated on the full moon day of the Tamil Lunar month of 'Thai', which falls on Jan-Feb of each year. It is the commemoration of the day when Goddess Parvati gave the 'Vel' to her son Muruga (Lord Subramaniya). It is also believed as the day when he won his first battle agaist Asuras. This day is celebrated widely on all the places where Lord Subramaniya is worshipped. Read along to know how this day is celebrated in Koduvayur."
                     },
                     history: {
                         title: "PREVIEW",
@@ -3314,7 +3314,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     },
                     season: {
                         title: "THE FESTIVITIES",
-                        info1: "Panchamrutham and Palabhishekham are two of the most favorite Poojas for Lord Subramaniya. Special Abhishekhams and Decorations followed by Alankaara Deeparadhana for the deity of Lord Subramaniya is done in the morning of the Thaipooyam day in Sree Visalakshy Sametha Sree Viswanatha Swamy Temple, Koymar Padam Sree Subramaniya Swamy Temple, Kakkayur Sree Maha Shiva Temple and Sree Santhi Durga Parameshwari Temple, Nochur. This is followed by a Special Nivedyam and Prasada Viniyogam to all the devotees present. On all these temples, Special Poojas and Nivedyams are prepared and performed on the evening also, thus concluding the Thaipooyam festivities there.",
+                        info1: "Panchamrutham and Palabhishekham are two of the most favorite Poojas for Lord Subramaniya. Special Abhishekhams and Decorations followed by Special Nivedyam and Alankaara Deeparadhana for the deity of Lord Subramaniya is done in the morning of the Thaipooyam day in Sree Visalakshy Sametha Sree Viswanatha Swamy Temple, Koymar Padam Sree Subramaniya Swamy Temple, Kakkayur Sree Maha Shiva Temple and Sree Santhi Durga Parameshwari Temple, Nochur. This is followed by Prasada Viniyogam to all the devotees present. On some of these temples, Special Poojas and Nivedyams are prepared and performed on the evening also, thus concluding the Thaipooyam festivities there.",
                         info2: "On Sree Mahaganapathy Temple in Keralapuram Gramam, Thaipooyam is celebrated in an auspicious way with much devtion and grandeur. The Vigneshwara Seva Samiti, which organises many special events in this temple, takes care of all the proceedings of the Thaipooyam celebrations, with much support of the devotees from around. On the night before Thaipooyam, there will be a Kavadi Pooja held on the temple premises. With the music of Nadaswara and bhajans echoing on the temple premises, many people dance holding Kavadi on their shoulders. There will be a procession around the village with many people of all ages participating on it. There will be Kavadis of many sizes and people ranging from children to grown ups and elders take turns to hold the Kavadi on their shoulders and dance with joy and devotion to the music that accompanies them. Its a beautiful festive occasion and many people come to witness and participate on the same. As the procession gets completed and returns back to the temple, there will be Deeparadhana followed by Prasada Viniyogam. On the day of Thaipooyam, a special Poornabhishekam will be conducted in the temple. The temple gets filled with the sound of Vedamantras and as the Poornabhisekam gets completed, there will be a Special Nivedyam and Alankaara Deeparadhana to the deity of Sree Mahaganapathy, After this, there will be Annadanam, a free feast of the Prasada of Lord Mahaganapathy for everyone. A lot of people come and attend the same and its a grand occasion. On the evening, there will be Bhajans, Special Nivedyam and Deeparadhana in the Temple that extends till late night. Thus, Thaipooyam is a joyous festive occasion on the Mahaganapathy Temple which is celebrated with much devotion and grandeur and is one of the popular festivals of this place. Balaratholsavam, a Ratholsavam organised by young people on the day of Thaipooyam on various parts of the village is the biggest highlight for this day. We shall read more about that in the next section."
                     },
                     celebration: {
@@ -4418,19 +4418,20 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     thumb: "./images/culture/example/thumb.jpg",
                     location: {
                         title: "ഉത്സവാങ്കണം ",
-                        info: "ഉത്സവം ആഘോഷിക്കുന്ന സ്ഥലത്തെപ്പറ്റി. "
+                        info: "കേരളപുരം ഗ്രാമം, കുരുടംകുളമ്പ്. കൊയ്മര്‍ പാടം."
                     },
                     intro: {
                         title: "മുഖവുര",
-                        info: "ഉത്സവത്തെക്കുറിച്ചുള്ള ഒരു പരിചയപ്പെടുത്തൽ. "
+                        info: "എല്ലാവര്‍ഷവും തൈമാസത്തിലെ പൌര്‍ണമി ദിവസം ആഘോഷിക്കപ്പെടുന്ന തൈപ്പൂയ മഹോത്സവം ലോകമെമ്പാടുമുള്ള ഹിന്ദുജനതയിലെ പ്രത്യേകിച്ച് തമിഴ് വംശജരായ എല്ലാവര്‍ക്കും വളരെ വിശേഷപ്പെട്ട ദിവസമാണ്. ശ്രീ പാര്‍വതീദേവി ബാലസുബ്രഹ്മണ്യന് വേല്‍ സമ്മാനിച്ച ദിവസമായാണ് തൈപ്പൂയം ആഘോഷിക്കപ്പെടുന്നത്. അസുരന്മാര്‍ക്ക് എതിരെയുള്ള ആദ്യ യുദ്ധം ശ്രീ സുബ്രഹ്മണ്യസ്വാമി ജയിച്ച ദിവസമായും ഈ ദിവസം കരുതപ്പെടുന്നു. ശ്രീ സുബ്രഹ്മണ്യസ്വാമിയുടെ ക്ഷേത്രങ്ങള്‍ ഉള്ള എല്ലാ സ്ഥലങ്ങളിലും ഈ ഉത്സവം വളരെ വിശേഷമായി ആഘോഷിക്കാറുണ്ട്.  കൊടുവായൂരിലെ തൈപ്പൂയം ആഘോഷങ്ങളെപ്പറ്റി അറിയുവാന്‍ തുടര്‍ന്ന്‍ വായിക്കുക."
                     },
                     history: {
-                        title: "ഉത്സവചരിത്രം",
-                        info: "ഈ ഉത്സവത്തിന്റെ ചരിത്രവും എന്തിനാണ് ആഘോഷിക്കുന്നത് എന്നതിനെക്കുറിച്ചും."
+                        title: "ഉത്സവവേദികള്‍",
+                        info: "കൊടുവായൂരിലെ ചില ക്ഷേത്രങ്ങളില്‍ തൈപ്പൂയം നല്ലരീതിയില്‍ ആഘോഷിച്ചുവരുന്നു. കൊയ്മര്‍ പാടം ശ്രീ സുബ്രഹ്മണ്യസ്വാമി ക്ഷേത്രം, കേരളപുരം ഗ്രാമം ശ്രീ വിശാലാക്ഷീ സമേത ശ്രീ വിശ്വനാഥസ്വാമി ക്ഷേത്രം, കാക്കയൂര്‍ ശ്രീ മഹാശിവ ക്ഷേത്രം, നൊച്ചൂര്‍ ശ്രീ ശാന്തി ദുര്‍ഗാ പരമേശ്വരി ക്ഷേത്രം എന്നിവിടങ്ങളാണ് കൊടുവായൂരില്‍ ശ്രീ സുബ്രഹ്മണ്യ സന്നിധി ഉള്ള ക്ഷേത്രങ്ങള്‍. ഈ ക്ഷേത്രങ്ങള്‍ കൂടാതെ കേരളപുരം ഗ്രാമത്തിലെ ശ്രീ മഹാഗണപതി ക്ഷേത്രത്തില്‍ തൈപ്പൂയ്യം ഭക്തിസാന്ദ്രമായി ആര്‍ഭാടപൂര്‍വ്വം ആഘോഷിച്ചുവരുന്നു."
                     },
                     season: {
                         title: "ഉത്സവവേള",
-                        info: "എപ്പോഴാണ് ഈ ഉത്സവം ആഘോഷിക്കപ്പെടുന്നത് എന്നതിന്റെ വിവരണം."
+                        info1: "പഞ്ചാമൃതവും പാലഭിഷേകവും ആണ് സുബ്രഹ്മണ്യസ്വാമിക്ക് ഏറ്റവും വിശേഷപ്പെട്ട വഴിപാടുകള്‍. തൈപ്പൂയം ദിനത്തില്‍ കാലത്ത് ശ്രീ സുബ്രഹ്മണ്യ സന്നിധി ഉള്ള എല്ലാ ക്ഷേത്രങ്ങളിലും ശ്രീ സുബ്രഹ്മണ്യസ്വാമിക്ക് വിശേഷ അഭിഷേകങ്ങളും അലങ്കാരങ്ങളും വിശേഷ നിവേദ്യങ്ങളും പൂജകളും അലങ്കാര ദീപാരാധനയും ഉണ്ടാവും. ഇതിനു ശേഷം ഭക്തജനങ്ങള്‍ക്ക് പ്രസാദവിനിയോഗവും ഉണ്ടാവും. ഇതില്‍ ചില ക്ഷേത്രങ്ങളിലൊക്കെ വൈകീട്ടും വിശേഷപൂജകളും നിവേദ്യങ്ങളും സുബ്രഹ്മണ്യസ്വാമിക്ക് ചെയ്യാറുണ്ട്. അങ്ങനെ തൈപ്പൂയം ആഘോഷങ്ങള്‍ ഈ ക്ഷേത്രങ്ങളില്‍ പൂരണമാവും.",
+                        info2: "കേരളപുരം ഗ്രാമം ശ്രീ മഹാഗണപതി ക്ഷേത്രത്തില്‍ തൈപ്പൂയം വളരെ ഭക്തിസാന്ദ്രതയോടെയും ആര്‍ഭാടത്തോടെയും എല്ലാവര്‍ഷവും ആഘോഷിക്കാറുണ്ട്. ഈ ക്ഷേത്രത്തിലെ എല്ലാ പ്രധാന പരിപാടികളും സംഘടിപ്പിക്കാറുള്ള ശ്രീ വിഘ്നേശ്വര സേവാ സമിതി ആണ് അനേകം ഭക്തജനങ്ങളുടെ സഹായ സഹകരണങ്ങളോടെ ഈ ഉത്സവവും ഇവിടെ നടത്തിവരുന്നത്. തൈപ്പൂയത്തിനു തലേദിവസം രാത്രി ക്ഷേത്രാങ്കണത്തില്‍ വെച്ച് കാവടിപൂജ ഉണ്ടാവും. നാദസ്വരത്തിന്റെയും ഭജനകളുടെയും ശബ്ദം ക്ഷേത്രപരിസരത്തില്‍ മുഴങ്ങവേ ഭക്തര്‍ കാവടി തോളില്‍ എടുത്ത് ആവേശത്തോടെ നൃത്തം ചെയ്യും. പൂജ കഴിയുന്നതോടെ കാവടികളുടെയും നാദസ്വരത്തിന്റെയും ഭജനയുടെയും ആവേശത്തോടെ കാവടിയാടുന്ന ഭക്തരുടെയും മറ്റനേകം ഭക്തജനങ്ങളുടെയും അകമ്പടിയോടെ ഗ്രാമത്തിനു ചുറ്റും പോകുന്ന ഒരു എഴുന്നള്ളത്ത് ഉണ്ടാവും.  "
                     },
                     celebration: {
                         title: "ആഘോഷങ്ങൾ",
