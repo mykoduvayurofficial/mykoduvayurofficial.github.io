@@ -273,7 +273,7 @@ mykdrApp.config(function($routeProvider) {
 
         // route for the kakkayursivankovil page
         .when('/kakkayursivankovil', {
-            title :"Kakkayur Siva Temple - MyKoduvayur",
+            title :"Kakkayur Maha Shiva Temple - MyKoduvayur",
             description : "",
             templateUrl : 'pages/culture/kakkayursivankovil.html',
             controller  : 'cultureController'
@@ -555,7 +555,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/thememob.jpg",
+                pic1: "./images/theme/rainthememob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -563,7 +563,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/themepc.jpg",
+                pic1: "./images/theme/rainthemepc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
@@ -603,7 +603,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/thememob.jpg",
+                pic1: "./images/theme/rainthememob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -611,7 +611,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/themepc.jpg",
+                pic1: "./images/theme/rainthemepc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
@@ -2998,15 +2998,15 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         thumb: "./images/culture/example/templethumb.jpg",
                         location: {
                             title: "LOCATION",
-                            info: "Gokula Street, Keralapuram Gramam, Koduvayur."
+                            info: "Koymar Padam, Nochur Road, Koduvayur."
                         },
                         priest: {
                             title: "HEAD PRIEST",
-                            info: "K.P.Ramachandra Vadhyar, Gokula Street, Koduvayur."
+                            info: "Melshanthi - K.K. Subramaniya Vadhyar."
                         },
                         intro: {
                             title: "INTRODUCTION",
-                            info: "More popularly known as ‘Krishnan Kovil’, The Sree Krishna Temple of Keralapuram Gramam is one of the oldest temples of this place. It functions under Keralapuram Sree Viswanatha Swamy Devaswom. It is located in one end of Gokula Street, which is the longest and widest street in this village. It is a regular stop for devotees in and around the village. "
+                            info: ""
                         },
                         history: {
                             title: "HISTORY",
