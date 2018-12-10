@@ -74,6 +74,13 @@ mykdrApp.config(function($routeProvider) {
             templateUrl : 'pages/trending.html',
             controller  : 'trendingController'
         })
+        // route for the connect page
+        .when('/connect', {
+            title :"Connect - MyKoduvayur",
+            description : "",
+            templateUrl : 'pages/connect.html',
+            controller  : 'trendingController'
+        })
 
         //locality
 
@@ -538,7 +545,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         general: {
             author: "krishchianna",
             url: "http://www.mykoduvayur.in",
-            logo: "./images/mylogo.png",
+            logo: "./images/mykdrpng.png",
+            navbg: "./images/navbg.png",
             lastupdated: "12 July 2018"
         },
         menu: {
@@ -551,7 +559,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             trending: "TRENDING",
             events: "EVENTS",
             emergency: "EMERGENCY",
-            about: "ABOUT US"
+            about: "ABOUT US",
+            connect: "CONNECT"
         },
         theme: {
             portrait: {
@@ -586,7 +595,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         general: {
             author: "krishchianna",
             url: "http://www.mykoduvayur.in",
-            logo: "./images/mylogo.png",
+            logo: "./images/mykdrpng.png",
+            navbg: "./images/navbg.png",
             lastupdated: "12 ജൂലായ്‌ 2018"
         },
         menu: {
@@ -599,7 +609,8 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             trending: "തരംഗം",
             events: "പരിപാടി",
             emergency: "അത്യാവശ്യം",
-            about: "അണിയറ"
+            about: "അണിയറ",
+            connect: "CONNECT"
         },
         theme: {
             portrait: {
@@ -8447,21 +8458,27 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
 
     $rootScope.closed = function() {
-        var z= document.getElementById("mymenuglyph");
-        z.style.display="inline-block";
-        var x= document.getElementById("mykdr_menu");
+
+        var x= document.getElementById("menulist");
         x.style.display="none";
-        var y= document.getElementById("closenav");
-        y.style.display="none";
+        var z= document.getElementById("closenav");
+        z.style.display="none";
+        var y= document.getElementById("mymenuglyph");
+        y.style.display="inline-block";
+        //
+        // alert("closed");
     };
 
     $rootScope.opened = function() {
+
+        var x= document.getElementById("menulist");
+        x.style.display="inline-block";
         var z= document.getElementById("closenav");
         z.style.display="inline-block";
-        var x= document.getElementById("mykdr_menu");
-        x.style.display="block";
         var y= document.getElementById("mymenuglyph");
         y.style.display="none";
+        //
+        // alert("opened");
     };
 
     $rootScope.eng = function() {
@@ -8469,18 +8486,11 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         var x= document.getElementById("english");
         var y= document.getElementById("malayalam");
 
-        x.style.backgroundColor = "#34495E";
+        x.style.background = "#34495E";
         x.style.color = "#FF6347";
 
         y.style.color = "#5b3930";
         y.style.background = "none";
-
-
-
-        var mm = window.matchMedia("(max-width:1080px)");
-        if(mm.matches) {
-            $rootScope.closed();
-        }
 
         if($rootScope.langChange === true) {
             var w = document.getElementById("alertlang");
@@ -8490,8 +8500,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         $rootScope.myLang = "ENGLISH";
         $rootScope.dataSelected = $rootScope.engdata ;
 
-
-
     };
 
     $rootScope.mal = function() {
@@ -8499,17 +8507,11 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         var y= document.getElementById("english");
         var x= document.getElementById("malayalam");
 
-        x.style.backgroundColor = "#34495E";
+        x.style.background = "#34495E";
         x.style.color = "#FF6347";
 
         y.style.color = "#5b3930";
         y.style.background = "none";
-
-
-        var mml = window.matchMedia("(max-width:1080px)");
-        if(mml.matches) {
-            $rootScope.closed();
-        }
 
         if($rootScope.langChange === true) {
             var w = document.getElementById("alertlang");
@@ -8534,7 +8536,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
 
     };
 
-
     if( $rootScope.myLang === "ENGLISH") {
         $rootScope.eng();
     }
@@ -8548,15 +8549,6 @@ mykdrApp.controller('mainController', function($rootScope, $scope) {
         x.style.display = "none";
 
         $rootScope.langChange = false;
-    };
-
-    $rootScope.menuload = function() {
-
-        var x = document.getElementById("alertlang");
-        x.style.display = "none";
-
-        $rootScope.langChange = false;
-
     };
 
 
