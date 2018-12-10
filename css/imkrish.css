@@ -213,7 +213,7 @@ body {
     #mykdr_menu{
         display: block;
         position: fixed;
-        height: 9vh;
+        height: 11vh;
         clip-path: polygon(100% 0%, 100% 64%, 57% 64%, 57% 72%, 50% 100%, 43% 72%, 43% 64%, 0% 64%, 0% 0%);
         margin: 0;
         padding: 0;
@@ -228,8 +228,8 @@ body {
         width: 100%;
         padding: 0;
         margin: 0;
-        padding-top: 9vh;
-        height: 33vh;
+        padding-top: 11vh;
+        height: 35vh;
         background: rgba(240,240,252,0.9);
         z-index: 999;
     }
@@ -284,24 +284,24 @@ body {
         display: inline-block;
         position: absolute;
         left: 15%;
-        margin-top: 1vh;
-        border-radius: 6%;
+        margin-top: 1.5vh;
+        border-radius: 10%;
         cursor: pointer;
         border: 1px #093145 solid;
-        font-size: 2vh;
+        font-size: 2.4vh;
         overflow: hidden;
-        line-height: 3.5vh;
+        line-height: 4vh;
     }
     #english, #malayalam{
         padding: 0 1vw 0 1vw;
     }
 
     #connect{
-        font-size: 2vh;
-        margin-top: 1vh;
-        border-radius: 6%;
+        font-size: 2.4vh;
+        margin-top: 1.5vh;
+        border-radius: 10%;
         cursor: pointer;
-        line-height: 3.5vh;
+        line-height: 4vh;
         right: 12%;
         display: inline-block;
         position: absolute;
@@ -318,12 +318,12 @@ body {
 
     #emergency{
         display: inline-block;
-        font-size: 3.5vh;
-        line-height: 4vh;
+        font-size: 4vh;
+        line-height: 4.5vh;
         color: rgba(220,20,50,1);
         cursor: pointer;
         float: left;
-        margin: 1vh 0 0 1vh;
+        margin: 1.8vh 0 0 1vh;
     }
     #emergency>a>span{
         display: none;
@@ -335,22 +335,22 @@ body {
     #mymenuglyph{
 
         display: inline-block;
-        font-size: 3.5vh;
-        line-height: 4vh;
+        font-size: 4vh;
+        line-height: 4.5vh;
         color: #1c1c1c;
         cursor: pointer;
         float: right;
-        margin: 1vh 1vh 0 0;
+        margin: 1.8vh 1vh 0 0;
     }
 
     #closenav{
         display: none;
-        font-size: 3.5vh;
-        line-height: 4vh;
+        font-size: 4vh;
+        line-height: 4.5vh;
         color: #1c1c1c;
         cursor: pointer;
         float: right;
-        margin: 1vh 1vh 0 0;
+        margin: 1.8vh 1vh 0 0;
     }
 
     #alertlang{
@@ -371,7 +371,7 @@ body {
     }
 
     #non-nav{
-        margin-top: 5.76vh;
+        margin-top: 7.04vh;
         padding: 0;
         display: block;
         width: 100%;
@@ -456,7 +456,7 @@ body {
         #mykdr_menu{
             display: block;
             position: fixed;
-            height: 12vh;
+            height: 18vh;
             clip-path: polygon(100% 0%, 100% 62%, 53.5% 62%, 53.5% 72%, 50% 100%, 46.5% 72%, 46.5% 62%, 0% 62%, 0% 0%);
             width: 100%;
             margin: 0;
@@ -471,9 +471,9 @@ body {
             width: 100%;
             padding: 0;
             margin: 0;
-            padding-top: 12vh;
-            height: 52vh;
-            background: rgba(255,245,225,0.9);
+            padding-top: 18vh;
+            height: 58vh;
+            background: rgba(240,240,252,0.9);
             z-index: 999;
         }
         #menulist>li {
@@ -526,8 +526,8 @@ body {
         .mylogo{
             position: absolute;
             display: inline-block;
-            height: 10vh;
-            margin: 0.5vh 0 0.5vh 0;
+            height: 15vh;
+            margin: 0.8vh 0 0.7vh 0;
             cursor: pointer;
         }
 
@@ -535,60 +535,57 @@ body {
             display: inline-block;
             position: absolute;
             left: 15%;
-            margin-top: 0.9vh;
+            margin-top: 2vh;
             border-radius: 10%;
             cursor: pointer;
             border: 1px #093145 solid;
-            font-size: 1.8vw;
+            font-size: 2.4vw;
             overflow: hidden;
-            line-height: 4.8vh;
+            line-height: 6vh;
         }
         #english, #malayalam{
             padding: 0.4vh 1vw 0 1vw;
         }
 
         #connect{
-            font-size: 1.8vw;
-            margin-top: 0.9vh;
+            font-size: 2.4vw;
+            margin-top: 2vh;
             border-radius: 10%;
             cursor: pointer;
-            line-height: 4.8vh;
+            line-height: 6vh;
             right: 12%;
             display: inline-block;
             position: absolute;
-            padding: 0.4vh 1vw 0 1vw;
+            padding: 1vh 1vw 0 1vw;
             border: solid 1px #1c1c1c;
         }
 
 
         #mymenuglyph{
             display: inline-block;
-            font-size: 3vw;
-            line-height: 5vh;
+            font-size: 4vw;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            margin: 1vh 1vh 0 0;
+            margin: 1vh 2vh 0 0;
         }
 
         #closenav{
             display: none;
-            font-size: 3vw;
-            line-height: 5vh;
+            font-size: 4vw;
             color: #1c1c1c;
             cursor: pointer;
             float: right;
-            margin: 1vh 1vh 0 0;
+            margin: 1vh 2vh 0 0;
         }
 
         #emergency{
             display: inline-block;
-            font-size: 3vw;
-            line-height: 5vh;
+            font-size: 4vw;
             color: rgba(220,20,50,1);
             cursor: pointer;
             float: left;
-            margin: 1vh 0 0 1vh;
+            margin: 1vh 0 0 2vh;
         }
         #emergency>a>span{
             display: none;
@@ -657,7 +654,7 @@ body {
         }
 
         #non-nav{
-            margin-top: 7.44vh;
+            margin-top: 11.16vh;
             padding: 0;
             display: block;
         }
