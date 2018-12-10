@@ -310,9 +310,9 @@ body {
 
     .mylogo{
         display: inline-block;
-        height: 7.5vh;
+        height: 9.4vh;
         position: absolute;
-        margin: 0.5vh 0 0 0;
+        margin: 0.8vh 0 0 0;
         cursor: pointer;
     }
 
@@ -471,7 +471,7 @@ body {
             width: 100%;
             padding: 0;
             margin: 0;
-            padding-top: 18vh;
+            padding-top: 15vh;
             height: 58vh;
             background: rgba(240,240,252,0.9);
             z-index: 999;
