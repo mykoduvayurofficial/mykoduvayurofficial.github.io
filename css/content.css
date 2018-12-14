@@ -293,13 +293,12 @@
     #emergencylink {
         border: 0 !important;
         font-size: 5vh !important;
-        line-height: 150%;
-        height: 9vh;
+        line-height: 9vh;
         text-align: center;
         cursor: pointer;
         border-radius: 6px;
         width: 100%;
-        margin-bottom: 3vh;
+        margin: 3vh 0 3vh 0;
     }
 
 
@@ -616,14 +615,13 @@
         }
 
         #emergencylink {
-            border: 0 !important;
-            font-size: 9vh !important;
-            line-height: 140%;
-            height: 16vh;
+            border: 0;
+            font-size: 9vh;
+            line-height: 16vh;
             text-align: center;
             cursor: pointer;
             border-radius: 12px;
-            margin-bottom: 3vh;
+            margin: 3vh 0 3vh 0;
         }
 
 
@@ -944,7 +942,6 @@
             border: 0 !important;
             font-size: 4vh !important;
             line-height: 8vh;
-            height: 8vh;
             text-align: center;
             cursor: pointer;
             border-radius: 8px;
