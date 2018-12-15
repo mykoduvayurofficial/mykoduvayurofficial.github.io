@@ -397,7 +397,7 @@ body {
         background: #050505;
         overflow: hidden;
         bottom: 0 !important;
-        padding-top: 0.5vh;
+        padding-top: 2vh;
     }
     #footer>p {
         color: snow;
@@ -888,6 +888,7 @@ body {
             background: #050505;
             overflow: hidden;
             bottom: 0 !important;
+            padding-top: 2vh;
         }
 
         #footer > p {
