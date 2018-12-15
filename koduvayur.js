@@ -564,7 +564,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/rainthememob.jpg",
+                pic1: "./images/theme/beltapmob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -572,7 +572,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/rainthemepc.jpg",
+                pic1: "./images/theme/beltappc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
@@ -614,7 +614,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/rainthememob.jpg",
+                pic1: "./images/theme/beltapmob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -622,7 +622,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/rainthemepc.jpg",
+                pic1: "./images/theme/beltappc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
