@@ -252,11 +252,11 @@ body {
         position: relative;
         display: block;
         width: 100%;
-        color: #f0f0ff;
-        border: 1px solid #f0f0ff;
+        color: #f0fff0;
+        border: 1px solid #f0fff0;
     }
     #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #about>a:hover {
-        color: #e0e0ee;
+        color: #e0eee0;
     }
     #emergency:hover {
         color: rgba(240,20,50,0.6);
@@ -510,11 +510,11 @@ body {
             position: relative;
             display: block;
             width: 100%;
-            color: #f0f0ff;
-            border: 1px solid #f0f0ff;
+            color: #f0fff0;
+            border: 1px solid #f0fff0;
         }
         #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #about>a:hover {
-            color: #e0e0ee;
+            color: #e0eee0;
         }
         #emergency:hover {
             color: rgba(240,20,50,0.6);
