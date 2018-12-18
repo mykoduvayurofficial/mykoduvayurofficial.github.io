@@ -207,7 +207,7 @@ body {
         margin: 0;
         padding: 0;
         width: 100%;
-        background: url("../images/navbg.jpg");
+        background: url("../images/navbg.jpg") !important;
         z-index: 1000;
     }
     #mykdr_menu:hover{
@@ -252,11 +252,11 @@ body {
         position: relative;
         display: block;
         width: 100%;
-        color: #f0fff0;
-        border: 1px solid #f0fff0;
+        color: #f0ffff;
+        border: 1px solid #f0ffff;
     }
     #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #about>a:hover {
-        color: #e0eee0;
+        color: #e0eeee;
     }
     #emergency:hover {
         color: rgba(240,20,50,0.6);
@@ -464,11 +464,11 @@ body {
             width: 100%;
             margin: 0;
             padding: 0;
-            background: url("../images/navbg.jpg");
+            background: url("../images/navbg.jpg") !important;
             z-index: 1000;
         }
         #mykdr_menu:hover{
-            background: url("../images/navbg.jpg")!important;
+            background: url("../images/navbg.jpg") !important;
         }
 
 
@@ -510,11 +510,11 @@ body {
             position: relative;
             display: block;
             width: 100%;
-            color: #f0fff0;
-            border: 1px solid #f0fff0;
+            color: #f0ffff;
+            border: 1px solid #f0ffff;
         }
         #home>a:hover, #locality>a:hover, #culture>a:hover, #services>a:hover, #trending>a:hover, #events>a:hover, #about>a:hover {
-            color: #e0eee0;
+            color: #e0eeee;
         }
         #emergency:hover {
             color: rgba(240,20,50,0.6);
