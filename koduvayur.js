@@ -520,6 +520,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'eventsController'
         })
 
+        // route for the beltapchallenge2018 page
+        .when('/beltapchallenge2018', {
+            title :"Beltap Challenge 2018, Koduvayur Ratholsavam - MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Events, Beltap, Challenge, Videos, prizes, Ball, Mobile, Photography, Contest, 2018, Koduvayur, Ratholsavam, Arts, Creative, Official",
+            templateUrl : 'pages/events/beltapchallenge2018.html',
+            controller  : 'eventsController'
+        })
+
 });
 
 mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
@@ -7415,7 +7423,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         title: "ELIGIBILITY",
                         e1: "People of ANY AGE GROUP can participate in this contest.",
                         e2: "Mobile Cameras of ANY RANGE can be used for this contest.",
-                        e3: "Only Photos submitted through EMAIL are considered eligible for the contest.",
+                        e3: "Only Photos submitted through EMAIL are considered eligible for the contest."
                     },
                     rules: {
                         title: "RULES",
@@ -7602,7 +7610,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: "Prizes were distributed and the Official Preview of the Website was announced on 23 February 2017 at Althara, Keralapuram Gramam, Koduvayur.",
                         chiefguest: {
                             title: "CHIEF GUEST",
-                            info: "The session was headed and prizes were distributed by our beloved Gopal Sir, who was on our side right from the beginning and provided us with his support.",
+                            info: "The session was headed and prizes were distributed by our beloved Gopal Sir, who was on our side right from the beginning and provided us with his support."
                         },
                         list: [
                             {
@@ -7613,8 +7621,22 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             }
                         ]
                     }
-                }
+                },
 
+                beltapchallenge2018: {
+                    pagetitle: "BELTAP CHALLENGE 2018",
+                    cover: "./images/events/beltap2018/beltap2018cover.jpg",
+                    thumb: "./images/events/beltap2018/beltap2018thumb.jpg",
+                    pic: "./images/events/beltap2018/beltap.png",
+                    rules: "./images/events/beltap2018/rules.png",
+                    participation: "./images/events/beltap2018/participation.png",
+                    tasktypes: "./images/events/beltap2018/tasktypes.png",
+                    pointsfor: "./images/events/beltap2018/pointsfor.png",
+                    postyour: "./images/events/beltap2018/postyour.png",
+                    prizes: "./images/events/beltap2018/prizes.png",
+                    prizes2: "./images/events/beltap2018/prizes2.png",
+                    formoredetails: "./images/events/beltap2018/formoredetails.png"
+                }
             }
         }
 
@@ -8431,6 +8453,21 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             }
                         ]
                     }
+                },
+
+                beltapchallenge2018: {
+                    pagetitle: "BELTAP CHALLENGE 2018",
+                    cover: "./images/events/beltap2018/beltap2018cover.jpg",
+                    thumb: "./images/events/beltap2018/beltap2018thumb.jpg",
+                    pic: "./images/events/beltap2018/beltap.png",
+                    rules: "./images/events/beltap2018/rules.png",
+                    participation: "./images/events/beltap2018/participation.png",
+                    tasktypes: "./images/events/beltap2018/tasktypes.png",
+                    pointsfor: "./images/events/beltap2018/pointsfor.png",
+                    postyour: "./images/events/beltap2018/postyour.png",
+                    prizes: "./images/events/beltap2018/prizes.png",
+                    prizes2: "./images/events/beltap2018/prizes2.png",
+                    formoredetails: "./images/events/beltap2018/formoredetails.png"
                 }
             }
         }
