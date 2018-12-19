@@ -712,8 +712,9 @@ body {
         }
 
         #mykdr_nav{
-
-            height: 11vh;
+            display: block;
+            position: fixed;
+            height: 9vh;
             clip-path: polygon(100% 0%, 100% 58%, 96% 58%, 52.5% 58%, 52.5% 68%, 50% 100%, 47.5% 68%, 47.5% 58%, 4% 58%, 0% 58%, 0% 0%);
             background: url("../images/navbg.jpg");
         }
@@ -730,7 +731,7 @@ body {
         /*}*/
 
         #non-nav{
-            margin-top: 6.38vh;
+            margin-top: 5.22vh;
             padding: 0;
             display: block;
         }
@@ -742,30 +743,29 @@ body {
         }
 
         .mylogo{
-            height: 8vh;
-            margin-top: 1vh;
-            margin-bottom: 2vh;
+            height: 7vh;
+            margin-top: 0.5vh;
         }
 
         #mykdr_menu{
             margin: 0 0 0 0;
             padding: 0;
-            line-height: 6vh;
-            height: 6vh;
+            line-height: 5vh;
+            height: 5vh;
             display: inline-block;
         }
 
         #menulist{
             margin: 0 0 0 0;
             padding: 0;
-            line-height: 6vh;
-            height: 6vh;
+            line-height: 5vh;
+            height: 5vh;
             display: inline-block;
         }
         #menulist>li{
             display: inline-block;
             position: absolute;
-            padding-top: 0.5vh;
+            padding-top: 0.3vh;
             width: 9vw;
             text-align: center;
         }
@@ -826,7 +826,7 @@ body {
         #emergency{
             display: inline-block;
             position: absolute;
-            padding-top: 0.5vh;
+            padding-top: 0.3vh;
             width: 9vw;
             text-align: center;
         }
@@ -839,11 +839,11 @@ body {
 
         #language{
             font-size: 1vw;
-            margin-top: 1.5vh;
+            margin-top: 0.9vh;
             border-radius: 10%;
             cursor: pointer;
             border: 1px #093145 solid;
-            line-height: 3.5vh;
+            line-height: 3.2vh;
             left: 38%;
             display: inline-block;
             position: absolute;
@@ -855,22 +855,16 @@ body {
 
         #connect{
             font-size: 1vw;
-            margin-top: 1.5vh;
+            margin-top: 0.9vh;
             border-radius: 10%;
             cursor: pointer;
-            line-height: 3.5vh;
+            line-height: 3.2vh;
             left: 54%;
             display: inline-block;
             position: absolute;
             margin-left: 1.5vw ;
             padding: 0 1vw 0 1vw;
             border: solid 1px #1c1c1c;
-        }
-
-        #bannerdiv{
-
-            height:92vh;
-
         }
 
         .bannerpc{

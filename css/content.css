@@ -57,6 +57,15 @@
     color: #fafafa;
     text-overflow: ellipsis;
 }
+.panelcol:hover, .panelcol:active{
+    cursor: pointer;
+    border: 1px solid rgb(173, 179, 184);
+    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2) inset, 0px 0px 72px rgba(101, 117, 125, 0.9);
+    background: none;
+    /*color: darkred;*/
+    text-overflow: ellipsis;
+}
+
 .servicesupersub{
     color: #1c1c1c;
 }
@@ -140,12 +149,14 @@
         display: block;
         padding: 1vw 1vw 1vw 1vw;
         margin: 0;
-        margin-bottom: 1.5vh;
+        margin-bottom: 0;
         border: 0 !important;
+        width: 100%;
+        height: auto;
     }
     #adslot1_mob>div, #adslot2_mob>div, #adslot3_mob>div, #adslot4_mob>div {
-        height: 10vh;
-        background-color: #c7254e;
+        height: 8vh;
+        border: 1px solid black;
     }
 
     #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -457,12 +468,12 @@
             display: block;
             padding: 1vw 1vw 1vw 1vw;
             margin: 0;
-            margin-bottom: 1.5vh;
+            margin-bottom: 0;
             border: 0 !important;
         }
         #adslot1_mob>div, #adslot2_mob>div, #adslot3_mob>div, #adslot4_mob>div {
-            height: 20vh;
-            background-color: #c7254e;
+            height: 18vh;
+            border: 1px solid black;
         }
 
         #intro,#behindlogo,#guide,#koduvayur, #maincontent>div {
@@ -759,9 +770,10 @@
         }
 
         #adslot1_pc > div, #adslot2_pc > div {
-            height: 90vh;
+            height: 70vh;
             margin-bottom: 4vh;
-            background-color: #00aced;
+            margin-top: 4vh;
+            border: 1px solid black;
         }
 
         #adslot1_mob, #adslot2_mob {
