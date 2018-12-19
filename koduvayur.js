@@ -82,6 +82,16 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'trendingController'
         })
 
+        // ads
+
+        // route for the bava page
+        .when('/bava', {
+            title :"Bava Group Of Companies- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Lottery, Books, Fashions, Store, Agency, Pictures, Junction, Mainroad",
+            templateUrl : 'pages/ads/bava.html',
+            controller  : 'localityController'
+        })
+
         //locality
 
         // route for the gramapanchayathoffice page
@@ -527,6 +537,7 @@ mykdrApp.config(function($routeProvider) {
             templateUrl : 'pages/events/beltapchallenge2018.html',
             controller  : 'eventsController'
         })
+
 
 });
 
@@ -1668,6 +1679,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 ]
             }
+        },
+        ads: {
+            ad1: {
+                mobpic: "./images/locality/ads/ad1/mobpic.png",
+                pcpic: "./images/locality/ads/ad1/pcpic.png",
+                pic: "./images/locality/ads/ad1/pic.png"
+            }
         }
     };
 
@@ -2567,6 +2585,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 list: [
 
                 ]
+            }
+        },
+        ads: {
+            ad1: {
+                mobpic: "./images/locality/ads/ad1/mobpic.png",
+                pcpic: "./images/locality/ads/ad1/pcpic.png",
+                pic: "./images/locality/ads/ad1/pic.png"
             }
         }
     };
