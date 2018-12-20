@@ -1,5 +1,5 @@
 /**
- * Created by kriz on 1/18/2017.
+ * Created by krishnan on 1/18/2017.
  */
 
 // create the module and name it mykdrApp
@@ -84,11 +84,11 @@ mykdrApp.config(function($routeProvider) {
 
         // ads
 
-        // route for the bava page
-        .when('/bava', {
+        // route for the bavagroup page
+        .when('/sponsor-bavagroup', {
             title :"Bava Group Of Companies- MyKoduvayur",
             description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Lottery, Books, Fashions, Store, Agency, Pictures, Junction, Mainroad",
-            templateUrl : 'pages/ads/bava.html',
+            templateUrl : 'pages/ads/bavagroup.html',
             controller  : 'localityController'
         })
 
@@ -5754,6 +5754,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     ]
                 }
             ]
+        },
+        ads: {
+            ad1: {
+                mobpic: "./images/services/ads/ad1/mobpic.png",
+                pcpic: "./images/services/ads/ad1/pcpic.png"
+            }
         }
     };
 
@@ -6677,6 +6683,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     ]
                 }
             ]
+        },
+        ads: {
+            ad1: {
+                mobpic: "./images/services/ads/ad1/mobpic.png",
+                pcpic: "./images/services/ads/ad1/pcpic.png"
+            }
         }
     };
     
