@@ -769,14 +769,19 @@
             margin: 0;
         }
 
-        #adslot1_pc > div, #adslot2_pc > div {
+        #adslot1_pc>a>img, #adslot2_pc>a>img {
+            margin-bottom: 4vh;
+            margin-top: 4vh;
+        }
+
+        #adslot1_pc>div, #adslot2_pc>div {
             height: 70vh;
             margin-bottom: 4vh;
             margin-top: 4vh;
             border: 1px solid black;
         }
 
-        #adslot1_mob, #adslot2_mob {
+        #adslot1_mob, #adslot2_mob, #adslot3_mob, #adslot4_mob {
             display: none;
         }
 
