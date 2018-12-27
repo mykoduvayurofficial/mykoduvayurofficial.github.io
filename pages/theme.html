@@ -2,8 +2,8 @@
 
 <div class="col-md-12" id="mypage" ng-controller="mainController">
 
-    <nav id="mykdr_nav" style="background: rgba(020,020,020,0.1);">
-        <div id="mykdr_menu" style="background: rgba(020,020,020,0.1);">
+    <nav id="mykdr_nav">
+        <div id="mykdr_menu">
             <a href="#"><img class="mylogo" src={{dataSelected.mainData.general.logo}} alt={{dataSelected.mainData.general.url}} /></a>
             <label ng-click="opened()" id="mymenuglyph"><i class="fa fa-bars"></i></label>
             <label ng-click="closed()" id="closenav"><i class="glyphicon glyphicon-remove"></i></label>
@@ -12,7 +12,7 @@
                 <a ng-click="changetomal()" id="malayalam">{{dataSelected.mainData.menu.malayalam}}</a>
             </div>
             <div id="connect"><a href="#connect">{{dataSelected.mainData.menu.connect}} <i class="fa fa-chevron-circle-right"></i></a></div>
-            <div ng-click="menuload()" id="emergency"><a href="#emergency"><span>{{dataSelected.mainData.menu.emergency}} </span><i class="fa fa-plus-square"></i></a></div>
+            <div id="emergency"><a href="#emergency"><span>{{dataSelected.mainData.menu.emergency}} </span><i class="fa fa-plus-square"></i></a></div>
         </div>
         <ul id="menulist">
             <li id="home"><a href="#home">{{dataSelected.mainData.menu.home}}</a></li>
@@ -31,7 +31,7 @@
 
     <div class="col-md-12" id="theme-non-nav">
 
-        <a href="#beltapchallenge2018">
+        <a href="#koduvayurratholsavam2018">
 
             <div id="myCarouselPortrait" class="mob carousel slide" data-ride="carousel">
                 <!-- Indicators -->
