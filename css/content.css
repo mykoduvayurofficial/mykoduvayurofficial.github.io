@@ -60,7 +60,7 @@
 .panelcol:hover, .panelcol:active{
     cursor: pointer;
     border: 1px solid rgb(173, 179, 184);
-    box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.2) inset, 0px 0px 72px rgba(101, 117, 125, 0.9);
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.2) inset, 0px 0px 42px rgba(101, 117, 125, 0.9);
     background: none;
     /*color: darkred;*/
     text-overflow: ellipsis;
@@ -468,7 +468,6 @@
             display: block;
             padding: 1vw 1vw 1vw 1vw;
             margin: 0;
-            margin-bottom: 0;
             border: 0 !important;
         }
         #adslot1_mob>div, #adslot2_mob>div, #adslot3_mob>div, #adslot4_mob>div {

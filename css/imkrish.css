@@ -716,7 +716,7 @@ body {
             position: fixed;
             height: 9vh;
             clip-path: polygon(100% 0%, 100% 58%, 96% 58%, 52.5% 58%, 52.5% 68%, 50% 100%, 47.5% 68%, 47.5% 58%, 4% 58%, 0% 58%, 0% 0%);
-            background: url("../images/navbg.jpg");
+            background: url("../images/navbg.jpg") !important;
         }
 
         /*#mykdr_nav:after {*/
