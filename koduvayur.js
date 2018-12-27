@@ -89,7 +89,7 @@ mykdrApp.config(function($routeProvider) {
             title :"Bava Group Of Companies- MyKoduvayur",
             description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Lottery, Books, Fashions, Store, Agency, Pictures, Junction, Mainroad",
             templateUrl : 'pages/ads/bavagroup.html',
-            controller  : 'localityController'
+            controller  : 'mainController'
         })
 
         //locality
@@ -506,6 +506,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'eventsController'
         })
 
+        // route for the koduvayurratholsavam2018 page
+        .when('/koduvayurratholsavam2018', {
+            title :"Koduvayur Ratholsavam 2018- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Events, Festival, Theru, Ratholsavam, Car Festival, Viswanatha Swamy Temple, 2018, Palakkad, Official, Photos, Pictures, Althara, Agraharam, Chariots, Keralapuram, Villagge, gramam, Nostalgia",
+            templateUrl : 'pages/events/koduvayurratholsavam2018.html',
+            controller  : 'eventsController'
+        })
+
         // route for the keralotsavam2017 page
         .when('/keralotsavam2017', {
             title :"Keralotsavam 2017, Koduvayur Grama Panchayath - MyKoduvayur",
@@ -583,7 +591,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/beltapmob.jpg",
+                pic1: "./images/theme/therumob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -591,7 +599,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/beltappc.jpg",
+                pic1: "./images/theme/therupc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
@@ -633,7 +641,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
         },
         theme: {
             portrait: {
-                pic1: "./images/theme/beltapmob.jpg",
+                pic1: "./images/theme/therumob.jpg",
                 pic2: "./images/theme/albummob.jpg",
                 pic3: "./images/theme/mountmob.jpg",
                 pic1alt: "My Koduvayur.",
@@ -641,7 +649,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 pic3alt: "Kottamala, Koduvayur"
             },
             landscape: {
-                pic1: "./images/theme/beltappc.jpg",
+                pic1: "./images/theme/therupc.jpg",
                 pic2: "./images/theme/albumpc.jpg",
                 pic3: "./images/theme/mountpc.jpg",
                 pic1alt: "My Koduvayur.",
@@ -7081,6 +7089,35 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             }
                         ]
                     }
+                },
+
+                koduvayurratholsavam2018: {
+                    pagetitle: "KODUVAYUR RATHOLSAVAM 2018",
+                    cover: "./images/events/koduvayurratholsavam2018/cover.jpg",
+                    thumb: "./images/events/koduvayurratholsavam2018/thumb.jpg",
+                    p1: "A picture speaks more than a thousand words...",
+                    p2: "A movie makes the pictures come to life...",
+                    p3: "An album, stitches it all together...",
+                    p4: "And the memories that we get when we go through them, speaks above all...",
+                    p5: "Lets Re-live Koduvayur Ratholsavam 2018...",
+                    p6: "Dedicated to everyone who miss this festival, everyone who hustles back home just to be part of this, everyone who sweats it out to organise this, and to all the Koduvayurians, whose spirits, support and enthusiasm makes this festival so, so special...",
+                    p7: "A Big Thanks to everyone who contributed to this Album...",
+                    p8: "Ithu Namma Theru..!!!",
+                    p9: "Sivakataksham... Paripoornam...",
+                    gallery: {
+                        title: "RE-LIVE THE CELEBRATIONS",
+                        info: "",
+                        list: [
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
+                                caption: "Koduvayur Ratholsavam 2018 Notice (1)"
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/notice2.jpg",
+                                caption: "Koduvayur Ratholsavam 2018 Notice (2)"
+                            }
+                        ]
+                    }
                 }
 
             }
@@ -7673,6 +7710,35 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     prizes: "./images/events/beltap2018/prizes.png",
                     prizes2: "./images/events/beltap2018/prizes2.png",
                     formoredetails: "./images/events/beltap2018/formoredetails.png"
+                },
+
+                koduvayurratholsavam2018: {
+                    pagetitle: "KODUVAYUR RATHOLSAVAM 2018",
+                    cover: "./images/events/koduvayurratholsavam2018/cover.jpg",
+                    thumb: "./images/events/koduvayurratholsavam2018/thumb.jpg",
+                    p1: "A picture speaks more than a thousand words...",
+                    p2: "A movie makes the pictures come to life...",
+                    p3: "An album, stitches it all together...",
+                    p4: "And the memories that we get when we go through them, speaks above all...",
+                    p5: "Lets Re-live Koduvayur Ratholsavam 2018...",
+                    p6: "Dedicated to everyone who miss this festival, everyone who hustles back home just to be part of this, everyone who sweats it out to organise this, and to all the Koduvayurians, whose spirits, support and enthusiasm makes this festival so, so special...",
+                    p7: "A Big Thanks to everyone who contributed to this Album...",
+                    p8: "Ithu Namma Theru..!!!",
+                    p9: "Sivakataksham... Paripoornam...",
+                    gallery: {
+                        title: "RE-LIVE THE CELEBRATIONS",
+                        info: "",
+                        list: [
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
+                                caption: "Koduvayur Ratholsavam 2018 Notice (1)"
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/notice2.jpg",
+                                caption: "Koduvayur Ratholsavam 2018 Notice (2)"
+                            }
+                        ]
+                    }
                 }
             }
         }
