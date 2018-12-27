@@ -7110,7 +7110,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         list: [
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/temple.jpg",
-                                caption: "A former view Sri Visalakshy Sametha Sri Viswanatha Swamy Temple."
+                                caption: "A former view of Sri Visalakshy Sametha Sri Viswanatha Swamy Temple."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
@@ -8230,12 +8230,512 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         info: "",
                         list: [
                             {
+                                pic: "./images/events/koduvayurratholsavam2018/temple.jpg",
+                                caption: "A former view of Sri Visalakshy Sametha Sri Viswanatha Swamy Temple."
+                            },
+                            {
                                 pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
                                 caption: "Koduvayur Ratholsavam 2018 Notice (1)"
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/notice2.jpg",
                                 caption: "Koduvayur Ratholsavam 2018 Notice (2)"
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/ourcommitee.jpg",
+                                caption: "Some of the organising Commitee members of Koduvayur Ratholsavam 2018."
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a00.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a01.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a6.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a7.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a8.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/a10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/b1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/c1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/c2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/d1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/d2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/d3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/d4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/d5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/e1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/e2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/e3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/e4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/f1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/f2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g0.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g6.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g7.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g8.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g11.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g12.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g13.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g14.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g15.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g16.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g17.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g18.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g19.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g20.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g21.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g22.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g23.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g24.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g25.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g26.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g27.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g28.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g29.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g30.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g31.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g32.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g33.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g34.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g35.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g36.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g37.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g38.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g39.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g40.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g41.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g42.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g43.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g44.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g45.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g46.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g47.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g48.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g49.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/g50.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h6.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h7.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h8.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h11.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h12.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h13.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h14.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h15.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h16.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h17.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h18.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h19.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h20.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h21.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h22.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h23.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h24.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h25.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h26.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h27.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/i1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/i2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/i3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/i4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j1.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j3.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j4.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j5.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j6.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j7.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j8.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j9.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j10.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j11.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j12.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/j13.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/quote.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/signoff.jpg",
+                                caption: ""
                             }
                         ]
                     }
@@ -9201,11 +9701,7 @@ mykdrApp.controller('homeController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
-
     // alert($scope.message);
 
 
@@ -9219,9 +9715,6 @@ mykdrApp.controller('localityController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
     $scope.myMap = function() {
@@ -9243,9 +9736,6 @@ mykdrApp.controller('aboutController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 
@@ -9257,9 +9747,6 @@ mykdrApp.controller('servicesController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
@@ -9270,9 +9757,6 @@ mykdrApp.controller('cultureController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
@@ -9283,9 +9767,6 @@ mykdrApp.controller('eventsController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
@@ -9298,9 +9779,6 @@ mykdrApp.controller('trendingController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
     $scope.news = function() {
@@ -9377,9 +9855,6 @@ mykdrApp.controller('emergencyController', function($rootScope, $scope) {
     if (typeof(FB) != 'undefined' && FB != null ) {
         FB.XFBML.parse();
         // run the app
-    } else {
-        // alert the user
-        alert("Facebook Server not loaded! Press OK to Try Again..")
     }
 
 });
