@@ -7321,6 +7321,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 caption: ""
                             },
                             {
+                                pic: "./images/events/koduvayurratholsavam2018/g22b.jpg",
+                                caption: ""
+                            },
+                            {
                                 pic: "./images/events/koduvayurratholsavam2018/g23.jpg",
                                 caption: ""
                             },
@@ -7389,6 +7393,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 caption: ""
                             },
                             {
+                                pic: "./images/events/koduvayurratholsavam2018/g39b.jpg",
+                                caption: ""
+                            },
+                            {
                                 pic: "./images/events/koduvayurratholsavam2018/g40.jpg",
                                 caption: ""
                             },
@@ -7438,6 +7446,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/h2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h2b.jpg",
                                 caption: ""
                             },
                             {
@@ -8442,6 +8454,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 caption: ""
                             },
                             {
+                                pic: "./images/events/koduvayurratholsavam2018/g22b.jpg",
+                                caption: ""
+                            },
+                            {
                                 pic: "./images/events/koduvayurratholsavam2018/g23.jpg",
                                 caption: ""
                             },
@@ -8510,6 +8526,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                                 caption: ""
                             },
                             {
+                                pic: "./images/events/koduvayurratholsavam2018/g39b.jpg",
+                                caption: ""
+                            },
+                            {
                                 pic: "./images/events/koduvayurratholsavam2018/g40.jpg",
                                 caption: ""
                             },
@@ -8559,6 +8579,10 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/h2.jpg",
+                                caption: ""
+                            },
+                            {
+                                pic: "./images/events/koduvayurratholsavam2018/h2b.jpg",
                                 caption: ""
                             },
                             {
