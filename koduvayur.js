@@ -7104,13 +7104,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     p7: "A Big Thanks to everyone who contributed to this Album...",
                     p8: "Ithu Namma Theru..!!!",
                     p9: "Sivakataksham... Paripoornam...",
+                    relive:  "ITHU NAMMA THERU..!!!",
                     gallery: {
-                        title: "RE-LIVE THE CELEBRATIONS",
+                        title: "PHOTO GALLERY",
                         info: "",
                         list: [
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/temple.jpg",
-                                caption: "A former view of Sri Visalakshy Sametha Sri Viswanatha Swamy Temple."
+                                caption: "A former view of Sree Visalakshy Sametha Sree Viswanatha Swamy Temple."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
@@ -7126,35 +7127,35 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a00.jpg",
-                                caption: ""
+                                caption: "The Muhurthakkal Ceremony was held on the morning of 05.12.2018."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a01.jpg",
-                                caption: ""
+                                caption: "It is held exactly 18 days before the festival each year."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a1.jpg",
-                                caption: ""
+                                caption: "Dhwajarohanam or Kodiyettam, the hoisting of the Sacred Flag on top of the Dhwajasthamba marks the official start of the festival."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a2.jpg",
-                                caption: ""
+                                caption: "The deities and Uthsava Moorthis are well decorated and adorned with colorful garlands on each day until the festival concludes."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a3.jpg",
-                                caption: ""
+                                caption: "This year's Dhwajarohanam was held on 17.12.2018 morning at 7.30 am."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a4.jpg",
-                                caption: ""
+                                caption: "The spirits around the village are believed to be caged during the Gramashanthi which is held the night before. A Rakshabhandana is tied around the Dhwajasthamba during Dhwajarohanam. "
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a5.jpg",
-                                caption: ""
+                                caption: "From this day, there will be Vedaparayanam and Rudra Abhishekam held in the temple everyday till the conclusion of the festival."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a6.jpg",
-                                caption: ""
+                                caption: "Each night, there will be Pallakku procession that goes around the village with one of the six Vahanams hoisting Sree Visalakshy Sametha Sree Viswanatha Swamy."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a7.jpg",
@@ -8237,13 +8238,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     p7: "A Big Thanks to everyone who contributed to this Album...",
                     p8: "Ithu Namma Theru..!!!",
                     p9: "Sivakataksham... Paripoornam...",
+                    relive:  "ITHU NAMMA THERU..!!!",
                     gallery: {
-                        title: "RE-LIVE THE CELEBRATIONS",
+                        title: "PHOTO GALLERY",
                         info: "",
                         list: [
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/temple.jpg",
-                                caption: "A former view of Sri Visalakshy Sametha Sri Viswanatha Swamy Temple."
+                                caption: "A former view of Sree Visalakshy Sametha Sree Viswanatha Swamy Temple."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/notice1.jpg",
@@ -8259,35 +8261,35 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a00.jpg",
-                                caption: ""
+                                caption: "The Muhurthakkal Ceremony was held on the morning of 05.12.2018."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a01.jpg",
-                                caption: ""
+                                caption: "It is held exactly 18 days before the festival each year."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a1.jpg",
-                                caption: ""
+                                caption: "Dhwajarohanam or Kodiyettam, the hoisting of the Sacred Flag on top of the Dhwajasthamba marks the official start of the festival."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a2.jpg",
-                                caption: ""
+                                caption: "The deities and Uthsava Moorthis are well decorated and adorned with colorful garlands on each day until the festival concludes."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a3.jpg",
-                                caption: ""
+                                caption: "This year's Dhwajarohanam was held on 17.12.2018 morning at 7.30 am."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a4.jpg",
-                                caption: ""
+                                caption: "The spirits around the village are believed to be caged during the Gramashanthi which is held the night before. A Rakshabhandana is tied around the Dhwajasthamba during Dhwajarohanam. "
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a5.jpg",
-                                caption: ""
+                                caption: "From this day, there will be Vedaparayanam and Rudra Abhishekam held in the temple everyday till the conclusion of the festival."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a6.jpg",
-                                caption: ""
+                                caption: "Each night, there will be Pallakku procession that goes around the village with one of the six Vahanams hoisting Sree Visalakshy Sametha Sree Viswanatha Swamy."
                             },
                             {
                                 pic: "./images/events/koduvayurratholsavam2018/a7.jpg",
