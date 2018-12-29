@@ -7105,6 +7105,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     p8: "Ithu Namma Theru..!!!",
                     p9: "Sivakataksham... Paripoornam...",
                     relive:  "ITHU NAMMA THERU..!!!",
+                    rewatch: "VIDEO ALBUM",
                     gallery: {
                         title: "PHOTO GALLERY",
                         info: "",
@@ -8239,6 +8240,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     p8: "Ithu Namma Theru..!!!",
                     p9: "Sivakataksham... Paripoornam...",
                     relive:  "ITHU NAMMA THERU..!!!",
+                    rewatch: "VIDEO ALBUM",
                     gallery: {
                         title: "PHOTO GALLERY",
                         info: "",
