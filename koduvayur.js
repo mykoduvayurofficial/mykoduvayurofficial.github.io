@@ -92,6 +92,30 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the newgrandbazaar page
+        .when('/sponsor-newgrandbazaar', {
+            title :"New Grand Bazaar- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Bazaar, Supermarket, Fashions, Store, Footwear, Gifts, Stationery, Pictures, Junction, Mainroad",
+            templateUrl : 'pages/ads/newgrandbazaar.html',
+            controller  : 'mainController'
+        })
+
+        // route for the ksp page
+        .when('/sponsor-ksp', {
+            title :"KSP Iyyer Special- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Sweets, Snacks, Food, Festive, Pickles, Store, Junction, Mainroad",
+            templateUrl : 'pages/ads/ksp.html',
+            controller  : 'mainController'
+        })
+
+        // route for the newprabha page
+        .when('/sponsor-newprabha', {
+            title :"New Prabha Studio- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Studio, Photography, Wedding, Occasions, Helicam, Videos, Photoshoot, Lamination, Modelling, Marriages, Live, Pictures, Junction, Mainroad",
+            templateUrl : 'pages/ads/newprabha.html',
+            controller  : 'mainController'
+        })
+
         //locality
 
         // route for the gramapanchayathoffice page
@@ -668,6 +692,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.engdata.home = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/home/ad1/mobpic.jpg",
+                pcpic: "./images/ads/home/ad1/pcpic.jpg",
+                pic: "./images/ads/home/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "INTRODUCTION",
             para1: "Koduvayur is a town located in the Southern part of Palakkad district in Kerala. It’s a Village Panchayat that comes under the Chittur Taluk. It is a place known for its Diversity. Be it the population, slang, festivals, business, culture or the livelihood, there are various kinds of it all in this place.",
@@ -729,6 +760,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.maldata.home = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/home/ad1/mobpic.jpg",
+                pcpic: "./images/ads/home/ad1/pcpic.jpg",
+                pic: "./images/ads/home/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "ആമുഖം",
             para1: "കേരളത്തിലെ പാലക്കാട് ജില്ലയുടെ തെക്ക് പടിഞ്ഞാറ് ഭാഗത്തായി സ്ഥിതി ചെയ്യുന്ന ഒരു നഗരമാണ് കൊടുവായൂർ . ചിറ്റൂർ താലൂക്കിലുള്ള ഒരു ഗ്രാമ പഞ്ചായത്താണ് ഇത്. വൈവിധ്യത്തിന്‌  അറിയപ്പെടുന്ന ഒരു സ്ഥലമാണിത്. സംസാരഭാഷ , ജീവിതശൈലി , ഉത്സവങ്ങൾ, ബിസിനസ്, സംസ്കാരം എന്നിവയൊക്കെ ഈ സ്ഥലത്ത് വിവിധമായ നിരവധി ഇനങ്ങളുണ്ട്.",
@@ -791,6 +829,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.engdata.locality = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/locality/ad1/mobpic.jpg",
+                pcpic: "./images/ads/locality/ad1/pcpic.jpg",
+                pic: "./images/ads/locality/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "INTRODUCTION",
             para1: "Koduvayur is one of the most prominent regions in the Southern part of Palakkad. The population here is a diverse combination of people with different lifestyles, belonging to several communities and speak different languages and slang. Nochur, Ethanur, Kakkayur, Keralapuram Gramam, Navakkode, Pittupeedika, Mini Estate etc are some of the notable places of this region, divided into 10 administrative wards."
@@ -1687,17 +1732,17 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 ]
             }
-        },
-        ads: {
-            ad1: {
-                mobpic: "./images/locality/ads/ad1/mobpic.png",
-                pcpic: "./images/locality/ads/ad1/pcpic.png",
-                pic: "./images/locality/ads/ad1/pic.png"
-            }
         }
     };
 
     $rootScope.maldata.locality = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/locality/ad1/mobpic.jpg",
+                pcpic: "./images/ads/locality/ad1/pcpic.jpg",
+                pic: "./images/ads/locality/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "ആമുഖം",
             para1: "പാലക്കാട് തെക്ക് ഭാഗത്തെ ഏറ്റവും പ്രധാനപ്പെട്ട ഭാഗങ്ങളിൽ ഒന്നാണ് കൊടുവായൂർ. വിവിധ ജനവിഭാഗങ്ങളിൽ പെട്ട വ്യത്യസ്ത ജീവിതശൈലികളും സംസാരഭാഷകളും  ഉള്ള ജനങ്ങയുടെ  വൈവിധ്യമാർന്ന സംയോജനമാണ് ഇവിടെയുള്ളത്. നൊച്ചൂർ, എത്തനൂർ, കാക്കയൂർ, കേരളപുരം ഗ്രാമം, നവക്കോട്, പിട്ടുപ്പീടിക, മിനി എസ്റ്റേറ്റ് തുടങ്ങിയവയാണ് ഈ മേഖലയിലെ ചില പ്രധാന സ്ഥലങ്ങൾ. ഭരണപരമായി കൊടുവായൂർ എന്ന ഗ്രാമപഞ്ചായത്ത് 10 വാർഡുകളായി തരംതിരിച്ചിരിക്കുന്നു. "
@@ -2594,17 +2639,17 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
                 ]
             }
-        },
-        ads: {
-            ad1: {
-                mobpic: "./images/locality/ads/ad1/mobpic.png",
-                pcpic: "./images/locality/ads/ad1/pcpic.png",
-                pic: "./images/locality/ads/ad1/pic.png"
-            }
         }
     };
 
     $rootScope.engdata.culture = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/culture/ad1/mobpic.jpg",
+                pcpic: "./images/ads/culture/ad1/pcpic.jpg",
+                pic: "./images/ads/culture/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "INTRODUCTION",
             para1: "The lifestyle and traditions of people vary for each locality and community of people, here in Koduvayur. This Cultural Diversity results in numerous festivals to celebrate. Koduvayur Radholsavam is a Special Occasion for everyone here, regardless of their religion, gender, caste or age. From Eid, Easter and Onam to a number of other Regional Festivals spread around like the Ethanur Kummaty, Ganeshotsavam or Navarathri, there is something to celebrate each time of the year. This page throws light upon the Religious Places of Worship and the details of all the important festivals that are celebrated in and around Koduvayur."
@@ -3723,6 +3768,13 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.maldata.culture = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/culture/ad1/mobpic.jpg",
+                pcpic: "./images/ads/culture/ad1/pcpic.jpg",
+                pic: "./images/ads/culture/ad1/pic.jpg"
+            }
+        },
         intro: {
             title: "ആമുഖം",
             para1: "ഏതൊരു സ്ഥലത്തും അവിടത്തെ പല പ്രദേശങ്ങളിലുള്ള ജനങ്ങളുടെ ജീവിതരീതികളിലും ആചാരങ്ങളിലും ആഘോഷങ്ങളിലും വ്യത്യാസമുണ്ടാവാം. ഇവിടെ കൊടുവായൂരിലും ഇത് ഒരു ശരിയായ വസ്തുത ആണ്. ഈ സാംസ്കാരിക വൈവിധ്യങ്ങൾ ഉള്ളതിനാൽ നിരവധി ആരാധനാലയങ്ങളും ഉത്സവങ്ങളും ഇവിടെയുണ്ട്. ജാതിമതപ്രായബേധമന്യേ എല്ലാവർക്കും അതിവിശേഷമാണ് കൊടുവായൂര്‍ രഥോത്സവം. ഈസ്റ്റർ, ഓണം, റംസാൻ പോലെയുള്ള ലോകവ്യാപകമായ ഉത്സവങ്ങൾ മുതൽ എത്തനൂർ കുമ്മാട്ടി, ഗണേശോത്സവം, കണ്യാര്‍കളി തുടങ്ങിയ നിരവധി പ്രാദേശിക ഉത്സവങ്ങൾ വരെ ആഘോഷമാക്കുന്ന ഇവിടെ വർഷത്തിന്റെ ഓരോ സമയത്തും ആഘോഷിക്കുവാൻ അവസരങ്ങള്‍ ഉണ്ട്. ആരാധനാലയങ്ങളെക്കുറിച്ചും കൊടുവായൂരിൽ ആഘോഷിക്കുന്ന എല്ലാ പ്രധാനപ്പെട്ട ഉത്സവങ്ങളെക്കുറിച്ചും ഉള്ള വിശദാംശങ്ങളിലേക്ക് ഈ പേജ് വെളിച്ചം വീശുന്നു."
@@ -4839,6 +4891,12 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.engdata.services = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/services/ad1/mobpic.jpg",
+                pcpic: "./images/ads/services/ad1/pcpic.jpg"
+            }
+        },
         intro: {
             title: "INTRODUCTION",
             para1: "Koduvayur is the prime Business Center for the south-west region of Palakkad district. Almost every kind of services that one needs is available in and around this place. Its hard to keep record of every one of them and use them at the time of need. MyKoduvayur brings to you the entire list and details of every kind of services that is available around this place, presented in a clean and ordered way with categories and sub-categories. One can look through it whenever needed, choose one and use it. We believe that this page will be the most useful one in this website. We hope you find it useful."
@@ -5762,16 +5820,16 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     ]
                 }
             ]
-        },
-        ads: {
-            ad1: {
-                mobpic: "./images/services/ads/ad1/mobpic.png",
-                pcpic: "./images/services/ads/ad1/pcpic.png"
-            }
         }
     };
 
     $rootScope.maldata.services = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/services/ad1/mobpic.jpg",
+                pcpic: "./images/ads/services/ad1/pcpic.jpg"
+            }
+        },
         intro: {
             title: "ആമുഖം",
             para1: "പാലക്കാട് ജില്ലയുടെ തെക്ക്-പടിഞ്ഞാറ് ഭാഗത്തെ പ്രധാന വാണിജ്യകേന്ദ്രമാണ് കൊടുവായൂർ. ഈ സ്ഥലത്തുള്ളവർക്ക് ആവശ്യമായ എല്ലാതരം സേവനങ്ങളും ഇവിടെ ലഭ്യമാണ്. ഓരോ സേവനത്തിന്റെയും രേഖകൾ സൂക്ഷിക്കുകയും ആവശ്യസമയത്ത് അവ ഉപയോഗിക്കുകയും ചെയ്യുന്നത് ബുദ്ധിമുട്ടാണ്. ഈ സ്ഥലത്ത് ലഭ്യമായ എല്ലാ സേവനങ്ങളുടെയും വിശദാംശങ്ങളും വിവരങ്ങളും, വിഭാഗങ്ങളും ഉപ വിഭാഗങ്ങളുമായി വൃത്തിയായി ക്രമീകരിച്ചിരിക്കുന്നതുമായ വിവരങ്ങളടങ്ങിയ ഈ പേജ് MyKoduvayur  നാട്ടുകാർക്ക് സമർപ്പിക്കുന്നു. ആവശ്യമുള്ളപ്പോഴെല്ലാം അത് നോക്കി ഉപയോഗിക്കുക. ഈ പേജ് എല്ലാവര്ക്കും ഉപയോഗപ്രദമാകുമെന്ന് ഞങ്ങൾ വിശ്വസിക്കുന്നു. നിങ്ങൾ അത് ഉപയോഗപ്രദമായി കണ്ടെത്തുമെന്ന് ഞങ്ങൾ പ്രതീക്ഷിക്കുന്നു.."
@@ -6692,12 +6750,6 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 }
             ]
         },
-        ads: {
-            ad1: {
-                mobpic: "./images/services/ads/ad1/mobpic.png",
-                pcpic: "./images/services/ads/ad1/pcpic.png"
-            }
-        }
     };
     
     $rootScope.engdata.trending = {
@@ -6857,6 +6909,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.engdata.eventpage = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/events/ad1/mobpic.jpg",
+                pcpic: "./images/ads/events/ad1/pcpic.jpg",
+                pic1: "./images/ads/events/ad1/pic1.jpg",
+                pic2: "./images/ads/events/ad1/pic2.jpg"
+            }
+        },
         intro: {
             title: "INTRODUCTION",
             para1: "Our busy lives may hinder us from witnessing and attending many events we wish to watch and participate. Also, memories of the ones we were part of will give us the sheer joy of watching and reading through them again and again. MyKoduvayur gives you the chance to do this with this page, where you can go through every kind of important events that happen in and around this place. Do enjoy the experience..."
@@ -8774,6 +8834,14 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     };
 
     $rootScope.maldata.eventpage = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/events/ad1/mobpic.jpg",
+                pcpic: "./images/ads/events/ad1/pcpic.jpg",
+                pic1: "./images/ads/events/ad1/pic1.jpg",
+                pic2: "./images/ads/events/ad1/pic2.jpg"
+            }
+        },
         intro: {
             title: "ആമുഖം",
             para1: "നമ്മുടെ തിരക്കുപിടിച്ച ജീവിതം കാരണം നാം കാണുന്നതും പങ്കെടുക്കാൻ ആഗ്രഹിക്കുന്നതുമായ നിരവധി സംഭവങ്ങളിൽ നമുക്ക് എത്താൻ പറ്റാതെ വന്നേക്കാം. കൂടാതെ, നാം ഭാഗമായിരുന്നവയുടെ ഓർമ്മകൾ വീണ്ടും കാണാനും വായിക്കാനും കഴിയുന്നത് നമുക്ക് അതിയായ സന്തോഷം നൽകും. ഈ സ്ഥലത്ത് ചുറ്റുമുള്ള എല്ലാ പ്രധാന സംഭവങ്ങളും ഈ പേജ് ഉപയോഗിച്ച് ഞങ്ങൾ നിങ്ങളിലേക്ക് എത്തിക്കുന്നു. അനുഭവം ആസ്വദിക്കൂ..."
