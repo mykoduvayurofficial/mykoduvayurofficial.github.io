@@ -598,7 +598,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "12 July 2018"
+            lastupdated: "01 January 2018"
         },
         menu: {
             english: "EN",
@@ -635,7 +635,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             updated: "Last Updated : "
         },
         footer: {
-            copyright: "Team BehindBrains © 2018. All Rights Reserved.",
+            copyright: "Team BehindBrains © 2019. All Rights Reserved.",
             share: "Share: ",
             visits: "Website Visits: "
         }
@@ -648,7 +648,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "12 ജൂലായ്‌ 2018"
+            lastupdated: "1 ജനുവരി 2019"
         },
         menu: {
             english: "EN",
@@ -685,7 +685,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             updated: "Last Updated : "
         },
         footer: {
-            copyright: "Team BehindBrains © 2018. All Rights Reserved.",
+            copyright: "Team BehindBrains © 2019. All Rights Reserved.",
             share: "Share: ",
             visits: "Website Visits: "
         }
