@@ -1,4 +1,6 @@
-
+.weatherwidget-io{
+    display: block !important;
+}
 
 #maincontent>div {
     color: #093145;
