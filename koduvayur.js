@@ -833,7 +833,9 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             ad1: {
                 mobpic: "./images/ads/locality/ad1/mobpic.jpg",
                 pcpic: "./images/ads/locality/ad1/pcpic.jpg",
-                pic: "./images/ads/locality/ad1/pic.jpg"
+                pic1: "./images/ads/locality/ad1/pic1.jpg",
+                pic2: "./images/ads/locality/ad1/pic2.jpg",
+                pic3: "./images/ads/locality/ad1/pic3.jpg"
             }
         },
         intro: {
@@ -1740,7 +1742,9 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             ad1: {
                 mobpic: "./images/ads/locality/ad1/mobpic.jpg",
                 pcpic: "./images/ads/locality/ad1/pcpic.jpg",
-                pic: "./images/ads/locality/ad1/pic.jpg"
+                pic1: "./images/ads/locality/ad1/pic1.jpg",
+                pic2: "./images/ads/locality/ad1/pic2.jpg",
+                pic3: "./images/ads/locality/ad1/pic3.jpg"
             }
         },
         intro: {
