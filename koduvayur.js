@@ -8280,6 +8280,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     cover: "./images/events/beltap2018/beltap2018cover.jpg",
                     thumb: "./images/events/beltap2018/beltap2018thumb.jpg",
                     pic: "./images/events/beltap2018/beltap.png",
+                    vote: "./images/events/beltap2018/vote.png",
                     rules: "./images/events/beltap2018/rules.png",
                     participation: "./images/events/beltap2018/participation.png",
                     tasktypes: "./images/events/beltap2018/tasktypes.png",
@@ -8288,10 +8289,258 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     prizes: "./images/events/beltap2018/prizes.png",
                     prizes2: "./images/events/beltap2018/prizes2.png",
                     formoredetails: "./images/events/beltap2018/formoredetails.png"
-                },
+                }
+            }
+        }
 
-                koduvayurratholsavam2018: {
-                    pagetitle: "KODUVAYUR RATHOLSAVAM 2018",
+    };
+
+    $rootScope.maldata.eventpage = {
+        ads: {
+            ad1: {
+                mobpic: "./images/ads/events/ad1/mobpic.jpg",
+                pcpic: "./images/ads/events/ad1/pcpic.jpg",
+                pic1: "./images/ads/events/ad1/pic1.jpg",
+                pic2: "./images/ads/events/ad1/pic2.jpg"
+            }
+        },
+        intro: {
+            title: "ആമുഖം",
+            para1: "നമ്മുടെ തിരക്കുപിടിച്ച ജീവിതം കാരണം നാം കാണുന്നതും പങ്കെടുക്കാൻ ആഗ്രഹിക്കുന്നതുമായ നിരവധി സംഭവങ്ങളിൽ നമുക്ക് എത്താൻ പറ്റാതെ വന്നേക്കാം. കൂടാതെ, നാം ഭാഗമായിരുന്നവയുടെ ഓർമ്മകൾ വീണ്ടും കാണാനും വായിക്കാനും കഴിയുന്നത് നമുക്ക് അതിയായ സന്തോഷം നൽകും. ഈ സ്ഥലത്ത് ചുറ്റുമുള്ള എല്ലാ പ്രധാന സംഭവങ്ങളും ഈ പേജ് ഉപയോഗിച്ച് ഞങ്ങൾ നിങ്ങളിലേക്ക് എത്തിക്കുന്നു. അനുഭവം ആസ്വദിക്കൂ..."
+        },
+        general: {
+            title: "പൊതു പരിപാടികൾ",
+            list: [
+                {
+
+                }
+            ]
+        },
+        festive: {
+            title: "ആഘോഷങ്ങൾ",
+            list: {
+                    ganeshothsavam2017: {
+                        pagetitle: "ഗണേശോത്സവം 2017",
+                        cover: "./images/events/ganeshothsavam2017/cover.jpg",
+                        thumb: "./images/events/ganeshothsavam2017/thumb.jpg",
+                        gallery: {
+                            title: "PHOTO ALBUM",
+                            info: "",
+                            list: [
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/1.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/2.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/3.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/4.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/5.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/6.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/7.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/8.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/9.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/10.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/11.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/12.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/13.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/14.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/15.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/16.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/17.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/18.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/19.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/20.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/21.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/22.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/23.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/24.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/25.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/26.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/27.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/28.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/29.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/30.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/31.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/32.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/33.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/ganeshothsavam2017/34.jpg",
+                                    caption: ""
+                                }
+                            ]
+                        }
+                    },
+
+                    thaipooyam2018: {
+                        pagetitle: "തൈപ്പൂയ്യം 2018",
+                        cover: "./images/events/thaipooyam2018/cover.jpg",
+                        thumb: "./images/events/thaipooyam2018/thumb.jpg",
+                        gallery: {
+                            title: "PHOTO ALBUM",
+                            info: "",
+                            list: [
+                                {
+                                    pic: "./images/events/thaipooyam2018/1.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/2.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/3.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/4.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/5.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/6.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/7.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/8.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/9.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/10.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/11.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/12.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/13.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/14.jpg",
+                                    caption: ""
+                                },
+                                {
+                                    pic: "./images/events/thaipooyam2018/15.jpg",
+                                    caption: ""
+                                }
+                            ]
+                        }
+                    },
+
+                    koduvayurratholsavam2018: {
+                    pagetitle: "കൊടുവായൂര്‍ രഥോത്സവം 2018",
                     cover: "./images/events/koduvayurratholsavam2018/cover.jpg",
                     thumb: "./images/events/koduvayurratholsavam2018/thumb.jpg",
                     p1: "A picture speaks more than a thousand words...",
@@ -8832,254 +9081,6 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                         ]
                     }
                 }
-            }
-        }
-
-    };
-
-    $rootScope.maldata.eventpage = {
-        ads: {
-            ad1: {
-                mobpic: "./images/ads/events/ad1/mobpic.jpg",
-                pcpic: "./images/ads/events/ad1/pcpic.jpg",
-                pic1: "./images/ads/events/ad1/pic1.jpg",
-                pic2: "./images/ads/events/ad1/pic2.jpg"
-            }
-        },
-        intro: {
-            title: "ആമുഖം",
-            para1: "നമ്മുടെ തിരക്കുപിടിച്ച ജീവിതം കാരണം നാം കാണുന്നതും പങ്കെടുക്കാൻ ആഗ്രഹിക്കുന്നതുമായ നിരവധി സംഭവങ്ങളിൽ നമുക്ക് എത്താൻ പറ്റാതെ വന്നേക്കാം. കൂടാതെ, നാം ഭാഗമായിരുന്നവയുടെ ഓർമ്മകൾ വീണ്ടും കാണാനും വായിക്കാനും കഴിയുന്നത് നമുക്ക് അതിയായ സന്തോഷം നൽകും. ഈ സ്ഥലത്ത് ചുറ്റുമുള്ള എല്ലാ പ്രധാന സംഭവങ്ങളും ഈ പേജ് ഉപയോഗിച്ച് ഞങ്ങൾ നിങ്ങളിലേക്ക് എത്തിക്കുന്നു. അനുഭവം ആസ്വദിക്കൂ..."
-        },
-        general: {
-            title: "പൊതു പരിപാടികൾ",
-            list: [
-                {
-
-                }
-            ]
-        },
-        festive: {
-            title: "ആഘോഷങ്ങൾ",
-            list: {
-                    ganeshothsavam2017: {
-                        pagetitle: "ഗണേശോത്സവം 2017",
-                        cover: "./images/events/ganeshothsavam2017/cover.jpg",
-                        thumb: "./images/events/ganeshothsavam2017/thumb.jpg",
-                        gallery: {
-                            title: "PHOTO ALBUM",
-                            info: "",
-                            list: [
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/1.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/2.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/3.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/4.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/5.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/6.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/7.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/8.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/9.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/10.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/11.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/12.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/13.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/14.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/15.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/16.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/17.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/18.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/19.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/20.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/21.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/22.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/23.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/24.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/25.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/26.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/27.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/28.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/29.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/30.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/31.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/32.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/33.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/ganeshothsavam2017/34.jpg",
-                                    caption: ""
-                                }
-                            ]
-                        }
-                    },
-
-                    thaipooyam2018: {
-                        pagetitle: "തൈപ്പൂയ്യം 2018",
-                        cover: "./images/events/thaipooyam2018/cover.jpg",
-                        thumb: "./images/events/thaipooyam2018/thumb.jpg",
-                        gallery: {
-                            title: "PHOTO ALBUM",
-                            info: "",
-                            list: [
-                                {
-                                    pic: "./images/events/thaipooyam2018/1.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/2.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/3.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/4.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/5.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/6.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/7.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/8.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/9.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/10.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/11.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/12.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/13.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/14.jpg",
-                                    caption: ""
-                                },
-                                {
-                                    pic: "./images/events/thaipooyam2018/15.jpg",
-                                    caption: ""
-                                }
-                            ]
-                        }
-                    }
             }
         },
         artsnsports: {
@@ -9663,6 +9664,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                     cover: "./images/events/beltap2018/beltap2018cover.jpg",
                     thumb: "./images/events/beltap2018/beltap2018thumb.jpg",
                     pic: "./images/events/beltap2018/beltap.png",
+                    vote: "./images/events/beltap2018/vote.png",
                     rules: "./images/events/beltap2018/rules.png",
                     participation: "./images/events/beltap2018/participation.png",
                     tasktypes: "./images/events/beltap2018/tasktypes.png",
