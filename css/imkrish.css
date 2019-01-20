@@ -680,7 +680,6 @@ body {
         .bannerpc {
 
             width: 100vw;
-            max-height: 100vh;
 
         }
 
@@ -692,9 +691,9 @@ body {
 
         @media (min-aspect-ratio: 15/10) {
 
-            .bannerpc {
+            /*.bannerpc {
                 height: 100vh !important;
-            }
+            }*/
         }
 
     }
