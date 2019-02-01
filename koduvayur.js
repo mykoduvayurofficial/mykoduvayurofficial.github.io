@@ -116,6 +116,14 @@ mykdrApp.config(function($routeProvider) {
             controller  : 'mainController'
         })
 
+        // route for the vedhapoojastore page
+        .when('/sponsor-vedhapoojastore', {
+            title :"Vedha Pooja Store- MyKoduvayur",
+            description : "Koduvayur, Mykoduvayur, Sponsors, Palakkad, Official, Pooja, Equipments, Events, Occasions, Priests, Temple, Home, Rituals, Homam, Marriages, Live, Bhagavat Seva, Sabarimala, Kettunira, Pattu, Books, Devotional, Pictures, Abhishekam, Kumbabhishekam, Store, Wholesale, Retail, Showroom, Parking, Mainroad",
+            templateUrl : 'pages/ads/vedhapoojastore.html',
+            controller  : 'mainController'
+        })
+
         //locality
 
         // route for the gramapanchayathoffice page
@@ -2652,6 +2660,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 mobpic: "./images/ads/culture/ad1/mobpic.jpg",
                 pcpic: "./images/ads/culture/ad1/pcpic.jpg",
                 pic: "./images/ads/culture/ad1/pic.jpg"
+            },
+            ad2: {
+                mobpic: "./images/ads/culture/ad2/mobpic.jpg",
+                pcpic: "./images/ads/culture/ad2/pcpic.jpg",
+                pic: "./images/ads/culture/ad2/pic.jpg"
             }
         },
         intro: {
@@ -3777,6 +3790,11 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
                 mobpic: "./images/ads/culture/ad1/mobpic.jpg",
                 pcpic: "./images/ads/culture/ad1/pcpic.jpg",
                 pic: "./images/ads/culture/ad1/pic.jpg"
+            },
+            ad2: {
+                mobpic: "./images/ads/culture/ad2/mobpic.jpg",
+                pcpic: "./images/ads/culture/ad2/pcpic.jpg",
+                pic: "./images/ads/culture/ad2/pic.jpg"
             }
         },
         intro: {
