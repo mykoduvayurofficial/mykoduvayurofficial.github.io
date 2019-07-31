@@ -606,7 +606,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "01 January 2019"
+            lastupdated: "31 July 2019"
         },
         menu: {
             english: "EN",
@@ -656,7 +656,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "1 ജനുവരി 2019"
+            lastupdated: "31 July 2019"
         },
         menu: {
             english: "EN",
