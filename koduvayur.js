@@ -606,7 +606,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "31 July 2019"
+            lastupdated: "21 May 2020"
         },
         menu: {
             english: "EN",
@@ -656,7 +656,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
             url: "http://www.mykoduvayur.in",
             logo: "./images/mykdrpng.png",
             navbg: "./images/navbg.png",
-            lastupdated: "31 July 2019"
+            lastupdated: "21 May 2020"
         },
         menu: {
             english: "EN",
@@ -6776,7 +6776,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
     
     $rootScope.engdata.trending = {
         alerts: {
-            title: "ALERTS",
+            title: "WHATS NEW",
             list: {
 
             }
@@ -6840,7 +6840,7 @@ mykdrApp.run(['$rootScope', '$route', function($rootScope, $route) {
 
     $rootScope.maldata.trending = {
         alerts: {
-            title: "അറിയിപ്പുകൾ",
+            title: "കിടിലൻ",
             list: {
 
             }
